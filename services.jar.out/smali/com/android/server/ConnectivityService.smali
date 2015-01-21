@@ -7036,6 +7036,11 @@
     const/4 v15, 0x1
 
     invoke-static {v13, v14, v15}, Landroid/provider/Settings$Secure;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
+
+    move-object/from16 v0, p0
+
+    invoke-static {v0, v10}, Lcom/android/server/ConnectivityService$BaiduInjector;->setPreferSimSetting(Lcom/android/server/ConnectivityService;Ljava/lang/Long;)V
+
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -16760,6 +16765,10 @@
     .line 1879
     .end local v2           #simId:I
     :cond_5
+    invoke-static {p0, v0}, Lcom/android/server/ConnectivityService$BaiduInjector;->getDefaultSlot(Lcom/android/server/ConnectivityService;I)I
+
+    move-result v0
+
     iget-object v3, p0, Lcom/android/server/ConnectivityService;->mHandler:Lcom/android/server/ConnectivityService$InternalHandler;
 
     iget-object v4, p0, Lcom/android/server/ConnectivityService;->mHandler:Lcom/android/server/ConnectivityService$InternalHandler;

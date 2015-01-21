@@ -5970,6 +5970,20 @@
     invoke-virtual {v4, v0, v1}, Lcom/android/server/am/ActivityManagerPlus;->updateRegisterReceivers(Ljava/util/List;Landroid/content/Intent;)V
 
     :cond_1f
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lcom/android/server/am/ActivityManagerService;->mLruProcesses:Ljava/util/ArrayList;
+
+    move-object/from16 v0, v25
+
+    move-object/from16 v1, v16
+
+    move-object/from16 v2, v46
+
+    move/from16 v3, p13
+
+    invoke-static {v0, v1, v2, v4, v3}, Lcom/baidu/security/bm/BroadcastManagerService;->filterBroadcastReceiver(Ljava/util/List;Ljava/util/List;Landroid/content/Intent;Ljava/util/ArrayList;I)I
+
     invoke-virtual/range {v46 .. v46}, Landroid/content/Intent;->getFlags()I
 
     move-result v4
@@ -6707,6 +6721,12 @@
     .end local v58           #seq:I
     :cond_39
     if-eqz v56, :cond_3b
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
+
+    invoke-static {v4, v8}, Lcom/android/server/am/BaiduBroadcastInjector;->tryHookMessageBroadcast(Landroid/content/Context;Lcom/android/server/am/BroadcastRecord;)V
+
 
     invoke-virtual {v9, v8}, Lcom/android/server/am/BroadcastQueue;->replaceOrderedBroadcastLocked(Lcom/android/server/am/BroadcastRecord;)Z
 
@@ -24187,7 +24207,7 @@
     move-result-object v2
 
     .local v2, context:Landroid/content/Context;
-    const v8, #android:style@Theme.Holo#t
+    const v8, #android:style@Theme.DeviceDefault.Light#t
 
     invoke-virtual {v2, v8}, Landroid/content/Context;->setTheme(I)V
 
@@ -78666,7 +78686,7 @@
     invoke-virtual {v2, v0, v1}, Lcom/android/server/am/ActivityStack;->ensureActivitiesVisibleLocked(Lcom/android/server/am/ActivityRecord;I)V
 
     :cond_12
-    if-eqz p1, :cond_0
+    if-eqz p1, :cond_baidu_0
 
     move-object/from16 v0, p0
 
@@ -78683,6 +78703,13 @@
     iget-object v3, v0, Lcom/android/server/am/ActivityManagerService;->mConfiguration:Landroid/content/res/Configuration;
 
     invoke-virtual {v2, v3}, Lcom/android/server/wm/WindowManagerService;->setNewConfiguration(Landroid/content/res/Configuration;)V
+
+    :cond_baidu_0
+    move-object/from16 v0, p0
+
+    move/from16 v1, v23
+
+    invoke-static {v0, v1}, Lcom/android/server/am/ActivityManagerService$BaiduInjector;->broadcastConfigTheme(Lcom/android/server/am/ActivityManagerService;I)V
 
     sget-object v2, Lcom/android/server/am/ActivityManagerService;->mSmartShowContext:Lcom/android/server/FullSmartShowContext;
 

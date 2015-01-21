@@ -347,6 +347,10 @@
 
     or-int/2addr v0, v1
 
+    const/high16 v1, -0x8000
+
+    or-int/2addr v0, v1
+
     and-int/2addr v0, p0
 
     if-eqz v0, :cond_0
@@ -1245,6 +1249,10 @@
 
     .line 1072
     :cond_14
+    invoke-static {p0, p1, v0}, Landroid/content/res/Configuration$BaiduInjector;->multiTheme_dealThemeChange2(Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)I
+
+    move-result v0
+
     return v0
 .end method
 
@@ -1490,6 +1498,10 @@
     iget v2, p0, Landroid/content/res/Configuration;->FlipFont:I
 
     add-int v0, v1, v2
+
+    invoke-static {p0, v0}, Landroid/content/res/Configuration$BaiduInjector;->hashCode(Landroid/content/res/Configuration;I)I
+
+    move-result v0
 
     return v0
 
@@ -1808,6 +1820,8 @@
 
     iput v0, p0, Landroid/content/res/Configuration;->FlipFont:I
 
+    invoke-static {p0, p1}, Landroid/content/res/Configuration$BaiduInjector;->readFromParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
+
     return-void
 
     :cond_1
@@ -1992,6 +2006,8 @@
 
     iput v0, p0, Landroid/content/res/Configuration;->FlipFont:I
 
+    invoke-static {p0, p1}, Landroid/content/res/Configuration$BaiduInjector;->setThemeChanged(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)V
+
     return-void
 .end method
 
@@ -2054,6 +2070,8 @@
     iput-object v2, p0, Landroid/content/res/Configuration;->skin:Ljava/lang/String;
 
     iput v1, p0, Landroid/content/res/Configuration;->FlipFont:I
+
+    invoke-static {p0}, Landroid/content/res/Configuration$BaiduInjector;->setThemeChangedToDefault(Landroid/content/res/Configuration;)V
 
     return-void
 .end method
@@ -3684,6 +3702,8 @@
     iget v0, p0, Landroid/content/res/Configuration;->FlipFont:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-static {p0, p1}, Landroid/content/res/Configuration$BaiduInjector;->writeToParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
 
     return-void
 

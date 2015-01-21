@@ -90,6 +90,10 @@
 
 .field private static ssDataId:Ljava/lang/String;
 
+.field private static volatile sSecondaryVolume:Landroid/os/storage/StorageVolume;
+
+.field private static sSecondaryVolumeInit:Z
+
 # direct methods
 .method static constructor <clinit>()V
     .locals 2

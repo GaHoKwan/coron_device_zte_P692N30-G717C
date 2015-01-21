@@ -2090,6 +2090,8 @@
     const/16 v4, 0x7d9
 
     invoke-virtual {v3, v4}, Landroid/view/Window;->setType(I)V
+    invoke-static {p0}, Lcom/android/server/power/ShutdownThread$BaiduInjector;->createRebootDialogBaidu(Landroid/content/Context;)V
+
 
     .line 264
     sget-object v3, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;

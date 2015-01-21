@@ -2388,6 +2388,8 @@
 
     .end local v1           #nl:Landroid/view/WindowManager$LayoutParams;
     :cond_6
+    invoke-direct {p0, v0}, Landroid/app/Dialog;->forbidActivityWithSystemAlert(Landroid/view/WindowManager$LayoutParams;)V
+
     :try_start_0
     iget-object v2, p0, Landroid/app/Dialog;->mWindowManager:Landroid/view/WindowManager;
 

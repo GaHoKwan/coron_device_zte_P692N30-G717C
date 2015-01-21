@@ -9578,6 +9578,8 @@
     :cond_5
     invoke-static {}, Landroid/os/AsyncTask;->init()V
 
+    invoke-static {v3}, Landroid/app/ActivityThread$BaiduInjector;->multiTheme_freeCanvas(Landroid/app/ActivityThread;)V
+
     :try_start_1
     sget-object v4, Landroid/app/ActivityThread;->mSystemContext:Landroid/app/ContextImpl;
 
@@ -13090,6 +13092,8 @@
     .end local v4           #entry:Ljava/util/Map$Entry;,"Ljava/util/Map$Entry<Landroid/app/ActivityThread$ResourcesKey;Ljava/lang/ref/WeakReference<Landroid/content/res/Resources;>;>;"
     .end local v8           #r:Landroid/content/res/Resources;
     :cond_d
+    sput v0, Landroid/app/ActivityThread$BaiduInjector;->sMultiThemeChanges:I
+
     if-eqz v0, :cond_e
 
     const/4 v10, 0x1
@@ -15423,9 +15427,9 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 1978
-    new-instance v7, Landroid/content/res/AssetManager;
+    new-instance v7, Landroid/content/res/BaiduAssetManager;
 
-    invoke-direct {v7}, Landroid/content/res/AssetManager;-><init>()V
+    invoke-direct {v7}, Landroid/content/res/BaiduAssetManager;-><init>()V
 
     .line 1979
     .local v7, assets:Landroid/content/res/AssetManager;
@@ -15524,12 +15528,12 @@
     .line 1998
     :cond_5
     :goto_3
-    new-instance v12, Landroid/content/res/Resources;
+    new-instance v12, Landroid/content/res/BaiduResources;
 
     .end local v12           #r:Landroid/content/res/Resources;
     move-object/from16 v0, p4
 
-    invoke-direct {v12, v7, v9, v8, v0}, Landroid/content/res/Resources;-><init>(Landroid/content/res/AssetManager;Landroid/util/DisplayMetrics;Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)V
+    invoke-direct {v12, v7, v9, v8, v0}, Landroid/content/res/BaiduResources;-><init>(Landroid/content/res/AssetManager;Landroid/util/DisplayMetrics;Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)V
 
     .line 2005
     .restart local v12       #r:Landroid/content/res/Resources;

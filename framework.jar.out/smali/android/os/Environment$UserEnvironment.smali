@@ -26,6 +26,8 @@
 .field private final mMediaStorage:Ljava/io/File;
 
 
+.field private final mSecondaryStorage:Ljava/io/File;
+
 # direct methods
 .method public constructor <init>(I)V
     .locals 12
