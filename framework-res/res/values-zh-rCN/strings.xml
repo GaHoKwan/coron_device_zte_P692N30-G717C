@@ -1317,7 +1317,8 @@
     <string name="owner_name">机主</string>
     <string name="storage_phone">手机存储</string>
     <string name="storage_external_usb">外部 USB 存储器</string>
-    <string name="reboot_title">重启</string>
+    <string name="global_action_reboot">重启</string>
+    <string name="reboot_confirm_question">您要重启吗？</string>
     <string name="reboot_confirm">您的手机将会重启。</string>
     <string name="longpress_poweroff_message">长按关机键10秒强制关机</string>
     <string name="process_violation_title">提示</string>

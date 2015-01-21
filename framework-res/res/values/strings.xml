@@ -1395,7 +1395,8 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="storage_ic_usb1">External IC-USB storage1</string>
     <string name="storage_ic_usb2">External IC-USB storage2</string>
     <string name="zz_keyguard_accessibility_voice_unlock">Voice unlock.</string>
-    <string name="reboot_title">Reboot</string>
+    <string name="global_action_reboot">Reboot</string>
+    <string name="reboot_confirm_question">Would you like to reboot?</string>
     <string name="reboot_confirm">Your phone will reboot.</string>
     <string name="longpress_poweroff_message">Press Power key for 10s to forcibly power off your phone</string>
     <string name="process_violation_title">Notification</string>

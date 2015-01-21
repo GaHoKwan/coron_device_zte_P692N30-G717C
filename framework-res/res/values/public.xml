@@ -4241,8 +4241,8 @@
     <public type="string" name="storage_ic_usb1" id="0x0104054d" />
     <public type="string" name="storage_ic_usb2" id="0x0104054e" />
     <public type="string" name="zz_keyguard_accessibility_voice_unlock" id="0x0104054f" />
-    <public type="string" name="reboot_title" id="0x01040550" />
-    <public type="string" name="reboot_confirm" id="0x01040551" />
+    <public type="string" name="global_action_reboot" id="0x01040550" />
+    <public type="string" name="reboot_confirm_question" id="0x01040551" />
     <public type="string" name="longpress_poweroff_message" id="0x01040552" />
     <public type="string" name="process_violation_title" id="0x01040553" />
     <public type="string" name="process_violation_long_desc" id="0x01040554" />
