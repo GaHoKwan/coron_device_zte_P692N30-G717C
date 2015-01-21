@@ -2,3 +2,4 @@
 /autopatch/*
 /out/*
 /log*
+/vendor/*
