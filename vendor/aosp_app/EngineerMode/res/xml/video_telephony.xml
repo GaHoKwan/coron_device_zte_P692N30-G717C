@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/set_working_mode" android:key="set_working_mode" />
+    <Preference android:persistent="false" android:title="@string/my3g324m_configuration" android:key="my3g324m_configuration" />
+    <Preference android:persistent="false" android:title="@string/auto_answer" android:key="auto_answer" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/debug_message" android:key="debug_message" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_to_file" android:key="log_to_file" />
+    <Preference android:persistent="false" android:title="@string/log_filter" android:key="log_filter" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/h263_only" android:key="h263_only" />
+</PreferenceScreen>

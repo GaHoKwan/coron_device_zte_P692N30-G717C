@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: MIPop.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '13'
+  targetSdkVersion: '16'
+packageInfo:
+  cur_package: com.android.mipop
+  orig_package: com.android.mipop
+compressionType: false

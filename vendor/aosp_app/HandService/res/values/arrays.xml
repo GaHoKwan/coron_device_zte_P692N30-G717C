@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bluegod_items">
+        <item>User feedback</item>
+        <item>System update</item>
+        <item>JoinMe Assistant</item>
+    </string-array>
+</resources>

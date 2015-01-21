@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="network_strategy">WIFI_AND_DATA</string>
+<boolean name="allow_business_wlan" value="true" />
+<boolean name="need_recommend" value="false" />
+<int name="check_allow_business_wlan_item_visible" value="8" />
+<int name="help_item_visible" value="8" />
+<string name="show_intent_action">com.zte.aliveupdate.intent.action.SHOW_UPDATE_APPS</string>
+<string name="configuration_name">defalut_config</string>
+</map>

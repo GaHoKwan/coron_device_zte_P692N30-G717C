@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:splitMotionEvents="false" style="@style/SettingRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:focusable="false" android:clickable="false" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" style="@style/SettingItemSubTitle" />
+    <ImageView android:id="@id/image" android:background="@drawable/ic_voice_on" android:focusable="false" android:clickable="false" android:layout_width="@dimen/setting_item_icon_width" android:layout_height="@dimen/setting_item_icon_width" android:layout_marginLeft="@dimen/setting_item_list_margin" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

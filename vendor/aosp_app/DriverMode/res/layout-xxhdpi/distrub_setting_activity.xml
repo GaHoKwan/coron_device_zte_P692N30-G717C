@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="420.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="27.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="@drawable/dialog_top_zte_light" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_list_item_distrubeSetting" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dialog_bottom_holo_dark" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="21.0sp" android:textColor="#ff3c3c3c" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="27.0dip" android:text="@string/disturb_setting_rejectCall" android:layout_weight="1.0" />
+            <CheckBox android:layout_gravity="center" android:id="@id/distrub_setting_item_rejectCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="21.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="21.0sp" android:textColor="#ff3c3c3c" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="27.0dip" android:text="@string/disturb_setting_rejectSms" android:layout_weight="1.0" />
+            <CheckBox android:layout_gravity="center" android:id="@id/distrub_setting_item_rejectSMS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="21.0dip" />
+        </LinearLayout>
+        <Button android:textSize="20.0sp" android:id="@id/ttssettingcancelbutton" android:background="@drawable/button_selector" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/ok" />
+    </LinearLayout>
+</LinearLayout>

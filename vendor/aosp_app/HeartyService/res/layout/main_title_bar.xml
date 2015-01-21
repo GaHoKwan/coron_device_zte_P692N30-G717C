@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/title_bar_p3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="2.0dip" android:text="@string/app_name_label" android:shadowColor="@color/dark" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.5" android:layout_centerVertical="true" style="@style/white_20sp" />
+    </LinearLayout>
+    <ImageView android:id="@id/palm_config_img" android:layout_width="@dimen/main_setting_icon" android:layout_height="@dimen/main_setting_icon" android:layout_marginRight="10.0dip" android:src="@drawable/setting_actionbar_selector" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

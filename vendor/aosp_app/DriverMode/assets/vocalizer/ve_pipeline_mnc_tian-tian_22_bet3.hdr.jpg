@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Chinese Mandarin/tian-tian/22/bet3/text/pcm</BROKERSTRING>
+  <PRIORITY>4102</PRIORITY>
+  <PARAMETERS>
+    <language>Chinese Mandarin</language>
+    <langcode>MNC</langcode>
+    <langid>31</langid>
+    <langversion>5.2.3.0000</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Tian-Tian</voice>
+    <voiceversion>5.2.3.12300</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg4</fecfg>
+    <voiceml>no</voiceml>
+    <noclmset>enu,eng</noclmset>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Tian-Tian</fevoice>
+    <frequencyhz>22050</frequencyhz>
+    <voicemodel>bet3</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=22050</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <tokentnnumframesinblock>50</tokentnnumframesinblock>
+  </PARAMETERS>
+  <OBJECTS>
+    <AUDIOFETCHER>audiofetch</AUDIOFETCHER>
+    <DCTEG>dcteg</DCTEG>
+    <DOMAINMNGR>domain_mngr</DOMAINMNGR>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <FE_UDWL>fe/fe_udwl</FE_UDWL>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text_parser</COMPONENT>
+    <COMPONENT>pp/sent_parser</COMPONENT>
+    <COMPONENT>pp/word_parser</COMPONENT>
+    <COMPONENT>fe/fe_wordseg</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/fe_promptorth</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_prompt</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>select/bet3</COMPONENT>
+    <COMPONENT>synth/bet3</COMPONENT>
+    <COMPONENT>audioinserter</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      tian-tian/userdct/mnc
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>

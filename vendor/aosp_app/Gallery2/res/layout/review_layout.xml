@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/review_image" android:background="@*android:color/black" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/mode_picker" style="@style/ReviewIconGroup">
+        <com.android.camera.ui.RotateImageView android:id="@id/btn_retake" android:background="@drawable/bg_pressed" android:src="@drawable/ic_retake" style="@style/ReviewControlIcon" />
+        <com.android.camera.ui.RotateImageView android:id="@id/btn_play" android:background="@drawable/bg_pressed" android:src="@drawable/ic_play" style="@style/ReviewControlIcon" />
+    </LinearLayout>
+</FrameLayout>

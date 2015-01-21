@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/title_menu" android:id="@id/menu_popup_view" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/select_photo_video_menu" android:title="@string/select_photo_video" android:showAsAction="always|withText" />
+            <item android:id="@id/start_camera_menu" android:title="@string/start_camera" android:showAsAction="always|withText" />
+            <item android:id="@id/start_video_menu" android:title="@string/start_video" android:showAsAction="always|withText" />
+            <item android:id="@id/delete_menu" android:title="@string/delete" android:showAsAction="always|withText" />
+        </menu>
+    </item>
+</menu>

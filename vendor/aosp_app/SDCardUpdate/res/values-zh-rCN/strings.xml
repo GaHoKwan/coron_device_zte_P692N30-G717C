@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">存储卡升级</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="updateimage_nofound_title">存储卡升级失败</string>
+    <string name="updateimage_nofound_message">存储卡中未发现升级包(update.zip)，请确认升级包已拷贝到存储卡的image目录中!</string>
+    <string name="update_now_title">立即升级</string>
+    <string name="update_now_message">您希望现在就进行升级吗?</string>
+    <string name="error_title">错误</string>
+    <string name="error_message">未知错误!</string>
+    <string name="update_from_sdcard">从手机存储卡升级</string>
+    <string name="update_from_sdcard2">从外置SD卡升级</string>
+    <string name="update_from_sdcard_single_menu">系统升级</string>
+    <string name="sdcard_updateimage_nofound_message">手机存储卡中未发现升级包(update.zip)，请确认升级包已拷贝到手机存储卡的根目录中!</string>
+    <string name="sdcard2_updateimage_nofound_message">外置SD卡中未发现升级包(update.zip)，请确认升级包已拷贝到外置SD卡的根目录中!</string>
+    <string name="swap_sd_no_insert_title">存储卡升级失败</string>
+    <string name="swap_sd_no_insert_message">未发现外置SD卡，请先插入外置SD卡，再尝试升级!</string>
+    <string name="tip_title">升级小贴士</string>
+    <string name="tip_summary_double_menus">"1. 请将升级包(update.zip)拷贝到手机存储卡或者外置SD卡的根目录中.
+2. 根据升级包实际存放的位置，选择本贴士下方的对应菜单，进行系统升级."</string>
+    <string name="tip_summary_single_menu_for_phone_storage_only">"1. 请将升级包(update.zip)拷贝到手机存储卡的根目录中.
+2. 点击本贴士下方的系统升级菜单，进行系统升级."</string>
+    <string name="tip_summary_for_shared_menu_sdcard_swap">"1. 存储卡升级功能支持从手机存储卡或外置SD卡升级. 如果您想从外置SD卡升级，请先插上外置SD卡; 如果您想从手机存储卡升级，请不要插外置SD卡. 按照如下步骤进行系统升级.
+2. 将升级包(update.zip)拷贝到手机存储卡或者外置SD卡的根目录中.
+3. 点击本贴士下方的系统升级菜单，进行系统升级."</string>
+    <string name="category_sdcard_select">存储卡选择</string>
+    <string name="promtion">请将升级包拷贝到存储卡的根目录中，然后点击OK按钮</string>
+    <string name="update_confirm_title">确认</string>
+    <string name="update_fail_title">存储卡升级失败</string>
+    <string name="confirm_summary">存储卡中未发现升级包，请确认升级包已拷贝到存储卡的根目录中!</string>
+    <string name="version_error_summary">升级包不匹配，请检查!</string>
+    <string name="update_error_summary">系统忙，请重启手机，再重试一次!</string>
+    <string name="update_error_charging">对不起，不能在充电状态下升级.</string>
+    <string name="update_error_low">电量低，不能进行升级.</string>
+    <string name="version_match">升级包匹配，是否升级？</string>
+    <string name="update_backup">备份个人信息</string>
+</resources>

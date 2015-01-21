@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@*android:id/empty" android:paddingBottom="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/video_list_empty" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_sdcard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/sd_icon" android:background="@drawable/ic_mp_sd_card" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_horizontal" android:id="@id/sd_message" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sdcard_missing_message" />
+    </LinearLayout>
+</FrameLayout>

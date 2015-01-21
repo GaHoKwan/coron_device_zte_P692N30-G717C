@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ScreenOnPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.gallery3d">
+    <com.android.camera.ui.RotateLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.camera.ui.MaxLinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" camera:maxWidth="@dimen/onscreen_hint_max_width">
+                <TextView android:textAppearance="@style/OnScreenHintTextAppearance.Small" android:textColor="#ffffffff" android:id="@id/message" android:background="@drawable/on_screen_hint_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+            </com.android.camera.ui.MaxLinearLayout>
+        </RelativeLayout>
+    </com.android.camera.ui.RotateLayout>
+</FrameLayout>

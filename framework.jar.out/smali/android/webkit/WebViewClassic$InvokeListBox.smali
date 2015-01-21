@@ -316,7 +316,7 @@
 
     move-result-object v1
 
-    const v3, 0x10900c3
+    const v3, #android:layout@select_dialog#t
 
     const/4 v9, 0x0
 
@@ -364,7 +364,7 @@
     if-eqz v1, :cond_2
 
     .line 9073
-    const v1, 0x104000a
+    const v1, #android:string@ok#t
 
     new-instance v3, Landroid/webkit/WebViewClassic$InvokeListBox$1;
 
@@ -373,7 +373,7 @@
     invoke-virtual {v6, v1, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 9081
-    const/high16 v1, 0x104
+    const/high16 v1, #android:string@cancel#h
 
     new-instance v3, Landroid/webkit/WebViewClassic$InvokeListBox$2;
 

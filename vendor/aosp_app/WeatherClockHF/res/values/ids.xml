@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="weather">false</item>
+    <item type="id" name="widget_full_layout">false</item>
+    <item type="id" name="weather_widget_bg">false</item>
+    <item type="id" name="widget_city_display_temperature">false</item>
+    <item type="id" name="widget_city_name">false</item>
+    <item type="id" name="widget_city_weather_description">false</item>
+    <item type="id" name="widget_city_weather_icon">false</item>
+    <item type="id" name="widget_city_current_temperature">false</item>
+    <item type="id" name="accuweather_uri">false</item>
+    <item type="id" name="weather_clock">false</item>
+    <item type="id" name="weather_hour_bg">false</item>
+    <item type="id" name="weather_min_bg">false</item>
+    <item type="id" name="weather_clock_ampm">false</item>
+    <item type="id" name="weather_clock_hour">false</item>
+    <item type="id" name="weather_clock_min">false</item>
+</resources>

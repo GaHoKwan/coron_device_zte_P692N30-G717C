@@ -15,732 +15,732 @@
 
 
 # static fields
-.field public static final alert_dark_frame:I = 0x1080000
+.field public static final alert_dark_frame:I = #android:drawable@alert_dark_frame#t
 
-.field public static final alert_light_frame:I = 0x1080001
+.field public static final alert_light_frame:I = #android:drawable@alert_light_frame#t
 
-.field public static final arrow_down_float:I = 0x1080002
+.field public static final arrow_down_float:I = #android:drawable@arrow_down_float#t
 
-.field public static final arrow_up_float:I = 0x1080003
+.field public static final arrow_up_float:I = #android:drawable@arrow_up_float#t
 
-.field public static final bottom_bar:I = 0x108009a
+.field public static final bottom_bar:I = #android:drawable@bottom_bar#t
 
-.field public static final btn_check_off:I = 0x10800e2
+.field public static final btn_check_off:I = #android:drawable@btn_check_off#t
 
-.field public static final btn_code_lock_default_holo:I = 0x1080116
+.field public static final btn_code_lock_default_holo:I = #android:drawable@btn_code_lock_default_holo#t
 
-.field public static final btn_code_lock_touched_holo:I = 0x1080118
+.field public static final btn_code_lock_touched_holo:I = #android:drawable@btn_code_lock_touched_holo#t
 
-.field public static final btn_default:I = 0x1080004
+.field public static final btn_default:I = #android:drawable@btn_default#t
 
-.field public static final btn_default_small:I = 0x1080005
+.field public static final btn_default_small:I = #android:drawable@btn_default_small#t
 
-.field public static final btn_dialog:I = 0x1080017
+.field public static final btn_dialog:I = #android:drawable@btn_dialog#t
 
-.field public static final btn_dropdown:I = 0x1080006
+.field public static final btn_dropdown:I = #android:drawable@btn_dropdown#t
 
-.field public static final btn_minus:I = 0x1080007
+.field public static final btn_minus:I = #android:drawable@btn_minus#t
 
-.field public static final btn_plus:I = 0x1080008
+.field public static final btn_plus:I = #android:drawable@btn_plus#t
 
-.field public static final btn_radio:I = 0x1080009
+.field public static final btn_radio:I = #android:drawable@btn_radio#t
 
-.field public static final btn_star:I = 0x108000a
+.field public static final btn_star:I = #android:drawable@btn_star#t
 
-.field public static final btn_star_big_off:I = 0x108000b
+.field public static final btn_star_big_off:I = #android:drawable@btn_star_big_off#t
 
-.field public static final btn_star_big_on:I = 0x108000c
+.field public static final btn_star_big_on:I = #android:drawable@btn_star_big_on#t
 
-.field public static final button_onoff_indicator_off:I = 0x108000e
+.field public static final button_onoff_indicator_off:I = #android:drawable@button_onoff_indicator_off#t
 
-.field public static final button_onoff_indicator_on:I = 0x108000d
+.field public static final button_onoff_indicator_on:I = #android:drawable@button_onoff_indicator_on#t
 
-.field public static final call_contact:I = 0x1080210
+.field public static final call_contact:I = #android:drawable@call_contact#t
 
-.field public static final checkbox_off_background:I = 0x108000f
+.field public static final checkbox_off_background:I = #android:drawable@checkbox_off_background#t
 
-.field public static final checkbox_on_background:I = 0x1080010
+.field public static final checkbox_on_background:I = #android:drawable@checkbox_on_background#t
 
-.field public static final clock_dial:I = 0x1080211
+.field public static final clock_dial:I = #android:drawable@clock_dial#t
 
-.field public static final clock_hand_hour:I = 0x1080212
+.field public static final clock_hand_hour:I = #android:drawable@clock_hand_hour#t
 
-.field public static final clock_hand_minute:I = 0x1080213
+.field public static final clock_hand_minute:I = #android:drawable@clock_hand_minute#t
 
-.field public static final compass_arrow:I = 0x1080219
+.field public static final compass_arrow:I = #android:drawable@compass_arrow#t
 
-.field public static final compass_base:I = 0x108021a
+.field public static final compass_base:I = #android:drawable@compass_base#t
 
-.field public static final create_contact:I = 0x108021c
+.field public static final create_contact:I = #android:drawable@create_contact#t
 
-.field public static final dark_header:I = 0x10800a5
+.field public static final dark_header:I = #android:drawable@dark_header#t
 
-.field public static final default_wallpaper:I = 0x108021f
+.field public static final default_wallpaper:I = #android:drawable@default_wallpaper#t
 
-.field public static final dialog_frame:I = 0x1080011
+.field public static final dialog_frame:I = #android:drawable@dialog_frame#t
 
-.field public static final dialog_holo_dark_frame:I = 0x10800b2
+.field public static final dialog_holo_dark_frame:I = #android:drawable@dialog_holo_dark_frame#t
 
-.field public static final dialog_holo_light_frame:I = 0x10800b3
+.field public static final dialog_holo_light_frame:I = #android:drawable@dialog_holo_light_frame#t
 
-.field public static final divider_horizontal_bright:I = 0x1080012
+.field public static final divider_horizontal_bright:I = #android:drawable@divider_horizontal_bright#t
 
-.field public static final divider_horizontal_dark:I = 0x1080014
+.field public static final divider_horizontal_dark:I = #android:drawable@divider_horizontal_dark#t
 
-.field public static final divider_horizontal_dim_dark:I = 0x1080015
+.field public static final divider_horizontal_dim_dark:I = #android:drawable@divider_horizontal_dim_dark#t
 
-.field public static final divider_horizontal_textfield:I = 0x1080013
+.field public static final divider_horizontal_textfield:I = #android:drawable@divider_horizontal_textfield#t
 
-.field public static final edit_text:I = 0x1080016
+.field public static final edit_text:I = #android:drawable@edit_text#t
 
-.field public static final editbox_background:I = 0x1080018
+.field public static final editbox_background:I = #android:drawable@editbox_background#t
 
-.field public static final editbox_background_normal:I = 0x1080019
+.field public static final editbox_background_normal:I = #android:drawable@editbox_background_normal#t
 
-.field public static final editbox_dropdown_dark_frame:I = 0x108001a
+.field public static final editbox_dropdown_dark_frame:I = #android:drawable@editbox_dropdown_dark_frame#t
 
-.field public static final editbox_dropdown_light_frame:I = 0x108001b
+.field public static final editbox_dropdown_light_frame:I = #android:drawable@editbox_dropdown_light_frame#t
 
-.field public static final emo_im_angel:I = 0x108025b
+.field public static final emo_im_angel:I = #android:drawable@emo_im_angel#t
 
-.field public static final emo_im_cool:I = 0x108025c
+.field public static final emo_im_cool:I = #android:drawable@emo_im_cool#t
 
-.field public static final emo_im_crying:I = 0x108025d
+.field public static final emo_im_crying:I = #android:drawable@emo_im_crying#t
 
-.field public static final emo_im_embarrassed:I = 0x108025e
+.field public static final emo_im_embarrassed:I = #android:drawable@emo_im_embarrassed#t
 
-.field public static final emo_im_foot_in_mouth:I = 0x108025f
+.field public static final emo_im_foot_in_mouth:I = #android:drawable@emo_im_foot_in_mouth#t
 
-.field public static final emo_im_happy:I = 0x1080260
+.field public static final emo_im_happy:I = #android:drawable@emo_im_happy#t
 
-.field public static final emo_im_kissing:I = 0x1080261
+.field public static final emo_im_kissing:I = #android:drawable@emo_im_kissing#t
 
-.field public static final emo_im_laughing:I = 0x1080262
+.field public static final emo_im_laughing:I = #android:drawable@emo_im_laughing#t
 
-.field public static final emo_im_lips_are_sealed:I = 0x1080263
+.field public static final emo_im_lips_are_sealed:I = #android:drawable@emo_im_lips_are_sealed#t
 
-.field public static final emo_im_money_mouth:I = 0x1080264
+.field public static final emo_im_money_mouth:I = #android:drawable@emo_im_money_mouth#t
 
-.field public static final emo_im_sad:I = 0x1080265
+.field public static final emo_im_sad:I = #android:drawable@emo_im_sad#t
 
-.field public static final emo_im_surprised:I = 0x1080266
+.field public static final emo_im_surprised:I = #android:drawable@emo_im_surprised#t
 
-.field public static final emo_im_tongue_sticking_out:I = 0x1080267
+.field public static final emo_im_tongue_sticking_out:I = #android:drawable@emo_im_tongue_sticking_out#t
 
-.field public static final emo_im_undecided:I = 0x1080268
+.field public static final emo_im_undecided:I = #android:drawable@emo_im_undecided#t
 
-.field public static final emo_im_winking:I = 0x1080269
+.field public static final emo_im_winking:I = #android:drawable@emo_im_winking#t
 
-.field public static final emo_im_wtf:I = 0x108026a
+.field public static final emo_im_wtf:I = #android:drawable@emo_im_wtf#t
 
-.field public static final emo_im_yelling:I = 0x108026b
+.field public static final emo_im_yelling:I = #android:drawable@emo_im_yelling#t
 
-.field public static final expander_close_holo_dark:I = 0x108026c
+.field public static final expander_close_holo_dark:I = #android:drawable@expander_close_holo_dark#t
 
-.field public static final expander_ic_maximized:I = 0x1080271
+.field public static final expander_ic_maximized:I = #android:drawable@expander_ic_maximized#t
 
-.field public static final expander_ic_minimized:I = 0x1080272
+.field public static final expander_ic_minimized:I = #android:drawable@expander_ic_minimized#t
 
-.field public static final expander_open_holo_dark:I = 0x1080273
+.field public static final expander_open_holo_dark:I = #android:drawable@expander_open_holo_dark#t
 
-.field public static final gallery_thumb:I = 0x108001c
+.field public static final gallery_thumb:I = #android:drawable@gallery_thumb#t
 
-.field public static final ic_action_assist_generic:I = 0x1080295
+.field public static final ic_action_assist_generic:I = #android:drawable@ic_action_assist_generic#t
 
-.field public static final ic_audio_alarm:I = 0x1080299
+.field public static final ic_audio_alarm:I = #android:drawable@ic_audio_alarm#t
 
-.field public static final ic_audio_alarm_mute:I = 0x108029a
+.field public static final ic_audio_alarm_mute:I = #android:drawable@ic_audio_alarm_mute#t
 
-.field public static final ic_audio_bt:I = 0x108029b
+.field public static final ic_audio_bt:I = #android:drawable@ic_audio_bt#t
 
-.field public static final ic_audio_bt_mute:I = 0x108029c
+.field public static final ic_audio_bt_mute:I = #android:drawable@ic_audio_bt_mute#t
 
-.field public static final ic_audio_notification:I = 0x108029d
+.field public static final ic_audio_notification:I = #android:drawable@ic_audio_notification#t
 
-.field public static final ic_audio_notification_mute:I = 0x108029e
+.field public static final ic_audio_notification_mute:I = #android:drawable@ic_audio_notification_mute#t
 
-.field public static final ic_audio_phone:I = 0x108029f
+.field public static final ic_audio_phone:I = #android:drawable@ic_audio_phone#t
 
-.field public static final ic_audio_ring_notif:I = 0x10802a0
+.field public static final ic_audio_ring_notif:I = #android:drawable@ic_audio_ring_notif#t
 
-.field public static final ic_audio_ring_notif_mute:I = 0x10802a1
+.field public static final ic_audio_ring_notif_mute:I = #android:drawable@ic_audio_ring_notif_mute#t
 
-.field public static final ic_audio_ring_notif_vibrate:I = 0x10802a2
+.field public static final ic_audio_ring_notif_vibrate:I = #android:drawable@ic_audio_ring_notif_vibrate#t
 
-.field public static final ic_audio_vol:I = 0x10802a3
+.field public static final ic_audio_vol:I = #android:drawable@ic_audio_vol#t
 
-.field public static final ic_audio_vol_mute:I = 0x10802a4
+.field public static final ic_audio_vol_mute:I = #android:drawable@ic_audio_vol_mute#t
 
-.field public static final ic_btn_speak_now:I = 0x10800a4
+.field public static final ic_btn_speak_now:I = #android:drawable@ic_btn_speak_now#t
 
-.field public static final ic_bullet_key_permission:I = 0x10802b0
+.field public static final ic_bullet_key_permission:I = #android:drawable@ic_bullet_key_permission#t
 
-.field public static final ic_contact_picture:I = 0x10802c0
+.field public static final ic_contact_picture:I = #android:drawable@ic_contact_picture#t
 
-.field public static final ic_delete:I = 0x108001d
+.field public static final ic_delete:I = #android:drawable@ic_delete#t
 
-.field public static final ic_dialog_alert:I = 0x1080027
+.field public static final ic_dialog_alert:I = #android:drawable@ic_dialog_alert#t
 
-.field public static final ic_dialog_dialer:I = 0x1080028
+.field public static final ic_dialog_dialer:I = #android:drawable@ic_dialog_dialer#t
 
-.field public static final ic_dialog_email:I = 0x1080029
+.field public static final ic_dialog_email:I = #android:drawable@ic_dialog_email#t
 
-.field public static final ic_dialog_info:I = 0x108009b
+.field public static final ic_dialog_info:I = #android:drawable@ic_dialog_info#t
 
-.field public static final ic_dialog_map:I = 0x108002a
+.field public static final ic_dialog_map:I = #android:drawable@ic_dialog_map#t
 
-.field public static final ic_dialog_usb:I = 0x10802c9
+.field public static final ic_dialog_usb:I = #android:drawable@ic_dialog_usb#t
 
-.field public static final ic_emergency:I = 0x10802ca
+.field public static final ic_emergency:I = #android:drawable@ic_emergency#t
 
-.field public static final ic_focus_hint:I = 0x10802d0
+.field public static final ic_focus_hint:I = #android:drawable@ic_focus_hint#t
 
-.field public static final ic_input_add:I = 0x108002b
+.field public static final ic_input_add:I = #android:drawable@ic_input_add#t
 
-.field public static final ic_input_delete:I = 0x108002c
+.field public static final ic_input_delete:I = #android:drawable@ic_input_delete#t
 
-.field public static final ic_input_get:I = 0x108002d
+.field public static final ic_input_get:I = #android:drawable@ic_input_get#t
 
-.field public static final ic_jog_dial_sound_off:I = 0x10802d7
+.field public static final ic_jog_dial_sound_off:I = #android:drawable@ic_jog_dial_sound_off#t
 
-.field public static final ic_jog_dial_sound_on:I = 0x10802d8
+.field public static final ic_jog_dial_sound_on:I = #android:drawable@ic_jog_dial_sound_on#t
 
-.field public static final ic_jog_dial_unlock:I = 0x10802d9
+.field public static final ic_jog_dial_unlock:I = #android:drawable@ic_jog_dial_unlock#t
 
-.field public static final ic_jog_dial_vibrate_on:I = 0x10802da
+.field public static final ic_jog_dial_vibrate_on:I = #android:drawable@ic_jog_dial_vibrate_on#t
 
-.field public static final ic_lock_airplane_mode:I = 0x10802dc
+.field public static final ic_lock_airplane_mode:I = #android:drawable@ic_lock_airplane_mode#t
 
-.field public static final ic_lock_airplane_mode_off:I = 0x10802dd
+.field public static final ic_lock_airplane_mode_off:I = #android:drawable@ic_lock_airplane_mode_off#t
 
-.field public static final ic_lock_idle_alarm:I = 0x108002e
+.field public static final ic_lock_idle_alarm:I = #android:drawable@ic_lock_idle_alarm#t
 
-.field public static final ic_lock_idle_charging:I = 0x108001e
+.field public static final ic_lock_idle_charging:I = #android:drawable@ic_lock_idle_charging#t
 
-.field public static final ic_lock_idle_lock:I = 0x108001f
+.field public static final ic_lock_idle_lock:I = #android:drawable@ic_lock_idle_lock#t
 
-.field public static final ic_lock_idle_low_battery:I = 0x1080020
+.field public static final ic_lock_idle_low_battery:I = #android:drawable@ic_lock_idle_low_battery#t
 
-.field public static final ic_lock_lock:I = 0x108002f
+.field public static final ic_lock_lock:I = #android:drawable@ic_lock_lock#t
 
-.field public static final ic_lock_power_off:I = 0x1080030
+.field public static final ic_lock_power_off:I = #android:drawable@ic_lock_power_off#t
 
-.field public static final ic_lock_reboot:I = 0x108009e
+.field public static final ic_lock_reboot:I = #android:drawable@ic_lock_reboot#t
 
-.field public static final ic_lock_silent_mode:I = 0x1080031
+.field public static final ic_lock_silent_mode:I = #android:drawable@ic_lock_silent_mode#t
 
-.field public static final ic_lock_silent_mode_off:I = 0x1080032
+.field public static final ic_lock_silent_mode_off:I = #android:drawable@ic_lock_silent_mode_off#t
 
-.field public static final ic_lockscreen_alarm:I = 0x10802e1
+.field public static final ic_lockscreen_alarm:I = #android:drawable@ic_lockscreen_alarm#t
 
-.field public static final ic_lockscreen_camera:I = 0x10802e2
+.field public static final ic_lockscreen_camera:I = #android:drawable@ic_lockscreen_camera#t
 
-.field public static final ic_lockscreen_silent:I = 0x10802fb
+.field public static final ic_lockscreen_silent:I = #android:drawable@ic_lockscreen_silent#t
 
-.field public static final ic_lockscreen_unlock:I = 0x1080304
+.field public static final ic_lockscreen_unlock:I = #android:drawable@ic_lockscreen_unlock#t
 
-.field public static final ic_lockscreen_unlock_phantom:I = 0x1080307
+.field public static final ic_lockscreen_unlock_phantom:I = #android:drawable@ic_lockscreen_unlock_phantom#t
 
-.field public static final ic_maps_indicator_current_position_anim:I = 0x1080309
+.field public static final ic_maps_indicator_current_position_anim:I = #android:drawable@ic_maps_indicator_current_position_anim#t
 
-.field public static final ic_media_ff:I = 0x1080021
+.field public static final ic_media_ff:I = #android:drawable@ic_media_ff#t
 
-.field public static final ic_media_next:I = 0x1080022
+.field public static final ic_media_next:I = #android:drawable@ic_media_next#t
 
-.field public static final ic_media_pause:I = 0x1080023
+.field public static final ic_media_pause:I = #android:drawable@ic_media_pause#t
 
-.field public static final ic_media_play:I = 0x1080024
+.field public static final ic_media_play:I = #android:drawable@ic_media_play#t
 
-.field public static final ic_media_previous:I = 0x1080025
+.field public static final ic_media_previous:I = #android:drawable@ic_media_previous#t
 
-.field public static final ic_media_rew:I = 0x1080026
+.field public static final ic_media_rew:I = #android:drawable@ic_media_rew#t
 
-.field public static final ic_media_route_disabled_holo_dark:I = 0x1080313
+.field public static final ic_media_route_disabled_holo_dark:I = #android:drawable@ic_media_route_disabled_holo_dark#t
 
-.field public static final ic_media_route_on_holo_dark:I = 0x108031f
+.field public static final ic_media_route_on_holo_dark:I = #android:drawable@ic_media_route_on_holo_dark#t
 
-.field public static final ic_media_stop:I = 0x1080321
+.field public static final ic_media_stop:I = #android:drawable@ic_media_stop#t
 
-.field public static final ic_menu_add:I = 0x1080033
+.field public static final ic_menu_add:I = #android:drawable@ic_menu_add#t
 
-.field public static final ic_menu_agenda:I = 0x1080034
+.field public static final ic_menu_agenda:I = #android:drawable@ic_menu_agenda#t
 
-.field public static final ic_menu_always_landscape_portrait:I = 0x1080035
+.field public static final ic_menu_always_landscape_portrait:I = #android:drawable@ic_menu_always_landscape_portrait#t
 
-.field public static final ic_menu_archive:I = 0x1080325
+.field public static final ic_menu_archive:I = #android:drawable@ic_menu_archive#t
 
-.field public static final ic_menu_call:I = 0x1080036
+.field public static final ic_menu_call:I = #android:drawable@ic_menu_call#t
 
-.field public static final ic_menu_camera:I = 0x1080037
+.field public static final ic_menu_camera:I = #android:drawable@ic_menu_camera#t
 
-.field public static final ic_menu_cc:I = 0x108032b
+.field public static final ic_menu_cc:I = #android:drawable@ic_menu_cc#t
 
-.field public static final ic_menu_close_clear_cancel:I = 0x1080038
+.field public static final ic_menu_close_clear_cancel:I = #android:drawable@ic_menu_close_clear_cancel#t
 
-.field public static final ic_menu_compass:I = 0x1080039
+.field public static final ic_menu_compass:I = #android:drawable@ic_menu_compass#t
 
-.field public static final ic_menu_crop:I = 0x108003a
+.field public static final ic_menu_crop:I = #android:drawable@ic_menu_crop#t
 
-.field public static final ic_menu_day:I = 0x108003b
+.field public static final ic_menu_day:I = #android:drawable@ic_menu_day#t
 
-.field public static final ic_menu_delete:I = 0x108003c
+.field public static final ic_menu_delete:I = #android:drawable@ic_menu_delete#t
 
-.field public static final ic_menu_directions:I = 0x108003d
+.field public static final ic_menu_directions:I = #android:drawable@ic_menu_directions#t
 
-.field public static final ic_menu_edit:I = 0x108003e
+.field public static final ic_menu_edit:I = #android:drawable@ic_menu_edit#t
 
-.field public static final ic_menu_gallery:I = 0x108003f
+.field public static final ic_menu_gallery:I = #android:drawable@ic_menu_gallery#t
 
-.field public static final ic_menu_goto:I = 0x108033c
+.field public static final ic_menu_goto:I = #android:drawable@ic_menu_goto#t
 
-.field public static final ic_menu_help:I = 0x1080040
+.field public static final ic_menu_help:I = #android:drawable@ic_menu_help#t
 
-.field public static final ic_menu_info_details:I = 0x1080041
+.field public static final ic_menu_info_details:I = #android:drawable@ic_menu_info_details#t
 
-.field public static final ic_menu_manage:I = 0x1080042
+.field public static final ic_menu_manage:I = #android:drawable@ic_menu_manage#t
 
-.field public static final ic_menu_mapmode:I = 0x1080043
+.field public static final ic_menu_mapmode:I = #android:drawable@ic_menu_mapmode#t
 
-.field public static final ic_menu_month:I = 0x1080044
+.field public static final ic_menu_month:I = #android:drawable@ic_menu_month#t
 
-.field public static final ic_menu_more:I = 0x1080045
+.field public static final ic_menu_more:I = #android:drawable@ic_menu_more#t
 
-.field public static final ic_menu_moreoverflow_normal_holo_dark:I = 0x1080347
+.field public static final ic_menu_moreoverflow_normal_holo_dark:I = #android:drawable@ic_menu_moreoverflow_normal_holo_dark#t
 
-.field public static final ic_menu_my_calendar:I = 0x1080046
+.field public static final ic_menu_my_calendar:I = #android:drawable@ic_menu_my_calendar#t
 
-.field public static final ic_menu_mylocation:I = 0x1080047
+.field public static final ic_menu_mylocation:I = #android:drawable@ic_menu_mylocation#t
 
-.field public static final ic_menu_myplaces:I = 0x1080048
+.field public static final ic_menu_myplaces:I = #android:drawable@ic_menu_myplaces#t
 
-.field public static final ic_menu_play_clip:I = 0x108034d
+.field public static final ic_menu_play_clip:I = #android:drawable@ic_menu_play_clip#t
 
-.field public static final ic_menu_preferences:I = 0x1080049
+.field public static final ic_menu_preferences:I = #android:drawable@ic_menu_preferences#t
 
-.field public static final ic_menu_recent_history:I = 0x108004a
+.field public static final ic_menu_recent_history:I = #android:drawable@ic_menu_recent_history#t
 
-.field public static final ic_menu_report_image:I = 0x108004b
+.field public static final ic_menu_report_image:I = #android:drawable@ic_menu_report_image#t
 
-.field public static final ic_menu_revert:I = 0x108004c
+.field public static final ic_menu_revert:I = #android:drawable@ic_menu_revert#t
 
-.field public static final ic_menu_rotate:I = 0x108004d
+.field public static final ic_menu_rotate:I = #android:drawable@ic_menu_rotate#t
 
-.field public static final ic_menu_save:I = 0x108004e
+.field public static final ic_menu_save:I = #android:drawable@ic_menu_save#t
 
-.field public static final ic_menu_search:I = 0x108004f
+.field public static final ic_menu_search:I = #android:drawable@ic_menu_search#t
 
-.field public static final ic_menu_send:I = 0x1080050
+.field public static final ic_menu_send:I = #android:drawable@ic_menu_send#t
 
-.field public static final ic_menu_set_as:I = 0x1080051
+.field public static final ic_menu_set_as:I = #android:drawable@ic_menu_set_as#t
 
-.field public static final ic_menu_share:I = 0x1080052
+.field public static final ic_menu_share:I = #android:drawable@ic_menu_share#t
 
-.field public static final ic_menu_slideshow:I = 0x1080053
+.field public static final ic_menu_slideshow:I = #android:drawable@ic_menu_slideshow#t
 
-.field public static final ic_menu_sort_alphabetically:I = 0x108009c
+.field public static final ic_menu_sort_alphabetically:I = #android:drawable@ic_menu_sort_alphabetically#t
 
-.field public static final ic_menu_sort_by_size:I = 0x108009d
+.field public static final ic_menu_sort_by_size:I = #android:drawable@ic_menu_sort_by_size#t
 
-.field public static final ic_menu_today:I = 0x1080054
+.field public static final ic_menu_today:I = #android:drawable@ic_menu_today#t
 
-.field public static final ic_menu_upload:I = 0x1080055
+.field public static final ic_menu_upload:I = #android:drawable@ic_menu_upload#t
 
-.field public static final ic_menu_upload_you_tube:I = 0x1080056
+.field public static final ic_menu_upload_you_tube:I = #android:drawable@ic_menu_upload_you_tube#t
 
-.field public static final ic_menu_view:I = 0x1080057
+.field public static final ic_menu_view:I = #android:drawable@ic_menu_view#t
 
-.field public static final ic_menu_week:I = 0x1080058
+.field public static final ic_menu_week:I = #android:drawable@ic_menu_week#t
 
-.field public static final ic_menu_zoom:I = 0x1080059
+.field public static final ic_menu_zoom:I = #android:drawable@ic_menu_zoom#t
 
-.field public static final ic_notification_clear_all:I = 0x108005a
+.field public static final ic_notification_clear_all:I = #android:drawable@ic_notification_clear_all#t
 
-.field public static final ic_notification_ime_default:I = 0x1080359
+.field public static final ic_notification_ime_default:I = #android:drawable@ic_notification_ime_default#t
 
-.field public static final ic_notification_overlay:I = 0x108005b
+.field public static final ic_notification_overlay:I = #android:drawable@ic_notification_overlay#t
 
-.field public static final ic_notify_wifidisplay:I = 0x108035a
+.field public static final ic_notify_wifidisplay:I = #android:drawable@ic_notify_wifidisplay#t
 
-.field public static final ic_partial_secure:I = 0x108005c
+.field public static final ic_partial_secure:I = #android:drawable@ic_partial_secure#t
 
-.field public static final ic_popup_disk_full:I = 0x108005d
+.field public static final ic_popup_disk_full:I = #android:drawable@ic_popup_disk_full#t
 
-.field public static final ic_popup_reminder:I = 0x108005e
+.field public static final ic_popup_reminder:I = #android:drawable@ic_popup_reminder#t
 
-.field public static final ic_popup_sync:I = 0x108005f
+.field public static final ic_popup_sync:I = #android:drawable@ic_popup_sync#t
 
-.field public static final ic_search_category_default:I = 0x1080060
+.field public static final ic_search_category_default:I = #android:drawable@ic_search_category_default#t
 
-.field public static final ic_secure:I = 0x1080061
+.field public static final ic_secure:I = #android:drawable@ic_secure#t
 
-.field public static final ic_settings_language:I = 0x1080363
+.field public static final ic_settings_language:I = #android:drawable@ic_settings_language#t
 
-.field public static final ic_text_dot:I = 0x108036c
+.field public static final ic_text_dot:I = #android:drawable@ic_text_dot#t
 
-.field public static final ic_volume:I = 0x1080371
+.field public static final ic_volume:I = #android:drawable@ic_volume#t
 
-.field public static final ic_volume_off_small:I = 0x1080375
+.field public static final ic_volume_off_small:I = #android:drawable@ic_volume_off_small#t
 
-.field public static final ic_volume_small:I = 0x1080376
+.field public static final ic_volume_small:I = #android:drawable@ic_volume_small#t
 
-.field public static final indicator_code_lock_drag_direction_green_up:I = 0x1080383
+.field public static final indicator_code_lock_drag_direction_green_up:I = #android:drawable@indicator_code_lock_drag_direction_green_up#t
 
-.field public static final indicator_code_lock_drag_direction_red_up:I = 0x1080384
+.field public static final indicator_code_lock_drag_direction_red_up:I = #android:drawable@indicator_code_lock_drag_direction_red_up#t
 
-.field public static final indicator_code_lock_point_area_default_holo:I = 0x1080386
+.field public static final indicator_code_lock_point_area_default_holo:I = #android:drawable@indicator_code_lock_point_area_default_holo#t
 
-.field public static final indicator_code_lock_point_area_green_holo:I = 0x1080388
+.field public static final indicator_code_lock_point_area_green_holo:I = #android:drawable@indicator_code_lock_point_area_green_holo#t
 
-.field public static final indicator_code_lock_point_area_red_holo:I = 0x108038a
+.field public static final indicator_code_lock_point_area_red_holo:I = #android:drawable@indicator_code_lock_point_area_red_holo#t
 
-.field public static final indicator_input_error:I = 0x108038b
+.field public static final indicator_input_error:I = #android:drawable@indicator_input_error#t
 
-.field public static final jog_dial_arrow_long_left_green:I = 0x1080391
+.field public static final jog_dial_arrow_long_left_green:I = #android:drawable@jog_dial_arrow_long_left_green#t
 
-.field public static final jog_dial_arrow_long_right_red:I = 0x1080394
+.field public static final jog_dial_arrow_long_right_red:I = #android:drawable@jog_dial_arrow_long_right_red#t
 
-.field public static final jog_dial_arrow_short_left_and_right:I = 0x1080397
+.field public static final jog_dial_arrow_short_left_and_right:I = #android:drawable@jog_dial_arrow_short_left_and_right#t
 
-.field public static final jog_dial_bg:I = 0x1080399
+.field public static final jog_dial_bg:I = #android:drawable@jog_dial_bg#t
 
-.field public static final jog_dial_dimple:I = 0x108039a
+.field public static final jog_dial_dimple:I = #android:drawable@jog_dial_dimple#t
 
-.field public static final jog_dial_dimple_dim:I = 0x108039b
+.field public static final jog_dial_dimple_dim:I = #android:drawable@jog_dial_dimple_dim#t
 
-.field public static final jog_tab_bar_left_generic:I = 0x10803a3
+.field public static final jog_tab_bar_left_generic:I = #android:drawable@jog_tab_bar_left_generic#t
 
-.field public static final jog_tab_bar_left_unlock:I = 0x10803a4
+.field public static final jog_tab_bar_left_unlock:I = #android:drawable@jog_tab_bar_left_unlock#t
 
-.field public static final jog_tab_bar_right_generic:I = 0x10803ac
+.field public static final jog_tab_bar_right_generic:I = #android:drawable@jog_tab_bar_right_generic#t
 
-.field public static final jog_tab_bar_right_sound_off:I = 0x10803ad
+.field public static final jog_tab_bar_right_sound_off:I = #android:drawable@jog_tab_bar_right_sound_off#t
 
-.field public static final jog_tab_bar_right_sound_on:I = 0x10803ae
+.field public static final jog_tab_bar_right_sound_on:I = #android:drawable@jog_tab_bar_right_sound_on#t
 
-.field public static final jog_tab_left_generic:I = 0x10803b4
+.field public static final jog_tab_left_generic:I = #android:drawable@jog_tab_left_generic#t
 
-.field public static final jog_tab_left_unlock:I = 0x10803b7
+.field public static final jog_tab_left_unlock:I = #android:drawable@jog_tab_left_unlock#t
 
-.field public static final jog_tab_right_generic:I = 0x10803bd
+.field public static final jog_tab_right_generic:I = #android:drawable@jog_tab_right_generic#t
 
-.field public static final jog_tab_right_sound_off:I = 0x10803c0
+.field public static final jog_tab_right_sound_off:I = #android:drawable@jog_tab_right_sound_off#t
 
-.field public static final jog_tab_right_sound_on:I = 0x10803c1
+.field public static final jog_tab_right_sound_on:I = #android:drawable@jog_tab_right_sound_on#t
 
-.field public static final jog_tab_target_gray:I = 0x10803c2
+.field public static final jog_tab_target_gray:I = #android:drawable@jog_tab_target_gray#t
 
-.field public static final jog_tab_target_green:I = 0x10803c3
+.field public static final jog_tab_target_green:I = #android:drawable@jog_tab_target_green#t
 
-.field public static final jog_tab_target_yellow:I = 0x10803c5
+.field public static final jog_tab_target_yellow:I = #android:drawable@jog_tab_target_yellow#t
 
-.field public static final kg_widget_bg_padded:I = 0x10803d8
+.field public static final kg_widget_bg_padded:I = #android:drawable@kg_widget_bg_padded#t
 
-.field public static final list_selector_background:I = 0x1080062
+.field public static final list_selector_background:I = #android:drawable@list_selector_background#t
 
-.field public static final list_selector_pressed_holo_dark:I = 0x108040c
+.field public static final list_selector_pressed_holo_dark:I = #android:drawable@list_selector_pressed_holo_dark#t
 
-.field public static final loading_tile_android:I = 0x1080410
+.field public static final loading_tile_android:I = #android:drawable@loading_tile_android#t
 
-.field public static final magnified_region_frame:I = 0x1080415
+.field public static final magnified_region_frame:I = #android:drawable@magnified_region_frame#t
 
-.field public static final maps_google_logo:I = 0x1080416
+.field public static final maps_google_logo:I = #android:drawable@maps_google_logo#t
 
-.field public static final menu_background:I = 0x1080418
+.field public static final menu_background:I = #android:drawable@menu_background#t
 
-.field public static final menu_frame:I = 0x1080063
+.field public static final menu_frame:I = #android:drawable@menu_frame#t
 
-.field public static final menu_full_frame:I = 0x1080064
+.field public static final menu_full_frame:I = #android:drawable@menu_full_frame#t
 
-.field public static final menuitem_background:I = 0x1080065
+.field public static final menuitem_background:I = #android:drawable@menuitem_background#t
 
-.field public static final no_tile_256:I = 0x108042f
+.field public static final no_tile_256:I = #android:drawable@no_tile_256#t
 
-.field public static final notification_bg:I = 0x1080430
+.field public static final notification_bg:I = #android:drawable@notification_bg#t
 
-.field public static final notification_bg_low:I = 0x1080431
+.field public static final notification_bg_low:I = #android:drawable@notification_bg_low#t
 
-.field public static final notification_template_icon_bg:I = 0x108064e
+.field public static final notification_template_icon_bg:I = #android:drawable@notification_template_icon_bg#t
 
-.field public static final notification_template_icon_low_bg:I = 0x108064f
+.field public static final notification_template_icon_low_bg:I = #android:drawable@notification_template_icon_low_bg#t
 
-.field public static final overscroll_edge:I = 0x108044a
+.field public static final overscroll_edge:I = #android:drawable@overscroll_edge#t
 
-.field public static final overscroll_glow:I = 0x108044b
+.field public static final overscroll_glow:I = #android:drawable@overscroll_glow#t
 
-.field public static final picture_emergency:I = 0x1080471
+.field public static final picture_emergency:I = #android:drawable@picture_emergency#t
 
-.field public static final picture_frame:I = 0x1080066
+.field public static final picture_frame:I = #android:drawable@picture_frame#t
 
-.field public static final platlogo:I = 0x1080472
+.field public static final platlogo:I = #android:drawable@platlogo#t
 
-.field public static final platlogo_alt:I = 0x1080473
+.field public static final platlogo_alt:I = #android:drawable@platlogo_alt#t
 
-.field public static final popup_bottom_bright:I = 0x1080482
+.field public static final popup_bottom_bright:I = #android:drawable@popup_bottom_bright#t
 
-.field public static final popup_bottom_dark:I = 0x1080483
+.field public static final popup_bottom_dark:I = #android:drawable@popup_bottom_dark#t
 
-.field public static final popup_bottom_medium:I = 0x1080484
+.field public static final popup_bottom_medium:I = #android:drawable@popup_bottom_medium#t
 
-.field public static final popup_center_bright:I = 0x1080485
+.field public static final popup_center_bright:I = #android:drawable@popup_center_bright#t
 
-.field public static final popup_center_dark:I = 0x1080486
+.field public static final popup_center_dark:I = #android:drawable@popup_center_dark#t
 
-.field public static final popup_full_bright:I = 0x1080488
+.field public static final popup_full_bright:I = #android:drawable@popup_full_bright#t
 
-.field public static final popup_full_dark:I = 0x1080489
+.field public static final popup_full_dark:I = #android:drawable@popup_full_dark#t
 
-.field public static final popup_top_bright:I = 0x1080490
+.field public static final popup_top_bright:I = #android:drawable@popup_top_bright#t
 
-.field public static final popup_top_dark:I = 0x1080491
+.field public static final popup_top_dark:I = #android:drawable@popup_top_dark#t
 
-.field public static final presence_audio_away:I = 0x10800af
+.field public static final presence_audio_away:I = #android:drawable@presence_audio_away#t
 
-.field public static final presence_audio_busy:I = 0x10800b0
+.field public static final presence_audio_busy:I = #android:drawable@presence_audio_busy#t
 
-.field public static final presence_audio_online:I = 0x10800b1
+.field public static final presence_audio_online:I = #android:drawable@presence_audio_online#t
 
-.field public static final presence_away:I = 0x1080067
+.field public static final presence_away:I = #android:drawable@presence_away#t
 
-.field public static final presence_busy:I = 0x1080068
+.field public static final presence_busy:I = #android:drawable@presence_busy#t
 
-.field public static final presence_invisible:I = 0x1080069
+.field public static final presence_invisible:I = #android:drawable@presence_invisible#t
 
-.field public static final presence_offline:I = 0x108006a
+.field public static final presence_offline:I = #android:drawable@presence_offline#t
 
-.field public static final presence_online:I = 0x108006b
+.field public static final presence_online:I = #android:drawable@presence_online#t
 
-.field public static final presence_video_away:I = 0x10800ac
+.field public static final presence_video_away:I = #android:drawable@presence_video_away#t
 
-.field public static final presence_video_busy:I = 0x10800ad
+.field public static final presence_video_busy:I = #android:drawable@presence_video_busy#t
 
-.field public static final presence_video_online:I = 0x10800ae
+.field public static final presence_video_online:I = #android:drawable@presence_video_online#t
 
-.field public static final progress_horizontal:I = 0x108006c
+.field public static final progress_horizontal:I = #android:drawable@progress_horizontal#t
 
-.field public static final progress_indeterminate_horizontal:I = 0x108006d
+.field public static final progress_indeterminate_horizontal:I = #android:drawable@progress_indeterminate_horizontal#t
 
-.field public static final quickcontact_badge_overlay_dark:I = 0x10804b9
+.field public static final quickcontact_badge_overlay_dark:I = #android:drawable@quickcontact_badge_overlay_dark#t
 
-.field public static final radiobutton_off_background:I = 0x108006e
+.field public static final radiobutton_off_background:I = #android:drawable@radiobutton_off_background#t
 
-.field public static final radiobutton_on_background:I = 0x108006f
+.field public static final radiobutton_on_background:I = #android:drawable@radiobutton_on_background#t
 
-.field public static final reticle:I = 0x10804ec
+.field public static final reticle:I = #android:drawable@reticle#t
 
-.field public static final screen_background_dark:I = 0x1080098
+.field public static final screen_background_dark:I = #android:drawable@screen_background_dark#t
 
-.field public static final screen_background_dark_transparent:I = 0x10800a9
+.field public static final screen_background_dark_transparent:I = #android:drawable@screen_background_dark_transparent#t
 
-.field public static final screen_background_light:I = 0x1080099
+.field public static final screen_background_light:I = #android:drawable@screen_background_light#t
 
-.field public static final screen_background_light_transparent:I = 0x10800aa
+.field public static final screen_background_light_transparent:I = #android:drawable@screen_background_light_transparent#t
 
-.field public static final scrubber_control_disabled_holo:I = 0x10804f4
+.field public static final scrubber_control_disabled_holo:I = #android:drawable@scrubber_control_disabled_holo#t
 
-.field public static final scrubber_control_selector_holo:I = 0x10804f8
+.field public static final scrubber_control_selector_holo:I = #android:drawable@scrubber_control_selector_holo#t
 
-.field public static final scrubber_progress_horizontal_holo_dark:I = 0x10804fa
+.field public static final scrubber_progress_horizontal_holo_dark:I = #android:drawable@scrubber_progress_horizontal_holo_dark#t
 
-.field public static final search_spinner:I = 0x1080504
+.field public static final search_spinner:I = #android:drawable@search_spinner#t
 
-.field public static final show_audio:I = 0x108050e
+.field public static final show_audio:I = #android:drawable@show_audio#t
 
-.field public static final show_audio_force_local:I = 0x108050f
+.field public static final show_audio_force_local:I = #android:drawable@show_audio_force_local#t
 
-.field public static final show_audio_force_local_pressed:I = 0x1080510
+.field public static final show_audio_force_local_pressed:I = #android:drawable@show_audio_force_local_pressed#t
 
-.field public static final show_audio_pressed:I = 0x1080511
+.field public static final show_audio_pressed:I = #android:drawable@show_audio_pressed#t
 
-.field public static final spinner_background:I = 0x1080070
+.field public static final spinner_background:I = #android:drawable@spinner_background#t
 
-.field public static final spinner_dropdown_background:I = 0x1080071
+.field public static final spinner_dropdown_background:I = #android:drawable@spinner_dropdown_background#t
 
-.field public static final star_big_off:I = 0x1080073
+.field public static final star_big_off:I = #android:drawable@star_big_off#t
 
-.field public static final star_big_on:I = 0x1080072
+.field public static final star_big_on:I = #android:drawable@star_big_on#t
 
-.field public static final star_off:I = 0x1080075
+.field public static final star_off:I = #android:drawable@star_off#t
 
-.field public static final star_on:I = 0x1080074
+.field public static final star_on:I = #android:drawable@star_on#t
 
-.field public static final stat_notify_call_mute:I = 0x1080076
+.field public static final stat_notify_call_mute:I = #android:drawable@stat_notify_call_mute#t
 
-.field public static final stat_notify_car_mode:I = 0x1080549
+.field public static final stat_notify_car_mode:I = #android:drawable@stat_notify_car_mode#t
 
-.field public static final stat_notify_chat:I = 0x1080077
+.field public static final stat_notify_chat:I = #android:drawable@stat_notify_chat#t
 
-.field public static final stat_notify_disabled:I = 0x108054a
+.field public static final stat_notify_disabled:I = #android:drawable@stat_notify_disabled#t
 
-.field public static final stat_notify_disk_full:I = 0x108054b
+.field public static final stat_notify_disk_full:I = #android:drawable@stat_notify_disk_full#t
 
-.field public static final stat_notify_error:I = 0x1080078
+.field public static final stat_notify_error:I = #android:drawable@stat_notify_error#t
 
-.field public static final stat_notify_missed_call:I = 0x108007f
+.field public static final stat_notify_missed_call:I = #android:drawable@stat_notify_missed_call#t
 
-.field public static final stat_notify_more:I = 0x1080079
+.field public static final stat_notify_more:I = #android:drawable@stat_notify_more#t
 
-.field public static final stat_notify_rssi_in_range:I = 0x108054e
+.field public static final stat_notify_rssi_in_range:I = #android:drawable@stat_notify_rssi_in_range#t
 
-.field public static final stat_notify_sdcard:I = 0x108007a
+.field public static final stat_notify_sdcard:I = #android:drawable@stat_notify_sdcard#t
 
-.field public static final stat_notify_sdcard_prepare:I = 0x10800ab
+.field public static final stat_notify_sdcard_prepare:I = #android:drawable@stat_notify_sdcard_prepare#t
 
-.field public static final stat_notify_sdcard_usb:I = 0x108007b
+.field public static final stat_notify_sdcard_usb:I = #android:drawable@stat_notify_sdcard_usb#t
 
-.field public static final stat_notify_sim_toolkit:I = 0x108054f
+.field public static final stat_notify_sim_toolkit:I = #android:drawable@stat_notify_sim_toolkit#t
 
-.field public static final stat_notify_sync:I = 0x108007c
+.field public static final stat_notify_sync:I = #android:drawable@stat_notify_sync#t
 
-.field public static final stat_notify_sync_error:I = 0x1080551
+.field public static final stat_notify_sync_error:I = #android:drawable@stat_notify_sync_error#t
 
-.field public static final stat_notify_sync_noanim:I = 0x108007d
+.field public static final stat_notify_sync_noanim:I = #android:drawable@stat_notify_sync_noanim#t
 
-.field public static final stat_notify_voicemail:I = 0x108007e
+.field public static final stat_notify_voicemail:I = #android:drawable@stat_notify_voicemail#t
 
-.field public static final stat_notify_wifi_in_range:I = 0x1080552
+.field public static final stat_notify_wifi_in_range:I = #android:drawable@stat_notify_wifi_in_range#t
 
-.field public static final stat_sys_adb:I = 0x1080553
+.field public static final stat_sys_adb:I = #android:drawable@stat_sys_adb#t
 
-.field public static final stat_sys_battery:I = 0x1080554
+.field public static final stat_sys_battery:I = #android:drawable@stat_sys_battery#t
 
-.field public static final stat_sys_battery_charge:I = 0x1080562
+.field public static final stat_sys_battery_charge:I = #android:drawable@stat_sys_battery_charge#t
 
-.field public static final stat_sys_battery_unknown:I = 0x1080570
+.field public static final stat_sys_battery_unknown:I = #android:drawable@stat_sys_battery_unknown#t
 
-.field public static final stat_sys_data_bluetooth:I = 0x1080080
+.field public static final stat_sys_data_bluetooth:I = #android:drawable@stat_sys_data_bluetooth#t
 
-.field public static final stat_sys_data_usb:I = 0x1080571
+.field public static final stat_sys_data_usb:I = #android:drawable@stat_sys_data_usb#t
 
-.field public static final stat_sys_download:I = 0x1080081
+.field public static final stat_sys_download:I = #android:drawable@stat_sys_download#t
 
-.field public static final stat_sys_download_done:I = 0x1080082
+.field public static final stat_sys_download_done:I = #android:drawable@stat_sys_download_done#t
 
-.field public static final stat_sys_gps_on:I = 0x108057b
+.field public static final stat_sys_gps_on:I = #android:drawable@stat_sys_gps_on#t
 
-.field public static final stat_sys_headset:I = 0x1080083
+.field public static final stat_sys_headset:I = #android:drawable@stat_sys_headset#t
 
-.field public static final stat_sys_phone_call:I = 0x1080084
+.field public static final stat_sys_phone_call:I = #android:drawable@stat_sys_phone_call#t
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
 
-.field public static final stat_sys_phone_call_forward:I = 0x1080085
+.field public static final stat_sys_phone_call_forward:I = #android:drawable@stat_sys_phone_call_forward#t
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
 
-.field public static final stat_sys_phone_call_on_hold:I = 0x1080086
+.field public static final stat_sys_phone_call_on_hold:I = #android:drawable@stat_sys_phone_call_on_hold#t
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
 
-.field public static final stat_sys_secure:I = 0x1080586
+.field public static final stat_sys_secure:I = #android:drawable@stat_sys_secure#t
 
-.field public static final stat_sys_speakerphone:I = 0x1080087
+.field public static final stat_sys_speakerphone:I = #android:drawable@stat_sys_speakerphone#t
 
-.field public static final stat_sys_tether_bluetooth:I = 0x1080591
+.field public static final stat_sys_tether_bluetooth:I = #android:drawable@stat_sys_tether_bluetooth#t
 
-.field public static final stat_sys_tether_general:I = 0x1080592
+.field public static final stat_sys_tether_general:I = #android:drawable@stat_sys_tether_general#t
 
-.field public static final stat_sys_tether_usb:I = 0x1080593
+.field public static final stat_sys_tether_usb:I = #android:drawable@stat_sys_tether_usb#t
 
-.field public static final stat_sys_tether_wifi:I = 0x1080594
+.field public static final stat_sys_tether_wifi:I = #android:drawable@stat_sys_tether_wifi#t
 
-.field public static final stat_sys_throttled:I = 0x1080595
+.field public static final stat_sys_throttled:I = #android:drawable@stat_sys_throttled#t
 
-.field public static final stat_sys_upload:I = 0x1080088
+.field public static final stat_sys_upload:I = #android:drawable@stat_sys_upload#t
 
-.field public static final stat_sys_upload_done:I = 0x1080089
+.field public static final stat_sys_upload_done:I = #android:drawable@stat_sys_upload_done#t
 
-.field public static final stat_sys_vp_phone_call:I = 0x10800a7
+.field public static final stat_sys_vp_phone_call:I = #android:drawable@stat_sys_vp_phone_call#t
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
 
-.field public static final stat_sys_vp_phone_call_on_hold:I = 0x10800a8
+.field public static final stat_sys_vp_phone_call_on_hold:I = #android:drawable@stat_sys_vp_phone_call_on_hold#t
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end field
 
-.field public static final stat_sys_warning:I = 0x108008a
+.field public static final stat_sys_warning:I = #android:drawable@stat_sys_warning#t
 
-.field public static final status_bar_background:I = 0x108059c
+.field public static final status_bar_background:I = #android:drawable@status_bar_background#t
 
-.field public static final status_bar_item_app_background:I = 0x108008b
+.field public static final status_bar_item_app_background:I = #android:drawable@status_bar_item_app_background#t
 
-.field public static final status_bar_item_background:I = 0x108008c
+.field public static final status_bar_item_background:I = #android:drawable@status_bar_item_background#t
 
-.field public static final sym_action_call:I = 0x108008d
+.field public static final sym_action_call:I = #android:drawable@sym_action_call#t
 
-.field public static final sym_action_chat:I = 0x108008e
+.field public static final sym_action_chat:I = #android:drawable@sym_action_chat#t
 
-.field public static final sym_action_email:I = 0x108008f
+.field public static final sym_action_email:I = #android:drawable@sym_action_email#t
 
-.field public static final sym_app_on_sd_unavailable_icon:I = 0x10805b8
+.field public static final sym_app_on_sd_unavailable_icon:I = #android:drawable@sym_app_on_sd_unavailable_icon#t
 
-.field public static final sym_call_incoming:I = 0x1080090
+.field public static final sym_call_incoming:I = #android:drawable@sym_call_incoming#t
 
-.field public static final sym_call_missed:I = 0x1080091
+.field public static final sym_call_missed:I = #android:drawable@sym_call_missed#t
 
-.field public static final sym_call_outgoing:I = 0x1080092
+.field public static final sym_call_outgoing:I = #android:drawable@sym_call_outgoing#t
 
-.field public static final sym_contact_card:I = 0x1080094
+.field public static final sym_contact_card:I = #android:drawable@sym_contact_card#t
 
-.field public static final sym_def_app_icon:I = 0x1080093
+.field public static final sym_def_app_icon:I = #android:drawable@sym_def_app_icon#t
 
-.field public static final sym_keyboard_return_holo:I = 0x10805d0
+.field public static final sym_keyboard_return_holo:I = #android:drawable@sym_keyboard_return_holo#t
 
-.field public static final sym_keyboard_shift:I = 0x10805d1
+.field public static final sym_keyboard_shift:I = #android:drawable@sym_keyboard_shift#t
 
-.field public static final sym_keyboard_shift_locked:I = 0x10805d2
+.field public static final sym_keyboard_shift_locked:I = #android:drawable@sym_keyboard_shift_locked#t
 
-.field public static final tab_bottom_left:I = 0x10805d5
+.field public static final tab_bottom_left:I = #android:drawable@tab_bottom_left#t
 
-.field public static final tab_bottom_left_v4:I = 0x10805d6
+.field public static final tab_bottom_left_v4:I = #android:drawable@tab_bottom_left_v4#t
 
-.field public static final tab_bottom_right:I = 0x10805d7
+.field public static final tab_bottom_right:I = #android:drawable@tab_bottom_right#t
 
-.field public static final tab_bottom_right_v4:I = 0x10805d8
+.field public static final tab_bottom_right_v4:I = #android:drawable@tab_bottom_right_v4#t
 
-.field public static final tab_indicator_v4:I = 0x10805df
+.field public static final tab_indicator_v4:I = #android:drawable@tab_indicator_v4#t
 
-.field public static final text_edit_paste_window:I = 0x10805f4
+.field public static final text_edit_paste_window:I = #android:drawable@text_edit_paste_window#t
 
-.field public static final text_edit_side_paste_window:I = 0x10805f5
+.field public static final text_edit_side_paste_window:I = #android:drawable@text_edit_side_paste_window#t
 
-.field public static final text_select_handle_left:I = 0x10805f7
+.field public static final text_select_handle_left:I = #android:drawable@text_select_handle_left#t
 
-.field public static final text_select_handle_middle:I = 0x10805f8
+.field public static final text_select_handle_middle:I = #android:drawable@text_select_handle_middle#t
 
-.field public static final text_select_handle_right:I = 0x10805f9
+.field public static final text_select_handle_right:I = #android:drawable@text_select_handle_right#t
 
-.field public static final title_bar:I = 0x1080095
+.field public static final title_bar:I = #android:drawable@title_bar#t
 
-.field public static final title_bar_medium:I = 0x108062d
+.field public static final title_bar_medium:I = #android:drawable@title_bar_medium#t
 
-.field public static final title_bar_tall:I = 0x10800a6
+.field public static final title_bar_tall:I = #android:drawable@title_bar_tall#t
 
-.field public static final toast_frame:I = 0x1080096
+.field public static final toast_frame:I = #android:drawable@toast_frame#t
 
-.field public static final unknown_image:I = 0x1080632
+.field public static final unknown_image:I = #android:drawable@unknown_image#t
 
-.field public static final unlock_default:I = 0x1080633
+.field public static final unlock_default:I = #android:drawable@unlock_default#t
 
-.field public static final unlock_halo:I = 0x1080634
+.field public static final unlock_halo:I = #android:drawable@unlock_halo#t
 
-.field public static final unlock_ring:I = 0x1080638
+.field public static final unlock_ring:I = #android:drawable@unlock_ring#t
 
-.field public static final unlock_wave:I = 0x108063a
+.field public static final unlock_wave:I = #android:drawable@unlock_wave#t
 
-.field public static final usb_android:I = 0x108063c
+.field public static final usb_android:I = #android:drawable@usb_android#t
 
-.field public static final usb_android_connected:I = 0x108063d
+.field public static final usb_android_connected:I = #android:drawable@usb_android_connected#t
 
-.field public static final vpn_connected:I = 0x108063f
+.field public static final vpn_connected:I = #android:drawable@vpn_connected#t
 
-.field public static final vpn_disconnected:I = 0x1080640
+.field public static final vpn_disconnected:I = #android:drawable@vpn_disconnected#t
 
-.field public static final zoom_plate:I = 0x1080097
+.field public static final zoom_plate:I = #android:drawable@zoom_plate#t
 
 
 # direct methods

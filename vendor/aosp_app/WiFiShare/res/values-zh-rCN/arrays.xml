@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_p2p_status">
+        <item>已连接</item>
+        <item>已邀请</item>
+        <item>失败</item>
+        <item>可用</item>
+        <item>不在范围内</item>
+    </string-array>
+</resources>

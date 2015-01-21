@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/handwrite_footer" style="@style/footer_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/handwrite_buttons" />
+</LinearLayout>

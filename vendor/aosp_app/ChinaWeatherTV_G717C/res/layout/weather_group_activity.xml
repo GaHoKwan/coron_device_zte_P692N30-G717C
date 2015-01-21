@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hf.UI.HFViewPager android:id="@id/weather_group_sk_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ViewFlipper android:id="@id/weather_group_cf_flipper" android:background="@drawable/cf_bg" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.1">
+        <HorizontalScrollView android:id="@id/weather_cf_view_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/weather_group_sk_layout3" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <HorizontalScrollView android:id="@id/weather_cf_lineview_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/lineview_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+    </ViewFlipper>
+</LinearLayout>

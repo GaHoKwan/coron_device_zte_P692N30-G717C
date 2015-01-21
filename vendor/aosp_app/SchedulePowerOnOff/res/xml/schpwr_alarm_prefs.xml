@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/schedule_power_on_off_set"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/schedule_power_on_off_time" android:key="time" />
+    <com.mediatek.schpwronoff.RepeatPreference android:persistent="false" android:title="@string/schedule_power_on_off_repeat" android:key="setRepeat" />
+</PreferenceScreen>

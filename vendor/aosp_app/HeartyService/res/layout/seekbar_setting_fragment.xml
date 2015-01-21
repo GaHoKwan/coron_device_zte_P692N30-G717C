@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textseg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/setting_auto_clear_text1" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:text="@string/clear_app_time_scale1" style="@style/hearty_black_13dp_constant" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/front_cover_settings_auto_clear_textwidth" android:text="@string/clear_app_time_scale2" style="@style/hearty_black_13dp_constant" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/front_cover_settings_auto_clear_textwidth" android:text="@string/clear_app_time_scale3" style="@style/hearty_black_13dp_constant" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/front_cover_settings_auto_clear_textwidth" android:text="@string/clear_app_time_scale4" style="@style/hearty_black_13dp_constant" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/front_cover_settings_auto_clear_textwidth" android:text="@string/clear_app_time_scale5" style="@style/hearty_black_13dp_constant" />
+    </LinearLayout>
+    <SeekBar android:orientation="horizontal" android:id="@id/seekbar" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/scrubber_progress_horizontal_holo_light" android:thumb="@drawable/scrubber_control_selector_holo" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/clear_setting" android:background="@drawable/custom_preference_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:layout_marginTop="20.0dip" android:minHeight="?android:listPreferredItemHeight">
+        <View android:background="@color/line_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_vertical" android:id="@id/textseg2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="18.0dip" android:text="@string/setting_auto_clear_selection" android:layout_alignParentBottom="true" />
+        <View android:background="@color/line_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

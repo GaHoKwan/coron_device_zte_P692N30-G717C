@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.25">
+        <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:text="@string/remaining_time_label" android:layout_weight="0.2" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.05">
+            <include layout="@layout/time_amount_show_circle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="2.0">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_power_mode" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.5dip" android:src="@color/divider_bold_color" />
+        <ListView android:id="@id/modesettings_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

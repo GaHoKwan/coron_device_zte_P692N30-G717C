@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" style="@style/message_view_horizontal_divider" />
+    <Button android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:id="@id/msg_remain_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/download_remaining" android:layout_centerInParent="true" style="?android:attr/borderlessButtonStyle" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:id="@id/msg_remain_loading_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:text="@string/downloading_remaining" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/msg_remain_loading_progress" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" android:layout_toLeftOf="@id/msg_remain_loading_text" android:layout_centerVertical="true" style="?android:attr/progressBarStyleLarge" />
+</RelativeLayout>

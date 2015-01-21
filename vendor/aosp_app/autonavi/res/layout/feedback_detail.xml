@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autonavi.xmgd.view.GDTitle android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/gdtitle_height" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/feedback_textview_textcolor" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/feedback_detail_margin" android:layout_below="@id/title" />
+    </ScrollView>
+</LinearLayout>

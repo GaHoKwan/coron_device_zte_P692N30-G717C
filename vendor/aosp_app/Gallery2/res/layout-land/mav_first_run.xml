@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.gallery3d.mav.FirstRunLayout android:background="#88000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mav_firstrun_text_marginleft" android:layout_marginTop="@dimen/mav_firstrun_text_margintop">
+        <TextView android:id="@id/textView1" style="@style/FirstRunTitleStyle" />
+        <TextView android:id="@id/textView2" android:layout_marginTop="12.0dip" style="@style/FirstRunTextStyle" />
+        <ImageView android:layout_gravity="left" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:src="@drawable/ic_mav_gesture_hand" />
+    </LinearLayout>
+    <Button android:layout_gravity="bottom|right|center" android:id="@id/btn_firstrun_dismiss" android:layout_marginRight="@dimen/mav_firstrun_btn_marginright" android:layout_marginBottom="@dimen/mav_firstrun_btn_marginbottom" android:onClick="onFirstRunDismiss" style="@style/FirstRunButtonStyle" />
+</com.mediatek.gallery3d.mav.FirstRunLayout>

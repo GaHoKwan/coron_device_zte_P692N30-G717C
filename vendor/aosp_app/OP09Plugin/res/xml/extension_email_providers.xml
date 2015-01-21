@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers>
+    <provider id="189" label="189Mail" domain="189.cn">
+        <incoming uri="pop3://pop.189.cn" username="$email" />
+        <outgoing uri="smtp://smtp.189.cn" username="$email" />
+    </provider>
+</providers>

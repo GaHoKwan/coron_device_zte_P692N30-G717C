@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/setting_actionbar_selector" android:id="@id/privacy_setting" android:title="@string/privacy_setting" android:showAsAction="always" />
+</menu>

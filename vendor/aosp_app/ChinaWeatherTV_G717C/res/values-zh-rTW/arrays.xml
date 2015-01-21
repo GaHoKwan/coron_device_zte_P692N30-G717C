@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="indices_types">
+        <item>自定義方案</item>
+        <item>健康</item>
+        <item>出行</item>
+        <item>戶外</item>
+    </string-array>
+    <string-array name="city_modify_dialog_list">
+        <item>設為默認</item>
+        <item>改昵稱</item>
+        <item>刪除</item>
+    </string-array>
+    <string-array name="city_modify_dialog_list2">
+        <item>設為默認</item>
+        <item>恢復默認名稱</item>
+        <item>刪除</item>
+    </string-array>
+    <string-array name="week_table">
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+        <item>週日</item>
+    </string-array>
+    <string-array name="temperature_entries">
+        <item>攝氏</item>
+        <item>華氏</item>
+    </string-array>
+    <string-array name="update_entries">
+        <item>手動更新</item>
+        <item>1小時更新</item>
+        <item>3小時更新</item>
+        <item>6小時更新</item>
+        <item>12小時更新</item>
+    </string-array>
+    <string-array name="share_entries">
+        <item>2天預報</item>
+        <item>3天預報</item>
+        <item>5天預報</item>
+    </string-array>
+    <string-array name="warning_entries">
+        <item>默認城市</item>
+        <item>全部關注城市</item>
+    </string-array>
+    <string-array name="indiecs_des_cl">
+        <item></item>
+        <item>天氣晴朗，空氣清新，是您晨練的大好時機。</item>
+        <item>較適宜晨練，某些氣象條件會對晨練產生一定影響，但影響不大。</item>
+        <item>某些氣象因素對晨練造成不利影響，較不宜晨練。</item>
+        <item>氣象因素非常不利於室外鍛煉，請儘量避免戶外晨練。</item>
+    </string-array>
+    <string-array name="indiecs_des_cy">
+        <item></item>
+        <item>薄型T恤衫</item>
+        <item>短套裝、T恤夏季服裝</item>
+        <item>長袖服裝</item>
+        <item>薄型套裝等春秋過渡裝</item>
+        <item>夾衣或西服套裝加薄羊毛衫</item>
+        <item>厚外套加毛衣等春秋服裝</item>
+        <item>棉衣加羊毛衫等冬季服裝</item>
+        <item>厚羽絨服等隆冬服裝</item>
+    </string-array>
+    <string-array name="indiecs_des_dy">
+        <item></item>
+        <item>非常適宜垂釣，風和日麗的天氣將陪伴你度過愉快的垂釣時光。</item>
+        <item>較適合垂釣，氣象條件對垂釣會產生一定影響，但影響不大。</item>
+        <item>天氣不好，不適合垂釣，請選擇別的娛樂方式</item>
+    </string-array>
+    <string-array name="indiecs_des_ffz">
+        <item></item>
+        <item>這種天氣去放風箏既可以舒展筋骨，又可放鬆身心。</item>
+        <item>選擇合適的地點，還是較適宜放風箏的。</item>
+        <item>氣象條件不適宜放風箏。</item>
+    </string-array>
+    <string-array name="indiecs_des_fs">
+        <item></item>
+        <item>長期在戶外，建議塗擦SPF在8-12之間的防曬護膚品。</item>
+        <item>建議塗擦SPF在12-15之間，PA+的防曬護膚品。</item>
+        <item>建議塗擦SPF指數高於15,PA+的防曬護膚品。</item>
+        <item>外出時應加強防護，建議塗擦SPF在15—20之間PA++的防曬護膚品。</item>
+        <item>外出時應特別加強防護，建議塗擦SPF20以上，PA++的防曬護膚品，並隨時補塗。</item>
+    </string-array>
+    <string-array name="indiecs_des_fh">
+        <item></item>
+        <item>室外活動注意適當增減衣物。</item>
+        <item>室外活動要穿厚實一點，年老體弱者要適當注意保暖。</item>
+        <item>室外活動要注意保暖，可戴手套與帽子。</item>
+        <item>室外活動注意保暖防寒，可戴厚手套和帽子，年老體弱者避免長時間外出。</item>
+        <item>著羽絨服、皮大衣仍感到寒冷，室外活動須戴厚棉、皮手套和帽子。</item>
+        <item>極易造成裸露皮膚凍傷，儘量避免野外作業和外出。</item>
+        <item>溫度未達到風寒所需的低溫，稍作防寒準備即可。</item>
+        <item>溫度未達到風寒所需的低溫，稍作防寒準備即可。</item>
+    </string-array>
+    <string-array name="indiecs_des_gm">
+        <item></item>
+        <item>各項氣象條件適宜，發生感冒機率較低。</item>
+        <item>較易發生感冒，體質較弱的朋友請注意適當防護。</item>
+        <item>發生感冒機率較大，請加強自我防護避免感冒。</item>
+        <item>極易發生感冒，請特別注意增加衣服保暖防寒避免感冒。</item>
+    </string-array>
+    <string-array name="indiecs_des_gj">
+        <item>天氣條件很適合逛街，可以盡情享受逛街的樂趣。</item>
+        <item>氣象要素對逛街有一定影響，比較適宜逛街。</item>
+        <item>天氣條件不適宜逛街，應儘量避免外出逛街。</item>
+        <item>氣象條件不適合逛街，請儘量選擇室內活動。</item>
+    </string-array>
+    <string-array name="indiecs_des_hc">
+        <item></item>
+        <item>天氣晴朗，溫度適宜，非常適合划船或嬉玩各種水上運動。</item>
+        <item>較適宜划船，有些氣象因素對划船會產生些影響，但影響不大。</item>
+        <item>不適宜划船，建議選擇別的娛樂方式或採取必要措施。</item>
+    </string-array>
+    <string-array name="indiecs_des_hz">
+        <item></item>
+        <item>天氣寒冷，多補水，選用滋潤保濕型化妝品，使用潤唇膏。</item>
+        <item>皮膚易缺水，用保濕型霜類化妝品，使用潤唇膏。</item>
+        <item>建議用露質面霜打底，水質無油粉底霜，透明粉餅，粉質胭脂。</item>
+        <item>天氣炎熱，易出汗，建議使用防脫水防曬指數高的化妝品，經常補粉。</item>
+    </string-array>
+    <string-array name="indiecs_des_jt">
+        <item></item>
+        <item>交通氣象條件良好，車輛可以正常行駛。</item>
+        <item>交通氣象條件較好，但不適宜高速行駛，司機應更加集中注意力，保持車距。</item>
+        <item>交通氣象條件一般，刹車距離延長，事故易發期，注意車距，務必小心駕駛。</item>
+        <item>交通氣象條件較差，事故高發期，車輛應低速行駛。</item>
+        <item>交通氣象條件很差，車輛行駛緩慢，儘量減少出行。</item>
+    </string-array>
+    <string-array name="indiecs_des_kqwr">
+        <item></item>
+        <item>非常有利於空氣污染物稀釋、擴散和清除，可在室外正常活動。</item>
+        <item>有利於空氣污染物稀釋、擴散和清除，可在室外正常活動。</item>
+        <item>對空氣污染物稀釋、擴散和清除無明顯影響，易感人群應適當減少室外活動時間。</item>
+        <item>較不利於空氣污染物稀釋、擴散和清除，請適當減少室外活動時間。</item>
+        <item>不利於空氣污染物稀釋、擴散和清除，請儘量避免在室外長時間活動。</item>
+    </string-array>
+    <string-array name="indiecs_des_kt">
+        <item></item>
+        <item>悶熱，您需長時間開啟製冷空調來降溫除濕。</item>
+        <item>天氣熱，建議您在適當的時候開啟製冷空調來降低溫度。</item>
+        <item>中午的時候您將會感到有點熱，因此建議在午後較熱時開啟製冷空調。</item>
+        <item>您將感到很舒適，一般不需要開啟空調。</item>
+        <item>冷,適當開啟制暖空調調節室內溫度</item>
+    </string-array>
+    <string-array name="indiecs_des_ls">
+        <item></item>
+        <item>極適宜晾曬，請抓緊時機晾曬</item>
+        <item>適宜晾曬，趕緊把久未見陽光的衣物搬出來吸收一下太陽的味道吧！</item>
+        <item>午後溫暖的陽光仍能滿足你驅潮消黴殺菌的晾曬需求。</item>
+        <item>氣象要素對晾曬有影響，不太適宜晾曬。若非晾曬不可，請儘量選擇通風的地點。</item>
+        <item>不適宜晾曬。如果非晾曬不可，請在室內進行並關牢門窗。</item>
+    </string-array>
+    <string-array name="indiecs_des_lk">
+        <item></item>
+        <item>路面比較乾燥，路況較好。</item>
+        <item>部分路面潮濕，車輛易打滑，請小心駕駛。</item>
+        <item>部分路面濕滑，車輛易打滑，請保持車距，減慢車速，小心駕駛。</item>
+        <item>路面將會有積雪，路況較差，請小心行駛。</item>
+        <item>路面將會有積冰，請儘量避免外出，駕車請提高警惕。</item>
+    </string-array>
+    <string-array name="indiecs_des_ly">
+        <item></item>
+        <item>明媚陽和微風伴您一路同行，適宜旅遊。</item>
+        <item>雖然會多雲或有風，但仍是出行遊玩的好時機，較適宜旅遊。</item>
+        <item>可能出現陰天、大風、陣雨或沙塵等天氣，將會給出行帶來一些不便，旅遊指數一般。</item>
+        <item>可能出現雨雪，強風，大霧等天氣，人體在戶外會感覺不舒適，將會給出行帶來很多不便，較不適宜出遊。</item>
+        <item>可能出現較大的雨雪，強風，凍雨，沙塵暴等天氣，對出行造成一定困難，不適宜旅遊。</item>
+    </string-array>
+    <string-array name="indiecs_des_mf">
+        <item></item>
+        <item>各項氣象條件都適宜美髮，這為您的頭髮創造一個健康、潔淨的生長環境。</item>
+        <item>有某項氣象因素會影響您的秀髮生長，請注意保養。</item>
+        <item>氣象條件對美髮有一定影響，注意保養您的美髮，細心呵護！</item>
+    </string-array>
+    <string-array name="indiecs_des_pj">
+        <item></item>
+        <item>請儘量少飲用啤酒，可喝些常溫啤酒。</item>
+        <item>天氣比較涼爽，建議飲用常溫啤酒，並少量飲用為好。</item>
+        <item>適量的飲用啤酒，但酒量要控制在五至六成比較合適。</item>
+        <item>天氣炎熱，飲用啤酒會給您帶來清涼的感覺，要控制在六到七成。</item>
+        <item>悶熱的天氣可能會增加您對冰鎮啤酒的渴望，注意不要貪杯呦！</item>
+    </string-array>
+    <string-array name="indiecs_des_ssd">
+        <item>白天不太熱也不太冷，風力不大，會感到比較清爽和舒適。</item>
+        <item>暖，會感到有點兒悶熱，但大部分人仍會有比較舒適的感覺。</item>
+        <item>熱，會感到有些熱，較不舒適。</item>
+        <item>很熱，會感到很悶熱，很不舒適。</item>
+        <item>酷熱，會感到酷熱難耐，極為不適，請注意防暑降溫。</item>
+        <item>白天不太熱也不太冷，風力不大，會感到比較清爽和舒適。</item>
+        <item>涼，早晚會感覺偏涼，但大部分人仍會有比較舒適的感覺。</item>
+        <item>冷，感覺偏冷，不很舒適，請注意添加衣物，以防感冒。</item>
+        <item>寒冷，感覺很冷，不舒適，請注意保暖防寒。</item>
+        <item>十分寒冷，感覺十分寒冷，極不舒適，請注意保暖防寒。</item>
+    </string-array>
+    <string-array name="indiecs_des_xc">
+        <item></item>
+        <item>適宜洗車，未來持續兩天無雨天氣較好，適合擦洗汽車。</item>
+        <item>較適宜洗車，未來一天無雨，風力較小，較適合擦洗汽車。</item>
+        <item>較不宜洗車，擦洗一新的汽車可能會蒙上污垢。</item>
+        <item>不宜洗車，路上的泥水可能會再次弄髒您的愛車。</item>
+    </string-array>
+    <string-array name="indiecs_des_xq">
+        <item></item>
+        <item>天氣晴朗，陽光燦爛，空氣溫潤，和風飄飄，美好的天氣會帶來一天接踵而來的好心情。</item>
+        <item>溫度舒適，您會覺得精神振奮，意氣風發，心情舒暢。</item>
+        <item>天氣陰沉或有霧，會感覺莫名的壓抑，情緒低落。</item>
+        <item>天氣陰沉有雨或有沙塵，悶熱潮濕的空氣會讓人感到胸悶，心情糟糕。</item>
+    </string-array>
+    <string-array name="indiecs_des_ysh">
+        <item></item>
+        <item>天氣晴朗，你可以盡情外出享受夜生活的樂趣，不用擔心天氣會來搗亂。</item>
+        <item>雖然有風或有雨雪天氣出現，但只要提前有所準備，您仍然可以享受夜生活的樂趣。</item>
+        <item>天氣會使人體在戶外感覺不舒適，建議夜生活最好在室內進行。</item>
+    </string-array>
+    <string-array name="indiecs_des_ys">
+        <item></item>
+        <item>降水概率很低，因此您在出門的時候無須帶雨傘。</item>
+        <item>將有陣雨或陣雪，如果您要短時間外出的話可不必帶雨傘。</item>
+        <item>有小雨或小雪或中雪，在短時間外出可收起雨傘，但最好還是帶上雨傘。</item>
+        <item>會有較大的雨雪天氣，您在外出的時候一定要帶雨傘，以免被雨水淋濕。</item>
+    </string-array>
+    <string-array name="indiecs_des_yh">
+        <item></item>
+        <item>天氣晴朗，風和日麗，適宜與情人約會。</item>
+        <item>天氣不會有太大的影響，你仍然可以有一個愉快的約會。</item>
+        <item>會有影響人體舒適的不好天氣出現，室外約會可能會讓戀人們受些苦，最好在溫暖的室內促膝談心。</item>
+        <item>天氣會對人體有較大影響，外出約會還可能會敗興而歸，男士請別約美眉逛街。</item>
+    </string-array>
+    <string-array name="indiecs_des_yd">
+        <item></item>
+        <item>天氣較好，且紫外線輻射不強，適宜戶外運動。</item>
+        <item>較適宜在戶內低強度運動，戶外運動需防曬避風。</item>
+        <item>受大風，氣壓，強紫外線，過高或過低的氣溫等天氣影響，較不宜運動。</item>
+    </string-array>
+    <string-array name="indiecs_des_zs">
+        <item>溫度不高，其他各項氣象條件適宜，中暑機率極低。</item>
+        <item>氣溫偏高，有可能中暑，體質較弱的朋友請注意防暑降溫，避免長時間在日光下暴曬或在高溫環境中工作。</item>
+        <item>氣溫較高，較易中暑，體弱者請避免長時間在日光下暴曬或在高溫環境中工作。</item>
+        <item>氣溫很高，熱氣逼人，容易中暑，請注意防暑降溫，避免長時間在日光下暴曬或在高溫環境中工作。</item>
+        <item>氣溫極高，熱浪滾滾，極易中暑，請注意防暑降溫，避免在高溫環境中工作。</item>
+    </string-array>
+    <string-array name="indiecs_des_zwx">
+        <item></item>
+        <item>屬弱紫外線輻射天氣，無需特別防護。若長期在戶外，建議塗擦SPF在8-12之間的防曬護膚品。</item>
+        <item>紫外線強度較弱，建議出門前塗擦SPF在12-15之間、PA+的防曬護膚品。</item>
+        <item>屬中等強度紫外線輻射天氣，外出時建議塗擦SPF高於15、PA+的防曬護膚品，戴帽子、太陽鏡。</item>
+        <item>紫外線輻射強，建議塗擦SPF20左右、PA++的防曬護膚品。避免在10點至14點暴露於日光下。</item>
+        <item>紫外線輻射極強，建議塗擦SPF20以上、PA++的防曬護膚品，儘量避免暴露於日光下。</item>
+    </string-array>
+    <string-array name="indices_brief_zwx">
+        <item></item>
+        <item>最弱</item>
+        <item>弱</item>
+        <item>中等</item>
+        <item>強</item>
+        <item>很強</item>
+    </string-array>
+    <string-array name="indices_brief_cl">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>較不宜</item>
+        <item>不適宜</item>
+    </string-array>
+    <string-array name="indices_brief_cy">
+        <item></item>
+        <item>炎熱</item>
+        <item>熱舒適</item>
+        <item>舒適</item>
+        <item>涼舒適</item>
+        <item>溫涼</item>
+        <item>涼</item>
+        <item>冷</item>
+        <item>寒冷</item>
+    </string-array>
+    <string-array name="indices_brief_dy">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>不適宜</item>
+    </string-array>
+    <string-array name="indices_brief_ffz">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>不宜</item>
+    </string-array>
+    <string-array name="indices_brief_fs">
+        <item></item>
+        <item>弱</item>
+        <item>較弱</item>
+        <item>中等</item>
+        <item>強</item>
+        <item>極強</item>
+    </string-array>
+    <string-array name="indices_brief_fh">
+        <item></item>
+        <item>涼</item>
+        <item>冷</item>
+        <item>寒冷</item>
+        <item>非常寒冷</item>
+        <item>嚴寒</item>
+        <item>冰凍嚴寒</item>
+        <item>暖</item>
+        <item>暖</item>
+    </string-array>
+    <string-array name="indices_brief_gm">
+        <item></item>
+        <item>少發</item>
+        <item>較易發</item>
+        <item>易發</item>
+        <item>極易發</item>
+    </string-array>
+    <string-array name="indices_brief_gj">
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>較不宜</item>
+        <item>不適宜</item>
+    </string-array>
+    <string-array name="indices_brief_hc">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>不適宜</item>
+    </string-array>
+    <string-array name="indices_brief_hz">
+        <item></item>
+        <item>保濕、防皸裂</item>
+        <item>保濕</item>
+        <item>控油</item>
+        <item>防曬、補水</item>
+    </string-array>
+    <string-array name="indices_brief_jt">
+        <item></item>
+        <item>良好</item>
+        <item>較好</item>
+        <item>一般</item>
+        <item>較差</item>
+        <item>很差</item>
+    </string-array>
+    <string-array name="indices_brief_kqwr">
+        <item></item>
+        <item>優</item>
+        <item>良</item>
+        <item>中</item>
+        <item>較差</item>
+        <item>差</item>
+    </string-array>
+    <string-array name="indices_brief_kt">
+        <item></item>
+        <item>長時開啟</item>
+        <item>適時開啟</item>
+        <item>短時開啟</item>
+        <item>較少開啟</item>
+        <item>開啟制暖</item>
+    </string-array>
+    <string-array name="indices_brief_ls">
+        <item></item>
+        <item>極適宜</item>
+        <item>適宜</item>
+        <item>基本適宜</item>
+        <item>不太適宜</item>
+        <item>不適宜</item>
+    </string-array>
+    <string-array name="indices_brief_lk">
+        <item></item>
+        <item>乾燥</item>
+        <item>潮濕</item>
+        <item>濕滑</item>
+        <item>積雪</item>
+        <item>積冰</item>
+    </string-array>
+    <string-array name="indices_brief_ly">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>一般</item>
+        <item>較不宜</item>
+        <item>不適宜</item>
+    </string-array>
+    <string-array name="indices_brief_mf">
+        <item></item>
+        <item>極適宜</item>
+        <item>適宜</item>
+        <item>一般</item>
+    </string-array>
+    <string-array name="indices_brief_pj">
+        <item></item>
+        <item>不適宜</item>
+        <item>較不適宜</item>
+        <item>較適宜</item>
+        <item>適宜</item>
+        <item>極適宜</item>
+    </string-array>
+    <string-array name="indices_brief_ssd">
+        <item>舒適</item>
+        <item>較舒適</item>
+        <item>較不舒適</item>
+        <item>很不舒適</item>
+        <item>極不舒適</item>
+        <item>舒適</item>
+        <item>較舒適</item>
+        <item>較不舒適</item>
+        <item>很不舒適</item>
+        <item>極不舒適</item>
+    </string-array>
+    <string-array name="indices_brief_xc">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>較不宜</item>
+        <item>不宜</item>
+    </string-array>
+    <string-array name="indices_brief_xq">
+        <item></item>
+        <item>好</item>
+        <item>較好</item>
+        <item>較差</item>
+        <item>差</item>
+    </string-array>
+    <string-array name="indices_brief_ysh">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>較不宜</item>
+    </string-array>
+    <string-array name="indices_brief_ys">
+        <item></item>
+        <item>不帶傘</item>
+        <item>帶傘</item>
+        <item>帶傘</item>
+        <item>帶傘</item>
+    </string-array>
+    <string-array name="indices_brief_yh">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>較不適宜</item>
+        <item>不適宜</item>
+    </string-array>
+    <string-array name="indices_brief_yd">
+        <item></item>
+        <item>適宜</item>
+        <item>較適宜</item>
+        <item>較不宜</item>
+    </string-array>
+    <string-array name="indices_brief_zs">
+        <item>無</item>
+        <item>少發</item>
+        <item>較易</item>
+        <item>容易</item>
+        <item>極易</item>
+    </string-array>
+    <string-array name="anniversaries_array">
+        <item>百度網盤分享</item>
+        <item>多社區無縫分享</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>短信分享</item>
+        <item>多社區無縫分享</item>
+    </string-array>
+</resources>

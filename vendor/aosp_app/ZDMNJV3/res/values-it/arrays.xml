@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_days">
+        <item>domenica</item>
+        <item>lunedì</item>
+        <item>martedì</item>
+        <item>mercoledì</item>
+        <item>giovedì</item>
+        <item>venerdì</item>
+        <item>sabato</item>
+    </string-array>
+</resources>

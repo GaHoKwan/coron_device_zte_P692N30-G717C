@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height" android:minHeight="@dimen/list_item_2line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <ImageView android:id="@id/app_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+        <TextView android:ellipsize="end" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/main_dark_17sp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/app_traffics" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/light_grey_12sp" />
+            <TextView android:id="@id/app_traffics_blank" android:layout_width="2.0dip" android:layout_height="wrap_content" style="@style/light_grey_12sp" />
+            <TextView android:id="@id/app_traffics2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/light_grey_12sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.zte.heartyservice.common.datatype.P3Switch android:id="@id/permission_icon" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_marginRight="10.0dip" />
+    <com.zte.heartyservice.common.datatype.P3SwitchforWifi android:id="@id/wifi_permission_icon" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_marginRight="10.0dip" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/camera_shutter" style="@style/ShutterGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateImageView android:layout_gravity="center" android:id="@id/btn_cancel" android:src="@drawable/btn_cancel" android:contentDescription="@*android:string/cancel" style="@style/ShutterButton" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/warning_list_rootview" android:background="#ff323232" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/warning_listview" android:background="@*android:color/transparent" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@*android:color/transparent" android:divider="@*android:color/transparent" android:dividerHeight="6.0dip" />
+    <ProgressBar android:id="@id/warning_list_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

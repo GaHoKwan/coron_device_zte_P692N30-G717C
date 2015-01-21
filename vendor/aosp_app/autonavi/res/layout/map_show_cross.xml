@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/map_show_cross_title" android:background="@drawable/titlelbar_nav_bg" android:layout_width="fill_parent" android:layout_height="@dimen/map_titlebar_height">
+        <ImageButton android:id="@id/map_show_cross_title_back" android:background="@drawable/gdtitle_back" android:paddingLeft="@dimen/map_titlebar_item_margin" android:paddingRight="@dimen/map_titlebar_item_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_btn_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/map_show_cross_title_right" android:background="@drawable/gdtitle_back" android:paddingLeft="@dimen/map_titlebar_item_margin" android:paddingRight="@dimen/map_titlebar_item_margin" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_btn_back" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/map_show_cross_title_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mapsp_title_name" android:layout_toLeftOf="@id/map_sp_title_right" android:layout_toRightOf="@id/map_sp_title_back" />
+    </RelativeLayout>
+    <include android:id="@id/map_toolbar_showcross_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/map_toolbar_showcross" />
+</RelativeLayout>

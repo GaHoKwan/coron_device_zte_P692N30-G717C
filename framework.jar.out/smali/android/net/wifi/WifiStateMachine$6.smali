@@ -208,7 +208,7 @@
 
     move-result-object v4
 
-    const v5, 0x10e000b
+    const v5, #android:integer@config_wifi_supplicant_scan_interval#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getInteger(I)I
 

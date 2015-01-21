@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_days">
+        <item>Yakshanba</item>
+        <item>Dushanba</item>
+        <item>Seshanba</item>
+        <item>Chorshanba</item>
+        <item>Payshanba</item>
+        <item>Juma</item>
+        <item>Shanba</item>
+    </string-array>
+</resources>

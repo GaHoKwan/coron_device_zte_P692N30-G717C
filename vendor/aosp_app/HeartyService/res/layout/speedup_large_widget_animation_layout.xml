@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="@dimen/widget_width_large" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="18.0">
+                <ImageView android:layout_gravity="center" android:visibility="invisible" android:layout_width="@dimen/widget_icon_height_large" android:layout_height="@dimen/widget_icon_height_large" android:src="@drawable/accelerrate_bg" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/text_size_16dp_num" android:textColor="@color/widget_text_color_selector" android:id="@id/mem_widget_percent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/image_progress_widget" android:layout_width="@dimen/mem_widget_anim_radius_large" android:layout_height="@dimen/mem_widget_anim_radius_large" android:src="@drawable/accelerrate_circle" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:ellipsize="marquee" android:gravity="center" android:id="@id/mem_widget_txt" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/widget_title_1" android:singleLine="true" android:layout_weight="8.0" style="@style/widget_light_grey_10sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

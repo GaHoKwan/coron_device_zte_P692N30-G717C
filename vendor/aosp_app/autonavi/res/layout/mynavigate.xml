@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autonavi.xmgd.user.GDMyNavigateTitle android:id="@id/title_mynavigate" android:layout_width="fill_parent" android:layout_height="@dimen/gdtitle_height" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_height">
+        <Button android:textSize="@dimen/viewpager_textsize" android:gravity="center" android:id="@id/mynavigate_favorite" android:background="@drawable/tab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/title_name_favorite" android:singleLine="true" android:layout_weight="3.0" />
+        <Button android:textSize="@dimen/viewpager_textsize" android:gravity="center" android:id="@id/mynavigate_history" android:background="@drawable/tab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/title_name_history" android:singleLine="true" android:layout_weight="3.0" />
+        <Button android:textSize="@dimen/viewpager_textsize" android:gravity="center" android:id="@id/mynavigate_dsp" android:background="@drawable/tab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/title_name_dsp" android:singleLine="true" android:layout_weight="3.0" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@id/mynavigate_viewpager" android:persistentDrawingCache="animation" android:layout_width="wrap_content" android:layout_height="0.0dip" android:flipInterval="30" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mynavigate_sync" android:background="#ff75b8f1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/search_area_height">
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/ic_mynav_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/menu_item_icon_marginleft" />
+        <TextView android:textSize="@dimen/search_area_textsize" android:textColor="@color/search_area_textcolor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/mynavigate_sync_text" android:paddingLeft="@dimen/menu_item_text_paddingleft" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mynavigate_sync_to_cloud" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:textColor="@color/search_area_textcolor" android:id="@id/mynavigate_bt_sync" android:background="@drawable/btn_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="@string/mynavigate_sync" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gdaccount_button_style" />
+    </LinearLayout>
+</LinearLayout>

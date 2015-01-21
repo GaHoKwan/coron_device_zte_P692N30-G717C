@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_strange_call_preference">
+        <item>拦截</item>
+        <item>不拦截</item>
+    </string-array>
+    <string-array name="entryvalues_strange_call_preference">
+        <item>unknown_call_block</item>
+        <item>unknown_call_unblock</item>
+    </string-array>
+    <string-array name="entries_strange_message_preference">
+        <item>拦截</item>
+        <item>不拦截</item>
+    </string-array>
+    <string-array name="entryvalues_strange_message_preference">
+        <item>unknown_mms_block</item>
+        <item>unknown_mms_unblock</item>
+    </string-array>
+    <string-array name="entries_holdoff_mode_preference">
+        <item>回复为挂机</item>
+        <item>回复为停机</item>
+        <item>回复为空号</item>
+        <item>回复为关机</item>
+    </string-array>
+    <string-array name="entryvalues_holdoff_mode_preference">
+        <item>holdoff_default</item>
+        <item>holdoff_stop</item>
+        <item>holdoff_invalid</item>
+        <item>holdoff_close</item>
+    </string-array>
+    <string-array name="entries_screen_off_time_preference">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>10分钟</item>
+        <item>从不待机</item>
+    </string-array>
+    <string-array name="value_screen_off_time_preference">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>600000</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="entries_wifi_auto_close_time_preference">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>3分钟</item>
+        <item>5分钟</item>
+    </string-array>
+    <string-array name="value_wifi_auto_close_time_preference">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>180000</item>
+        <item>300000</item>
+    </string-array>
+    <string-array name="entries_wifi_auto_close_signal_preference">
+        <item>5%</item>
+        <item>15%</item>
+        <item>30%</item>
+        <item>45%</item>
+    </string-array>
+    <string-array name="value_wifi_auto_close_signal_preference">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="entries_wifi_auto_close_screen_time">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+    </string-array>
+    <string-array name="value_wifi_auto_close_screen_time">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+    <string-array name="entries_bluetooth_check_time">
+        <item>5分钟</item>
+        <item>8分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+    </string-array>
+    <string-array name="values_bluetooth_check_time">
+        <item>300000</item>
+        <item>480000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="entries_bluetooth_setting">
+        <item>若附近没有其他装置则关闭</item>
+        <item>若附近没有已配对装置则关闭</item>
+        <item>若没有连接到其他装置则关闭</item>
+        <item>不停用</item>
+    </string-array>
+    <string-array name="wifi_auto_close_names">
+        <item>连接超时</item>
+        <item>信号低于5%时</item>
+        <item>屏幕关闭时</item>
+    </string-array>
+    <string-array name="wifi_auto_open_names">
+        <item>充电时</item>
+        <item>屏幕点亮时</item>
+    </string-array>
+    <string-array name="network_auto_open_names">
+        <item>充电时</item>
+        <item>屏幕点亮时</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>无动画</item>
+        <item>显示部分动画</item>
+        <item>显示所有窗口动画</item>
+    </string-array>
+    <string-array name="animations_values">
+        <item>00</item>
+        <item>01</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="entries_check_update_preference">
+        <item>软件版本</item>
+        <item>归属地</item>
+        <item>智能拦截库</item>
+    </string-array>
+    <string-array name="entryvalues_check_update_preference">
+        <item>check_version</item>
+        <item>check_location</item>
+        <item>check_sms_checker</item>
+    </string-array>
+    <string-array name="select_mode">
+        <item>拦截电话</item>
+        <item>拦截信息</item>
+    </string-array>
+    <string-array name="add_mode">
+        <item>手动添加</item>
+        <item>从已有联系人添加</item>
+        <item>从通话记录添加</item>
+        <item>从短信列表添加</item>
+    </string-array>
+    <string-array name="add_white_mode">
+        <item>手动添加</item>
+        <item>从已有联系人添加</item>
+        <item>从通话记录添加</item>
+        <item>从短信列表添加</item>
+        <item>选择群组</item>
+    </string-array>
+    <string-array name="del_contact">
+        <item>删除所有黑名单联系人</item>
+        <item>删除所有白名单联系人</item>
+        <item>删除所有黑白名单联系人</item>
+    </string-array>
+    <string-array name="entries_attention_mode_preference">
+        <item>无提醒</item>
+        <item>通知栏提醒</item>
+        <item>短信铃声提醒</item>
+        <item>通知栏+短信铃声</item>
+        <item>振动提醒</item>
+        <item>通知栏+振动</item>
+        <item>振动+短信铃声</item>
+    </string-array>
+    <string-array name="entryvalues_7">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="entryvalues_6">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="entryvalues_4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="entryvalues_3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entryvalues_2">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="filter_mode_entries_1">
+        <item>接受</item>
+        <item>拦截</item>
+    </string-array>
+    <string-array name="filter_mode_entries_2">
+        <item>接受</item>
+        <item>忽略</item>
+    </string-array>
+    <string-array name="filter_mode_entries_3">
+        <item>开启</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="filter_mode_entries_4">
+        <item>拦截</item>
+        <item>忽略</item>
+    </string-array>
+    <string-array name="secure_call_mode">
+        <item>正常接听</item>
+        <item>来电挂断</item>
+        <item>来电挂断并回复短信</item>
+    </string-array>
+    <string-array name="secure_call_mode_dualsim">
+        <item>正常接听</item>
+        <item>来电挂断</item>
+    </string-array>
+    <string-array name="secure_call_notice_mode_1">
+        <item>静音</item>
+        <item>电话铃声</item>
+        <item>振动</item>
+    </string-array>
+    <string-array name="secure_call_notice_mode_2">
+        <item>无提醒</item>
+        <item>响一声</item>
+        <item>通知栏提醒</item>
+        <item>通知栏+响一声</item>
+    </string-array>
+    <string-array name="entries_auto_ipcall_preference">
+        <item>拨打长途时</item>
+        <item>拨打所有号码时</item>
+    </string-array>
+    <string-array name="entryvalues_auto_ipcall_preference">
+        <item>call_long_number</item>
+        <item>call_all_number</item>
+    </string-array>
+    <string-array name="entryvalues_icon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entry_apn_type">
+        <item>Net</item>
+        <item>Wap</item>
+    </string-array>
+    <string-array name="entryvalues_apn_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entry_screenshot_type">
+        <item>通知栏截屏</item>
+        <item>摇晃截屏</item>
+    </string-array>
+    <string-array name="entryvalues_screenshot_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entry_screenshot_format">
+        <item>PNG</item>
+        <item>JPEG</item>
+    </string-array>
+    <string-array name="entryvalues_screenshot_format">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entry_screenshot_quality">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="entryvalues_screenshot_quality">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="protect_tip">
+        <item>提示所有操作</item>
+        <item>提示拒绝的操作</item>
+        <item>提示允许的操作</item>
+        <item>只记录，不提示</item>
+    </string-array>
+    <string-array name="second_miao_tip">
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+    </string-array>
+    <string-array name="intercept_operator_sms">
+        <item>恢复到系统短信</item>
+        <item>呼叫</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="intercept_operator_call">
+        <item>恢复到系统电话</item>
+        <item>呼叫</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="operator">
+        <item>拒绝</item>
+        <item>允许</item>
+    </string-array>
+    <string-array name="timed_task_list">
+        <item>定时拦截模式</item>
+        <item>定时情景模式</item>
+        <item>定时开关软件</item>
+    </string-array>
+    <string-array name="operator_chose">
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国电信</item>
+    </string-array>
+    <string-array name="account_type">
+        <item>网站</item>
+        <item>邮箱</item>
+        <item>游戏</item>
+        <item>聊天</item>
+        <item>银行</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="reject_type">
+        <item>拒收短信</item>
+        <item>拒绝语音呼叫</item>
+    </string-array>
+    <string-array name="add_type">
+        <item>添加到黑名单</item>
+        <item>添加到白名单</item>
+    </string-array>
+    <string-array name="disguise_add_mode">
+        <item>手动添加</item>
+        <item>从联系人添加</item>
+    </string-array>
+    <string-array name="delete_mode">
+        <item>恢复记录到本地</item>
+        <item>彻底删除记录</item>
+    </string-array>
+    <string-array name="delete_contact_mode">
+        <item>恢复记录到本地</item>
+        <item>保留记录在隐私空间</item>
+        <item>彻底删除记录</item>
+    </string-array>
+    <string-array name="memory_level_entries">
+        <item>20%</item>
+        <item>15%</item>
+        <item>10%</item>
+    </string-array>
+    <integer-array name="memory_level_values">
+        <item>20</item>
+        <item>15</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="statics_type">
+        <item>软件耗电</item>
+        <item>硬件耗电</item>
+    </string-array>
+    <string-array name="timeout_array">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+    </string-array>
+    <string-array name="timeout_array_value">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="status_bar_showing_setting">
+        <item>始终显示</item>
+        <item>有提示信息时显示</item>
+    </string-array>
+    <string-array name="summary_notes">
+        <item>定期进行体检，可以很好地保障您的手机系统运行稳定和高效。</item>
+        <item>为了更好地保护和管理您的手机，建议您将手机助手设置为开机启动。</item>
+        <item>在手机助手的智能设置中可以根据您的习惯进行智能化管理设定。</item>
+        <item>个人的私密文件、图片、视频等请放入隐私空间进行保存。</item>
+        <item>启用手机防盗功能可以在您不慎遗失手机后发挥巨大的作用。</item>
+        <item>要充分保护个人隐私信息，请进入敏感行为监控中对所有应用进行管理吧。</item>
+        <item>要节约更多的存储空间，建议您定期使用手机加速中的垃圾清理功能，可以有效地提高手机和SD卡存储空间的使用效率。</item>
+        <item>您可以在流量监控中的应用上网页面对应用的上网功能进行管控，节省您的上网流量。</item>
+        <item>如果您发现在手机状态栏不时出现让人厌烦的广告消息时，请使用广告拦截功能来有效地阻止它们吧。</item>
+        <item>在省电管理中的设置菜单开启智能省电功能，可以有效地提升您手机的续航时间。</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffeeeeee" android:ellipsize="marquee" android:gravity="left" android:id="@id/current_path" android:background="#ff333333" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" />
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bluetooth_ftp_client_empty_folder" />
+</LinearLayout>

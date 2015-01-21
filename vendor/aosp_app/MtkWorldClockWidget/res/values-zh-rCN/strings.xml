@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="month_day_no_year">M 月 d 日</string>
+    <string name="app_name">世界时钟</string>
+    <string name="current_time_text">本地时间</string>
+    <string name="another_city_text">添加</string>
+    <string name="ime_action_done">完成</string>
+    <string name="a_city_selected">已选择一个城市</string>
+    <string name="search_city">查找城市</string>
+    <string name="next">下一步</string>
+    <string name="select_right_city">抱歉，没有这个城市.</string>
+    <string name="clock_loading">加载中…</string>
+    <string name="add_city">点击图标添加城市</string>
+    <string name="add_new_city">添加新城市</string>
+    <string name="delete_city">删除城市</string>
+    <string name="delete_city_info">将会删除此城市</string>
+    <string name="has_chosen">已经被选择</string>
+    <string name="deleteok">删除</string>
+    <string name="cancel">取消</string>
+</resources>

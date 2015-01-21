@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    const v1, 0x10900e8
+    const v1, #android:layout@webview_find#t
 
     const/4 v2, 0x0
 
@@ -83,7 +83,7 @@
     .line 52
     iget-object v0, p0, Landroid/webkit/FindActionModeCallback;->mCustomView:Landroid/view/View;
 
-    const v1, 0x1020003
+    const v1, #android:id@edit#t
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -115,7 +115,7 @@
     .line 57
     iget-object v0, p0, Landroid/webkit/FindActionModeCallback;->mCustomView:Landroid/view/View;
 
-    const v1, 0x10203bd
+    const v1, #android:id@matches#t
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -211,7 +211,7 @@
     .line 173
     iget-object v0, p0, Landroid/webkit/FindActionModeCallback;->mMatches:Landroid/widget/TextView;
 
-    const v1, 0x104049e
+    const v1, #android:string@no_matches#t
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -230,7 +230,7 @@
 
     iget-object v1, p0, Landroid/webkit/FindActionModeCallback;->mResources:Landroid/content/res/Resources;
 
-    const v2, 0x1130016
+    const v2, #android:plurals@matches_found#t
 
     iget v3, p0, Landroid/webkit/FindActionModeCallback;->mNumberOfMatches:I
 
@@ -511,7 +511,7 @@
 
     .line 239
     :pswitch_data_0
-    .packed-switch 0x10203d1
+    .packed-switch #android:id@find_prev#t
         :pswitch_0
         :pswitch_1
     .end packed-switch
@@ -561,12 +561,12 @@
 
     move-result-object v4
 
-    const v5, 0x1140001
+    const v5, #android:menu@webview_find#t
 
     invoke-virtual {v4, v5, p2}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
 
     .line 205
-    const v4, 0x10203d1
+    const v4, #android:id@find_prev#t
 
     invoke-interface {p2, v4}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -574,7 +574,7 @@
 
     .line 206
     .local v2, itemPrev:Landroid/view/MenuItem;
-    const v4, 0x10203d2
+    const v4, #android:id@find_next#t
 
     invoke-interface {p2, v4}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 

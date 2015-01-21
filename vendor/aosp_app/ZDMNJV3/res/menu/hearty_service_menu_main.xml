@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_check_new_from_server" android:title="@string/menu_check_new_from_server" android:showAsAction="always" android:actionLayout="@layout/hearty_service_customed_menu_item" />
+    <item android:id="@id/menu_status" android:title="@string/menu_status" android:showAsAction="never" />
+    <item android:id="@id/menu_update_settings" android:title="@string/menu_update_settings" android:showAsAction="never" />
+</menu>

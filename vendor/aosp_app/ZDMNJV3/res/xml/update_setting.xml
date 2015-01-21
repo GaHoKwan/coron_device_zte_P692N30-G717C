@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dm_update_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/wifi_auto_update_switch_title" android:key="@string/wifi_auto_update_switch_key" android:summaryOn="@string/wifi_auto_update_switch_summary_off" android:summaryOff="@string/wifi_auto_update_switch_summary_on" />
+    <CheckBoxPreference android:title="@string/cmcc_wifi_auto_update_switch_title" android:key="@string/cmcc_wifi_auto_update_switch_key" android:summaryOn="@string/cmcc_wifi_auto_update_switch_summary_off" android:summaryOff="@string/cmcc_wifi_auto_update_switch_summary_on" />
+</PreferenceScreen>

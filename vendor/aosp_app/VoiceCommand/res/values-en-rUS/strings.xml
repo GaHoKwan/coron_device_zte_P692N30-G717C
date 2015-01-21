@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="voice_ui_camera_command_title">Voice control for Camera</string>
+    <string name="voice_ui_phone_command_title">Voice control for Phone</string>
+    <string name="voice_ui_alarm_command_title">Voice control for Alarm</string>
+    <string name="voice_ui_title">Voice control</string>
+    <string name="voice_ui_app_category">For apps</string>
+    <string name="voice_ui_setting_category">settings</string>
+    <string name="voice_ui_language_title">Language for Voice Control</string>
+    <string name="incoming_call_app_name">Phone</string>
+    <string name="alarm_app_name">Alarms</string>
+    <string name="camera_app_name">Camera</string>
+    <string name="music_app_name">Music</string>
+    <string name="incomming_command_summary_format">You can say %1$s or %2$s to answer or reject incomming calls.</string>
+    <string name="alarm_command_summary_format">You can say %1$s or %2$s to control the alarm.</string>
+    <string name="camera_command_summary_format">You can say %1$s or %2$s to capture.</string>
+    <string name="music_command_summary_format">You can say %1$s and %2$s to control music playing.</string>
+    <string name="voice_ui_commands">COMMANDS</string>
+    <string name="voice_ui_command_title_format">Voice control for %1$s</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_2line_height">96.0px</dimen>
+    <dimen name="power_progressbar_height">10.0px</dimen>
+    <dimen name="downlist_progressBar_width">160.0dip</dimen>
+    <dimen name="downlist_progressBar_tm">5.0dip</dimen>
+</resources>

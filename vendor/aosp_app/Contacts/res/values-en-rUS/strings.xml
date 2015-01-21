@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_too_long">Email is too long</string>
+    <string name="group_discard_member_reason">The modifications will be discarded because the group name is invalid.</string>
+    <string name="deleteCallLogConfirmation_title">Delete call log(s)?</string>
+    <string name="deleteCallLogConfirmation_message">Are you sure to delete the selected call log(s)?</string>
+    <string name="delete_group_failure">Failed to delete group.</string>
+    <string name="account_type_uim_label">UIM-only, unsynced</string>
+    <string name="import_no_vcard_dialog_text">No vCard file found in %s</string>
+    <string name="look_simstorage">View SIM Card Capacity</string>
+    <string name="dlg_simstorage_content" formatted="false">phone number book Storage Capacity %d,has been used %d.</string>
+    <string name="contact_group_list_title">Choose target group</string>
+    <string name="add_contact_dlg_title">Add contact</string>
+    <string name="deleteConfirmation_title">Delete contact?</string>
+    <string name="nickname_too_long">Nickname is too long.</string>
+    <string name="pick_new_photo_from_gallery">Select new photo</string>
+    <string name="copy_text_to_dialer">Copy to dialer</string>
+    <string name="account_phone_only">Phone contact</string>
+    <string name="share_too_large">Total data exceeds upper limit, please deselect some items and try again.</string>
+    <string name="name_given">First name</string>
+    <string name="name_family">Last name</string>
+    <string name="display_options_sort_by_given_name">First name</string>
+    <string name="display_options_sort_by_family_name">Last name</string>
+    <string name="display_options_view_given_name_first">First name first</string>
+    <string name="display_options_view_family_name_first">Last name first</string>
+    <string name="import_no_vcard_dialog_title">"Couldn't scan %s"</string>
+    <string name="local_device_account_name">Device</string>
+</resources>

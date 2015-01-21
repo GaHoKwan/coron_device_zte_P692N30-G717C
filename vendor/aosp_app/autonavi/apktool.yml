@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: autonavi.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '14'
+packageInfo:
+  cur_package: com.autonavi.xmgd.navigator.tob
+  orig_package: com.autonavi.xmgd.navigator.tob
+compressionType: false

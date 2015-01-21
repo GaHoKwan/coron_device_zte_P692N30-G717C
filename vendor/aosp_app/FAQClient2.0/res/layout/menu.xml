@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_home" android:background="@drawable/menu_di2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="top|center" android:background="@drawable/icq_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/menu_home_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_search" android:background="@drawable/menu_di" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="top|center" android:background="@drawable/icq_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/menu_search_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_type" android:background="@drawable/menu_di" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="top|center" android:background="@drawable/icq_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/menu_type_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_favority" android:background="@drawable/menu_di" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="top|center" android:background="@drawable/icq_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/menu_favority_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_setting" android:background="@drawable/menu_di" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="top|center" android:background="@drawable/suggest_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/menu_setting_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

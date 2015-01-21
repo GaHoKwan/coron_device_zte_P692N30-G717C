@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView2_hue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:text="@string/number_zero" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <TextView android:id="@id/textView_hue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:text="@string/number_zero" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:gravity="center" android:id="@id/textView_hue_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:text="@string/number_zero" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/textView3_saturation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:text="@string/number_zero" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <TextView android:id="@id/textView_saturation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:text="@string/number_zero" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:gravity="center" android:id="@id/textView_saturation_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/number_zero" android:layout_below="@id/seekBar_saturation" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+</AbsoluteLayout>

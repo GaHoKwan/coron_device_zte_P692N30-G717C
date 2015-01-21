@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <RadioGroup android:gravity="center" android:id="@id/callLogGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/callLog_to_local" android:checked="true" android:text="@string/record_to_local" style="@style/privacy_radio_dlg" />
+        <RadioButton android:id="@id/callLog_to_delete" android:text="@string/record_to_delete" style="@style/privacy_radio_dlg" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relative" android:background="@drawable/bj" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/back" android:background="@null" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/back_p" android:scaleType="fitXY" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/back" android:layout_centerVertical="true" />
+</RelativeLayout>

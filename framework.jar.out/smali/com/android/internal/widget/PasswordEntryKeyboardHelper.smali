@@ -219,11 +219,11 @@
     .line 65
     :array_0
     .array-data 0x4
-        0x5t 0x0t 0xft 0x1t
-        0x7t 0x0t 0xft 0x1t
-        0x8t 0x0t 0xft 0x1t
-        0x9t 0x0t 0xft 0x1t
-        0xat 0x0t 0xft 0x1t
+        #android:xml@password_kbd_numeric#a
+        #android:xml@password_kbd_qwerty#a
+        #android:xml@password_kbd_qwerty_shifted#a
+        #android:xml@password_kbd_symbols#a
+        #android:xml@password_kbd_symbols_shift#a
     .end array-data
 .end method
 
@@ -231,7 +231,7 @@
     .locals 6
 
     .prologue
-    const v5, 0x10203cc
+    const v5, #android:id@mode_normal#t
 
     const/4 v4, 0x1
 
@@ -348,7 +348,7 @@
     .parameter "height"
 
     .prologue
-    const v3, 0x10203cc
+    const v3, #android:id@mode_normal#t
 
     const/4 v6, 0x1
 

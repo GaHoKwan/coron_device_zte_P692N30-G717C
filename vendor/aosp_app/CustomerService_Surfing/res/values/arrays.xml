@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_selectmode">
+        <item>wap</item>
+        <item>SMS</item>
+    </string-array>
+    <string-array name="items_selectSubscription">
+        <item>Check subscribed services</item>
+        <item>Unsubscribe services</item>
+    </string-array>
+    <string-array name="items_zteHotline">
+        <item>Hotline introduction</item>
+        <item>0755-26779999</item>
+        <item>400-880-9999</item>
+    </string-array>
+</resources>

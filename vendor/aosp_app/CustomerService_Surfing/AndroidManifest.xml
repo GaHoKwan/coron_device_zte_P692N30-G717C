@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="zte.com.cn.customerservice_surfing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name" android:icon="@drawable/kefu">
+        <activity android:label="@string/app_name" android:name=".CustomerService_Surfing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/globalhotline" android:name=".Globalhotline" />
+        <activity android:label="@string/zteHotlineTitle" android:name=".Serviceguide" />
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+</manifest>

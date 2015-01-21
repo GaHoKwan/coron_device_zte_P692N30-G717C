@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:textSize="15.0dip" android:id="@id/Button_Manual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epo_download" android:width="150.0dip" />
+        <ToggleButton android:textSize="15.0dip" android:id="@id/Button_EpoStress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/epo_stress_on" android:textOff="@string/epo_stress_off" android:width="150.0dip" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epo_stress_test_settings" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_EpoNumOfLoop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epo_num_of_loop" android:width="220.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_EpoNumOfLoop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="500.0dip" android:maxLength="4" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_EpoDelay1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delay_before_starting_epo" android:width="220.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_EpoDelay1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="500.0dip" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:id="@id/TextView_EpoDelay2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/epo_download_timeout" android:width="220.0dip" />
+            <EditText android:textSize="18.0dip" android:id="@id/EditText_EpoDelay2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="500.0dip" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@id/contacts_menu" android:title="@string/select_from_contacts" />
+        <item android:id="@id/sms_menu" android:title="@string/select_from_sms" />
+        <item android:id="@id/calllog_menu" android:title="@string/select_from_calllog" />
+        <item android:id="@id/new_contact_menu" android:title="@string/new_contact" />
+    </group>
+</menu>

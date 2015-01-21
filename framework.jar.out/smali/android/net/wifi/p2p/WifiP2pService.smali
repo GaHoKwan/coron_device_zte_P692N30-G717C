@@ -374,7 +374,7 @@
 
     move-result-object v1
 
-    const v2, 0x104001a
+    const v2, #android:string@config_wifi_p2p_device_type#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

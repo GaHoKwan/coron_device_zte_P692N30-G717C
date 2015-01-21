@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Idler</string>
+    <string name="ml_item_text">item</string>
+    <string name="cover_hint">Current App is used in the other window</string>
+    <string name="cover_toast_msg">Locked, ignore back</string>
+    <string name="wfdidler_show_text">WAIT FOR SHARE</string>
+    <string name="ml_exit_warning">Press BACK again to exit multi-window</string>
+</resources>

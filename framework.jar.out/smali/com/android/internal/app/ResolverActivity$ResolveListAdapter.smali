@@ -148,7 +148,7 @@
 
     .prologue
     .line 679
-    const v3, 0x1020014
+    const v3, #android:id@text1#t
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -158,7 +158,7 @@
 
     .line 680
     .local v1, text:Landroid/widget/TextView;
-    const v3, 0x1020015
+    const v3, #android:id@text2#t
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
 
     .line 681
     .local v2, text2:Landroid/widget/TextView;
-    const v3, 0x1020006
+    const v3, #android:id@icon#t
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1243,7 +1243,7 @@
     .line 664
     iget-object v3, p0, Lcom/android/internal/app/ResolverActivity$ResolveListAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v4, 0x10900b2
+    const v4, #android:layout@resolve_list_item#t
 
     const/4 v5, 0x0
 
@@ -1253,7 +1253,7 @@
 
     .line 668
     .local v2, view:Landroid/view/View;
-    const v3, 0x1020006
+    const v3, #android:id@icon#t
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

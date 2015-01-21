@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/linearLayoutMain" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0px">
+        <TextView android:id="@id/textView1_skinSat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_zero" android:layout_toLeftOf="@id/seekBar_skinSat" android:layout_alignBottom="@id/seekBar_skinSat" />
+        <SeekBar android:id="@id/seekBar_skinSat" android:layout_width="280.0dip" android:layout_height="wrap_content" android:max="100" android:progress="50" android:layout_above="@id/textView_skinSat_progress" android:layout_centerHorizontal="true" />
+        <TextView android:id="@id/textView_skinSat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SGS_number" android:layout_toRightOf="@id/seekBar_skinSat" android:layout_alignBottom="@id/seekBar_skinSat" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/textView_skinSat_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Skin_tone_Sat" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/textView_grassTone_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_zero" android:layout_toLeftOf="@id/seekBar_grassTone" android:layout_alignBottom="@id/seekBar_grassTone" />
+        <SeekBar android:id="@id/seekBar_grassTone" android:layout_width="280.0dip" android:layout_height="wrap_content" android:max="100" android:progress="50" android:layout_below="@id/textView_skinSat_progress" android:layout_centerHorizontal="true" />
+        <TextView android:id="@id/textView_grassTone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/seekBar_grassTone" android:layout_alignBottom="@id/seekBar_grassTone" />
+        <TextView android:gravity="center" android:id="@id/textView_grassTone_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/GrassTone" android:layout_below="@id/seekBar_grassTone" android:layout_centerHorizontal="true" />
+        <RadioGroup android:id="@id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/textView_grassTone_progress" android:layout_centerHorizontal="true">
+            <RadioButton android:id="@id/demooff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/demo_off" />
+            <RadioButton android:id="@id/vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vertical_demo" />
+            <RadioButton android:id="@id/horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/horizontal_demo" />
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Прифати засилен постпродажен Сервис?</string>
+    <string name="informative">Засилен постпродажен Сервис</string>
+    <string name="title">Управување со уредот</string>
+    <string name="button_yes">Да</string>
+    <string name="button_no">Не</string>
+    <string name="ask_setup_message">Примени конфигурациски информации OTA, за да ја потврдите или инсталацијата или конфигурацијата</string>
+    <string name="omacp_setup">Поставување</string>
+    <string name="install_compelete">Инсталирањето е завршено</string>
+    <string name="instatll_fail">Инсталирањето е неуспешно</string>
+    <string name="security_error">Безбедносна грешка</string>
+    <string name="xml_parse_error">XML Parse грешка</string>
+    <string name="user_cancel">User Cancel</string>
+    <string name="input_pin">Внесете Пин</string>
+    <string name="app_name">Системско ажурирање</string>
+    <string name="dm_update_service">Софтверски ажурирања</string>
+    <string name="system_update">Се проверува за ажурирања</string>
+    <string name="connecting">Се проверуваат најновите софтверски ажурирања...</string>
+    <string name="downloading">Ве молиме почекајте, можеби ќе бидат потребни неколку минути за да се заврши.</string>
+    <string name="download_title">Симни ажурирање</string>
+    <string name="download_val">Симни го ажурирањето преку</string>
+    <string name="download_message">Достапно е ново ажурирање за софтверот. Дали сакате да го симнете?</string>
+    <string name="cancel_message">Дали сте сигурни дека сакате да го откажете симнувањето на софтверот?</string>
+    <string name="cancel">Откажи</string>
+    <string name="failed">Неуспешно</string>
+    <string name="update_failed">Неуспешно системско ажурирање</string>
+    <string name="install_title">Инсталирај го софтверот</string>
+    <string name="install_message">За да ја започнете инсталацијата, вашиот телефон мора да се рестартира</string>
+    <string name="checking_update">Се проверува за ажурирање</string>
+    <string name="update_title">Автоматско ажурирање</string>
+    <string name="update_message">Автоматски ажурирај се еднаш неделно</string>
+    <string name="update_deferred">Инсталирањето е одложено</string>
+    <string name="update_deferred_AU">Инсталирај го софтверот</string>
+    <string name="service_unavailable">Услугата е недостапна</string>
+    <string name="check_new">Провери за ажурирање</string>
+    <string name="status">Статус</string>
+    <string name="version">Верзија:</string>
+    <string name="update_setting">Ажурирајте ги Нагодувањата</string>
+    <string name="background">Работи во позадина</string>
+    <string name="delay">Одложи</string>
+    <string name="dm_session_busy">Dm сесијата е зафатена</string>
+    <string name="downloading_notification">Се симнува софтверското ажурирање</string>
+    <string name="downloading_notification_message">Се симнува новото софтверско ажурирање</string>
+    <string name="update_warning_notification">Предупредување за софтверско ажурирање</string>
+    <string name="update_warning_notification_message">Пристигнува нова предупредувачка порака</string>
+    <string name="update_warning_notification_new_package">Пристигнува нова предупредувачка порака</string>
+    <string name="install_notification">Инсталирај го софтверот</string>
+    <string name="install_notification_message">Рестартирајте го вашиот телефон за да започне инсталацијата.</string>
+    <string name="install_file_notification">Допрете за да го инсталирате фајлот</string>
+    <string name="pin">ПИН</string>
+    <string name="confirm">Потврди</string>
+    <string name="intallresult">Резултат од инсталацијата</string>
+    <string name="ok">ОК</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_AU">Симни преку Wi-Fi</string>
+    <string name="mobile_networks_AU">Симни преку мобилна мрежа</string>
+    <string name="mobile_networks">Мобилни мрежи (Ова ќе создава повеќе податочен сообраќај)</string>
+    <string name="autoupdate_toinstall">Автоматско ажурирање: допрете за да инсталирате</string>
+    <string name="autoupdate_todownload">Автоматско ажурирање: допрете за да ажурирате</string>
+    <string name="autoupdate_busy">Автоматско ажурирање: откажи ажурирање поради тоа што мрежата е зафатена</string>
+    <string name="attention">Внимание</string>
+    <string name="update_busy">Ажурирањето е во моментов зафатено, ве молиме почекајте...</string>
+    <string name="memory_insufficient">Нема доволно простор</string>
+    <string name="memory_insufficient_info">"Вашиот телефон нема доволно простор за ова ажурирање. 
+ Ве молиме ослободете простор и обидете се повторно."</string>
+    <string name="network_unavailable">Мрежата е недостапна</string>
+    <string name="network_unavailable_info">Состојбата на мрежата е неповрзана, не може да се проверува сега.</string>
+    <string name="uncaught_exception_title">UncaughtException Handler</string>
+    <string name="uncaught_exception_info">Управувањето со уредот е блокирано. Вашиот телефон нема доволно простор за ова ажурирање. Ве молиме ослободете простор и обидете се повторно.</string>
+    <string name="updata_ok">Рестарт</string>
+    <string name="updata_Defer">Одложи</string>
+    <string name="updata_info">Рестартирајте го вашиот телефон за да започне инсталацијата.</string>
+    <string name="updata_title">Софтверски ажурирања</string>
+    <string name="dm_comlete_sec">Ве молиме почекајте, требаат уште %1$d секунди за да заврши.</string>
+    <string name="dm_compele_min">Ве молиме почекајте, требаат уште %1$d минути за да заврши.</string>
+    <string name="dm_compele_hou">Ве молиме почекајте, требаат уште %1$d часа за да заврши.</string>
+    <string name="dm_version">Верзија на софтверот:</string>
+    <string name="dm_update_date">Статус:</string>
+    <string name="dm_fumo_Message">Статус</string>
+    <string name="dm_fumo_START">Провери за ажурирања</string>
+    <string name="dm_fumo_INSTAll_DEFER">Инсталирај го одложениот софтвер</string>
+    <string name="dm_fumo_SETUP">Постави го пакетот за ажурирање</string>
+    <string name="dm_never_SETUP">Оригинална верзија</string>
+    <string name="dm_fumo_status_noupdate">Нема понова софтвер верзија!</string>
+    <string name="dm_fumo_status_failed">Софтверското ажурирање е неуспешно</string>
+    <string name="dm_fumo_status_sucess">Вашиот софтвер успешно се ажурираше</string>
+    <string name="dm_check_updatetile">Се проверува за ажурирања</string>
+    <string name="dm_check_update">Се проверува за најновите софтверски ажурирања</string>
+    <string name="dm_network_error">Грешка во мрежата, ве молиме обидете се подоцна!</string>
+    <string name="dm_already_new">Нема понова софтвер верзија!</string>
+    <string name="dm_isroaming">Софтверското ажурирање не е дозволено за време на пренос на податоци при роаминг!</string>
+    <string name="dm_isroaming_AU">"Во моментов сте на роаминг. Ве молиме проверете со Telstra поради тоа што може да настане дополнителна наплата на услугите . 
+
+Дали сакате да продолжите?"</string>
+    <string name="dm_airplan">Софтверските ажурирања не се дозволени во режим при летање!</string>
+    <string name="dm_no_dataservice">Нема податочен сервис. Софтверските ажурирања не се дозволени!</string>
+    <string name="dm_no_dataservice_AU">"Софтверските ажурирања не се достапно поради тоа што преносот на податоци е оневозможен. 
+
+Ве молиме проверете ја оваа услуга со вашиот оператор и нагодувањата на уредот."</string>
+    <string name="dm_update_setting">Ажурирај нагодувања</string>
+    <string name="auto_update_switch_title">Автоматско ажурирање</string>
+    <string name="auto_update_switch_key">Автоматско ажурирање</string>
+    <string name="auto_update_switch_summary_on">Отвори автоматски ажурирања</string>
+    <string name="auto_update_switch_summary_off">Затвори автоматски ажурирања</string>
+    <string name="auto_update_frequency_text">Автоматски ажурирај во %1$s на секои %2$s</string>
+    <string name="dm_wifi_open">Вклучете Wi-Fi за да го започнете симнувањето на новиот софтвер</string>
+    <string name="dm_via_wifi">Симнете преку Wi-Fi</string>
+    <string name="dm_wifi_set">Нагодувања за Wi-Fi</string>
+    <string name="dm_yes">Да</string>
+    <string name="dm_no">Не</string>
+    <string name="dm_wifi_fail">Wi-Fi пристапот е недостапен. Симнувањето ќе биде откажано.</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s претпладне</string>
+    <string name="dm_time_pm">%1$s попладне</string>
+    <string name="dm_Delay_show">Имате уште %1$s можности за одложување.</string>
+    <string name="download_message_new">"Достапно е ново ажурирање за софтверот. Дали сакате да го симнете?
+ 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"Достапно е ново ажурирање за софтверот. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Верзија:"</string>
+    <string name="download_message_size">"
+ Податоци:"</string>
+    <string name="download_message_description">"
+ Опис:"</string>
+    <string name="download_message_auto_download">"
+
+ Автоматско симнување за %1$s секунди"</string>
+    <string name="install_message_new">"За да започне инсталацијата, вашиот телефон мора да се рестартира. 
+
+ %1$s преостанати пати за одложување."</string>
+    <string name="install_message_force">Присилно ажурирање за %1$s минути.</string>
+    <string name="install_message_delaycompleted">Веќе одложивте 3 пати. Телефонот ќе се рестартира</string>
+    <string name="wifi_cost_notify">Известување за WLAN наплата</string>
+    <string name="wifi_cost_notify_body">Поврзувањето на WLAN сега може да создава податочен сообраќај, дали сте сигурни дека сакате да продолжите?</string>
+    <string name="dm_continue">Продолжи</string>
+    <string name="download_message_new_AU">Софтверско ажурирање е достапно за вашиот уред. Ова ажурирање е големо %1$s</string>
+    <string name="download_message_version_AU">исто така ќе се ажурира вашиот %1$s од %2$s во %3$s верзија</string>
+    <string name="download_message_description_AU">Ова ажурирање %1$s</string>
+    <string name="about_charge_AU">"
+
+ Препорачливо е симнување преку Wi-Fi. Симнувањето може да ве доведе до дополнителни трошоци (особено ако симнувате преку мобилна мрежа или за време на роаминг). За време на симнувањето операцијата нема да му пречи на вашиот уред. За дополнителни информации и помош, ве молиме посесете ја адресата telstra.com/mobile или контактирајте го нашиот центар за грижа на корисници 13 2200."</string>
+    <string name="dm_later">Подоцна</string>
+    <string name="dm_install">Инсталирај</string>
+    <string name="install_message_AU">Ажурирањето е симнато и е подготвено за инсталирање. Допрете \"Подоцна\" доколку не сакате да го инсталирате сега. За време на инсталирањето, сите функции на уредот ќе бидат недостапни , и вие нема да можете да првите итни повици. Уредот ќе се рестартира како дел од процесот на инсталирање. Вашите податоци нема да бидат изменети или избришани. Пред да започне инсталацијата осигурајте се дека батеријата е наполнета минимум 30%, и не го приклучувајте полначот за време на процесот.</string>
+    <string name="auto_update_frequency_text_AU">Автоматски проверувај за ажурирања во %1$s на %2$s секоја втора недела.</string>
+    <string name="noti_result_success_title">Вашиот уред е ажуриран</string>
+    <string name="noti_result_success_content">Софтверското ажурирање е успешно</string>
+    <string name="noti_auto_Title">Достано е софтверско ажурирање</string>
+    <string name="noti_auto_Text">Ова е ново софтверско ажурирање за вашиот уред.</string>
+    <string name="init_message">Се воспоставува, ве молиме почекајте...</string>
+    <string name="fota_main_activity_title">Софтверско ажурирање</string>
+    <string name="current_version_title">Моментална верзија:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Прекин</string>
+    <string name="network_update">Се проверува за ажурирање...</string>
+    <string name="fota_server_package_discovered">Откриена е нова верзија:</string>
+    <string name="fota_update_button_label">Ажурирај сега</string>
+    <string name="menu_check_new_from_server">Се проверува за ажурирање на северот</string>
+    <string name="menu_check_new_from_server_subtitle">Ажурирањето преку мрежа користи податочни сервиси, така што е препорачлива околина со Wi-Fi</string>
+    <string name="menu_status">Статус</string>
+    <string name="menu_update_settings">Нагодувања</string>
+    <string name="tcard_update">Се проверува за ажурирање на SD картичката...</string>
+    <string name="fota_tcard_package_discovered">Откриена е нова верзија(SD картичка):</string>
+    <string name="dialog_title">Ажурирај сега</string>
+    <string name="dialog_warning">Корисничките податоци ќе бидат исчистени при ажурирање. Ве молиме направете backup на вашите податоци пред да ажурирате.</string>
+    <string name="dialog_backup">Backup</string>
+    <string name="dialog_cancel">Откажи</string>
+    <string name="fota_msg_tcard_no_update">Нема ажурирање на SD картичката</string>
+    <string name="fota_msg_network_no_update">Нема ажурирање на серверот</string>
+    <string name="fota_status">Статус:</string>
+    <string name="fota_status_software_version">Софтверска верзија:</string>
+    <string name="fota_status_never_setup">Оригинална верзија</string>
+    <string name="fota_status_no_update">Нема понова софтвер верзија!</string>
+    <string name="fota_status_failed">Неуспешно ажурирање на софтверот</string>
+    <string name="fota_status_sucess">Успешно ажурирање на софтверот</string>
+    <string name="fota_auto_update">Автоматско ажурирање</string>
+    <string name="fota_auto_update_switch_summary_on">Отвори ги автоматските ажурирања</string>
+    <string name="fota_auto_update_switch_summary_off">Затвори ги автоматските ажурирања</string>
+    <string name="fota_auto_update_frequency_text">Се пребаруваат ажурирања</string>
+    <string name="fota_auto_update_frequency_everysunday">Секоја Недела</string>
+    <string name="fota_auto_update_frequency_everymonday">Секој Понеделник</string>
+    <string name="fota_auto_update_frequency_everytuesday">Секој Вторник</string>
+    <string name="fota_auto_update_frequency_everywednesday">Секоја Среда</string>
+    <string name="fota_auto_update_frequency_everythursday">Секој Четврток</string>
+    <string name="fota_auto_update_frequency_everyfriday">Секој Петок</string>
+    <string name="fota_auto_update_frequency_everysaturday">Секоја Сабота</string>
+    <string name="send">Испрати</string>
+    <string name="feedback">Повратна информација</string>
+    <string name="feedback_content">Ве молиме влез вашата совети</string>
+    <string name="email">Ве молиме внесете вашата e-mail</string>
+    <string name="feedback_result">Испрати успешно, Ви благодариме за вашиот коментар</string>
+    <string name="email_auth">Ве молиме внесете ги точните е-маил адреса</string>
+    <string name="feedback_auth">Вашите повратни информации е многу важен за нас,Ве молиме влез вашата повратни информации,ви се заблагодарам</string>
+    <string name="feedback_network">Мрежата е недостапен,Ве молиме да ги поврзете го повторно и испратите вашите повратни информации,ви се заблагодарам</string>
+    <string name="userconfirm_title">Потврди</string>
+    <string name="userconfirm_button_yes">Да</string>
+    <string name="userconfirm_button_no">Не</string>
+    <string name="dm_Delay_show_once">Имате уште 1 можност за одложување.</string>
+</resources>

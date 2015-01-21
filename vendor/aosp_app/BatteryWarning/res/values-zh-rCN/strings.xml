@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_charger_over_voltage">充电电压过高</string>
+    <string name="title_battery_over_temperature">电池温度过高</string>
+    <string name="title_over_current_protection">超过电流保护</string>
+    <string name="title_battery_over_voltage">电池电压过高</string>
+    <string name="title_safety_timer_timeout">充电时间过长</string>
+    <string name="title_battery_low_temperature">电池温度过低</string>
+    <string name="msg_charger_over_voltage">您的充电器电压过高，请断开充电器！</string>
+    <string name="msg_battery_over_temperature">您的电池温度过高，请移除电池！</string>
+    <string name="msg_over_current_protection">您的电池超过电流保护，请移除电池！</string>
+    <string name="msg_battery_over_voltage">您的电池电压过高，请移除电池！</string>
+    <string name="msg_safety_timer_timeout">充电时间过长，请断开充电器！</string>
+    <string name="msg_battery_low_temperature">您的电池温度过低，请断开充电器!</string>
+    <string name="btn_ok_msg">稍后提醒</string>
+    <string name="btn_cancel_msg">忽略</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/working_mode_radiogroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/working_mode_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/working_mode_normal" />
+        <RadioButton android:id="@id/working_mode_media_loopback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/working_mode_media_loopback" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/media_loopback_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:id="@id/media_loopback_radiogroup" android:background="@color/gray" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip">
+                <RadioButton android:textColor="@color/black" android:id="@id/media_loopback_stack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/media_loopback_stack" />
+                <RadioButton android:textColor="@color/black" android:id="@id/media_loopback_transceiver" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/network_loopback_service" />
+            </RadioGroup>
+        </LinearLayout>
+        <RadioButton android:id="@id/working_mode_network_loopback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/working_mode_network_loopback" />
+        <RadioGroup android:orientation="vertical" android:id="@id/network_loopback_radiogroup" android:background="@color/gray" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip">
+            <RadioButton android:textColor="@color/black" android:id="@id/network_loopback_stack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/network_loopback_stack" />
+            <RadioButton android:textColor="@color/black" android:id="@id/network_loopback_service" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/network_loopback_service" />
+        </RadioGroup>
+        <RadioButton android:id="@id/working_mode_test_file" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/working_mode_test_file" />
+    </RadioGroup>
+</LinearLayout>

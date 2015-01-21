@@ -15,7 +15,7 @@
 
 
 # static fields
-.field public static final config_dimBehindFadeDuration:I = 0x1120000
+.field public static final config_dimBehindFadeDuration:I = #android:fraction@config_dimBehindFadeDuration#t
 
 
 # direct methods

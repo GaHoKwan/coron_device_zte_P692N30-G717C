@@ -1,0 +1,46 @@
+.class Lcom/hf/UI/BackgroundView$1;
+.super Landroid/content/BroadcastReceiver;
+.source "BackgroundView.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/hf/UI/BackgroundView;->registReceiver()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/hf/UI/BackgroundView;
+
+
+# direct methods
+.method constructor <init>(Lcom/hf/UI/BackgroundView;)V
+    .locals 0
+    .parameter
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lcom/hf/UI/BackgroundView$1;->this$0:Lcom/hf/UI/BackgroundView;
+
+    .line 53
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    .locals 0
+    .parameter "context"
+    .parameter "intent"
+
+    .prologue
+    .line 59
+    return-void
+.end method

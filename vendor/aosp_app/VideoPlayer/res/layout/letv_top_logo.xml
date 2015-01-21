@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/letv_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/letv_top_logo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/umeng_recommend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@null" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:gravity="center" android:id="@id/top_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/letv_22_ececec" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" />
+        <ImageView android:layout_gravity="center" android:id="@id/line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/letv_title_line" />
+        <ImageView android:id="@id/search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" />
+    </LinearLayout>
+</RelativeLayout>

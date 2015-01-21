@@ -212,128 +212,128 @@
     packed-switch p0, :pswitch_data_0
 
     .line 5694
-    const v0, 0x1040296
+    const v0, #android:string@phoneTypeCustom#t
 
     :goto_0
     return v0
 
     .line 5674
     :pswitch_0
-    const v0, 0x1040297
+    const v0, #android:string@phoneTypeHome#t
 
     goto :goto_0
 
     .line 5675
     :pswitch_1
-    const v0, 0x1040298
+    const v0, #android:string@phoneTypeMobile#t
 
     goto :goto_0
 
     .line 5676
     :pswitch_2
-    const v0, 0x1040299
+    const v0, #android:string@phoneTypeWork#t
 
     goto :goto_0
 
     .line 5677
     :pswitch_3
-    const v0, 0x104029a
+    const v0, #android:string@phoneTypeFaxWork#t
 
     goto :goto_0
 
     .line 5678
     :pswitch_4
-    const v0, 0x104029b
+    const v0, #android:string@phoneTypeFaxHome#t
 
     goto :goto_0
 
     .line 5679
     :pswitch_5
-    const v0, 0x104029c
+    const v0, #android:string@phoneTypePager#t
 
     goto :goto_0
 
     .line 5680
     :pswitch_6
-    const v0, 0x104029d
+    const v0, #android:string@phoneTypeOther#t
 
     goto :goto_0
 
     .line 5681
     :pswitch_7
-    const v0, 0x104029e
+    const v0, #android:string@phoneTypeCallback#t
 
     goto :goto_0
 
     .line 5682
     :pswitch_8
-    const v0, 0x104029f
+    const v0, #android:string@phoneTypeCar#t
 
     goto :goto_0
 
     .line 5683
     :pswitch_9
-    const v0, 0x10402a0
+    const v0, #android:string@phoneTypeCompanyMain#t
 
     goto :goto_0
 
     .line 5684
     :pswitch_a
-    const v0, 0x10402a1
+    const v0, #android:string@phoneTypeIsdn#t
 
     goto :goto_0
 
     .line 5685
     :pswitch_b
-    const v0, 0x10402a2
+    const v0, #android:string@phoneTypeMain#t
 
     goto :goto_0
 
     .line 5686
     :pswitch_c
-    const v0, 0x10402a3
+    const v0, #android:string@phoneTypeOtherFax#t
 
     goto :goto_0
 
     .line 5687
     :pswitch_d
-    const v0, 0x10402a4
+    const v0, #android:string@phoneTypeRadio#t
 
     goto :goto_0
 
     .line 5688
     :pswitch_e
-    const v0, 0x10402a5
+    const v0, #android:string@phoneTypeTelex#t
 
     goto :goto_0
 
     .line 5689
     :pswitch_f
-    const v0, 0x10402a6
+    const v0, #android:string@phoneTypeTtyTdd#t
 
     goto :goto_0
 
     .line 5690
     :pswitch_10
-    const v0, 0x10402a7
+    const v0, #android:string@phoneTypeWorkMobile#t
 
     goto :goto_0
 
     .line 5691
     :pswitch_11
-    const v0, 0x10402a8
+    const v0, #android:string@phoneTypeWorkPager#t
 
     goto :goto_0
 
     .line 5692
     :pswitch_12
-    const v0, 0x10402a9
+    const v0, #android:string@phoneTypeAssistant#t
 
     goto :goto_0
 
     .line 5693
     :pswitch_13
-    const v0, 0x10402aa
+    const v0, #android:string@phoneTypeMms#t
 
     goto :goto_0
 

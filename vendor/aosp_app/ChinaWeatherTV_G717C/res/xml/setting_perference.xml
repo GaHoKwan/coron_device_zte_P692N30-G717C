@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="root_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/set_category_system" android:key="system_set">
+        <ListPreference android:entries="@array/temperature_entries" android:layout="@layout/preference_temperature_layout" android:title="@string/set_temperature_title" android:key="@string/key_temperature" android:summary="@string/set_temperature_summary" android:widgetLayout="@null" android:defaultValue="0" android:entryValues="@array/temperature_entry_values" />
+        <ListPreference android:entries="@array/update_entries" android:layout="@layout/preference_temperature_layout" android:title="@string/set_update_title" android:key="@string/key_update" android:summary="@string/set_update_summary" android:widgetLayout="@null" android:defaultValue="12" android:entryValues="@array/update_entry_values" />
+        <ListPreference android:entries="@array/share_entries" android:layout="@layout/preference_temperature_layout" android:title="@string/set_share_title" android:key="@string/key_share" android:summary="@string/set_share_summary" android:widgetLayout="@null" android:defaultValue="@string/share_default_value" android:entryValues="@array/share_entry_values" />
+        <ListPreference android:entries="@array/warning_entries" android:layout="@layout/preference_temperature_layout" android:title="@string/set_warning_title" android:key="@string/key_warning" android:summary="@string/set_warning_summary" android:widgetLayout="@null" android:defaultValue="0" android:entryValues="@array/warning_entry_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/set_category_prefer" android:key="prefer_set">
+        <Preference android:layout="@layout/preference_temperature_layout" android:title="@string/set_change_backgraound_title" android:key="@string/key_change_bg" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_layout" android:title="@string/set_category_other" android:key="other_set">
+        <Preference android:layout="@layout/preference_temperature_layout" android:title="@string/recommend_title" android:key="@string/key_recommend" />
+        <Preference android:layout="@layout/preference_temperature_layout" android:title="@string/set_wind_introduce" android:key="@string/key_wind" />
+        <Preference android:layout="@layout/preference_temperature_layout" android:title="@string/check_update_title" android:key="@string/key_check_update" />
+        <Preference android:layout="@layout/preference_temperature_layout" android:title="@string/set_about" android:key="@string/key_about" />
+    </PreferenceCategory>
+</PreferenceScreen>

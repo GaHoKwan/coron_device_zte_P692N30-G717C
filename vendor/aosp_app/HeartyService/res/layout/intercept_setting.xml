@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout1" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/intercept_icon_margin_t" android:weightSum="3.0">
+        <com.zte.heartyservice.intercept.Common.TextToggleButtonView android:id="@id/while_button" android:layout_width="0.0dip" android:layout_height="@dimen/intercept_setting_title_h" android:layout_weight="1.0" />
+        <com.zte.heartyservice.intercept.Common.TextToggleButtonView android:id="@id/black_button" android:layout_width="0.0dip" android:layout_height="@dimen/intercept_setting_title_h" android:layout_weight="1.0" />
+        <com.zte.heartyservice.intercept.Common.TextToggleButtonView android:id="@id/keyword_button" android:layout_width="0.0dip" android:layout_height="@dimen/intercept_setting_title_h" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:gravity="left|center" android:id="@id/textView1" android:paddingLeft="@dimen/intercept_setting_mode_margin_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intercept_mode" style="@style/light_grey_12sp" />
+    <View android:background="@color/main_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/intercept_setting_mode_margin_l" android:layout_marginRight="@dimen/intercept_setting_mode_margin_l" />
+    <ListView android:id="@id/intercept_mode_listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/intercept_setting_list_margin" android:layout_marginRight="@dimen/intercept_setting_list_margin" android:overScrollMode="never" style="@style/listview_style" />
+</LinearLayout>

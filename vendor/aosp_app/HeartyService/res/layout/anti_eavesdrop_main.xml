@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/main_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/anti_eavesdrop_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/fangqieting_bg" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/anti_eavesdrop_main_intro" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:id="@id/anti_eavesdrop_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="5.0dip" android:text="@string/anti_eavesdrop_now_is_open" style="@style/grey_12sp" />
+        <Button android:textSize="@dimen/text_size_16dp" android:textColor="@color/actionbar_menu_text_color" android:id="@id/anti_eavesdrop_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/anti_eavesdrop_close" />
+    </LinearLayout>
+</RelativeLayout>

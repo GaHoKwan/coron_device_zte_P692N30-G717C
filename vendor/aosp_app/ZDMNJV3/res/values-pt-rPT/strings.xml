@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ask_setup_message">Recebeu informações de configuração OTA, para confirmar a instalação e configuração</string>
+    <string name="omacp_setup">Configuração</string>
+    <string name="install_compelete">Instalação completa</string>
+    <string name="instatll_fail">Instalação Falhou</string>
+    <string name="security_error">Erro de segurança</string>
+    <string name="xml_parse_error">Erro de XML Parse</string>
+    <string name="user_cancel">Cancelar usuário</string>
+    <string name="input_pin">Introduza o PIN</string>
+    <string name="app_name">Actualização de software</string>
+    <string name="dm_update_service">Atualizações de software</string>
+    <string name="system_update">A procurar actualizações</string>
+    <string name="connecting">Verificando as últimas atualizações de software ...</string>
+    <string name="downloading">Aguarde. Isto pode demorar alguns minutos a concluir.</string>
+    <string name="download_title">Transferência de software</string>
+    <string name="download_val">Transferência de software Via</string>
+    <string name="download_message">Uma nova atualização de software está disponível. Você deseja fazer a transferência?</string>
+    <string name="cancel_message">Tem certeza de que gostaria de cancelar e interromper a transferência do software?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="failed">Falhou</string>
+    <string name="update_failed">A actualização do software falhou</string>
+    <string name="install_title">Instalar software</string>
+    <string name="install_message">Para iniciar a instalação, o telefone precisa ser reiniciado</string>
+    <string name="checking_update">Verificação de atualização</string>
+    <string name="update_title">Actualização automática</string>
+    <string name="update_message">Actualizar automaticamente a cada semana</string>
+    <string name="update_deferred">Instalação diferida</string>
+    <string name="update_deferred_AU">Instalar software</string>
+    <string name="service_unavailable">Serviço não disponível</string>
+    <string name="check_new">Procurar actualizações</string>
+    <string name="status">Estado</string>
+    <string name="version">Versão:</string>
+    <string name="update_setting">Configurações</string>
+    <string name="background">Executados em segundo plano</string>
+    <string name="delay">Intervalo de alertas</string>
+    <string name="dm_session_busy">Sessão Dm está ocupado</string>
+    <string name="downloading_notification">Transferindo a software de atualização</string>
+    <string name="downloading_notification_message">Transferindo o novo software</string>
+    <string name="update_warning_notification">Aviso de atualização de software</string>
+    <string name="update_warning_notification_message">Nova mensagem de Aviso</string>
+    <string name="update_warning_notification_new_package">Nova mensagem de Aviso</string>
+    <string name="install_notification">Instalar software</string>
+    <string name="install_notification_message">Reinicie o telefone para iniciar a instalação.</string>
+    <string name="install_file_notification">Clique para instalar o ficheiro</string>
+    <string name="pin">PIN</string>
+    <string name="confirm">Confirmar</string>
+    <string name="intallresult">Resultado de Instalação</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_AU">Transferir via Wi-Fi</string>
+    <string name="mobile_networks_AU">Transferir via rede móvel</string>
+    <string name="mobile_networks">Redes móveis (Isso irá gerar mais tráfego de dados)</string>
+    <string name="autoupdate_toinstall">AutoUpdate: clique para instalar</string>
+    <string name="autoupdate_todownload">AutoUpdate: clique para atualizar</string>
+    <string name="autoupdate_busy">AutoUpdate: Cancelar atualização porque ele está ocupado</string>
+    <string name="attention">Atenção</string>
+    <string name="update_busy">A atualização está atualmente ocupada, por favor aguarde ...</string>
+    <string name="memory_insufficient">Espaço insuficiente</string>
+    <string name="memory_insufficient_info">Seu telefone não tem espaço suficiente para esta atualização. N Libere algum espaço e tente novamente.</string>
+    <string name="network_unavailable">Rede indisponível</string>
+    <string name="network_unavailable_info">O estado da rede não está conectado, não é possível verificar denovo.</string>
+    <string name="uncaught_exception_title">UncaughtException Handler</string>
+    <string name="uncaught_exception_info">Gerenciamento de dispositivo caiu. Talvez o seu telemóvel não tenha espaço suficiente para esta atualização. Por favor, libere algum espaço e tente novamente.</string>
+    <string name="updata_ok">Reiniciar</string>
+    <string name="updata_Defer">Adiar</string>
+    <string name="updata_info">Reinicie o telefone para iniciar a instalação.</string>
+    <string name="updata_title">Atualizações de software</string>
+    <string name="dm_comlete_sec">Aguarde. Isto demora %1$d segundos a concluir.</string>
+    <string name="dm_compele_min">Aguarde. Isto demora %1$d minutos a concluir.</string>
+    <string name="dm_compele_hou">Por favor aguarde, leva cerca de %1$d horas para ser concluído.</string>
+    <string name="dm_version">Versão do software:</string>
+    <string name="dm_update_date">Estado:</string>
+    <string name="dm_fumo_Message">Estado</string>
+    <string name="dm_fumo_START">Procurar actualizações</string>
+    <string name="dm_fumo_INSTAll_DEFER">Instalar software diferido</string>
+    <string name="dm_fumo_SETUP">Configurar pacote de actualização</string>
+    <string name="dm_never_SETUP">Versão original</string>
+    <string name="dm_fumo_status_noupdate">Já tem a versão mais recente</string>
+    <string name="dm_fumo_status_failed">A actualização do software falhou</string>
+    <string name="dm_fumo_status_sucess">O software foi atualizado com êxito</string>
+    <string name="dm_check_updatetile">A procurar actualizações</string>
+    <string name="dm_check_update">Verificando as últimas atualizações de software</string>
+    <string name="dm_network_error">Erro de rede. Tente mais tarde!</string>
+    <string name="dm_already_new">O software existente está actualizado!</string>
+    <string name="dm_isroaming">As actualizações de software não são permitidas em roaming de dados!</string>
+    <string name="dm_isroaming_AU">"Você está em roaming. Por favor, verifique com a Telstra como os custos extras podem ocorrer. 
+
+Você deseja continuar?"</string>
+    <string name="dm_airplan">As actualizações de software não são permitidas no modo Avião!</string>
+    <string name="dm_no_dataservice">Não há serviços de dados. As actualizações de software não são permitidas!</string>
+    <string name="dm_no_dataservice_AU">"Atualizações de software não estão disponíveis porque os dados não estáo ativos. 
+
+Por favor verifique este serviço com o seu provedor e as configurações do dispositivo."</string>
+    <string name="dm_update_setting">Definições de actualização</string>
+    <string name="auto_update_switch_title">Actualização automática</string>
+    <string name="auto_update_switch_key">Actualização automática</string>
+    <string name="auto_update_switch_summary_on">Activar actualizações automáticas</string>
+    <string name="auto_update_switch_summary_off">Fechar actualizações automáticas</string>
+    <string name="auto_update_frequency_text">Atualizar automaticamente em %1$s cada %2$s</string>
+    <string name="dm_wifi_open">Ligar o Wi-Fi para iniciar a transferência do novo software</string>
+    <string name="dm_via_wifi">Transferência via Wi-Fi</string>
+    <string name="dm_wifi_set">Definições de Wi-Fi</string>
+    <string name="dm_yes">Sim</string>
+    <string name="dm_no">Não</string>
+    <string name="dm_wifi_fail">Não há acesso Wi-Fi disponível. Transferência cancelada.</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">%1$s vezes mais para adiar.</string>
+    <string name="download_message_new">"Uma nova atualização de software está disponivél. Você deseja fazer o download? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"Uma nova atualização de software está disponível.
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Version:"</string>
+    <string name="download_message_size">"
+ Dados:"</string>
+    <string name="download_message_description">"
+ Descrição:"</string>
+    <string name="download_message_auto_download">"
+
+ Transferência automática em %1$s segundos"</string>
+    <string name="install_message_new">"Para iniciar a instalação, o telemóvel precisa ser reiniciado. 
+
+ %1$ s vezes mais para adiar."</string>
+    <string name="install_message_force">Forçar para atualizar em %1$s minutos.</string>
+    <string name="dm_continue">Continuar</string>
+    <string name="download_message_new_AU">Uma atualização de software está disponível para o seu dispositivo. Esta atualização é %1$s em tamanho</string>
+    <string name="download_message_version_AU">e irá atualizar o seu %1$s a partir da versão %2$s para %3$s software.</string>
+    <string name="download_message_description_AU">Esta atualização %1$s</string>
+    <string name="about_charge_AU">"
+
+ É recomendado transferir via Wi-Fi. A transferência pode ter alguns custos adicionais (especialmente se a transferência for de uma operadora móvel ou em roaming no exterior). Durante o download o funcionamento do dispositivo não será afetado. Para mais informações e ajuda, por favor visite telstra.com/mobile ou contacte o nosso Centro de Atendimento ao Cliente em 155 ou 156"</string>
+    <string name="dm_later">Mais tarde</string>
+    <string name="dm_install">Instalar</string>
+    <string name="install_message_AU">"A atualização foi transferida e está pronto para ser instalado. Clique           Mais tarde  se você não quiser instalar a atualização agora. Durante a instalação, todas as funções do dispositivo não estarão disponíveis, e você não será capaz de fazer chamadas de emergência. O dispositivo será reinicializado como parte do processo de instalação. Os seus dados não serão alterados ou apagados. Antes de iniciar a instalação verifique se a bateria está carregada, pelo menos, 30%, e não desconecte a bateria durante o processo."</string>
+    <string name="auto_update_frequency_text_AU">Verificar atualizações automaticamente em %1$s em %2$s a cada duas semanas.</string>
+    <string name="noti_result_success_title">O seu dispositivo já está atualizado</string>
+    <string name="noti_result_success_content">A atualização de software foi bem sucedida</string>
+    <string name="noti_auto_Title">Atualização de software disponível</string>
+    <string name="noti_auto_Text">Há uma nova atualização de software para o dispositivo.</string>
+    <string name="init_message">Inicializando, por favor aguarde ...</string>
+    <string name="fota_main_activity_title">Actualização de software</string>
+    <string name="current_version_title">Versão atual:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Parar</string>
+    <string name="network_update">Verificação de atualização ...</string>
+    <string name="fota_server_package_discovered">Nova versão discoberta:</string>
+    <string name="fota_update_button_label">Atualizar agora</string>
+    <string name="menu_check_new_from_server">Verificação de atualização no servidor</string>
+    <string name="menu_check_new_from_server_subtitle">Atualização através da rede requer serviços de dados, por isso é recomendado o ambiente para WiFi.</string>
+    <string name="menu_status">Estado</string>
+    <string name="menu_update_settings">Definições</string>
+    <string name="tcard_update">Verificando da atualização de cartão SD</string>
+    <string name="fota_tcard_package_discovered">Nova versão descoberta (SD):</string>
+    <string name="dialog_title">Atualizar agora</string>
+    <string name="dialog_warning">Os dados do usuário serão apagados quando a atualizar. Por favor, copie os seus dados antes de atualizar.</string>
+    <string name="dialog_backup">Backup</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="fota_msg_tcard_no_update">Nenhuma atualização no cartão SD</string>
+    <string name="fota_msg_network_no_update">Nenhuma atualização no servidor</string>
+    <string name="fota_status">Estado:</string>
+    <string name="fota_status_software_version">Versão do software:</string>
+    <string name="fota_status_never_setup">Versão original</string>
+    <string name="fota_status_no_update">O software existente está actualizado!</string>
+    <string name="fota_status_failed">A actualização do software falhou</string>
+    <string name="fota_status_sucess">Atualização do software feita com sucesso</string>
+    <string name="fota_auto_update">Actualização automática</string>
+    <string name="fota_auto_update_switch_summary_on">Activar actualizações automáticas</string>
+    <string name="fota_auto_update_switch_summary_off">Fechar actualizações automáticas</string>
+    <string name="fota_auto_update_frequency_text">Procurando atualizações</string>
+    <string name="fota_auto_update_frequency_everysunday">Todos os domingos</string>
+    <string name="fota_auto_update_frequency_everymonday">Todas segundas-feira</string>
+    <string name="fota_auto_update_frequency_everytuesday">Todas terças-feira</string>
+    <string name="fota_auto_update_frequency_everywednesday">Todas quartas-feira</string>
+    <string name="fota_auto_update_frequency_everythursday">Todas quintas-feira</string>
+    <string name="fota_auto_update_frequency_everyfriday">Todas sextas-feira</string>
+    <string name="fota_auto_update_frequency_everysaturday">Todos os sábados</string>
+    <string name="send">enviar</string>
+    <string name="feedback">Comentários</string>
+    <string name="feedback_content">por favor entrada de seu conselho</string>
+    <string name="email">por favor entrada de seu e-mail</string>
+    <string name="feedback_result">Enviar sucesso, obrigado pelo seu feedback</string>
+    <string name="email_auth">por favor de entrada o e-mail correto</string>
+    <string name="feedback_auth">Sua opinião é muito importante para nós,por favor insira o seu feedback,obrigado</string>
+    <string name="feedback_network">Rede não está disponível,por favor, ligue-o novamente e enviar o seu feedback,obrigado</string>
+    <string name="dm_Delay_show_once">Mais um tempo para adiar.</string>
+</resources>

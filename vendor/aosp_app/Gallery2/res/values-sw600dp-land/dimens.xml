@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_on_margin_right">144.0dip</dimen>
+    <dimen name="screen_on_margin_left">144.0dip</dimen>
+    <dimen name="setting_sub_container_width">540.0dip</dimen>
+    <dimen name="setting_grid_horizontalSpacing">90.0dip</dimen>
+    <dimen name="setting_grid_verticalSpacing">1.0dip</dimen>
+    <dimen name="setting_grid_paddingTop">11.0dip</dimen>
+    <dimen name="setting_grid_paddingBottom">9.0dip</dimen>
+    <dimen name="setting_grid_columnWidth">40.0dip</dimen>
+    <dimen name="setting_grid_paddingLeft">5.0dip</dimen>
+</resources>

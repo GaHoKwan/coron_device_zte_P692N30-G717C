@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zseblámpa</string>
+    <string name="SOUND_NOTIFY">Hang</string>
+    <string name="OPEN_WITH_SHAKE">A zseblámpát rázással kapcsolhatja be/ki</string>
+    <string name="SHAKE_SENSITIVITY">Érzékenységi beállítás</string>
+    <string name="main_screen_text">Rázva kényelmesebben megnyithatja a zseblámpát!</string>
+    <string name="setting_button">Beállítások</string>
+    <string name="flashsetting_title">Zseblámpa beállításai</string>
+    <string name="shake_sensitivity_weak">Gyenge</string>
+    <string name="shake_sensitivity_strong">Erős</string>
+    <string name="Cancel">Mégse</string>
+    <string name="text_off">Ki</string>
+    <string name="text_on">Be</string>
+</resources>

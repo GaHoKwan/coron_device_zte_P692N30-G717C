@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    const v2, 0x10900e7
+    const v2, #android:layout@web_text_view_dropdown#t
 
     iget-object v3, p0, Landroid/webkit/WebViewClassic$RequestDataListOptions;->mOptions:[Ljava/lang/String;
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Idler</string>
+    <string name="cover_hint">此应用正在另一窗口运行</string>
+    <string name="cover_toast_msg">锁定中，忽略回退键</string>
+    <string name="wfdidler_show_text">可将内容分享至此</string>
+    <string name="ml_exit_warning">再次按BACK键退出双屏</string>
+</resources>

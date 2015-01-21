@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="apps_list">false</item>
+    <item type="id" name="app_bg">false</item>
+    <item type="id" name="app_icon">false</item>
+    <item type="id" name="app_icon_1">false</item>
+    <item type="id" name="app_icon_0">false</item>
+    <item type="id" name="app_icon_marker">false</item>
+    <item type="id" name="app_name">false</item>
+    <item type="id" name="app_selected">false</item>
+    <item type="id" name="app_insert_left">false</item>
+    <item type="id" name="app_insert_right">false</item>
+    <item type="id" name="content_view">false</item>
+    <item type="id" name="thumbnail">false</item>
+    <item type="id" name="hint">false</item>
+    <item type="id" name="unlock">false</item>
+    <item type="id" name="splash">false</item>
+    <item type="id" name="ivImageDia">false</item>
+    <item type="id" name="text">false</item>
+</resources>

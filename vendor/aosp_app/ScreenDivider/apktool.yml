@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: ScreenDivider.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '15'
+packageInfo:
+  cur_package: com.android.screen
+  orig_package: com.android.screen
+compressionType: false

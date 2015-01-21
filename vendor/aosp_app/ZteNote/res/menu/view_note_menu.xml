@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_view_note_export" android:title="@string/export" android:showAsAction="never" />
+    <item android:id="@id/menu_view_note_move_notebook" android:title="@string/note_move" android:showAsAction="never" />
+    <item android:id="@id/menu_view_note_info" android:title="@string/note_info" android:showAsAction="never" />"
+</menu>

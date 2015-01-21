@@ -1907,7 +1907,7 @@
 
     move-result-object v2
 
-    const v3, 0x10900eb
+    const v3, #android:layout@wifi_p2p_dialog_row#t
 
     const/4 v4, 0x0
 
@@ -1917,7 +1917,7 @@
 
     .line 2327
     .local v1, row:Landroid/view/View;
-    const v2, 0x10203c0
+    const v2, #android:id@name#t
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1932,7 +1932,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 2328
-    const v2, 0x10202a2
+    const v2, #android:id@value#t
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3879,7 +3879,7 @@
 
     move-result-object v6
 
-    const v7, 0x10900ea
+    const v7, #android:layout@wifi_p2p_dialog#t
 
     const/4 v8, 0x0
 
@@ -3889,7 +3889,7 @@
 
     .line 2357
     .local v4, textEntryView:Landroid/view/View;
-    const v6, 0x102032f
+    const v6, #android:id@info#t
 
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3899,7 +3899,7 @@
 
     .line 2358
     .local v1, group:Landroid/view/ViewGroup;
-    const v6, 0x1040416
+    const v6, #android:string@wifi_p2p_from_message#t
 
     iget-object v7, p0, Landroid/net/wifi/p2p/WifiP2pService$P2pStateMachine;->mSavedPeerConfig:Landroid/net/wifi/p2p/WifiP2pConfig;
 
@@ -3912,7 +3912,7 @@
     invoke-direct {p0, v1, v6, v7}, Landroid/net/wifi/p2p/WifiP2pService$P2pStateMachine;->addRowToDialog(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
     .line 2361
-    const v6, 0x10203bf
+    const v6, #android:id@wifi_p2p_wps_pin#t
 
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3933,7 +3933,7 @@
 
     invoke-direct {v6, v7}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v7, 0x1040415
+    const v7, #android:string@wifi_p2p_invitation_to_connect_title#t
 
     invoke-virtual {v3, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3947,7 +3947,7 @@
 
     move-result-object v6
 
-    const v7, 0x1040412
+    const v7, #android:string@accept#t
 
     invoke-virtual {v3, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3961,7 +3961,7 @@
 
     move-result-object v6
 
-    const v7, 0x1040413
+    const v7, #android:string@decline#t
 
     invoke-virtual {v3, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4016,7 +4016,7 @@
     invoke-direct {p0, v6}, Landroid/net/wifi/p2p/WifiP2pService$P2pStateMachine;->logd(Ljava/lang/String;)V
 
     .line 2395
-    const v6, 0x10203be
+    const v6, #android:id@enter_pin_section#t
 
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4035,7 +4035,7 @@
     invoke-direct {p0, v6}, Landroid/net/wifi/p2p/WifiP2pService$P2pStateMachine;->logd(Ljava/lang/String;)V
 
     .line 2399
-    const v6, 0x1040419
+    const v6, #android:string@wifi_p2p_show_pin_message#t
 
     iget-object v7, v5, Landroid/net/wifi/WpsInfo;->pin:Ljava/lang/String;
 
@@ -4077,7 +4077,7 @@
 
     move-result-object v4
 
-    const v5, 0x10900ea
+    const v5, #android:layout@wifi_p2p_dialog#t
 
     invoke-virtual {v4, v5, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -4085,7 +4085,7 @@
 
     .line 2338
     .local v3, textEntryView:Landroid/view/View;
-    const v4, 0x102032f
+    const v4, #android:id@info#t
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4095,7 +4095,7 @@
 
     .line 2339
     .local v1, group:Landroid/view/ViewGroup;
-    const v4, 0x1040417
+    const v4, #android:string@wifi_p2p_to_message#t
 
     invoke-direct {p0, p2}, Landroid/net/wifi/p2p/WifiP2pService$P2pStateMachine;->getDeviceName(Ljava/lang/String;)Ljava/lang/String;
 
@@ -4104,7 +4104,7 @@
     invoke-direct {p0, v1, v4, v5}, Landroid/net/wifi/p2p/WifiP2pService$P2pStateMachine;->addRowToDialog(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
     .line 2340
-    const v4, 0x1040419
+    const v4, #android:string@wifi_p2p_show_pin_message#t
 
     invoke-direct {p0, v1, v4, p1}, Landroid/net/wifi/p2p/WifiP2pService$P2pStateMachine;->addRowToDialog(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4120,7 +4120,7 @@
 
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x1040414
+    const v5, #android:string@wifi_p2p_invitation_sent_title#t
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4134,7 +4134,7 @@
 
     move-result-object v4
 
-    const v5, 0x104000a
+    const v5, #android:string@ok#t
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4187,7 +4187,7 @@
 
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x104040d
+    const v3, #android:string@wifi_p2p_dialog_title#t
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4197,7 +4197,7 @@
 
     move-result-object v2
 
-    const v3, 0x104040f
+    const v3, #android:string@wifi_p2p_failed_message#t
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4207,7 +4207,7 @@
 
     move-result-object v2
 
-    const v3, 0x104000a
+    const v3, #android:string@ok#t
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

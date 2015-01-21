@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="112" android:versionName="3.1.2" package="com.zte.heartyservice"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_ALWAYS_FINISH" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_DRM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
+    <uses-permission android:name="android.permission.MOVE_PACKAGE" />
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS" />
+    <permission android:name="android.permission.ZTE_MANAGE_NETWORK_POLICY" android:protectionLevel="signature" />
+    <permission android:name="android.permission.ZTE_HELP_SERVICE" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.ZTE_MANAGE_NETWORK_POLICY" />
+    <uses-permission android:name="android.permission.READ_NETWORK_USAGE_HISTORY" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <permission android:name="com.tencent.tmsecure.permission.ACCESS_SYN_SERVICE" android:protectionLevel="normal" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_MMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.tencent.tmsecure.permission.ACCESS_SYN_SERVICE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.ZTE_MANAGE_NOTIFICATION" />
+    <permission android:name="android.permission.ZTE_MANAGE_NOTIFICATION" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.ZTE_HEARTYSERVICE_MANAGEMENT" />
+    <permission android:name="android.permission.ZTE_HEARTYSERVICE_MANAGEMENT" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="com.android.permission.AIRPLANEMODE_SWITCH" />
+    <application android:theme="@style/Theme.HeartyService.Holo" android:label="@string/app_name" android:icon="@drawable/app_icon" android:name=".main.HeartyServiceApp">
+        <meta-data android:name="appuid" android:value="638c5fc37ba15bb6636f6c6c65637469" />
+        <activity android:theme="@style/Theme.HeartyService.Holo" android:label="@string/app_name" android:name=".main.FrontCover" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService.Holo" android:name=".main.AgreementActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService.Holo.Splash" android:label="@string/app_name" android:name=".main.HeartServiceActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.START_ACTIVITY.PHONE_ASSISTANT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/app_name" android:name=".main.HeartyServiceRealActivity" android:screenOrientation="portrait" />
+        <activity-alias android:name=".main.HeartServiceActivityShortcut" android:targetActivity="com.zte.heartyservice.main.HeartServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name=".main.HeartServiceActivityLauncher" android:enabled="false" android:targetActivity=".main.HeartServiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".main.SecurityActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.SECURITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".main.SoftWareActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.SOFTWARE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".main.EditShortCutActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.SHORTCUT_EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider android:name=".main.SystemContentProvider" android:permission="android.permission.ZTE_MANAGE_NETWORK_POLICY" android:exported="true" android:authorities="com.zte.heartyservice.system" />
+        <service android:name=".main.HeartyServiceZTEHelp" android:permission="android.permission.ZTE_HELP_SERVICE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startService.ZTEHelp" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/phone_speeding_label" android:icon="@drawable/ic_speedup" android:name=".speedup.MainSpeedingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.SPEED_UP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/running_app" android:name=".speedup.RunningAppActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/one_key_speeding" android:name=".speedup.OneKeySpeedActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/gabage_cleared" android:name=".speedup.GarbageClearedActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/auto_running_app" android:name=".speedup.AutorunAppActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/background_auto_running_app" android:name=".speedup.BackgroundAutorunAppActivity" android:screenOrientation="portrait" />
+        <service android:name=".speedup.SpeedUpService">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startService.SPEEDUPSERVICE" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".net.NetTrafficHost" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.NET_SCANNER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".net.NetTrafficActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".net.NetTrafficStatsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".net.NetSettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".net.NetIdleHoursSetting" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:label="@string/app_name" android:name=".net.OverLimitIdleHoursAlert" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/sensitive_permission_label" android:icon="@drawable/ic_minganquanxian" android:name=".permission.PermissionHost" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.PERMISSION_SCANNER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".permission.PackageControlActivity" android:screenOrientation="portrait" />
+        <activity android:name=".permission.PermissionControlActivity" android:screenOrientation="portrait" />
+        <activity android:name=".permission.PermissionLogsActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/virus_check_label" android:icon="@drawable/ic_chasha" android:name="com.zte.heartyservice.porting.All.PortingLaunchingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.VIRUS_SCANNER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/harass_intercept_label" android:icon="@drawable/ic_saoraolanjie" android:name=".main.INTERCEPTShortCutEntry" android:targetActivity="com.zte.heartyservice.porting.All.PortingLaunchingActivity">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.HARASSMENT_INTERCEPT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:name=".intercept.Common.AddModelActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zte.intent.action.ADD_BLACK_WHITE_LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.START_ActiveMainAddBlock_BLOCK" />
+                <action android:name="android.intent.action.START_ActiveMainAddBlock" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/zte_activity_scanner" android:icon="@drawable/ic_chasha" android:name="com.zte.heartyservice.antivirus.Tencent.ZTEScannerActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.antivirus.Tencent.ZTEVieusScanningActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quick_scan_action" />
+                <action android:name="overall_scan_action" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.antivirus.Tencent.ZTEVirueScanActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zte.heartyservice.antivirus.Tencent.ZTEScanLogActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zte.heartyservice.antivirus.Tencent.ZTEScanSettingActivity" android:screenOrientation="portrait" />
+        <receiver android:name=".intercept.Tencent.CallFirewallReceiver">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.call_firewall_on" />
+                <action android:name="com.zte.heartyservice.intent.action.call_firewall_off" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/zte_activity_intercept" android:icon="@drawable/ic_saoraolanjie" android:name="com.zte.heartyservice.intercept.Tencent.ZTEInterceptActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zte.heartyservice.intercept.Tencent.ZTECallsInterceptActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.Tencent.ZTEInterceptSettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zte.heartyservice.intercept.Tencent.ZTESMSInterceptActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.Tencent.ZTEBlackWhiteListActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.BlackWhiteList" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.Tencent.ContactSelectorActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.Tencent.InterceptKeywordActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <provider android:name=".intercept.Common.InterceptProvider" android:exported="true" android:authorities="com.zte.heartyservice;com.zte.heartyservice.intercept" />
+        <service android:name=".intercept.Tencent.SecureService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.tencent.tmsecure.action.SMS_RECEIVED" />
+            </intent-filter>
+        </service>
+        <service android:name=".porting.NetQin.TMService" android:exported="false" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.antivirus.NetQin.ZTEScannerActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.antivirus.NetQin.ZTEScanLogActivity" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.antivirus.NetQin.ZTEScanSettingActivity" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.antivirus.NetQin.ZTEVirusScanActivity" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.antivirus.NetQin.ZTEVirusScanningActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.zte.heartyservice.antivirus.NetQin.WaitingActivityImp" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.NetQin.ZTEInterceptActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.NetQin.ZTECallsInterceptActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.NetQin.ZTESMSInterceptActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.zte.heartyservice.intercept.NetQin.InterceptedCallsDetailActivity" />
+        <activity android:name="com.zte.heartyservice.intercept.NetQin.InterceptedMsgDetailActivity" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.NetQin.ZTEInterceptSettingActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.NetQin.InterceptKeywordActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.NetQin.ZTEBlackWhiteListActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.intercept.NetQin.ContactSelectorActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <service android:name="com.zte.heartyservice.antivirus.NetQin.AntivirusService" />
+        <service android:name="com.zte.heartyservice.intercept.NetQin.InterceptService" />
+        <service android:name="com.netqin.antivirus.appprotocol.AppService" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".power.PowerManagerPhoneActivity" android:screenOrientation="portrait" android:configChanges="mnc" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.SAVE_ELECTRICITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".power.DetailModeSettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".power.SmartModeActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/MyTheme.CustomDialogNoDim" android:name=".power.BrightnessDisplay" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.FloatActivity" android:label="@string/modeinfo_activity_title" android:name=".ModeInfoActivity" android:screenOrientation="portrait" />
+        <provider android:name=".power.ModeProvider" android:exported="false" android:authorities="com.zte.heartyservice.power.provider" />
+        <service android:name=".power.BatteryService" />
+        <activity android:theme="@style/MyTheme.BrightnessDialog" android:name=".SmartBrightnessDialogActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/install_package_label" android:icon="@drawable/ic_installmanager" android:name=".apksmanager.MainApksManagerActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.PACKAGE_MANAGEMENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/installed_software_label" android:icon="@drawable/ic_installed" android:name=".apksmanager.InstalledSoftwareActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.INSTALLED_SOFTWARE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".apksmanager.SoftwareMoveActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/default_progress_label" android:icon="@drawable/ic_default" android:name=".apksmanager.DefaultSettingActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.DEFAULT_APPLICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".apksmanager.ApksManagerService">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startService.APKMANAGERSERVICE" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".examination.MainExamActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.EXAMINATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".examination.StorageListActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/anti_eavesdrop" android:name=".antieavesdrop.MainAntiEavesdropActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.ANTIEAVESDROP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/app_name" android:name=".setting.SettingsHost" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.SETTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/app_name" android:name=".setting.HeartyServiceSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/app_name" android:name=".setting.HeartyServiceSoftwareSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/app_name" android:name=".setting.InstructionActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/setting_auto_clear_selection" android:name=".setting.ClearAppSettingsActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/auto_check_title" android:name=".setting.AutoCheckSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/auto_update_title" android:name=".setting.AutoUpdateSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/auto_virus_scan_title" android:name=".setting.AutoVirusScanSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/clear_app_title" android:name=".setting.ClearAppSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/lock_clean_title" android:name=".setting.LockScreenCleanSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/memory_optimize_title" android:name=".setting.MemoryOptimizeSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".setting.SmartModeLowSettings" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.setting.TimingSaveElectricitySetting" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.setting.AtNightDoNotDisturbSetting" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/new_dialog_style" android:label="@string/app_name" android:name=".setting.AutoCheckAlert" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/new_dialog_style" android:label="@string/app_name" android:name=".setting.CleanAppAlert" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/new_dialog_style" android:label="@string/app_name" android:name=".main.PermissionAlert" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:name=".intercept.Common.AddToBlackListAlert" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/new_dialog_style" android:name=".intercept.Common.AddToBlackListAlertII" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:label="@string/app_name" android:name=".appwidget.PowerWidgetDialogActivity" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.Light.Dialog" android:label="@string/choose_cycle" android:name="com.zte.heartyservice.setting.ChooseCycleDialog" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:label="@string/app_name" android:name=".net.OverLimitAlert" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:label="@string/app_name" android:name=".net.OverLimitMonthAlert" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <receiver android:label="@string/widget_name_1" android:name=".appwidget.SpeedupWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/speedup_widget_info" />
+        </receiver>
+        <service android:name=".setting.LockScreenCleanService">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startService.CLEAN_APP" />
+            </intent-filter>
+        </service>
+        <service android:name=".appwidget.WidgetUpdateService" />
+        <service android:name=".appwidget.WidgetAnimService" />
+        <service android:name=".appwidget.LargeWidgetAnimService" />
+        <activity android:theme="@style/MyTheme.CustomDialog1" android:name=".appwidget.WidgetAnimationActivity" android:taskAffinity="com.zte.heartyservice.appwidget" android:excludeFromRecents="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MyTheme.CustomDialog1" android:name=".appwidget.LargeWidgetAnimationActivity" android:taskAffinity="com.zte.heartyservice.appwidgetlarge" android:excludeFromRecents="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".main.StartReceiver" android:enabled="false" android:priority="2147483647">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.PrivacyGallaryBucketActivity" android:excludeFromRecents="true" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.PrivacyGallayChooseActivity" android:excludeFromRecents="true" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Holo.Light.Dialog" android:label="@string/modify_or_delete_dir" android:name=".privacy.CustomFolderSetActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/privacy_protect" android:name=".privacy.MainPrivacyActivity" android:exported="false" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.PRIVACY_PROTECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/photo_and_video" android:icon="@drawable/icon" android:name=".privacy.ImageVideoActivity" android:exported="false" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.PRIVACY_CAMERA_VIDEO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/other_files" android:icon="@drawable/icon" android:name=".privacy.OtherFilesActivity" android:exported="false" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.PRIVACY_OTHER_FILES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.FileManagerActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|orientation" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.ROOT_SD_BROWSE" />
+                <action android:name="intent.action.startActivity.DOWNLOAD_BROWSE" />
+                <action android:name="intent.action.startActivity.DCIM_BROWSE" />
+                <action android:name="intent.action.startActivity.MUSIC_BROWSE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.SmsExplorerActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|orientation" android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.PRIVACY_MESSAGE_BROWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/other_files" android:name="com.zte.filexplorer.TextEditor" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|orientation">
+            <intent-filter>
+                <action android:name="android.content.Intent.ACTION_VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.ContactsSmsCallLogActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|orientation" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.PRIVACY_CONTACTS_SMS_CALLLOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.CallLogExplorerActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|orientation" android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.PRIVACY_CALLLOG_BROWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.ContactsSelectActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|orientation" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="intent.action.startActivity.PRIVACY_CONTACTS_SELECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.PasswordProtectorActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.PasswordRecordEditorActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.PasswordRecordDetailActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <receiver android:name=".privacy.SmsReceiver">
+            <intent-filter>
+                <action android:name="PRIVACY.SENT_SMS_ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".privacy.DeliverReceiver">
+            <intent-filter>
+                <action android:name="PRIVACY.DELIVERED_SMS_ACTION" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".net.SimInfoSettingActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".net.LocationChooseActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.DisguiseCommunicationFragmentTabs" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.DisguiseMainActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.PrivacySetting" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".common.ui.SelectItemFragmentActivity" android:exported="false" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.zte.ui.SelectItemFragment" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.DisguisePasswordProtectorActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.AppLockActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.DisguisePasswordRecordEditorActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.DisguisePasswordRecordDetailActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.EmptyActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/privacy_protect" android:icon="@drawable/ic_yinsikongjian" android:name=".privacy.PasswordSetting" android:exported="false" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.PRIVACY_LOGIN" />
+                <action android:name="com.zte.heartyservice.intent.action.ACTION_RESET_PRIVACY_PASSWORD" />
+                <action android:name="com.zte.heartyservice.intent.action.ACTION_SET_DISGUISE_PASSWORD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:name=".privacy.BackupActivity" android:targetActivity=".privacy.PasswordSetting">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.ACTION_PRIVACY_BACKUP" />
+                <action android:name="com.zte.heartyservice.intent.action.ACTION_PRIVACY_RESTORE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".privacy.PrivacyEnterSetting" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:name=".privacy.ResetDisguisePasswordDialog" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:name=".appwidget.TrafficAdjustActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/ad_intercept_label" android:icon="@drawable/ic_adds" android:name=".interceptad.AdvertisementActivity">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.ad_intercept" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".interceptad.AdDetailActivity" />
+        <activity android:name=".main.ShortCutEntry" />
+        <activity android:theme="@style/Theme.HeartyService2" android:label="@string/zte_feedback_title" android:name="com.zte.feedback.FeedbackActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity-alias android:label="@string/data_backup" android:icon="@drawable/ic_backup" android:name=".main.BACKUPShortCutEntry" android:exported="false" android:targetActivity=".main.ShortCutEntry">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startApk.CLOUDBACKUP.HS_ENTRY" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/phone_find_back" android:icon="@drawable/ic_fangdao" android:name=".main.RETRIEVEShortCutEntry" android:exported="false" android:targetActivity=".main.ShortCutEntry">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startApk.RETRIEVE.HS_ENTRY" />
+            </intent-filter>
+        </activity-alias>
+        <service android:name=".appwidget.WidgetMemUpdateService" />
+        <activity-alias android:label="@string/app_lock" android:icon="@drawable/ic_lock" android:name=".privacy.AppLockEntry" android:exported="false" android:targetActivity=".privacy.PasswordSetting">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.startActivity.PRIVACY_LOGIN_APP_LOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="class_name" android:value="com.zte.heartyservice.privacy.AppLockActivity" />
+        </activity-alias>
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:name="com.zte.heartyservice.common.ui.DialogActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/new_dialog_style" android:label="@string/app_name" android:name=".floater.DetailNetMonitor" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:theme="@style/new_dialog_style_1" android:label="@string/app_name" android:name=".floater.ScreenLockMonitor" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <service android:name=".floater.BackgroundService" />
+        <service android:name=".floater.ScreenLockMonitorService" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:name="com.zte.heartyservice.privacy.AddPrivacyActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.ADD_PRIVACY_CONTACT" />
+                <action android:name="com.zte.heartyservice.intent.action.ADD_PRIVACY_CONTACT_INTERNAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.ADD_PRIVACY_SMS" />
+                <data android:scheme="sms" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.ADD_PRIVACY_FILE" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.ADD_PRIVACY_IMAGE" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.ADD_PRIVACY_VIDEO" />
+                <data android:mimeType="video/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2.NoTitle" android:label="@string/package_installer_label" android:name=".packageinstaller.PackageInstallerActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:name="com.zte.heartyservice.packageinstaller.InstallerPermissionsList" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.setting.NewPackageShare" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.setting.QRCodeDownload" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name="com.zte.heartyservice.setting.LectureHall" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.HeartyService2.Dialog.Alert.BG" android:name=".intercept.Common.NumberInterceptSet" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.zte.heartyservice.intent.action.BLACK_WHITE_LIST_SET" />
+                <action android:name="com.zte.heartyservice.intent.action.BLACK_LIST_MODIFY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".power.AbnormalAppsActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/Theme.HeartyService2" android:name=".setting.QAActivity" android:screenOrientation="portrait" />
+        <receiver android:name=".main.AppDownloadCompleteReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="qqplaza.intent.action.APP_DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".main.RestartHeartyReceiver" />
+    </application>
+</manifest>

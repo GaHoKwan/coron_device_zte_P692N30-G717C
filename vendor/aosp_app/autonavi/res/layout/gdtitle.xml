@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/titlebar_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/gdtitle_left" android:background="@drawable/gdtitle_back" android:padding="@dimen/gdtitle_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_btn_list_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/gdtitle_right" android:background="@drawable/gdtitle_back" android:padding="@dimen/gdtitle_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/data_downloading_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/gdtitle_text_size" android:textColor="@color/gdtitle_textcolor" android:gravity="center" android:id="@id/gdtitle_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/gdtitle_right" android:layout_toRightOf="@id/gdtitle_left" android:layout_centerVertical="true" />
+</RelativeLayout>

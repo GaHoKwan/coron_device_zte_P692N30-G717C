@@ -6462,7 +6462,7 @@
 
     move-result-object v0
 
-    const v1, 0x108059c
+    const v1, #android:drawable@status_bar_background#t
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -6915,7 +6915,7 @@
 
     move-result-object v0
 
-    const v1, 0x10805f8
+    const v1, #android:drawable@text_select_handle_middle#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -6934,7 +6934,7 @@
 
     move-result-object v0
 
-    const v1, 0x10805f7
+    const v1, #android:drawable@text_select_handle_left#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -6953,7 +6953,7 @@
 
     move-result-object v0
 
-    const v1, 0x10805f9
+    const v1, #android:drawable@text_select_handle_right#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -17436,7 +17436,7 @@
     .line 5943
     iget-object v4, p0, Landroid/webkit/WebViewClassic;->mContext:Landroid/content/Context;
 
-    const v5, 0x104039a
+    const v5, #android:string@text_copied#t
 
     const/4 v6, 0x0
 
@@ -22631,19 +22631,19 @@
 
     invoke-direct {v3, v4}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x1040344
+    const v4, #android:string@save_password_label#t
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v3
 
-    const v4, 0x1040395
+    const v4, #android:string@save_password_message#t
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v3
 
-    const v4, 0x1040396
+    const v4, #android:string@save_password_notnow#t
 
     new-instance v5, Landroid/webkit/WebViewClassic$5;
 
@@ -22653,7 +22653,7 @@
 
     move-result-object v3
 
-    const v4, 0x1040397
+    const v4, #android:string@save_password_remember#t
 
     new-instance v5, Landroid/webkit/WebViewClassic$4;
 
@@ -22663,7 +22663,7 @@
 
     move-result-object v3
 
-    const v4, 0x1040398
+    const v4, #android:string@save_password_never#t
 
     new-instance v5, Landroid/webkit/WebViewClassic$3;
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts">
+    <view android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" ex:direction="widthToHeight" ex:ratio="0.5" class="com.android.contacts.widget.ProportionalLayout">
+        <View android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </view>
+    <View android:id="@id/main_action_push_layer" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_height" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:id="@id/header_call_and_sms_container" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_height" />
+    <View android:id="@id/separator01" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/header_video_call_container" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_height" />
+    <View android:id="@id/separator02" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/header_ip_call_container" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_height" />
+    <View android:id="@id/separator03" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/header_RCS_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_height" />
+</LinearLayout>

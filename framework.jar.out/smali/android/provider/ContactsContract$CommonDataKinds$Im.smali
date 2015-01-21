@@ -111,62 +111,62 @@
     packed-switch p0, :pswitch_data_0
 
     .line 6224
-    const v0, 0x10402bc
+    const v0, #android:string@imProtocolCustom#t
 
     :goto_0
     return v0
 
     .line 6215
     :pswitch_0
-    const v0, 0x10402bd
+    const v0, #android:string@imProtocolAim#t
 
     goto :goto_0
 
     .line 6216
     :pswitch_1
-    const v0, 0x10402be
+    const v0, #android:string@imProtocolMsn#t
 
     goto :goto_0
 
     .line 6217
     :pswitch_2
-    const v0, 0x10402bf
+    const v0, #android:string@imProtocolYahoo#t
 
     goto :goto_0
 
     .line 6218
     :pswitch_3
-    const v0, 0x10402c0
+    const v0, #android:string@imProtocolSkype#t
 
     goto :goto_0
 
     .line 6219
     :pswitch_4
-    const v0, 0x10402c1
+    const v0, #android:string@imProtocolQq#t
 
     goto :goto_0
 
     .line 6220
     :pswitch_5
-    const v0, 0x10402c2
+    const v0, #android:string@imProtocolGoogleTalk#t
 
     goto :goto_0
 
     .line 6221
     :pswitch_6
-    const v0, 0x10402c3
+    const v0, #android:string@imProtocolIcq#t
 
     goto :goto_0
 
     .line 6222
     :pswitch_7
-    const v0, 0x10402c4
+    const v0, #android:string@imProtocolJabber#t
 
     goto :goto_0
 
     .line 6223
     :pswitch_8
-    const v0, 0x10402c5
+    const v0, #android:string@imProtocolNetMeeting#t
 
     goto :goto_0
 
@@ -233,26 +233,26 @@
     packed-switch p0, :pswitch_data_0
 
     .line 6190
-    const v0, 0x10402b8
+    const v0, #android:string@imTypeCustom#t
 
     :goto_0
     return v0
 
     .line 6187
     :pswitch_0
-    const v0, 0x10402b9
+    const v0, #android:string@imTypeHome#t
 
     goto :goto_0
 
     .line 6188
     :pswitch_1
-    const v0, 0x10402ba
+    const v0, #android:string@imTypeWork#t
 
     goto :goto_0
 
     .line 6189
     :pswitch_2
-    const v0, 0x10402bb
+    const v0, #android:string@imTypeOther#t
 
     goto :goto_0
 

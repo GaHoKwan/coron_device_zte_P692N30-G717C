@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="2037" android:versionName="6.1.5903.0162.0160" package="com.autonavi.xmgd.navigator.tob"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/icon" android:name="com.autonavi.xmgd.application.NaviApplication" android:hardwareAccelerated="false">
+        <activity android:theme="@*android:style/Theme.Dialog" android:name="com.mobilebox.acra.CrashReportDialog" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.autonavi.xmgd.navigator.Nothing" android:taskAffinity="com.autonavi.xmgd.navigator.nothing" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.action.NAVIGATOR" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="SHOWMAP" />
+                <data android:scheme="NAVI" />
+                <data android:scheme="GEOSHOWMAP" />
+                <data android:scheme="GEONAVI" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="mo.amap.com" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.action.START" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgdplugin.shareposition.action.showmap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.action.NAVIGATE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.action.SHOWMAP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="geo" />
+                <data android:scheme="pois" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/postal-address" />
+                <data android:mimeType="vnd.android.cursor.item/postal-address_v2" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.action.COMMAND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.Start" />
+        <activity android:name="com.autonavi.xmgd.navigator.Warn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.Map" android:exported="false" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.start_simulate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.stop_simulate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.show_cross" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.delete_route" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.recal_route" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.set_dest" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.set_start" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.set_waypoint" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.move_map" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.show_map" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.show_map_back" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.exit_app" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.restart_app" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.start_service" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.create_shortcut" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.feed_back" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.begin_navi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.share_poi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.select_poi" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.avoid_road" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.show_routeinfo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.show_map_pois" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.from_third_part" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.open_tmc" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.close_voice" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.open_voice" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.go_home" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator_new.action.go_company" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.PoiDetail" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.SearchActivity" android:windowSoftInputMode="stateHidden" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.RoutesManage" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.CitySelect" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.SearchResultActivity" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.MyNavigate" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.MainMenu" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.Version" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.FavoriteEdit" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.DspEdit" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.SoftUpdate" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.DataFeedback" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.DataFeedbackList" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.Feedback" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.FeedbackDetail" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.FeedbackHistory" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.GeneralFeedback" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.NaviSetting" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.GPSInfo" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.RoutesSet" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.SearchForRoute" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.SearchResultForRoute" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.SetDataPath" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.GDGuide" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.SelectPath_Available" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.navigator.ShortCutTransfer" android:exported="true" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.user.GDAccount" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.user.login" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.user.UserRegister" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.user.ForgetPassword" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <provider android:name="com.autonavi.xmgd.user.contentprovider.UserProvider" android:exported="false" android:authorities="com.autonavi.xmgd.user.contentprovider.tob" />
+        <provider android:name="com.autonavi.xmgd.plugin.contentprovider.PluginProvider" android:exported="true" android:authorities="com.autonavi.xmgd.plugin.contentprovider.tob" />
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.citydata.DataUpdate" android:taskAffinity="com.autonavi.xmgd.update" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator.dataupdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.autonavi.xmgd.citydata.DataUpdateDeleteMode" />
+        <service android:name="com.autonavi.xmgd.citydata.DataUpdateService" android:exported="false" />
+        <service android:name="com.autonavi.xmgd.naviservice.NaviService" android:exported="false" />
+        <receiver android:name="com.autonavi.xmgd.receiver.GDReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.citydata.ADD_CITY" />
+                <action android:name="com.autonavi.xmgd.citydata.DEL_CITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.plugin.action.exit_app" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.plugin.action.restart_app.tob" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator.CAR_MODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator.broadcast.COMMAND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator.broadcast.CAR_MODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Transparent" android:label="@string/app_name" android:name="com.autonavi.xmgd.update.SoftUpdate" android:taskAffinity="com.autonavi.xmgd.update" />
+        <activity android:theme="@style/Transparent" android:label="@string/app_name" android:name="com.autonavi.xmgd.update.MapdataUpdate" android:taskAffinity="com.autonavi.xmgd.update" />
+        <activity android:name="com.plugin.installapk.ar.AR" />
+        <receiver android:name="com.plugin.installapk.ar.ARReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.plugin.action.ar.start" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.plugin.installapk.newrttc_v2.NewRttcService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.plugin.installapk.realtraffic.action_service" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.plugin.installapk.newrttc_v2.NewRttcReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.plugin.installapk.realtraffic.start" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.plugin.installapk.realtraffic.stop" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

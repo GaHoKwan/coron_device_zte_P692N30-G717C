@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_strange_call_preference">
+        <item>Block</item>
+        <item>Unblock</item>
+    </string-array>
+    <string-array name="entryvalues_strange_call_preference">
+        <item>unknown_call_block</item>
+        <item>unknown_call_unblock</item>
+    </string-array>
+    <string-array name="entries_strange_message_preference">
+        <item>Block</item>
+        <item>Unblock</item>
+    </string-array>
+    <string-array name="entryvalues_strange_message_preference">
+        <item>unknown_mms_block</item>
+        <item>unknown_mms_unblock</item>
+    </string-array>
+    <string-array name="entries_holdoff_mode_preference">
+        <item>回复为挂机</item>
+        <item>回复为停机</item>
+        <item>回复为空号</item>
+        <item>回复为关机</item>
+    </string-array>
+    <string-array name="entryvalues_holdoff_mode_preference">
+        <item>holdoff_default</item>
+        <item>holdoff_stop</item>
+        <item>holdoff_invalid</item>
+        <item>holdoff_close</item>
+    </string-array>
+    <string-array name="entries_screen_off_time_preference">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>10分钟</item>
+        <item>从不待机</item>
+    </string-array>
+    <string-array name="value_screen_off_time_preference">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>600000</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="entries_wifi_auto_close_time_preference">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>3分钟</item>
+        <item>5分钟</item>
+    </string-array>
+    <string-array name="value_wifi_auto_close_time_preference">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>180000</item>
+        <item>300000</item>
+    </string-array>
+    <string-array name="entries_wifi_auto_close_signal_preference">
+        <item>5%</item>
+        <item>15%</item>
+        <item>30%</item>
+        <item>45%</item>
+    </string-array>
+    <string-array name="value_wifi_auto_close_signal_preference">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="entries_wifi_auto_close_screen_time">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+    </string-array>
+    <string-array name="value_wifi_auto_close_screen_time">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+    <string-array name="entries_bluetooth_check_time">
+        <item>5分钟</item>
+        <item>8分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+    </string-array>
+    <string-array name="values_bluetooth_check_time">
+        <item>300000</item>
+        <item>480000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="entries_bluetooth_setting">
+        <item>若附近没有其他装置则关闭</item>
+        <item>若附近没有已配对装置则关闭</item>
+        <item>若没有连接到其他装置则关闭</item>
+        <item>不停用</item>
+    </string-array>
+    <string-array name="wifi_auto_close_names">
+        <item>连接超时</item>
+        <item>信号低于5%时</item>
+        <item>屏幕关闭时</item>
+    </string-array>
+    <string-array name="wifi_auto_open_names">
+        <item>充电时</item>
+        <item>屏幕点亮时</item>
+    </string-array>
+    <string-array name="network_auto_open_names">
+        <item>充电时</item>
+        <item>屏幕点亮时</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>无动画</item>
+        <item>显示部分动画</item>
+        <item>显示所有窗口动画</item>
+    </string-array>
+    <string-array name="animations_values">
+        <item>00</item>
+        <item>01</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="entries_check_update_preference">
+        <item>软件版本</item>
+        <item>归属地</item>
+        <item>智能拦截库</item>
+    </string-array>
+    <string-array name="entryvalues_check_update_preference">
+        <item>check_version</item>
+        <item>check_location</item>
+        <item>check_sms_checker</item>
+    </string-array>
+    <string-array name="select_mode">
+        <item>CALLS BLOCKER</item>
+        <item>SMS BLOCKER</item>
+    </string-array>
+    <string-array name="add_mode">
+        <item>Add manually</item>
+        <item>Add from the contacts</item>
+        <item>Add from the call log</item>
+        <item>Add from the message list</item>
+    </string-array>
+    <string-array name="add_white_mode">
+        <item>Add manually</item>
+        <item>Add from the contacts</item>
+        <item>Add from the call log</item>
+        <item>Add from the message list</item>
+        <item>Add from the groups</item>
+    </string-array>
+    <string-array name="del_contact">
+        <item>删除所有黑名单联系人</item>
+        <item>删除所有白名单联系人</item>
+        <item>删除所有黑白名单联系人</item>
+    </string-array>
+    <string-array name="entries_attention_mode_preference">
+        <item>无提醒</item>
+        <item>通知栏提醒</item>
+        <item>短信铃声提醒</item>
+        <item>通知栏+短信铃声</item>
+        <item>振动提醒</item>
+        <item>通知栏+振动</item>
+        <item>振动+短信铃声</item>
+    </string-array>
+    <string-array name="entryvalues_7">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="entryvalues_6">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="entryvalues_4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="entryvalues_3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entryvalues_2">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="filter_mode_entries_1">
+        <item>Accept</item>
+        <item>Block</item>
+    </string-array>
+    <string-array name="filter_mode_entries_2">
+        <item>Accept</item>
+        <item>Ignore</item>
+    </string-array>
+    <string-array name="filter_mode_entries_3">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="filter_mode_entries_4">
+        <item>Block</item>
+        <item>Ignore</item>
+    </string-array>
+    <string-array name="secure_call_mode">
+        <item>正常接听</item>
+        <item>来电挂断</item>
+        <item>来电挂断并回复短信</item>
+    </string-array>
+    <string-array name="secure_call_mode_dualsim">
+        <item>正常接听</item>
+        <item>来电挂断</item>
+    </string-array>
+    <string-array name="secure_call_notice_mode_1">
+        <item>静音</item>
+        <item>电话铃声</item>
+        <item>振动</item>
+    </string-array>
+    <string-array name="secure_call_notice_mode_2">
+        <item>无提醒</item>
+        <item>响一声</item>
+        <item>通知栏提醒</item>
+        <item>通知栏+响一声</item>
+    </string-array>
+    <string-array name="entries_auto_ipcall_preference">
+        <item>拨打长途时</item>
+        <item>拨打所有号码时</item>
+    </string-array>
+    <string-array name="entryvalues_auto_ipcall_preference">
+        <item>call_long_number</item>
+        <item>call_all_number</item>
+    </string-array>
+    <string-array name="entryvalues_icon">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entry_apn_type">
+        <item>Net</item>
+        <item>Wap</item>
+    </string-array>
+    <string-array name="entryvalues_apn_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entry_screenshot_type">
+        <item>通知栏截屏</item>
+        <item>摇晃截屏</item>
+    </string-array>
+    <string-array name="entryvalues_screenshot_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entry_screenshot_format">
+        <item>PNG</item>
+        <item>JPEG</item>
+    </string-array>
+    <string-array name="entryvalues_screenshot_format">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entry_screenshot_quality">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="entryvalues_screenshot_quality">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="protect_tip">
+        <item>提示所有操作</item>
+        <item>提示拒绝的操作</item>
+        <item>提示允许的操作</item>
+        <item>只记录，不提示</item>
+    </string-array>
+    <string-array name="second_miao_tip">
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+    </string-array>
+    <string-array name="intercept_operator_sms">
+        <item>Restore to the system sms</item>
+        <item>Call</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="intercept_operator_call">
+        <item>Restore to the system call log</item>
+        <item>Call</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="operator">
+        <item>Refuse</item>
+        <item>Allow</item>
+    </string-array>
+    <string-array name="timed_task_list">
+        <item>定时拦截模式</item>
+        <item>定时情景模式</item>
+        <item>定时开关软件</item>
+    </string-array>
+    <string-array name="operator_chose">
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国电信</item>
+    </string-array>
+    <string-array name="account_type">
+        <item>Website</item>
+        <item>Email</item>
+        <item>Game</item>
+        <item>Chat</item>
+        <item>Bank</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="reject_type">
+        <item>Reject message</item>
+        <item>Reject voice call</item>
+    </string-array>
+    <string-array name="add_type">
+        <item>Add to blacklist</item>
+        <item>Add to whitelist</item>
+    </string-array>
+    <string-array name="sim_info_preset_cities">
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>深圳</item>
+        <item>武汉</item>
+        <item>南京</item>
+        <item>西安</item>
+        <item>成都</item>
+        <item>杭州</item>
+        <item>郑州</item>
+        <item>重庆</item>
+        <item>沈阳</item>
+        <item>哈尔滨</item>
+        <item>长沙</item>
+        <item>苏州</item>
+        <item>东莞</item>
+        <item>厦门</item>
+        <item>天津</item>
+        <item>济南</item>
+    </string-array>
+    <string-array name="cm_filter_args">
+        <item>天翼</item>
+        <item>电信营业厅</item>
+        <item>联通营业厅</item>
+    </string-array>
+    <string-array name="disguise_add_mode">
+        <item>Add manually</item>
+        <item>Add from the contacts</item>
+    </string-array>
+    <string-array name="delete_mode">
+        <item>Restore record to local</item>
+        <item>Delete record</item>
+    </string-array>
+    <string-array name="delete_contact_mode">
+        <item>Restore record to local</item>
+        <item>Leave records in privacy</item>
+        <item>Delete record</item>
+    </string-array>
+    <string-array name="privacy_picture_video_btn">
+        <item>@string/select_photo_video</item>
+        <item>@string/start_camera</item>
+        <item>@string/start_video</item>
+    </string-array>
+    <string-array name="privacy_handle_encrypted_item">
+        <item>@string/view</item>
+        <item>@string/global_decryption</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="privacy_other_files_btn">
+        <item>@string/select_files</item>
+    </string-array>
+    <string-array name="shortcut_ations">
+        <item>com.zte.heartyservice.intent.action.startActivity.PERMISSION_SCANNER</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.PACKAGE_MANAGEMENT</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.VIRUS_SCANNER</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.SPEED_UP</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.INSTALLED_SOFTWARE</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.CONCERN_ZTE</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.PRIVACY_LOGIN</item>
+        <item>com.zte.heartyservice.intent.action.startApk.CLOUDBACKUP.HS_ENTRY</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.DEFAULT_APPLICATION</item>
+        <item>com.zte.heartyservice.intent.action.startActivity.HARASSMENT_INTERCEPT</item>
+        <item>com.zte.heartyservice.intent.action.startApk.DM.HS_CHECKENTRY</item>
+        <item>com.zte.heartyservice.intent.action.startApk.RETRIEVE.HS_ENTRY</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zte.heartyservice.common.utils.HorizontalScrollContainer android:id="@id/container" android:scrollbars="none" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/main_bg_image" android:layout_width="wrap_content" android:layout_height="@dimen/main_model_bg_height" android:src="@drawable/main_title_bg_new" android:scaleType="fitXY" />
+    </com.zte.heartyservice.common.utils.HorizontalScrollContainer>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/main_title_bar" />
+        <include android:layout_margin="0.0dip" layout="@layout/main_model_area" />
+        <include layout="@layout/sub_model_area_2_0" />
+        <include layout="@layout/sub_model_buttons" />
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/main_bg0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

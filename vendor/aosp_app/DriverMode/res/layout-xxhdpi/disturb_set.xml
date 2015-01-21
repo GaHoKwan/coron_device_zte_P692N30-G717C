@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_medium" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1">
+        <ImageButton android:id="@id/disturb_title_Button" android:background="#00ffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_ab_back_holo_dark" android:scaleType="fitXY" android:layout_weight="0.1" />
+        <TextView android:textSize="30.0dip" android:textColor="#ff2e2e2e" android:gravity="left|center" android:id="@id/disturb_title_TextView" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/disturbsetting" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+        <CheckBox android:textSize="25.0dip" android:textColor="#ff969696" android:id="@id/callCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/callrefuse" android:layout_weight="0.1" />
+        <CheckBox android:textSize="25.0dip" android:textColor="#ff969696" android:id="@id/smsCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smsrefuse" android:layout_weight="0.1" />
+    </LinearLayout>
+</LinearLayout>

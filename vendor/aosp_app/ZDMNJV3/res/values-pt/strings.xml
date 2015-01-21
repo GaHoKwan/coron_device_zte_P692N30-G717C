@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ask_setup_message">Instalar as novas definições recebidas?</string>
+    <string name="omacp_setup">Mensagem OTAP</string>
+    <string name="install_compelete">Instalação executada correctamente!</string>
+    <string name="instatll_fail">Falha na instalação!</string>
+    <string name="security_error">Falha na instalação!</string>
+    <string name="xml_parse_error">Falha na instalação!</string>
+    <string name="user_cancel">Cancelar</string>
+    <string name="input_pin">Código PIN</string>
+    <string name="app_name">Serviço de actualização de software</string>
+    <string name="dm_update_service">Serviço de actualização de software</string>
+    <string name="system_update">A procurar actualizações</string>
+    <string name="connecting">A procurar actualizações</string>
+    <string name="downloading">Aguarde, este processo pode demorar alguns minutos para completar.</string>
+    <string name="download_title">Serviço de actualização de software</string>
+    <string name="download_val">Nova actualização disponível</string>
+    <string name="download_message">Nova actualização disponível. Deseja transferir?</string>
+    <string name="cancel_message">Tem a certeza que quer cancelar a actualização?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="failed">Falhou</string>
+    <string name="update_failed">A actualização falhou</string>
+    <string name="install_title">Instalar software</string>
+    <string name="install_message">Para iniciar a actualização, vai ter que reiniciar o telefone.</string>
+    <string name="checking_update">A procurar actualizações</string>
+    <string name="update_title">Actualização automática.</string>
+    <string name="update_message" />
+    <string name="update_deferred">Instalar software.</string>
+    <string name="service_unavailable">Não pode actualizar o seu telefone sem serviço de dados.</string>
+    <string name="check_new">A procurar actualizações</string>
+    <string name="status">Estado</string>
+    <string name="version">Versão de software:</string>
+    <string name="desc" />
+    <string name="update_setting">Definições de actualização</string>
+    <string name="background">Segundo plano</string>
+    <string name="delay">Adiar</string>
+    <string name="dm_session_busy">Já existe uma sessão aberta, tente novamente mais tarde.</string>
+    <string name="downloading_notification">Transferir</string>
+    <string name="downloading_notification_message">A transferir</string>
+    <string name="update_warning_notification">Serviço de actualização de software</string>
+    <string name="update_warning_notification_message">Nova actualização disponível. Deseja transferir?</string>
+    <string name="update_warning_notification_new_package">Nova actualização disponível. Deseja transferir?</string>
+    <string name="install_notification">Instalar software</string>
+    <string name="install_notification_message">Para iniciar a actualização, vai ter que reiniciar o telefone.</string>
+    <string name="install_file_notification">Instalar as novas definições recebidas?</string>
+    <string name="pin">Código PIN</string>
+    <string name="confirm">OK</string>
+    <string name="intallresult">Mensagem OTAP</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="mobile_networks">Transferir através de redes móveis</string>
+    <string name="autoupdate_toinstall">Instalar software</string>
+    <string name="autoupdate_todownload">Transferir</string>
+    <string name="autoupdate_busy">Já existe uma sessão aberta, tente novamente mais tarde.</string>
+    <string name="attention">Serviço de actualização de software</string>
+    <string name="update_busy">Ocupado, tente novamente mais tarde</string>
+    <string name="memory_insufficient">Espaço insuficiente</string>
+    <string name="memory_insufficient_info">"O seu telefone não tem espaço suficiente para esta actualização. 
+Por favor liberte espaço e tente novamente"</string>
+    <string name="network_unavailable">Serviço de actualização de software</string>
+    <string name="network_unavailable_info">Não pode actualizar o seu telefone sem serviço de dados.</string>
+    <string name="uncaught_exception_title" />
+    <string name="uncaught_exception_info" />
+    <string name="updata_ok">Reiniciar</string>
+    <string name="updata_Defer">Adiar</string>
+    <string name="updata_info">Para iniciar a actualização, vai ter que reiniciar o telefone.</string>
+    <string name="updata_title">Serviço de actualização de software</string>
+    <string name="dm_comlete_sec">Aguarde, este processo vai demorar %1$d segundos para completar.</string>
+    <string name="dm_compele_min">Aguarde, este processo vai demorar %1$d minutos para completar.</string>
+    <string name="dm_compele_hou" />
+    <string name="dm_version">Versão de software:</string>
+    <string name="dm_update_date">Estado:</string>
+    <string name="dm_fumo_Message">Estado</string>
+    <string name="dm_fumo_START">A procurar actualizações</string>
+    <string name="dm_fumo_INSTAll_DEFER">Instalar software.</string>
+    <string name="dm_fumo_SETUP">Pacote de instalação de actualização</string>
+    <string name="dm_never_SETUP">Versão original</string>
+    <string name="dm_fumo_status_noupdate">Já tem a ultima versão</string>
+    <string name="dm_fumo_status_failed">A actualização falhou</string>
+    <string name="dm_fumo_status_sucess">Software actualizado com sucesso</string>
+    <string name="dm_check_updatetile">A procurar actualizações</string>
+    <string name="dm_check_update">A procurar actualizações…</string>
+    <string name="dm_network_error">Erro de rede, por favor tente mais tarde</string>
+    <string name="dm_already_new">Já tem a ultima versão</string>
+    <string name="dm_isroaming">Não pode actualizar o seu telefone quando está em roaming.</string>
+    <string name="dm_airplan">Não pode actualizar o seu telefone no modo de avião.</string>
+    <string name="dm_no_dataservice">Não pode actualizar o seu telefone sem serviço de dados.</string>
+    <string name="dm_update_setting">Definições de actualização</string>
+    <string name="auto_update_switch_title">Actualização automática.</string>
+    <string name="auto_update_switch_key">Actualização automática.</string>
+    <string name="auto_update_switch_summary_on">Abrir actualizações automáticas.</string>
+    <string name="auto_update_switch_summary_off">Fechar actualizações automáticas.</string>
+    <string name="auto_update_frequency_text">A procurar actualizações %1$s %2$s</string>
+    <string name="dm_wifi_open">Ligue o Wi-Fi para começar a transferência</string>
+    <string name="dm_via_wifi">Nova actualização disponível</string>
+    <string name="dm_wifi_set">Definições Wi-Fi</string>
+    <string name="dm_yes">Sim</string>
+    <string name="dm_no">Não</string>
+    <string name="dm_wifi_fail">Ligação Wi-Fi não disponível. A transferência será cancelada.</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">%1$s vezes mais para atrasar.</string>
+    <string name="download_message_new">"Nova actualização disponível. Deseja transferir? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"Nova actualização disponível. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ versão:"</string>
+    <string name="download_message_size">"
+ dados:"</string>
+    <string name="download_message_description">"
+ descrição:"</string>
+    <string name="download_message_auto_download">"
+
+ Download automático em %1$s segundos"</string>
+    <string name="install_message_new">"Para iniciar a actualização, vai ter que reiniciar o telefone. 
+
+ %1$s vezes mais para atrasar."</string>
+    <string name="install_message_force">Força atualização em %1$s minutos.</string>
+    <string name="dm_continue">continuar</string>
+    <string name="send">enviar</string>
+    <string name="feedback">Comentários</string>
+    <string name="feedback_content">por favor entrada de seu conselho</string>
+    <string name="email">por favor entrada de seu e-mail</string>
+    <string name="feedback_result">Enviar sucesso, obrigado pelo seu feedback</string>
+    <string name="email_auth">por favor de entrada o e-mail correto</string>
+    <string name="feedback_auth">Sua opinião é muito importante para nós,por favor insira o seu feedback,obrigado</string>
+    <string name="feedback_network">Rede não está disponível,por favor, ligue-o novamente e enviar o seu feedback,obrigado</string>
+    <string name="dm_Delay_show_once">1 vezes mais para atrasar.</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zte.heartyservice.common.datatype.P3Switch android:id="@id/switchWidget" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_marginRight="@dimen/setting_margin_in_lr" />
+</LinearLayout>

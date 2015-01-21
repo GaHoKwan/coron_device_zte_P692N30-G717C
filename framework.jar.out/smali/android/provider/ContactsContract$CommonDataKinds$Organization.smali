@@ -99,20 +99,20 @@
     packed-switch p0, :pswitch_data_0
 
     .line 6397
-    const v0, 0x10402c8
+    const v0, #android:string@orgTypeCustom#t
 
     :goto_0
     return v0
 
     .line 6395
     :pswitch_0
-    const v0, 0x10402c6
+    const v0, #android:string@orgTypeWork#t
 
     goto :goto_0
 
     .line 6396
     :pswitch_1
-    const v0, 0x10402c7
+    const v0, #android:string@orgTypeOther#t
 
     goto :goto_0
 

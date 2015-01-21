@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ar_topological_portrait_normal_width">400.0px</dimen>
+    <dimen name="ar_topological_portrait_normal_height">400.0px</dimen>
+    <dimen name="ar_topological_portrait_pressed_width">1080.0px</dimen>
+    <dimen name="ar_topological_portrait_pressed_height">800.0px</dimen>
+    <dimen name="ar_topological_landscape_normal_width">300.0px</dimen>
+    <dimen name="ar_topological_landscape_normal_height">300.0px</dimen>
+    <dimen name="ar_topological_landscape_pressed_width">960.0px</dimen>
+    <dimen name="ar_topological_landscape_pressed_height">700.0px</dimen>
+    <dimen name="ar_dir_landscape_width">240.0dip</dimen>
+    <dimen name="ar_dir_landscape_height">200.0dip</dimen>
+    <dimen name="ar_top_height">70.0dip</dimen>
+    <dimen name="ar_bottom_height">70.0dip</dimen>
+    <dimen name="ar_progress_margin_top">20.0px</dimen>
+    <dimen name="ar_next_road_text_size">30.0sp</dimen>
+    <dimen name="ar_speed_width">200.0dip</dimen>
+    <dimen name="ar_camera_width">200.0dip</dimen>
+    <dimen name="ar_next_road_distance_padding_top">5.0dip</dimen>
+    <dimen name="ar_speed_padding_left">10.0dip</dimen>
+    <dimen name="ar_camera_distance_padding_right">10.0dip</dimen>
+    <dimen name="ar_compass_width">75.0dip</dimen>
+    <dimen name="ar_compass_height">75.0dip</dimen>
+</resources>

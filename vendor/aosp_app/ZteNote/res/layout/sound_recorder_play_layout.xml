@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/play_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">"
+<TextView android:textSize="13.0dip" android:textColor="#ff000000" android:id="@id/current_time" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <SeekBar android:orientation="horizontal" android:id="@id/play_seekBar" android:paddingTop="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:maxHeight="3.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/play_seekbar" android:minHeight="3.0dip" android:thumb="@drawable/progressbar_control" android:thumbOffset="12.0dip" android:layout_toRightOf="@id/current_time" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:id="@id/all_time" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/play_seekBar" />
+    <ImageButton android:id="@id/play_button" android:background="@null" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:src="@drawable/pause" android:layout_toRightOf="@id/current_time" android:layout_below="@id/play_seekBar" />
+    <ImageButton android:id="@id/stop_button" android:background="@null" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:src="@drawable/stop" android:layout_toRightOf="@id/play_button" android:layout_below="@id/play_seekBar" />
+</RelativeLayout>

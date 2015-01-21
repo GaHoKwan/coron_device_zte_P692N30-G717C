@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dialog_full_holo_dark" android:layout_width="310.0sp" android:layout_height="150.0sp" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/message" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/just_3G_note" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textIsSelectable="true" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/title" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/just_3G" android:layout_above="@id/message" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                <Button android:textSize="13.0sp" android:id="@id/cancel" android:background="@drawable/btn_bg_selector" android:layout_width="70.0dip" android:layout_height="40.0sp" android:layout_marginBottom="5.0sp" android:text="@string/cancel" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                <Button android:textSize="13.0sp" android:id="@id/sure" android:background="@drawable/btn_bg_selector" android:layout_width="70.0dip" android:layout_height="40.0sp" android:layout_marginBottom="5.0sp" android:text="@string/sure" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                <Button android:textSize="13.0sp" android:id="@id/set_wifi" android:background="@drawable/btn_bg_selector" android:layout_width="120.0dip" android:layout_height="40.0sp" android:layout_marginBottom="5.0sp" android:text="@string/set_wifi" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

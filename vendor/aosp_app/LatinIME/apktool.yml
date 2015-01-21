@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: LatinIME.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '16'
+packageInfo:
+  cur_package: com.android.inputmethod.latin
+  orig_package: com.android.inputmethod.latin
+compressionType: false

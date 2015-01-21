@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/battery_info_part_one" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.25">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/battery_info_battery_icon" android:layout_width="100.0dip" android:layout_height="200.0dip" android:src="@drawable/battery" android:layout_centerInParent="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/charging_icon" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="46.0dip" android:src="@drawable/charging" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/battery_info_battery_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/battery_info_btn_panel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.2">
+            <TextView android:id="@id/left_charging_time" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/grey_12sp" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/cur_mode" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/popdown_selector" android:drawablePadding="5.0dip" />
+            </LinearLayout>
+            <include layout="@layout/power_mode_detail_info_layout" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/batteryinfo_remainingitem_title" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="right|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="@string/batteryinfo_remainingitem_time" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@color/divider_bold_color" />
+        <ListView android:id="@id/battery_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

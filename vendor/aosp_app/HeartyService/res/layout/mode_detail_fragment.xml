@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zte.heartyservice.power.myEditTextPreference android:title="@string/detail_mode_name_title" android:key="mode_name" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/basenet" android:key="base_net" style="@style/myCheckBoxPreference" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/netdata" android:key="netdata" android:dependency="base_net" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/wifi" android:key="wifi" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/gps" android:key="gps" />
+    <com.zte.heartyservice.power.BrightnessPreference android:title="@string/brightness" android:key="brightness" android:dialogTitle="@string/brightness_dialog_title" />
+    <com.zte.heartyservice.power.myListPreference android:entries="@array/timeout_array" android:title="@string/timeout" android:key="timeout" android:entryValues="@array/timeout_array_value" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/feedback" android:key="feedback" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/bluetooth" android:key="bluetooth" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/sync" android:key="autosync" android:dependency="base_net" />
+    <com.zte.heartyservice.power.myCheckboxPreference android:title="@string/rotate" android:key="rotate" style="@style/myCheckBoxPreference" />
+</PreferenceScreen>

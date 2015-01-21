@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip">
+        <TextView android:textColor="@color/black_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/LockViewTextTitle" />
+        <TextView android:textColor="#ffff0000" android:id="@id/TV_pwd_error" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Pwd_error" />
+        <EditText android:textColor="#ff000000" android:id="@id/ET_funcpassword" android:background="@drawable/textedit3" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_margin="10.0dip" android:inputType="textPassword" android:textCursorDrawable="@null" style="?android:attr/textViewStyle">
+            <requestFocus />
+        </EditText>
+        <Button android:enabled="false" android:textColor="@color/black_hint" android:id="@id/BTN_OK" android:background="@drawable/button_new" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_margin="10.0dip" android:text="@string/SOFTKEY_OK" style="@style/ButtonStyle" />
+        <TextView android:textColor="@color/black_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reset_pwd_prompt" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="25.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:src="@drawable/lock_logo" android:layout_above="@id/BTN_call_owner" android:layout_centerHorizontal="true" />
+            <Button android:textColor="@color/green_button" android:layout_gravity="center" android:id="@id/BTN_call_owner" android:background="@drawable/button_new" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginBottom="20.0dip" android:text="@string/LockViewTextContent" android:layout_alignParentBottom="true" style="@style/ButtonStyle" />
+            <Button android:textColor="@color/green_open" android:layout_gravity="center" android:id="@id/BTN_offhook" android:background="@drawable/imagebutton_active" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginBottom="20.0dip" android:text="@string/Offhook" android:layout_alignParentBottom="true" style="@style/ButtonStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="1000.0dip" />
+    <SurfaceView android:layout_gravity="center" android:id="@id/SV_camera" android:visibility="invisible" android:layout_width="1024.0dip" android:layout_height="1.0dip" />
+</LinearLayout>

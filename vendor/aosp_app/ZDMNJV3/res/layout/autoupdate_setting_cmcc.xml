@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/layout_body_partOne" android:background="@drawable/bgv3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="6.0">
+        <LinearLayout android:gravity="top|left|center" android:layout_gravity="top|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/title_v3" android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/auto_update_settings" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/mode_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/title_v3" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/auto_update_setting_introduce_cmcc" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/wifi_auto_update_text_message_layout" android:layout_width="213.0dip" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_auto_update_switch_title" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/black" android:id="@id/wifi_autoupdate_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_auto_update_switch_summary_on" />
+        </LinearLayout>
+        <CheckBox android:id="@id/wifi_autoupdate_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/deep_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:width="1.0dip" />
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/cmcc_wifi_auto_update_text_message_layout" android:layout_width="213.0dip" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cmcc_wifi_auto_update_switch_title" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/black" android:id="@id/cmcc_wifi_autoupdate_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cmcc_wifi_auto_update_switch_summary_on" />
+        </LinearLayout>
+        <CheckBox android:id="@id/cmcc_wifi_autoupdate_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" />
+    </LinearLayout>
+</LinearLayout>

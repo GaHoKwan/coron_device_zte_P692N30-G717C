@@ -5727,7 +5727,7 @@
 
     iget-object v2, v0, Lcom/android/internal/telephony/cat/CatService;->mContext:Landroid/content/Context;
 
-    const v3, 0x104050b
+    const v3, #android:string@launchBrowserDefault#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -5984,7 +5984,7 @@
 
     iget-object v2, v0, Lcom/android/internal/telephony/cat/CatService;->mContext:Landroid/content/Context;
 
-    const v3, 0x104050a
+    const v3, #android:string@sending#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -6042,7 +6042,7 @@
 
     iget-object v2, v0, Lcom/android/internal/telephony/cat/CatService;->mContext:Landroid/content/Context;
 
-    const v3, 0x104050c
+    const v3, #android:string@SetupCallDefault#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

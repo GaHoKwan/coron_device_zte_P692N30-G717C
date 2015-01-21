@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
+            <Key latin:keyLabel="ဇ" />
+            <Key latin:keyLabel="ဌ" />
+            <Key latin:moreKeys="ၰ" latin:keyLabel="ဃ" />
+            <Key latin:moreKeys="ဋ,ဍ" latin:keyLabel="ဠ" />
+            <Key latin:keyLabel="ယ" />
+            <Key latin:moreKeys="ဦ,၌" latin:keyLabel="ဥ" />
+            <Key latin:moreKeys="ၫ" latin:keyLabel="ါ" />
+        </case>
+        <default>
+            <Key latin:moreKeys="၈,ၿ" latin:keyLabel="ဖ" />
+            <Key latin:moreKeys="\uaa6a,\uaa69,\uaa67" latin:keyLabel="ထ" />
+            <Key latin:moreKeys="ၔ,ၕ,ၶ,ႀ" latin:keyLabel="ခ" />
+            <Key latin:moreKeys="ၺ,၇,\uaa6e" latin:keyLabel="လ" />
+            <Key latin:keyLabel="ဘ" />
+            <Key latin:moreKeys="ဩ" latin:keyLabel="ည" />
+            <Key latin:moreKeys="ၣ" latin:keyLabel="ာ" />
+        </default>
+    </switch>
+</merge>

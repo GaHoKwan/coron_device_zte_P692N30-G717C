@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout3" android:background="@drawable/help_bg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="67.73">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout7" android:background="@drawable/help_bg" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_weight="6.39" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout8" android:background="@drawable/help_bg1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.67" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout9" android:background="@drawable/help_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="83.89">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="4.38" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="90.2">
+                <ImageView android:id="@id/imageView5" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="wrap_content" android:src="@drawable/help_bg" android:layout_weight="13.58" />
+                <com.ant.liao.GifView android:id="@id/gifView1" android:layout_width="200.0dip" android:layout_height="fill_parent" android:layout_weight="72.85" />
+                <ImageView android:id="@id/imageView6" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="wrap_content" android:src="@drawable/help_bg" android:layout_weight="13.58" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.42" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout10" android:background="@drawable/help_bg1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.67" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout11" android:background="@drawable/help_bg" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_weight="6.39" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout4" android:background="@drawable/help_bg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.11" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linearLayout5" android:background="@drawable/help_bg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="4.38">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout18" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="38.47" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout19" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="23.06">
+            <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_point" android:layout_weight="1.0" />
+            <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_point_focus" android:layout_weight="1.0" />
+            <ImageView android:id="@id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_point" android:layout_weight="1.0" />
+            <ImageView android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_point" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout20" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="38.47" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout6" android:background="@drawable/help_bg1" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="0.0">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="30.0px" android:textColor="@color/grey" android:gravity="center" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="54.0dip" android:layout_marginRight="54.0dip" android:text="@string/help2" />
+    </LinearLayout>
+</LinearLayout>

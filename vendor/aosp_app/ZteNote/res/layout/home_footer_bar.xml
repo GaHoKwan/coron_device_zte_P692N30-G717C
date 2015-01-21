@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/ab_bottom_transparent_dark_holo" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/home_footer_new_note" android:text="@string/home_tab_create_note" android:drawableTop="@drawable/ic_ab_new" style="@style/HomeActionBarTextView" />
+    <TextView android:id="@id/header_sort" android:text="@string/menu_sort" android:drawableTop="@drawable/ic_ab_sort" style="@style/HomeActionBarTextView" />
+    <TextView android:id="@id/header_search" android:text="@string/menu_search" android:drawableTop="@drawable/ic_ab_search" style="@style/HomeActionBarTextView" />
+    <TextView android:id="@id/home_footer_muti_select" android:text="@string/muti_select" android:drawableTop="@drawable/ic_button_select_all" style="@style/HomeActionBarTextView" />
+    <TextView android:id="@id/home_footer_delete" android:visibility="gone" android:text="@string/delete" android:drawableTop="@drawable/ic_menu_trash_holo_light" style="@style/HomeActionBarTextView" />
+    <TextView android:id="@id/home_footer_export" android:visibility="gone" android:text="@string/export" android:drawableTop="@drawable/ic_export" style="@style/HomeActionBarTextView" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/guide_instruct" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/guide_instruct_security" />
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/order03" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="17.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/instruct_erase" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black_hint" android:id="@id/tv_erase" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/erase_description" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumb_disp_width">235.0dip</dimen>
+    <dimen name="thumb_disp_height">192.0dip</dimen>
+    <dimen name="indicator_padding">4.0dip</dimen>
+    <dimen name="title_size">12.0sp</dimen>
+</resources>

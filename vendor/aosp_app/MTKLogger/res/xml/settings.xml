@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/menu_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_settings_title">
+        <SwitchPreference android:title="@string/mobile_log_name" android:key="mobilelog_switch" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/modem_log_name" android:key="modemlog_switch" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/network_log_name" android:key="networklog_switch" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced_settings_title" android:key="advanced_settings_category">
+        <CheckBoxPreference android:title="@string/enable_tag_log_title" android:key="taglog_enable" android:summary="@string/enable_tag_log_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/enable_exception_reporter_title" android:key="exceptionreporter_enable" android:summary="@string/enable_exception_reporter_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/enable_ui_debug_mode_title" android:key="ui_debug_mode_enable" android:summary="@string/enable_ui_debug_mode_summary" android:defaultValue="false" />
+        <ListPreference android:title="@string/log_storage_location_title" android:key="log_storage_location" android:dialogTitle="@string/log_storage_location_title" />
+        <EditTextPreference android:title="@string/run_command_title" android:key="run_command" android:summary="@string/run_command_summary" />
+        <PreferenceScreen android:title="@string/run_exception_history" android:key="run_exception_history" android:summary="@string/run_exception_history_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

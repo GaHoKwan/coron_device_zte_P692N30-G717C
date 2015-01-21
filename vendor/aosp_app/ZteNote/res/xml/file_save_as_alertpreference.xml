@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:singleLine="true" android:title="@string/filename" android:key="filename" android:summary="" /> `<PreferenceScreen android:title="@string/filepath" android:key="filepath" android:summary="">
+        <intent android:targetPackage="zte.com.cn.cloudnotepad" android:action="cloudnotepad.saveas" android:targetClass="zte.com.cn.cloudnotepad.filer.FilerActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

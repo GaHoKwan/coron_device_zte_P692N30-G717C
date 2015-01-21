@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/layout_body_partOne" android:background="@drawable/bgv3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="6.0">
+        <LinearLayout android:gravity="top|left|center" android:layout_gravity="top|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/title_v3" android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/auto_update_settings" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/mode_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/title_v3" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/auto_update_setting_introduce" />
+        </LinearLayout>
+    </LinearLayout>
+    <RadioGroup android:gravity="left|center" android:orientation="vertical" android:id="@id/auto_update_radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/every_day_auto_check_radiobutton" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" android:text="@string/every_day_auto_check" android:drawableRight="@*android:drawable/btn_radio" />
+        <RadioButton android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/every_week_auto_check_radiobutton" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" android:text="@string/every_week_auto_check" android:drawableRight="@*android:drawable/btn_radio" />
+        <RadioButton android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/every_month_auto_check_radiobutton" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" android:text="@string/every_month_auto_check" android:drawableRight="@*android:drawable/btn_radio" />
+        <RadioButton android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/no_auto_check_radiobutton" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" android:text="@string/no_auto_check" android:drawableRight="@*android:drawable/btn_radio" />
+    </RadioGroup>
+</LinearLayout>

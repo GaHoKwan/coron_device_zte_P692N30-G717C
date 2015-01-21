@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/main_model_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <RelativeLayout android:id="@id/title_circle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/title_circle_right_margin" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="@dimen/software_speedup_bg" android:layout_height="@dimen/software_speedup_bg" android:src="@drawable/main_circle_bg" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/circle_click" android:layout_width="@dimen/software_speedup_bg_selector" android:layout_height="@dimen/software_speedup_bg_selector" android:src="@drawable/main_bg_p3_click_selector" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="@dimen/software_speedup_icon" android:layout_height="@dimen/software_speedup_icon" android:src="@drawable/circle_speedup" android:scaleType="fitCenter" />
+            <TextView android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_speeding_label" android:singleLine="true" style="@style/light_grey_11sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/summary_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/title_summary_left_margin" android:layout_marginTop="@dimen/title_summary_right_top" android:layout_marginRight="@dimen/title_summary_right_margin" android:layout_marginBottom="@dimen/title_summary_right_bottom" android:layout_toLeftOf="@id/title_circle" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/software_summary_text_margin">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/main_phone" android:scaleType="fitCenter" />
+                <TextView android:textStyle="bold" android:ellipsize="marquee" android:id="@id/storage_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/storage_total" android:singleLine="true" style="@style/main_grey_11sp" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/storage_progress" android:layout_width="fill_parent" android:layout_height="@dimen/progressbar_height" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/progressbar_text_margin" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:progressDrawable="@drawable/storage_progress" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/main_card" android:scaleType="fitCenter" />
+                <TextView android:textStyle="bold" android:ellipsize="marquee" android:id="@id/ext_storage_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/ext_storage_total" android:singleLine="true" style="@style/main_grey_11sp" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/ext_storage_progress" android:layout_width="fill_parent" android:layout_height="@dimen/progressbar_height" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/progressbar_text_margin" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:progressDrawable="@drawable/storage_progress_blue" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

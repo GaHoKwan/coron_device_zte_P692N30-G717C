@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">中國氣象頻道</string>
+    <string name="appwidget_name4_2">02 中國氣象頻道</string>
+    <string name="appwidget_name4_1">01 中國氣象頻道</string>
+    <string name="company_name">華風創新網路版權所有</string>
+    <string name="phone_company">中興通訊定制</string>
+    <string name="main_exit">確定退出%s？</string>
+    <string name="main_exit_warn_switch">退出後接收預警</string>
+    <string name="network_is_not_available">網路不可用，請檢查網路是否連接！</string>
+    <string name="location_new_city">您當前所在城市為：%s，是否同步當前城市？</string>
+    <string name="location_exist_city">您當前所在城市為：%s，是否設置為默認城市？</string>
+    <string name="more"><u>更多詳情</u></string>
+    <string name="unknow">未知</string>
+    <string name="widget_add_city">點擊添加城市</string>
+    <string name="memory_is_empty">空間已滿，應用無法啟動。</string>
+    <string name="locationing">正在定位，請稍後...</string>
+    <string name="location_cancel">已取消</string>
+    <string name="init_notice">首次使用請設置默認城市，是否自動定位？</string>
+    <string name="translation_title">"歡迎使用
+%s客戶端"</string>
+    <string name="translation_content">%s客戶端是中國氣象局官方天氣軟體。免費提供全國3000多個地區及世界重點城市實況天氣、未來7天預報、生活指數及視頻天氣預報等豐富內容，並具有天氣預警功能。</string>
+    <string name="logo_load_city_info_title">載入數據中...</string>
+    <string name="logo_permission_title">系統提示</string>
+    <string name="logo_permission_agree">同意</string>
+    <string name="logo_permission_not_agree">退出</string>
+    <string name="show_permission_content">"歡迎使用%s客戶端，客戶端使用完全免費，在使用過程中會產生移動網絡或WLAN流量費，流量費請諮詢當地運營商。 
+客戶端還會用到如下功能：
+●聯網操作需要讀取手機狀態和聯網權限；
+●定位功能需要通過GPS、小區基站或WlAN獲取你的位置；
+●語音輸入功能需要使用錄音權限；
+●周邊地圖需要使用拍照權限；
+是否同意和繼續？"</string>
+    <string name="location_net_wrong">定位失敗！</string>
+    <string name="weather_format2" formatted="false">%s轉%s</string>
+    <string name="wind_dir_format2" formatted="false">%s轉%s</string>
+    <string name="wind_power_format">%s級</string>
+    <string name="cf_today">今天</string>
+    <string name="main_city">城市</string>
+    <string name="main_weather">天氣</string>
+    <string name="main_indices">指數</string>
+    <string name="main_video">視頻</string>
+    <string name="main_map">周邊</string>
+    <string name="main_trend">趨勢</string>
+    <string name="main_menu_share">分享</string>
+    <string name="main_share_sms">短信分享</string>
+    <string name="main_share_pcs">百度網盤分享</string>
+    <string name="main_menu_setting">設置</string>
+    <string name="main_menu_recommend">熱門推薦</string>
+    <string name="main_menu_anniversaries">紀念日</string>
+    <string name="main_menu_map">氣象圖</string>
+    <string name="main_menu_image">地圖</string>
+    <string name="main_share_no_activity">目前只支持短信分享</string>
+    <string name="main_share_message">(來自%s)；</string>
+    <string name="loading_citys">載入數據...</string>
+    <string name="main_update_title">發現新版本</string>
+    <string name="main_update_message">檢測到新版本，但未經全面相容測試，請謹慎選擇是否升級。</string>
+    <string name="main_load_now">立即下載</string>
+    <string name="main_load_later">稍候再說</string>
+    <string name="main_net_no_use">網路不可用</string>
+    <string name="pcs_share_successed">百度網盤分享成功</string>
+    <string name="pcs_share_failed">百度網盤分享失敗</string>
+    <string name="anniversary_notice">今天是個特殊的日子，您想說點什麼...</string>
+    <string name="activity_not_found">​​應用沒有安裝</string>
+    <string name="anniversary_edit_dialog_title">請輸入</string>
+    <string name="anniversary_dialog_share_to_pcs">百度網盤分享</string>
+    <string name="anniversary_dialog_save_to_sdcard">保存本地</string>
+    <string name="anniversary_edittext_hint">請輸入您想說的內容</string>
+    <string name="sdcard_unavailable">SD card不可用</string>
+    <string name="save_local_successed">已保存到“%s”</string>
+    <string name="city_edittext_hind_text">城市名/拼音</string>
+    <string name="city_dialog_quering_message">正在查詢天氣,請稍候...</string>
+    <string name="city_query_failed">資料下載失敗，請檢查網路連接是否順暢。</string>
+    <string name="city_weather_item_wind" formatted="false">風力 %s%s級</string>
+    <string name="city_default_city_name">"%s 
+(默認)"</string>
+    <string name="city_modify_city_name_hind">輸入新的城市名</string>
+    <string name="city_modify_name_dialog_title">修改昵稱</string>
+    <string name="city_modify_ok">確定</string>
+    <string name="city_modify_cancle">取消</string>
+    <string name="city_voice_search_text">請說出城市名</string>
+    <string name="city_location_city">正在定位您所在城市...</string>
+    <string name="city_delete_city">正在刪除...</string>
+    <string name="city_location_city_fail">定位失敗，請檢查網路連接狀態或GPS是否打開。</string>
+    <string name="city_update_all_weather">正在更新所有城市天氣...</string>
+    <string name="main_guide_update">點擊資料更新</string>
+    <string name="main_guide_sk">左右滑動</string>
+    <string name="main_guide_sk2">切換城市</string>
+    <string name="main_guide_cf1">向右滑動</string>
+    <string name="main_guide_cf">查看7天預報</string>
+    <string name="city_guide1">按住城市超過2秒</string>
+    <string name="city_guide2">彈出</string>
+    <string name="city_guide3">設置菜單</string>
+    <string name="weather_spinner_title">城市</string>
+    <string name="weather_wind_size">風力：</string>
+    <string name="weather_atmospheric_pressure">氣壓：</string>
+    <string name="weather_humidity">濕度：</string>
+    <string name="weather_solar_terms">節日節氣</string>
+    <string name="weather_jieqi_string" formatted="false">距離%s還有%d天</string>
+    <string name="weather_jieri_string" formatted="false">距<string name="video_loading_title">視頻加載中...</string> <string name="video_loading_content">請稍候</string>離%s還有%d天</string>
+    <string name="weather_car_num_text">限行尾號：</string>
+    <string name="weather_sunrise_set">日出日落</string>
+    <string name="weather_sunrise_time">日出：06:00</string>
+    <string name="weather_sunset_time">日落：18:05</string>
+    <string name="weather_no_warning">無預警信息！</string>
+    <string name="weather_sdcard_no_use">存儲卡不可用！</string>
+    <string name="weather_updating">更新中...</string>
+    <string name="sk_warning_button">預警</string>
+    <string name="sk_forecast">預報</string>
+    <string name="sk_report">時實況</string>
+    <string name="weather_refalsh_time_string">中央氣象臺發佈</string>
+    <string name="weather_date_format_string">M月d日</string>
+    <string name="weather_date_monday">週一</string>
+    <string name="weather_date_tuesday">週二</string>
+    <string name="weather_date_wednesday">週三</string>
+    <string name="weather_date_thursday">週四</string>
+    <string name="weather_date_friday">週五</string>
+    <string name="weather_date_saturday">週六</string>
+    <string name="weather_date_sunday">週日</string>
+    <string name="weather_night">夜間</string>
+    <string name="indices_cl">晨練指數</string>
+    <string name="indices_cy">穿衣指數</string>
+    <string name="indices_gm">感冒指數</string>
+    <string name="indices_ssd">舒適度指數</string>
+    <string name="indices_xc">洗車指數</string>
+    <string name="indices_zs">中暑指數</string>
+    <string name="indices_zwx">紫外線指數</string>
+    <string name="indices_ls">晾曬指數</string>
+    <string name="indices_kqwr">空氣污染指數</string>
+    <string name="indices_ly">旅遊指數</string>
+    <string name="indices_kt">空調開啟指數</string>
+    <string name="indices_dy">釣魚指數</string>
+    <string name="indices_fs">防曬指數</string>
+    <string name="indices_gj">逛街指數</string>
+    <string name="indices_hc">划船指數</string>
+    <string name="indices_jt">交通指數</string>
+    <string name="indices_lk">路況指數</string>
+    <string name="indices_ys">雨傘指數</string>
+    <string name="indices_mf">美髮指數</string>
+    <string name="indices_ysh">夜生活指數</string>
+    <string name="indices_pj">啤酒指數</string>
+    <string name="indices_ffz">放風箏指數</string>
+    <string name="indices_hz">化妝指數</string>
+    <string name="indices_fh">風寒指數</string>
+    <string name="indices_xq">心情指數</string>
+    <string name="indices_yd">運動指數</string>
+    <string name="indices_yh">約會指數</string>
+    <string name="indices_no_date">暫無指數資料</string>
+    <string name="video_warn_title">播放</string>
+    <string name="video_warn_content">當前是3G/GPRS網路，是否繼續播放？如果繼續播放可能會消耗您的手機流量</string>
+    <string name="video_warn_ok">繼續播放</string>
+    <string name="video_warn_cancle">退出播放</string>
+    <string name="video_no_net">無網路連接</string>
+    <string name="video_item_size">大小≈</string>
+    <string name="video_loading_title">視頻加載中...</string>
+    <string name="video_loading_content">請稍候</string>
+    <string name="map_warn_title">地圖</string>
+    <string name="map_warn_content">當前是3G/GPRS網路，是否繼續載入地圖？如果繼續載入可能會消耗您的手機流量</string>
+    <string name="map_warn_ok">繼續載入</string>
+    <string name="map_warn_cancle">退出載入</string>
+    <string name="ind_sel_back">返回</string>
+    <string name="ind_delete_indices">確認刪除%s?</string>
+    <string name="ind_sel_ok">選好了</string>
+    <string name="indices_selected_morethan_nine">矮油，已經選滿9個了~</string>
+    <string name="map_loading_bitmap">正在下載圖片...</string>
+    <string name="map_leida">雷達圖</string>
+    <string name="map_run_tu">雲圖</string>
+    <string name="map_refresh">刷新</string>
+    <string name="dialog_net_title">系統提示</string>
+    <string name="dialog_net_notice">程式將下載天氣資料，產生流量，流量費由運營商收取。</string>
+    <string name="dialog_net_switch">不再提醒</string>
+    <string name="set_category_system">系統</string>
+    <string name="set_category_prefer">偏好</string>
+    <string name="set_category_other">其他</string>
+    <string name="set_temperature_title">氣溫制式</string>
+    <string name="set_temperature_summary">設置溫標，默認為攝氏度</string>
+    <string name="set_temperature_sheshi">攝氏C</string>
+    <string name="set_temperature_huashi">華氏F</string>
+    <string name="set_update_title">更新設置</string>
+    <string name="set_update_summary">設置更新時間間隔</string>
+    <string name="set_share_title">轉發分享</string>
+    <string name="set_share_summary">設置需要分享給好友預報資訊的天數</string>
+    <string name="set_warning_title">預警設置</string>
+    <string name="set_warning_summary">設置需要提示預警資訊的城市</string>
+    <string name="set_change_backgraound_title">更換背景</string>
+    <string name="check_update_title">檢查更新</string>
+    <string name="check_no_update">沒有更新</string>
+    <string name="check_timeout">連接超時</string>
+    <string name="recommend_title">熱門推薦</string>
+    <string name="set_traffic_title">今日流量統計</string>
+    <string name="set_traffic_summary" formatted="false">wifi： %s ; 2G/3G：%s</string>
+    <string name="set_traffic_summary2">今日使用流量:%s</string>
+    <string name="boot_get_weather_title">開機獲取天氣</string>
+    <string name="boot_get_weather_summary">開機自動獲取所在地天氣信息。</string>
+    <string name="notify_weather_title">狀態欄天氣</string>
+    <string name="notify_weather_summary">狀態欄顯示天氣信息</string>
+    <string name="key_auto_location_title">所在位置</string>
+    <string name="key_auto_location_summary">自動定位所在位置</string>
+    <string name="set_about">關於</string>
+    <string name="set_wind_introduce">風矢符號說明</string>
+    <string name="background_imgae_select">背景圖片選擇</string>
+    <string name="indices_custom_text">請選擇您的生活方式</string>
+    <string name="load_failed">下載失敗</string>
+    <string name="load_text">正在下載</string>
+    <string name="help_text">"\u0009\u0009感謝您使用%s手機客戶端！
+\u0009\u00091. 中國氣象局權威資料
+\u0009\u00092. 第一時間發佈天氣預警
+\u0009\u00093. 多達27種氣象指數自由組合
+\u0009\u00094. 獨家天氣視頻精品點播
+\u0009\u0009還有更多實用功能將陸續與您見面，為您帶來貼心的移動天氣服務！
+
+\u0009\u0009常見問題：
+\u0009\u00091. 添加天氣桌面插件
+\u0009\u0009返回手機桌面——在空白處長按2秒以上——功能表中選擇添加小部件或者小插件——列表中點選天氣預報。請您在桌面留出足夠的位置。
+
+\u0009\u00092. 修改默認城市
+\u0009\u0009在城市列表中，長按您希望設為默認城市的城市，在彈出功能表中選擇“設為默認城市”。另外，在功能表中您還可以選擇給城市改名稱，例如把“天津”改為“朋友的地方”。
+
+\u0009\u00093. 點播天氣視頻
+\u0009\u0009每天您都能看到最新的天氣視頻節目，每段節目大約會耗費您2-5M的流量，請根據需要選擇使用Wifi、3G或Gprs等合適的網路觀看。
+
+\u0009\u00094. 更換背景圖
+\u0009\u0009點擊Menu按鍵，進入“設置”功能表，點擊“更換背景”，選擇您喜歡的背景圖即可。
+
+\u0009\u0009客戶服務
+\u0009\u0009如有意見或建議，歡迎聯繫我們"</string>
+    <string name="help_tel_text">\u0009\u0009客服電話：</string>
+    <string name="help_tel">400-622-0323</string>
+    <string name="help_email_text">\u0009\u0009公司網址：</string>
+    <string name="help_email">www.tianqi.cn</string>
+    <string name="help_wap_text">\u0009\u0009天氣WAP網站：</string>
+    <string name="help_wap">m.weathercn.com</string>
+    <string name="help_com" formatted="false">"\u0009\u0009%s
+\u0009\u0009版本號：v %s
+\u0009\u0009北京華風氣象傳媒集團有限責任公司
+\u0009\u0009北京華風創新網路技術有限公司
+版權所有(c)2010,保留所有權利。
+"</string>
+    <string name="help_pindao_text">"\u0009\u0009中國氣象頻道
+\u0009\u0009中國氣象頻道是中國氣象局主辦，由華風氣象影視資訊集團和各級氣象部門共同承辦的，承擔國家公共氣象服務職能的數位電視專業頻道，是突發公共事件應急回應的預警防災資訊發佈平臺。"</string>
+    <string name="help_hf_yingshi_text">"\u0009\u0009北京華風氣象傳媒集團有限責任公司
+\u0009\u0009北京華風氣象傳媒集團有限責任公司，是中國氣象局直屬企業，是面向公眾提供氣象服務的一個重要視窗，承擔著國家級氣象災害預警預報媒體發佈、媒體公眾氣象服務、氣象影視科普宣傳等職責，是中國氣象局公共氣象服務的重要組成部分。
+
+\u0009\u0009北京華風創新網路技術有限公司於2003年1月成立，是中國氣象局華風氣象影視資訊集團的全資子公司。公司以集團的影視為依託，努力開拓氣象影視資訊在新媒體領域的資訊服務，服務領域全方位覆蓋，包括手機、IPTV、互聯網電視、可視電話、車載導航等多個新媒體終端。我們致力於提供內容豐富、聲色並茂、可視性強、貼近生活、貼近社會各行業需求的公眾氣象服務。"</string>
+    <string name="help_qixiang_text">\u0009\u0009天氣資訊來源：</string>
+    <string name="wind_introduce_text">"\u0009\u0009風矢符號，由風向桿和風羽組成。 
+\u0009\u0009風向桿指風的來向，在天氣預報中，風向用8個方位來表示。 
+\u0009\u0009短直線和上面的小三角形代表風速的大小，每一長劃代表4米/秒的風，每一個三角旗代表20米/秒的風。"</string>
+    <string name="wind_introduce_song_title">風力歌\u0009\u0009</string>
+    <string name="wind_introduce_song">"零級無風炊煙上；一級軟風煙稍斜；
+二級輕風樹葉響；三級微風樹枝晃；
+四級和風灰塵起；五級清風水起波；
+六級強風大樹搖；七級疾風步難行；
+八級大風樹枝折；九級烈風煙囪毀；
+十級狂風樹根拔；十一級暴風陸罕見；
+十二級颶風浪滔天。"</string>
+    <string name="network_wifi">wifi網路已連接</string>
+    <string name="network_mobile">移動網路已連接</string>
+    <string name="network_null">當前無網路連接</string>
+    <string name="tencent_progress">請求中,請稍等...</string>
+    <string name="tencent_content">通過中國氣象頻道軟件分享天氣給大家</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_failed">分享失敗</string>
+    <string name="notify_tomorrow_text1">明天天氣溫度為：%s</string>
+    <string name="notify_tomorrow_text2">明天最高溫度比今天%s</string>
+    <string name="notify_low">低%s</string>
+    <string name="notify_high">高%s</string>
+    <string name="notify_equal">明天和今天的最高溫度持平</string>
+    <string name="warn_pre_tf_b">"1. 政府及相關部門按照職責做好防颱風準備工作；
+2. 停止露天集體活動和高空等戶外危險作業；
+3. 相關水域水上作業和過往船舶採取積極的應對措施，如回港避風或者繞道航行等；
+4. 加固門窗、圍板、棚架、廣告牌等易被風吹動的搭建物，切斷危險的室外電源。"</string>
+    <string name="warn_pre_tf_y">"1. 政府及相關部門按照職責做好防颱風應急準備工作；
+2. 停止室內外大型集會和高空等戶外危險作業；
+3. 相關水域水上作業和過往船舶採取積極的應對措施，加固港口設施，防止船舶走錨、擱淺和碰撞；
+4. 加固或者拆除易被風吹動的搭建物，人員切勿隨意外出，確保老人小孩留在家中最安全的地方，危房人員及時轉移。"</string>
+    <string name="warn_pre_tf_o">"1. 政府及相關部門按照職責做好防颱風搶險應急工作；
+2. 停止室內外大型集會、停課、停業（除特殊行業外）；
+3. 相關水域水上作業和過往船舶應當回港避風，加固港口設施，防止船舶走錨、擱淺和碰撞；
+4. 加固或者拆除易被風吹動的搭建物，人員應當盡可能待在防風安全的地方，當颱風中心經過時風力會減小或者靜止一段時間，切記強風將會突然吹襲，應當繼續留在安全處避風，危房人員及時轉移；
+5. 相關地區應當注意防範強降水可能引發的山洪、地質災害。"</string>
+    <string name="warn_pre_tf_r">"1. 政府及相關部門按照職責做好防颱風應急和搶險工作；
+2. 停止集會、停課、停業（除特殊行業外）；
+3. 回港避風的船舶要視情況採取積極措施，妥善安排人員留守或者轉移到安全地帶；
+4. 加固或者拆除易被風吹動的搭建物，人員應當待在防風安全的地方，當颱風中心經過時風力會減小或者靜止一段時間，切記強風將會突然吹襲，應當繼續留在安全處避風，危房人員及時轉移；
+5. 相關地區應當注意防範強降水可能引發的山洪、地質災害。"</string>
+    <string name="warn_pre_by_b">"1. 政府及相關部門按照職責做好防暴雨準備工作；
+2. 學校、幼兒園採取適當措施，保證學生和幼兒安全；
+3. 駕駛人員應當注意道路積水和交通阻塞，確保安全；
+4. 檢查城市、​​農田、魚塘排水系統，做好排澇準備。"</string>
+    <string name="warn_pre_by_y">"1. 政府及相關部門按照職責做好防暴雨工作；
+2. 交通管理部門應當根據路況在強降雨路段採取交通管制措施，在積水路段實行交通引導；
+3 . 切斷低窪地帶有危險的室外電源，暫停在空曠地方的戶外作業，轉移危險地帶人員和危房居民到安全場所避雨；
+4. 檢查城市、​​農田、魚塘排水系統，採取必要的排澇措施。"</string>
+    <string name="warn_pre_by_o">"1. 政府及相關部門按照職責做好防暴雨應急工作；
+2. 切斷有危險的室外電源，暫停戶外作業；
+3. 處於危險地帶的單位應當停課、停業，採取專門措施保護已到校學生、幼兒和其他上班人員的安全；
+4. 做好城市、農田的排澇，注意防範可能引發的山洪、滑坡、泥石流等災害。"</string>
+    <string name="warn_pre_by_r">"1. 政府及相關部門按照職責做好防暴雨應急和搶險工作；
+2. 停止集會、停課、停業（除特殊行業外）；
+3. 做好山洪、滑坡、泥石流等災害的防禦和搶險工作。"</string>
+    <string name="warn_pre_bx_b">"1. 政府及有關部門按照職責做好防雪災和防凍害準備工作；
+2. 交通、鐵路、電力、通信等部門應當進行道路、鐵路、線路巡查維護，做好道路清掃和積雪融化工作；
+3. 行人注意防寒防滑，駕駛人員小心駕駛，車輛應當採取防滑措施；
+4. 農牧區和種養殖業要儲備飼料，做好防雪災和防凍害準備； 
+5. 加固棚架等易被雪壓的臨時搭建物。"</string>
+    <string name="warn_pre_bx_y">"1. 政府及相關部門按照職責落實防雪災和防凍害措施；
+2. 交通、鐵路、電力、通信等部門應當加強道路、鐵路、線路巡查維護，做好道路清掃和積雪融化工作；
+3. 行人注意防寒防滑，駕駛人員小心駕駛，車輛應當採取防滑措施；
+4. 農牧區和種養殖業要備足飼料，做好防雪災和防凍害準備；n5. 加固棚架等易被雪壓的臨時搭建物。"</string>
+    <string name="warn_pre_bx_o">"1. 政府及相關部門按照職責做好防雪災和防凍害的應急工作；
+2. 交通、鐵路、電力、通信等部門應當加強道路、鐵路、線路巡查維護，做好道路清掃和積雪融化工作；
+3. 減少不必要的戶外活動；
+4. 加固棚架等易被雪壓的臨時搭建物，將戶外牲畜趕入棚圈餵養。"</string>
+    <string name="warn_pre_bx_r">"1. 政府及相關部門按照職責做好防雪災和防凍害的應急和搶險工作；
+2. 必要時停課、停業（除特殊行業外）；
+3. 必要時飛機暫停起降，火車暫停運行，高速公路暫時封閉；
+4. 做好牧區等救災救濟工作。"</string>
+    <string name="warn_pre_hc_b">"1. 政府及有關部門按照職責做好防寒潮準備工作；
+2. 注意添衣保暖；
+3. 對熱帶作物、水產品採取一定的防護措施；
+4. 做好防風準備工作。"</string>
+    <string name="warn_pre_hc_y">"1. 政府及有關部門按照職責做好防寒潮工作；
+2. 注意添衣保暖，照顧好老、弱、病人；
+3. 對牲畜、家禽和熱帶、亞熱帶水果及有關水產品、農作物等採取防寒措施；
+4. 做好防風工作。"</string>
+    <string name="warn_pre_hc_o">"1. 政府及有關部門按照職責做好防寒潮應急工作；
+2. 注意防寒保暖；
+3. 農業、水產業、畜​​牧業等要積極採取防霜凍、冰凍等防寒措施，盡量減少損失；
+4. 做好防風工作。"</string>
+    <string name="warn_pre_hc_r">"1. 政府及相關部門按照職責做好防寒潮的應急和搶險工作；
+2. 注意防寒保暖；
+3. 農業、水產業、畜​​牧業等要積極採取防霜凍、冰凍等防寒措施，盡量減少損失；
+4. 做好防風工作。"</string>
+    <string name="warn_pre_scb_y">"1. 政府及相關部門按照職責做好防沙塵暴工作；
+2. 關好門窗，加固圍板、棚架、廣告牌等易被風吹動的搭建物，妥善安置易受大風影響的室外物品，遮蓋建築物資，做好精密儀器的密封工作；
+3. 注意攜帶口罩、紗巾等防塵用品，以免沙塵對眼睛和呼吸道造成損傷；
+4. 呼吸道疾病患者、對風沙較敏感人員不要到室外活動。"</string>
+    <string name="warn_pre_scb_o">"1. 政府及相關部門按照職責做好防沙塵暴應急工作；
+2. 停止露天活動和高空、水上等戶外危險作業；
+3. 機場、鐵路、高速公路等單位做好交通安全的防護措施，駕駛人員注意沙塵暴變化，小心駕駛；
+4. 行人注意盡量少騎自行車，戶外人員應當戴好口罩、紗巾等防塵用品，注意交通安全。"</string>
+    <string name="warn_pre_scb_r">"1. 政府及相關部門按照職責做好防沙塵暴應急搶險工作；
+2. 人員應當留在防風、防塵的地方，不要在戶外活動；
+3. 學校、幼兒園推遲上學或者放學，直至特強沙塵暴結束；
+4. 飛機暫停起降，火車暫停運行，高速公路暫時封閉。"</string>
+    <string name="warn_pre_gw_y">"1. 有關部門和單位按照職責做好防暑降溫準備工作；
+2. 午後儘量減少戶外活動；
+3. 對老、弱、病、幼人群提供防暑降溫指導；n4. 高溫條件下作業和白天需要長時間進行戶外露天作業的人員應當採取必要的防護措施。"</string>
+    <string name="warn_pre_gw_o">"1. 有關部門和單位按照職責落實防暑降溫保障措施；
+2. 盡量避免在高溫時段進行戶外活動，高溫條件下作業的人員應當縮短連續工作時間；
+3. 對老、弱、病、幼人群提供防暑降溫指導，並採取必要的防護措施；
+4. 有關部門和單位應當注意防範因用電量過高，以及電線、變壓器等電力負載過大而引發的火災。"</string>
+    <string name="warn_pre_gw_r">"1. 有關部門和單位按照職責採取防暑降溫應急措施；
+2. 停止戶外露天作業（除特殊行業外）；
+3. 對老、弱、病、幼人群採取保護措施；
+4. 有關部門和單位要特別注意防火。"</string>
+    <string name="warn_pre_gh_o">"1. 有關部門和單位按照職責做好防禦乾旱的應急工作；
+2. 有關部門啟用應急備用水源，調度轄區內一切可用水源，優先保障城鄉居民生活用水和牲畜飲水；
+3. 壓減城鎮供水指標，優先經濟作物灌溉用水，限制大量農業灌溉用水；
+4. 限制非生產性高耗水及服務業用水，限制排放工業污水；
+5. 氣象部門適時進行人工增雨作業。"</string>
+    <string name="warn_pre_gh_r">"1. 有關部門和單位按照職責做好防禦乾旱的應急和救災工作；
+2. 各級政府和有關部門啟動遠距離調水等應急供水方案，採取提外水、打深井、車載送水等多種手段，確保城鄉居民生活和牲畜飲水；
+3. 限時或者限量供應城鎮居民生活用水，縮小或者階段性停止農業灌溉供水；
+4. 嚴禁非生產性高耗水及服務業用水，暫停排放工業污水；
+5. 氣象部門適時加大人工增雨作業力度。"</string>
+    <string name="warn_pre_sd_b">"1. 政府及農林主管部門按照職責做好防霜凍準備工作；
+2. 對農作物、蔬菜、花卉、瓜果、林業育種要採取一定的防護措施；
+3. 農村基層組織和農戶要關注當地霜凍預警信息，以便採取措施加強防護。"</string>
+    <string name="warn_pre_sd_y">"1. 政府及農林主管部門按照職責做好防霜凍應急工作；
+2. 農村基層組織要廣泛發動群眾，防災抗災；
+3. 對農作物、林業育種要積極採取田間灌溉等防霜凍、冰凍措施，盡量減少損失；
+4. 對蔬菜、花卉、瓜果要採取覆蓋、噴灑防凍液等措施，減輕凍害。"</string>
+    <string name="warn_pre_sd_o">"1. 政府及農林主管部門按照職責做好防霜凍應急工作；
+2. 農村基層組織要廣泛發動群眾，防災抗災；
+3. 對農作物、蔬菜、花卉、瓜果、林業育種要採取積極的應對措施，盡量減少損失。"</string>
+    <string name="warn_pre_dw_y">"1. 有關部門和單位按照職責做好防霧準備工作；
+2. 機場、高速公路、輪渡碼頭等單位加強交通管理，保障安全；
+3. 駕駛人員注意霧的變化，小心駕駛；
+4. 戶外活動注意安全。"</string>
+    <string name="warn_pre_dw_o">"1. 有關部門和單位按照職責做好防霧工作；
+2. 機場、高速公路、輪渡碼頭等單位加強調度指揮；
+3. 駕駛人員必須嚴格控制車、船的行進速度；
+4. 減少戶外活動。"</string>
+    <string name="warn_pre_dw_r">"1. 有關部門和單位按照職責做好防霧應急工作；
+2. 有關單位按照行業規定適時採取交通安全管制措施，如機場暫停飛機起降，高速公路暫時封閉，輪渡暫時停航等；
+3. 駕駛人員根據霧天行駛規定，採取霧天預防措施，根據環境條件採取合理行駛方式，並儘快尋找安全停放區域停靠；
+4. 不要進行戶外活動。"</string>
+    <string name="warn_pre_m_y">"1. 空氣質量明顯降低，人員需適當防護；
+2. 一般人群適量減少戶外活動，兒童、老人及易感人群應減少外出。"</string>
+    <string name="warn_pre_m_o">"1. 空氣質量差，人員需適當防護；
+2. 一般人群減少戶外活動，兒童、老人及易感人群應盡量避免外出。"</string>
+    <string name="warn_pre_m_r">"1. 政府及相關部門按照職責採取相應措施，控制污染物排放。 
+2. 空氣質量很差，人員需加強防護；
+3. 一般人群避免戶外活動，兒童、老人及易感人群應當留在室內；
+4. 機場、高速公路、輪渡碼頭等單位加強交通管理，保障安全；
+5. 駕駛人員謹慎駕駛。"</string>
+    <string name="warn_pre_ld_y">"1. 政府及相關部門按照職責做好防雷工作；
+2. 密切關注天氣，盡量避免戶外活動。"</string>
+    <string name="warn_pre_ld_o">"1. 政府及相關部門按照職責落實防雷應急措施；
+2. 人員應當留在室內，並關好門窗；
+3. 戶外人員應當躲入有防雷設施的建築物或者汽車內；
+4. 切斷危險電源，不要在樹下、電桿下、塔吊下避雨；
+5. 在空曠場地不要打傘，不要把農具、羽毛球拍、高爾夫球桿等扛在肩上。"</string>
+    <string name="warn_pre_ld_r">"1. 政府及相關部門按照職責做好防雷應急搶險工作；
+2. 人員應當盡量躲入有防雷設施的建築物或者汽車內，並關好門窗；
+3 . 切勿接觸天線、水管、鐵絲網、金屬門窗、建築物外牆，遠離電線等帶電設備和其他類似金屬裝置；
+4. 盡量不要使用無防雷裝置或者防雷裝置不完備的電視、電話等電器；
+5. 密切注意雷電預警信息的發布。"</string>
+    <string name="warn_pre_bb_o">"1. 政府及相關部門按照職責做好防冰雹的應急工作；
+2. 氣象部門做好人工防雹作業準備並擇機進行作業；
+3. 戶外行人立即到安全的地方暫避；
+4. 驅趕家禽、牲畜進入有頂蓬的場所，妥善保護易受冰雹襲擊的汽車等室外物品或者設備；
+5. 注意防禦冰雹天氣伴隨的雷電災害。"</string>
+    <string name="warn_pre_bb_r">"1. 政府及相關部門按照職責做好防冰雹的應急和搶險工作；
+2. 氣象部門適時開展人工防雹作業；
+3. 戶外行人立即到安全的地方暫避；
+4. 驅趕家禽、牲畜進入有頂蓬的場所，妥善保護易受冰雹襲擊的汽車等室外物品或者設備；
+5. 注意防禦冰雹天氣伴隨的雷電災害。"</string>
+    <string name="warn_pre_dljb_y">"1. 交通、公安等部門要按照職責做好道路結冰應對準備工作；
+2. 駕駛人員應當注意路況，安全行駛；
+3. 行人外出盡量少騎自行車，注意防滑。"</string>
+    <string name="warn_pre_dljb_o">"1. 交通、公安等部門要按照職責做好道路結冰應急工作；
+2. 駕駛人員必須採取防滑措施，聽從指揮，慢速行使；
+3. 行人出門注意防滑。"</string>
+    <string name="warn_pre_dljb_r">"1. 交通、公安等部門做好道路結冰應急和搶險工作；
+2. 交通、公安等部門注意指揮和疏導行駛車輛，必要時關閉結冰道路交通；
+3 . 人員盡量減少外出。"</string>
+    <string name="warn_pre_df_b">"1. 政府及相關部門按照職責做好防大風工作；
+2. 關好門窗，加固圍板、棚架、廣告牌等易被風吹動的搭建物，妥善安置易受大風影響的室外物品，遮蓋建築物資；
+3. 相關水域水上作業和過往船舶採取積極的應對措施，如回港避風或者繞道航行等；
+4. 行人注意盡量少騎自行車，刮風時不要在廣告牌、臨時搭建物等下面逗留；
+5. 有關部門和單位注意森林、草原等防火。"</string>
+    <string name="warn_pre_df_y">"1. 政府及相關部門按照職責做好防大風工作；
+2. 停止露天活動和高空等戶外危險作業，危險地帶人員和危房居民盡量轉到避風場所避風；
+3 . 相關水域水上作業和過往船舶採取積極的應對措施，加固港口設施，防止船舶走錨、擱淺和碰撞；
+4. 切斷戶外危險電源，妥善安置易受大風影響的室外物品，遮蓋建築物資；n5. 機場、高速公路等單位應當採取保障交通安全的措施，有關部門和單位注意森林、草原等防火。"</string>
+    <string name="warn_pre_df_o">"1. 政府及相關部門按照職責做好防大風應急工作；
+2. 房屋抗風能力較弱的中小學校和單位應當停課、停業，人員減少外出；
+3. 相關水域水上作業和過往船舶應當回港避風，加固港口設施，防止船舶走錨、擱淺和碰撞；
+4. 切斷危險電源，妥善安置易受大風影響的室外物品，遮蓋建築物資；
+5. 機場、鐵路、高速公路、水上交通等單位應當採取保障交通安全的措施，有關部門和單位注意森林、草原等防火。"</string>
+    <string name="warn_pre_df_r">"1. 政府及相關部門按照職責做好防大風應急和搶險工作；
+2. 人員應當盡可能停留在防風安全的地方，不要隨意外出；
+3. 回港避風的船舶要視情況採取積極措施，妥善安排人員留守或者轉移到安全地帶；
+4. 切斷危險電源，妥善安置易受大風影響的室外物品，遮蓋建築物資；
+5. 機場、鐵路、高速公路、水上交通等單位應當採取保障交通安全的措施，有關部門和單位注意森林、草原等防火。"</string>
+    <string name="warn_priventive_title">防禦指南</string>
+    <string name="warn_item_list">預警列表</string>
+    <string name="share_default">"%s手機客戶端！中國氣象局權威數據。 
+下載地址：http://www.tianqi.cn/khd/download/HFWeather-GuanFang.apk"</string>
+    <string name="baidu_pcs_cancel_login">取消登陸</string>
+    <string name="baidu_pcs_login_failed">登陸失敗</string>
+    <string name="baidu_pcs_share_successed">網盤分享成功</string>
+    <string name="baidu_pcs_share_failed">網盤分享失敗</string>
+    <string name="baidu_pcs_share_failed_code">錯誤碼：</string>
+    <string name="map_update_periphera">正在更新周邊天氣...</string>
+    <string name="no_data">額~好像今天的數據堵在路上了~，請稍後查看。</string>
+    <string name="video_failed">網絡不給力，請稍後再試試</string>
+    <string name="video_failed_reload">點擊屏幕刷新</string>
+    <string name="guide_title">歡迎使用中國氣象頻道客戶端</string>
+    <string name="guide_image_text1">●更精美的界面</string>
+    <string name="guide_image_text2">●新增風力風向預報</string>
+    <string name="guide_image_text3">（4級以上風力時出現風矢提醒）</string>
+    <string name="guide_wind_text">風矢符號說明</string>
+    <string name="guide_start_text">進入體驗</string>
+    <string name="umeng_common_action_info_exist">正在下载中.</string>
+    <string name="umeng_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="umeng_common_action_pause">暂停</string>
+    <string name="umeng_common_action_continue">继续</string>
+    <string name="umeng_common_action_cancel">取消</string>
+    <string name="umeng_common_download_notification_prefix">正在下载:</string>
+    <string name="umeng_common_start_download_notification">正在下载应用</string>
+    <string name="umeng_common_start_patch_notification">正在更新安装包</string>
+    <string name="umeng_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_common_download_failed">下载失败</string>
+    <string name="umeng_common_download_finish">下载完成，请点击安装</string>
+    <string name="umeng_common_patch_finish">更新完成，请点击安装</string>
+    <string name="UMBreak_Network">未联网</string>
+    <string name="UMUpdateTitle">发现新版本</string>
+    <string name="UMNewVersion">最新版本:</string>
+    <string name="UMUpdateContent">更新内容</string>
+    <string name="UMUpdateSize">仅需要下载:</string>
+    <string name="UMTargetSize">新版本大小:</string>
+    <string name="UMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="UMUpdateNow">立即更新</string>
+    <string name="UMAppUpdate">应用更新</string>
+    <string name="UMNotNow">以后再说</string>
+    <string name="UMIgnore">忽略该版</string>
+    <string name="UMToast_IsUpdating">正在更新中....</string>
+    <string name="UMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="weather0">晴</string>
+    <string name="weather1">多雲</string>
+    <string name="weather2">陰</string>
+    <string name="weather3">陣雨</string>
+    <string name="weather4">雷陣雨</string>
+    <string name="weather5">雷陣雨伴有冰雹</string>
+    <string name="weather6">雨夾雪</string>
+    <string name="weather7">小雨</string>
+    <string name="weather8">中雨</string>
+    <string name="weather9">大雨</string>
+    <string name="weather10">暴雨</string>
+    <string name="weather11">大暴雨</string>
+    <string name="weather12">特大暴雨</string>
+    <string name="weather13">陣雪</string>
+    <string name="weather14">小雪</string>
+    <string name="weather15">中雪</string>
+    <string name="weather16">大雪</string>
+    <string name="weather17">暴雪</string>
+    <string name="weather18">霧</string>
+    <string name="weather19">凍雨</string>
+    <string name="weather20">沙塵暴</string>
+    <string name="weather21">小雨-中雨</string>
+    <string name="weather22">中雨-大雨</string>
+    <string name="weather23">大雨-暴雨</string>
+    <string name="weather24">暴雨-大暴雨</string>
+    <string name="weather25">大暴雨-特大暴雨</string>
+    <string name="weather26">小雪-中雪</string>
+    <string name="weather27">中雪-大雪</string>
+    <string name="weather28">大雪-暴雪</string>
+    <string name="weather29">浮塵</string>
+    <string name="weather30">揚沙</string>
+    <string name="weather31">強沙塵暴</string>
+    <string name="weather32">颮</string>
+    <string name="weather33">龍捲風</string>
+    <string name="weather34">弱高吹雪</string>
+    <string name="weather35">輕霧</string>
+    <string name="weather53">霾</string>
+    <string name="wind0" />
+    <string name="wind1">東北風</string>
+    <string name="wind2">東風</string>
+    <string name="wind3">東南風</string>
+    <string name="wind4">南風</string>
+    <string name="wind5">西南風</string>
+    <string name="wind6">西風</string>
+    <string name="wind7">西北風</string>
+    <string name="wind8">北風</string>
+    <string name="wind9">旋轉不定</string>
+    <string name="cf_wind_power0">微風</string>
+    <string name="sk_wind_power0">微風</string>
+</resources>

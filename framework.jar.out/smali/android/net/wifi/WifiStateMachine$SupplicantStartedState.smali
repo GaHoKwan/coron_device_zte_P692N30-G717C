@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e000b
+    const v2, #android:integer@config_wifi_supplicant_scan_interval#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -220,7 +220,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e000d
+    const v2, #android:integer@config_wifi_framework_scan_interval#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -2621,7 +2621,7 @@
 
     move-result-object v17
 
-    const v18, 0x10e000b
+    const v18, #android:integer@config_wifi_supplicant_scan_interval#t
 
     invoke-virtual/range {v17 .. v18}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -2707,7 +2707,7 @@
 
     move-result-object v17
 
-    const v18, 0x10e000d
+    const v18, #android:integer@config_wifi_framework_scan_interval#t
 
     invoke-virtual/range {v17 .. v18}, Landroid/content/res/Resources;->getInteger(I)I
 

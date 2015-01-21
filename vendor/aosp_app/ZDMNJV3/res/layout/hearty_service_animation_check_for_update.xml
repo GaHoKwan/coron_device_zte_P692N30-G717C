@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/hearty_service_rotate_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.zte.zdm.heartyservice.ui.InflateAnimation android:id="@id/one_key_rotate_view" android:background="@drawable/hearty_service_animation_green" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_centerInParent="true" />
+    <Button android:textSize="@dimen/hs_size_15dp" android:textColor="@color/white" android:id="@id/one_key_examing_view" android:background="@drawable/hearty_service_animation_green" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stop_lable" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_widget">8.0dip</dimen>
+    <dimen name="actionbar_tab">16.0dip</dimen>
+    <dimen name="main_net_to_right">45.0dip</dimen>
+    <dimen name="main_model_item_txt_lmargin">15.0dip</dimen>
+    <dimen name="mspeeding_memory_txt_lmargin">97.0dip</dimen>
+    <dimen name="mem_widget_y_adjust">-17.0dip</dimen>
+</resources>

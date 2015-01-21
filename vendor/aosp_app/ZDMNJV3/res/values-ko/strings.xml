@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ask_setup_message">새로운 설정이 수신되었습니다. 설치하시겠습니까?</string>
+    <string name="omacp_setup">OTAP 메시지</string>
+    <string name="install_compelete">설치가 성공적으로 완료되었습니다!</string>
+    <string name="instatll_fail">설치 실패!</string>
+    <string name="security_error">설치 실패!</string>
+    <string name="xml_parse_error">설치 실패!</string>
+    <string name="user_cancel">취소</string>
+    <string name="input_pin">PIN 부호</string>
+    <string name="app_name">펌웨어 업데이트 서비스</string>
+    <string name="dm_update_service">펌웨어 업데이트 서비스</string>
+    <string name="system_update">업데이트 확인</string>
+    <string name="connecting">업데이트 확인</string>
+    <string name="downloading">기다려 주세요. 완료하는 데 몇 분이 소요될 수 있습니다.</string>
+    <string name="download_title">펌웨어 업데이트 서비스</string>
+    <string name="download_val">지금 업데이트 이용 가능합니다</string>
+    <string name="download_message">새로운 소프트웨어 업데이트가 이용 가능합니다. 다운로드 하시겠습니까?</string>
+    <string name="cancel_message">소프트웨어 업데이트 다운로드를 취소하고 종료하시겠습니까?</string>
+    <string name="cancel">취소</string>
+    <string name="failed">실패</string>
+    <string name="update_failed">소프트웨어 업데이트 다운로드 실패</string>
+    <string name="install_title">소프트웨어 설치</string>
+    <string name="install_message">설치를 시작하려면 휴대폰을 다시 시작해야 합니다</string>
+    <string name="checking_update">업데이트 확인 중</string>
+    <string name="update_title">자동 업데이트</string>
+    <string name="update_message" />
+    <string name="update_deferred">지정된 펌웨어 설치</string>
+    <string name="service_unavailable">데이터 서비스 부재, 소프트웨어 업데이틑 허용 불가!</string>
+    <string name="check_new">업데이트 체크</string>
+    <string name="status">상태</string>
+    <string name="version">펌웨어 버전</string>
+    <string name="desc" />
+    <string name="update_setting">업데이트 설정</string>
+    <string name="background">배경</string>
+    <string name="delay">연기</string>
+    <string name="dm_session_busy">이전 DM 세션이 지금 작동 중입니다. 나중에 시도해 주세요.</string>
+    <string name="downloading_notification">다운로드</string>
+    <string name="downloading_notification_message">다운로드 중입니다</string>
+    <string name="update_warning_notification">펌웨어 업데이트 서비스</string>
+    <string name="update_warning_notification_message">새로운 소프트웨어 업데이트가 이용 가능합니다. 다운로드 하시겠습니까?</string>
+    <string name="update_warning_notification_new_package">새로운 소프트웨어 업데이트가 이용 가능합니다. 다운로드 하시겠습니까?</string>
+    <string name="install_notification">소프트웨어 설치</string>
+    <string name="install_notification_message">설치를 시작하려면 휴대폰을 다시 시작해야 합니다</string>
+    <string name="install_file_notification">새로운 설정이 수신되었습니다. 설치하시겠습니까?</string>
+    <string name="pin">PIN 부호</string>
+    <string name="confirm">OK</string>
+    <string name="intallresult">OTAP 메시지</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="mobile_networks">이동 네트워크로 다운로드(이로 인해 더 많은 데이터 통신량이 발생됩니다.)</string>
+    <string name="autoupdate_toinstall">소프트웨어 설치</string>
+    <string name="autoupdate_todownload">다운로드</string>
+    <string name="autoupdate_busy">이전 DM 세션이 지금 작동 중입니다. 나중에 시도해 주세요.</string>
+    <string name="attention">펌웨어 업데이트 서비스</string>
+    <string name="update_busy">지금 통신량이 많습니다, 나중에 시도해 주세요!</string>
+    <string name="memory_insufficient">공간 불충분</string>
+    <string name="memory_insufficient_info">공간이 불충분합니다. 공간을 확보한 후 애플리케이션 소프트웨어 업데이트로 가세요. 메뉴 옵션에서 업테이트 확인을 누르면 다운로드가 재시도됩니다.</string>
+    <string name="network_unavailable">펌웨어 업데이트 서비스</string>
+    <string name="network_unavailable_info">데이타 서비스 미접속시,펌웨어 업데이트를 할수 없습니다!</string>
+    <string name="uncaught_exception_title" />
+    <string name="uncaught_exception_info" />
+    <string name="updata_ok">재시작</string>
+    <string name="updata_Defer">연기</string>
+    <string name="updata_info">설치를 시작하려면 휴대폰을 다시 시작해야 합니다</string>
+    <string name="updata_title">펌웨어 업데이트 서비스</string>
+    <string name="dm_comlete_sec">기다려 주세요. 완료하는데 %1$d초 정도 소요됩니다.</string>
+    <string name="dm_compele_min">기다려 주세요. 완료하는데 %1$d분 정도 소요됩니다</string>
+    <string name="dm_compele_hou" />
+    <string name="dm_version">펌웨어 버전</string>
+    <string name="dm_update_date">상태:</string>
+    <string name="dm_fumo_Message">상태</string>
+    <string name="dm_fumo_START">업데이트 체크</string>
+    <string name="dm_fumo_INSTAll_DEFER">지정된 펌웨어 설치</string>
+    <string name="dm_fumo_SETUP">업데이트 패키지 설정</string>
+    <string name="dm_never_SETUP">기존 버전</string>
+    <string name="dm_fumo_status_noupdate">현재 펌웨어는 최신버전입니다!</string>
+    <string name="dm_fumo_status_failed">소프트웨어 업데이트 다운로드 실패</string>
+    <string name="dm_fumo_status_sucess">펌웨어 업데이트 성공</string>
+    <string name="dm_check_updatetile">업데이트 확인</string>
+    <string name="dm_check_update">최신 소프트웨어 업데이트 확인 중입니다</string>
+    <string name="dm_network_error">내트웍 에라,잠간후에 다시 시도해주세요!</string>
+    <string name="dm_already_new">현재 소프프웨어는 최신판입니다!</string>
+    <string name="dm_isroaming">데이터 로밍 시 소프트웨어 업데이트 허용 불가</string>
+    <string name="dm_airplan">비행기 탑승 모드 시 소프트웨어 업데이트 허용 불가</string>
+    <string name="dm_no_dataservice">데이터 서비스 부재, 소프트웨어 업데이틑 허용 불가!</string>
+    <string name="dm_update_setting">업데이트 설정</string>
+    <string name="auto_update_switch_title">자동 업데이트</string>
+    <string name="auto_update_switch_key">자동 업데이트</string>
+    <string name="auto_update_switch_summary_on">자동 업데이트 허용</string>
+    <string name="auto_update_switch_summary_off">자동 업데이트 불허용</string>
+    <string name="auto_update_frequency_text">업데이트 검생중 %1$s %2$s</string>
+    <string name="dm_wifi_open">와이파이를 연결한 뒤 다운로드 시작합니다</string>
+    <string name="dm_via_wifi">지금 업데이트 이용 가능합니다</string>
+    <string name="dm_wifi_set">와이파이 설정</string>
+    <string name="dm_yes">네</string>
+    <string name="dm_no">아니오</string>
+    <string name="dm_wifi_fail">와이파이 액세스 이용이 불가능합니다. 다운로드가 취소됩니다</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">또한 %1$s 번 연기.</string>
+    <string name="download_message_new">"새로운 소프트웨어 업데이트가 이용 가능합니다. 다운로드 하시겠습니까? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"새로운 소프트웨어 업데이트가 이용 가능합니다. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ 버전:"</string>
+    <string name="download_message_size">"
+ 데이터:"</string>
+    <string name="download_message_description">"
+ 기술:"</string>
+    <string name="download_message_auto_download">"
+
+ %1$s 초 자동으로 다운로드 후"</string>
+    <string name="install_message_new">"설치를 시작하려면 휴대폰을 다시 시작해야 합니다. 
+
+ 또한 %1$s 번 연기."</string>
+    <string name="install_message_force">%1$s 분 강제 업데이트 .</string>
+    <string name="dm_continue">계속</string>
+    <string name="send">보내기</string>
+    <string name="feedback">피드백</string>
+    <string name="feedback_content">입력 귀하의 조언을 바랍니다</string>
+    <string name="email">입력 귀하의 이메일을 보내주세요</string>
+    <string name="feedback_result">성공적으로 전송, 귀하의 의견을 주셔서 감사합니다</string>
+    <string name="email_auth">입력 정확한 이메일 주소를하시기 바랍니다</string>
+    <string name="feedback_auth">여러분의 의견은 저희를 위해 아주 중요하다,입력 귀하의 의견을,당신을 감사하십시오</string>
+    <string name="feedback_network">네트워크를 사용할 수없는 경우 다시 연결하십시오 그리고 당신의 의견을 보내 주셔서 감사합니다</string>
+    <string name="dm_Delay_show_once">또한 1번 연기.</string>
+</resources>

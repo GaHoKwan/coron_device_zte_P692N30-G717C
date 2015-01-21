@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:splitMotionEvents="false" style="@style/SettingRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:focusable="false" android:clickable="false" android:layout_width="@dimen/setting_item_icon_width" android:layout_height="@dimen/setting_item_icon_width" android:layout_marginLeft="@dimen/setting_item_list_margin" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:id="@id/title" android:focusable="false" android:clickable="false" android:layout_toLeftOf="@id/radio" android:layout_toRightOf="@id/image" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" style="@style/SettingItemSubTitle" />
+    <RadioButton android:id="@id/radio" android:focusable="false" android:clickable="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/SettingVirtualRadio" />
+</RelativeLayout>

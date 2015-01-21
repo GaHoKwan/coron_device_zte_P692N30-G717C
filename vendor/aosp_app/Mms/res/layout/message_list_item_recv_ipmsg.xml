@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.MessageListItem android:orientation="vertical" android:id="@id/msg_list_item_recv" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/time_divider" layout="@layout/time_divider_item" />
+    <include android:id="@id/unread_divider" layout="@layout/unread_divider_item" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/select_check_box" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/mms_layout_view_parent" android:background="@drawable/listitem_background_recv" android:paddingLeft="24.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="45.0dip">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0sp" android:textColor="#ff222222" android:autoLink="all" android:linksClickable="false" android:id="@id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+                <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/ip_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                        <ImageView android:id="@id/image_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/img_minwidth" android:minHeight="@dimen/img_minwidth" android:layout_centerHorizontal="true" />
+                        <ImageView android:layout_gravity="center" android:id="@id/video_media_paly" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/media_play" />
+                    </FrameLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/image_size_bg" android:background="#88000000" android:layout_width="wrap_content" android:layout_height="16.0dip" android:minWidth="@dimen/img_minwidth" android:layout_alignParentBottom="true">
+                        <ImageView android:id="@id/action_btn" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/stop" />
+                        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:id="@id/content_size" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                        <ProgressBar android:id="@id/image_downLoad_progress" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:progress="100" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ip_audio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip">
+                    <ImageView android:id="@id/ip_audio_icon" android:layout_width="21.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/ipmsg_chat_sound" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff555555" android:layout_gravity="center" android:id="@id/audio_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                    <ProgressBar android:id="@id/audio_downLoad_progress" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:progress="100" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:id="@id/text_caption" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/ip_vcard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip">
+                    <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ipmsg_chat_contact_vcard" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:layout_gravity="center" android:id="@id/vcard_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ip_vcalendar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip">
+                    <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ipmsg_chat_contact_calendar" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:layout_gravity="center" android:id="@id/vcalendar_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ip_location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/img_location" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/default_map_small" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff222222" android:id="@id/location_addr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/ip_emoticon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.mediatek.ipmsg.ui.GifView android:id="@id/gif_content" android:layout_width="160.0dip" android:layout_height="160.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ipmsg_file_downloading_controller_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                        <TextView android:textSize="18.0sp" android:textColor="#ff222222" android:layout_gravity="center" android:id="@id/ipmsg_accept" android:background="@drawable/btn_cling_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipmsg_accept" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                        <TextView android:textSize="18.0sp" android:textColor="#ff222222" android:layout_gravity="center" android:id="@id/ipmsg_reject" android:background="@drawable/btn_cling_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ipmsg_reject" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ipmsg_file_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0sp" android:textColor="#ff555555" android:layout_gravity="center" android:id="@id/ipmsg_download_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                        <ImageView android:id="@id/ipmsg_download_file_cancel" android:layout_width="21.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/ic_delete_file_attachment" />
+                    </LinearLayout>
+                    <ProgressBar android:id="@id/ipmsg_download_file_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:progress="0" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="9.0dip" android:textColor="#ffffffff" android:linksClickable="false" android:layout_gravity="left" android:id="@id/sim_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="10.0sp" android:textColor="#ff555555" android:layout_gravity="left" android:id="@id/date_view" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="left" android:id="@id/delivered_indicator" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sms_mms_delivered" />
+                    <ImageView android:layout_gravity="left" android:id="@id/details_indicator" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sms_mms_details" />
+                    <ImageView android:layout_gravity="left" android:id="@id/locked_indicator" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_message_sms" />
+                    <ImageView android:layout_gravity="left" android:id="@id/important_indicator" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_important" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/load_all_message_view" layout="@layout/load_all_message" />
+    <include android:id="@id/on_line_divider" layout="@layout/on_line_divider_item" />
+</com.android.mms.ui.MessageListItem>

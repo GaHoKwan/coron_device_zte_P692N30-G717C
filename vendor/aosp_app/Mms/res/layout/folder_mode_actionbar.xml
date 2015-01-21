@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/account_spinner" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?android:attr/actionDropDownStyle">
+        <TextView android:textSize="18.0sp" android:textColor="@*android:color/white" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/boxname" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:requiresFadingEdge="horizontal" />
+    </LinearLayout>
+    <TextView android:textSize="22.0sp" android:textColor="@*android:color/white" android:ellipsize="none" android:gravity="bottom" android:id="@id/message_count" android:paddingRight="10.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentRight="true" android:requiresFadingEdge="horizontal" />
+</RelativeLayout>

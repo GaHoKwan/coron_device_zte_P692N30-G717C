@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/clear_history" android:title="@string/clear_history" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/set_history_limit" android:title="@string/set_history_limit" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/exit" android:title="@string/exit" android:showAsAction="ifRoom|withText" />
+</menu>

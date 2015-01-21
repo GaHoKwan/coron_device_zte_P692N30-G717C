@@ -1067,7 +1067,7 @@
 
     move-result-object v8
 
-    const v9, 0x1040340
+    const v9, #android:string@web_user_agent_target_content#t
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1083,7 +1083,7 @@
 
     move-result-object v8
 
-    const v9, 0x104033f
+    const v9, #android:string@web_user_agent#t
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

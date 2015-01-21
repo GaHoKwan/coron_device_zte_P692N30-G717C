@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/gl_root_group" />
+        <TextView android:textSize="21.0sp" android:gravity="center_horizontal" android:id="@id/tv_empty_albumset" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/albumset_empty_text" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="?android:dividerHorizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="0.0" />
+    <Button android:id="@id/cancel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@*android:string/cancel" android:layout_weight="0.0" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

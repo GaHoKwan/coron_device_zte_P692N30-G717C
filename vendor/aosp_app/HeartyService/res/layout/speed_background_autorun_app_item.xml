@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="@dimen/list_item_2line_height" android:minHeight="@dimen/list_item_2line_height" style="@style/listview_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <ImageView android:id="@id/itemImage" android:clickable="false" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" />
+    <TextView android:ellipsize="end" android:id="@id/refName" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/itemImage" android:layout_centerVertical="true" style="@style/hearty_black_18dp" />
+    <com.zte.heartyservice.common.datatype.P3Switch android:gravity="center_vertical" android:id="@id/itemState" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/speeded_list_item_rm" android:layout_alignParentRight="true" android:layout_centerVertical="true" zteheart:textOff="@string/action_prohibit" zteheart:textOn="@string/action_grant" />
+</RelativeLayout>

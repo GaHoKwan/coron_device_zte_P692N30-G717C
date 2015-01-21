@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: HeartServiceZTE.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+packageInfo:
+  cur_package: com.zte.heartservice
+  orig_package: com.zte.heartservice
+compressionType: false

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="startYear" format="integer" />
+    <attr name="endYear" format="integer" />
+    <attr name="spinnersShown" format="boolean" />
+    <attr name="calendarViewShown" format="boolean" />
+    <attr name="minDate" format="string" />
+    <attr name="maxDate" format="string" />
+    <attr name="datePickerStyle" format="reference" />
+    <attr name="invalidChipBackground" format="reference" />
+    <attr name="chipBackground" format="reference" />
+    <attr name="chipBackgroundPressed" format="reference" />
+    <attr name="chipDelete" format="reference" />
+    <attr name="chipAlternatesLayout" format="reference" />
+    <attr name="chipPadding" format="reference" />
+    <attr name="chipHeight" format="reference" />
+    <attr name="chipFontSize" format="reference" />
+</resources>

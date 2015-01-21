@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/id_version_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/id_label_current_version" android:paddingLeft="@dimen/hs_common_padding_10" android:paddingTop="@dimen/hs_common_padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/current_version_title" style="@style/hs_style" />
+            <TextView android:gravity="bottom" android:id="@id/id_current_version" android:paddingLeft="@dimen/hs_common_padding_10" android:paddingTop="@dimen/hs_common_padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/current_version" style="@style/hs_version_style" />
+        </LinearLayout>
+        <TextView android:layout_gravity="left" android:id="@id/id_label_tcard" android:paddingLeft="@dimen/hs_common_padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hs_padding_large" android:text="@string/fota_msg_tcard_no_update" android:layout_below="@id/id_version_layout" style="@style/hs_style" />
+    </RelativeLayout>
+    <TextView android:gravity="bottom|center" android:id="@id/id_label_network" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/fota_msg_network_no_update" style="@style/hs_style" />
+</LinearLayout>

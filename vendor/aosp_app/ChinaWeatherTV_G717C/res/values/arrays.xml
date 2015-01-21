@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="indices_types">
+        <item>Custom</item>
+        <item>Health</item>
+        <item>Travel</item>
+        <item>Outdoor</item>
+    </string-array>
+    <string-array name="city_modify_dialog_list">
+        <item>Set as default</item>
+        <item>Modify name</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="city_modify_dialog_list2">
+        <item>Set as default</item>
+        <item>Restore the default name</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="week_table">
+        <item>Mon.</item>
+        <item>Tues.</item>
+        <item>Wed.</item>
+        <item>Thurs.</item>
+        <item>Fri.</item>
+        <item>Sat.</item>
+        <item>Sun.</item>
+    </string-array>
+    <string-array name="temperature_entries">
+        <item>Centigrade</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="update_entries">
+        <item>Manually update</item>
+        <item>Every 1 hour update</item>
+        <item>Every 3 hours update</item>
+        <item>Every 6 hours update</item>
+        <item>Every 12 hours update</item>
+    </string-array>
+    <string-array name="share_entries">
+        <item>2 days forecast</item>
+        <item>3 days forecast</item>
+        <item>5 days forecast</item>
+    </string-array>
+    <string-array name="warning_entries">
+        <item>Default city</item>
+        <item>All city</item>
+    </string-array>
+    <string-array name="indiecs_des_cl">
+        <item></item>
+        <item>With sunny weather and fresh air, it’s the perfect timing for morning exercises.</item>
+        <item>Some weather-conditions may influence your exercises, but not much.</item>
+        <item>Some weather-conditions affect your exercises and it’s not a good timing.</item>
+        <item>The weather-conditions are against your exercises and please avoid outdoor exercise.</item>
+    </string-array>
+    <string-array name="indiecs_des_cy">
+        <item></item>
+        <item>Thin T-shirt.</item>
+        <item>Short suit, T-shirt and summer clothes.</item>
+        <item>Long-sleeve clothes.</item>
+        <item>Spring and Autumn clothes like thin suit etc.</item>
+        <item>Lined clothes , suit and thin sweater.</item>
+        <item>Spring and Autumn clothes like thick coat, sweater etc.</item>
+        <item>Winter clothes like padded jacket, sweater etc.</item>
+        <item>Midwinter clothes like thick down jacket etc.</item>
+    </string-array>
+    <string-array name="indiecs_des_dy">
+        <item></item>
+        <item>It’s fit for fishing with bright sunlight and breeze. You will have a good time.</item>
+        <item>The weather conditions have a little influence on fishing, but it’s still okay.</item>
+        <item>Bad weather for fishing and you can try other forms of entertainment.</item>
+    </string-array>
+    <string-array name="indiecs_des_ffz">
+        <item></item>
+        <item>Choose a day like this and fly a kite, you can stretch your legs and feel relaxed.</item>
+        <item>It’s suitable for flying a kite if you choose a proper place.</item>
+        <item>It’s unfit for flying kites.</item>
+    </string-array>
+    <string-array name="indiecs_des_fs">
+        <item></item>
+        <item>If you stay outdoors for a long time, please use sun care products with SPF 8-12.</item>
+        <item>The suggestion is to use sun care products with SPF 8-12 and PA+.</item>
+        <item>The advice is to use sun care products with SPF higher than 8-12 and PA+.</item>
+        <item>Take more precautions before going out and use sun care products with SPF 15-20 and PA+ +.</item>
+        <item>Sun protection product with SPF higher than 20 and PA++ is recommended, before going out special protection is necessary.</item>
+        <item>Take more precautions before going out and use sun care products with SPF higher than20 and PA+ +.</item>
+        <item>Take more precautions before going out and use sun care products with SPF higher than20 and PA+ +.</item>
+    </string-array>
+    <string-array name="indiecs_des_fh">
+        <item></item>
+        <item>Pay attention to add or reduce clothes when doing outdoor activities.</item>
+        <item>When doing outdoor activities, please wear thick clothes, and the elderly and weak people should keep warm properly.</item>
+        <item>When doing outdoor activities, please wear gloves and a hat to keep warm.</item>
+        <item>When doing outdoor activities, please wear thick gloves and hats. The elderly should avoid going out for a long time.</item>
+        <item>If you still feel cold with a down jacket and leather coat, please wear thick leather gloves and hat when doing outdoor activities.</item>
+        <item>When it’s frozen outside, it can easily result in bare skin frostbite. Please avoid working in the field going out.</item>
+        <item>The temperature does not achieve the required low temperature cold, a little cold ready to.</item>
+        <item>The temperature does not achieve the required low temperature cold, a little cold ready to.</item>
+    </string-array>
+    <string-array name="indiecs_des_gm">
+        <item></item>
+        <item>The weather is proper and favorable ,with low probability of having a cold.</item>
+        <item>It’s easy to catch a cold. The people who are delicate take precautions please.</item>
+        <item>It’s likely to have a cold and please protect yourself from cold.</item>
+        <item>The probability is very high. Please wear more clothes in case of catching a cold.</item>
+    </string-array>
+    <string-array name="indiecs_des_gj">
+        <item>It’s a good day for going shopping. You’ll have fun.</item>
+        <item>The weather conditions may influence your activity, but it’s okay.</item>
+        <item>It’s little fit for shopping and please stay inside as possible as you can.</item>
+        <item>It’s a terrible weather to go shopping and please choose indoor activities.</item>
+    </string-array>
+    <string-array name="indiecs_des_hc">
+        <item></item>
+        <item>It’s sunny and warm, a perfect day for boating.</item>
+        <item>Some weather conditions may have little influences on boating activity.</item>
+        <item>It’s a bad weather for boating and please choose other entertainments or take some precautions.</item>
+    </string-array>
+    <string-array name="indiecs_des_hz">
+        <item></item>
+        <item>It’s cold and use more moisturizing cosmetic products and a lip stick.</item>
+        <item>The skin is easily lack of water and remember to use moisturizing cosmetic products, like cream, a lip stick etc.</item>
+        <item>We suggest that the ladies should use the gel quality cream as base, water quality oil-free foundation cream, transparent pressed powder, and silty rouge.</item>
+        <item>When it’s hot, people get sweaty and it’s better to use cosmetics with high water-proof quality and SPF. Additionally, you’d better powder more often</item>
+    </string-array>
+    <string-array name="indiecs_des_jt">
+        <item></item>
+        <item>The weather is good for traffic and the vehicles move regularly.</item>
+        <item>The weather is okay, but not suitable for high speed running. The driver need to be more concentrated and keep the gap between cars.</item>
+        <item>The weather is not so good. The braking distance is prolonged and there are more accidents in this kind of situation. Please be careful with driving.</item>
+        <item>The weather is bad for traffic good for accidents. The vehicles should maintain low speed.</item>
+        <item>It’s a too bad weather. Drive your car very slowly. It’s better stay inside.</item>
+    </string-array>
+    <string-array name="indiecs_des_kqwr">
+        <item></item>
+        <item>The weather is good for diluting, diffusing and eliminating air pollution and it’s safe to stay outdoors.</item>
+        <item>The weather is helpful for diluting, diffusing and eliminating air pollution and it’s okay to stay outdoors.</item>
+        <item>The weather does not have an obvious influence on air pollution. The susceptible population should shorten the period of time for out-door activities.</item>
+        <item>It’s less helpful for cleaning air and please shorten your period of time for outdoor activities properly.</item>
+        <item>It can’t help clear air at all, so please avoid outdoor stay for a long period of time.</item>
+    </string-array>
+    <string-array name="indiecs_des_kt">
+        <item></item>
+        <item>It’s stuffy and it’s necessary to open air-conditioners to get cold air.</item>
+        <item>You can turn your air-conditioner on when it’s too hot.</item>
+        <item>It’s hot at noon and it’s okay to open air-conditioners after noon.</item>
+        <item>You feel very comfortable with air-conditioners off.</item>
+        <item>It’s cold and you need to open air-conditioners to get warm.</item>
+    </string-array>
+    <string-array name="indiecs_des_ls">
+        <item></item>
+        <item>It’s perfect time for drying.</item>
+        <item>It’s fit for drying. Get your stuff out to enjoy the sunlight.</item>
+        <item>The warm sunlight after noon still can drive away the humidity and disinfect. It’s ok to dry your stuff.</item>
+        <item>It’s not a proper weather for drying. I f you have to do it, please choose an airy place.</item>
+        <item>It’s unfit for drying. You only can do this indoors and make sure windows and doors closed if needed.</item>
+    </string-array>
+    <string-array name="indiecs_des_lk">
+        <item></item>
+        <item>The pavement is dry and good for traffic.</item>
+        <item>Some pavements are wet and vehicles slip easily. Please be careful with driving.</item>
+        <item>Some are wet and slippery. So please keep proper gap and run slowly.</item>
+        <item>The pavement condition is not good with covering snow. Please watch out.</item>
+        <item>The pavement is with ice on it and it’s better not to go out. Please be on alert, if you have to go outdoors.</item>
+    </string-array>
+    <string-array name="indiecs_des_ly">
+        <item></item>
+        <item>It’s fit for travel, with bright sunlight and breeze.</item>
+        <item>It’s still a good day for travel, though maybe cloudy or windy.</item>
+        <item>It may be overcast, windy, windy, or even a dusty storm. The condition for travel is so so.</item>
+        <item>People will feel uncomfortable under the possible weather like rain and snow, strong wind and heavy fog etc. It’s little fit for travel.</item>
+        <item>The weather, such as heavy rain and snow, strong wind, ice rain and dust storm etc, is too bad for go traveling.</item>
+    </string-array>
+    <string-array name="indiecs_des_mf">
+        <item></item>
+        <item>It’s good for hairdressing and can provide a healthy and clean environment for your hair.</item>
+        <item>Some weather factor would affect your hair growing and please pay attention to protection.</item>
+        <item>The weather conditions will influence hairdressing and please take some measures to protect your hair.</item>
+    </string-array>
+    <string-array name="indiecs_des_pj">
+        <item></item>
+        <item>Please drink little beer as possible as you can proper amount of beer with room temperature is acceptable.</item>
+        <item>It’s cool. We suggest that people drink a little normal temperature beer.</item>
+        <item>You can drink some beer, but you must make the maximum amount about 50%1$-60%2$ of your capacity of liquor.</item>
+        <item>Drinking beer can make you feel cool and cold in a hot day and you have to control the maximum amount at 60%1$-70%2$ of your capacity of liquor.</item>
+        <item>The hot weather may increase your desire for a cold beer, but be careful not to drink too much!</item>
+    </string-array>
+    <string-array name="indiecs_des_ssd">
+        <item>It is not too hot nor too cold during the day, with little wind, people will feel more refreshing and comfortable.</item>
+        <item>It’s warm and sometimes even a little muggy, but most people still feel comfortable.</item>
+        <item>It’s hot and people feel less comfortable.</item>
+        <item>The stuffy weather makes people very uncomfortable.</item>
+        <item>It’s too hot to feel comfortable and please be sure stay cool and avoid getting a heatstroke.</item>
+        <item>It is not too hot nor too cold during the day, with little wind, people will feel more refreshing and comfortable.</item>
+        <item>It’s cool in the morning and evening, but most people feel comfortable.</item>
+        <item>A cold weather makes people not so comfortable and please wear more clothes in case catching a cold.</item>
+        <item>People feel very cold and very uncomfortable and please keep warm and get rid of coldness.</item>
+        <item>A chilly weather makes people extremely uncomfortable and please wear more clothes to keep warm.</item>
+    </string-array>
+    <string-array name="indiecs_des_xc">
+        <item></item>
+        <item>The weather of next two days is good, no rain. It’s fit for car-washing.</item>
+        <item>Tomorrow is rainless and it’s okay to wash cars.</item>
+        <item>It’s little fit for car-washing, because it may get dusty.</item>
+        <item>It’s unfit for car-washing, because the muddy water will stain your car.</item>
+    </string-array>
+    <string-array name="indiecs_des_xq">
+        <item></item>
+        <item>It’s sunny, bright, air-moist and breezy. A nice day makes people feel pleasant.</item>
+        <item>It’s comfortable and you feel energetic, pleasant and ambitious.</item>
+        <item>A foggy day makes people feel depressed and blue.</item>
+        <item>The cloudy, rainy dusty, stormy weather and muddy air arouse bad mood and terrible feeling.</item>
+    </string-array>
+    <string-array name="indiecs_des_ysh">
+        <item></item>
+        <item>It’s sunny and you can totally enjoy your nightlife and don’t worry about the weather.</item>
+        <item>Although it’s gonna be windy, rainy or snowy, you still can have a great time with full preparations.</item>
+        <item>It’s not suitable for stay outdoors and we suggest that live your nightlife indoors.</item>
+    </string-array>
+    <string-array name="indiecs_des_ys">
+        <item></item>
+        <item>It’s barely rainy and there’s no need to bring an umbrella.</item>
+        <item>It may be rainy or snowy. It’s okay to stay out for a short time without an umbrella.</item>
+        <item>There will be light rain, light snow or moderate snow and you’d better bring your umbrella.</item>
+        <item>It will have heavy rain or heavy snow, so please carry an umbrella when you go out, in case getting wet.</item>
+    </string-array>
+    <string-array name="indiecs_des_yh">
+        <item></item>
+        <item>It’s a great day for have a dating with bright sunshine and comfortable breeze.</item>
+        <item>The weather maybe not so perfect, but you still can have a nice dating.</item>
+        <item>The out door dating maybe not so delightful because of some weather factors. An indoor warm and pleasant talk would be good.</item>
+        <item>The weather is unfit for out door dating. It’s better not to take a girl out shopping, if you are a boy.</item>
+    </string-array>
+    <string-array name="indiecs_des_yd">
+        <item></item>
+        <item>It’s a nice day for outdoor sports with weak ultraviolet radiation.</item>
+        <item>It’s appropriate for low-intensity indoor sports and outdoor sports need sun care and getting sheltered.</item>
+        <item>For strong wind, air pressure, strong ultraviolet radiation, too hot or too cold etc, it’s unfit for sports.</item>
+    </string-array>
+    <string-array name="indiecs_des_zs">
+        <item>It’s not hot and the weather is favorable. People won’t get heatstroke.</item>
+        <item>It’s a little hot and getting a heatstroke is possible. The weak people should stay cool and avoid sunlight exposure and working in high-temperature environment.</item>
+        <item>It’s hot and easy to get a heatstroke. The weak group should stay cool and avoid sunlight exposure and working in high-temperature environment.</item>
+        <item>It’s too hot and please be sure stay cool and avoid sunlight exposure and working in high-temperature environment in case of getting a heatstroke.</item>
+        <item>It’s extremely hot and working in a high-temperature environment is too risky. Please be sure to stay cool.</item>
+    </string-array>
+    <string-array name="indiecs_des_zwx">
+        <item></item>
+        <item>It is weak ultraviolet-radiation weather. No special protection is needed. If you stay outdoors for a long time, use sun care products with SPF 8-12.</item>
+        <item>The ultraviolet radiation is weak and the suggestion is to use sun care products with SPF 12-15 and PA+ before going out doors.</item>
+        <item>It is mediate ultraviolet radiation weather and please use sun care products with SPF higher than15 and PA+ ,and wear a hat, sunglasses before going out doors.</item>
+        <item>The ultraviolet radiation is strong and the suggestion is to use sun care products with SPF 20 and PA+ +. Do not stay in the sun from 10 am to 2pm.</item>
+        <item>The ultraviolet radiation is very strong and the advice is to use sun care products with SPF higher than 20 and PA+ +. Do not expose yourself in the sun.</item>
+    </string-array>
+    <string-array name="indices_brief_zwx">
+        <item></item>
+        <item>Weakest</item>
+        <item>Weak</item>
+        <item>Mediate</item>
+        <item>Strong</item>
+        <item>Very strong</item>
+    </string-array>
+    <string-array name="indices_brief_cl">
+        <item></item>
+        <item>Perfect fit</item>
+        <item>Fairly fit</item>
+        <item>Little fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_cy">
+        <item></item>
+        <item>Hot</item>
+        <item>Thermal comfort</item>
+        <item>Comfort</item>
+        <item>Comfortable coolness</item>
+        <item>A little cool</item>
+        <item>Cool</item>
+        <item>Cold</item>
+        <item>Chilly</item>
+    </string-array>
+    <string-array name="indices_brief_dy">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_ffz">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_fs">
+        <item></item>
+        <item>Weak</item>
+        <item>Fairly weak</item>
+        <item>Mediate</item>
+        <item>Strong</item>
+        <item>Very strong</item>
+    </string-array>
+    <string-array name="indices_brief_fh">
+        <item></item>
+        <item>Cool</item>
+        <item>Cold</item>
+        <item>Chilly</item>
+        <item>Extremely chilly</item>
+        <item>Bitter cold</item>
+        <item>Frozen</item>
+        <item>warm</item>
+        <item>warm</item>
+    </string-array>
+    <string-array name="indices_brief_gm">
+        <item></item>
+        <item>Low probability</item>
+        <item>Relative probability</item>
+        <item>High probability</item>
+        <item>Very high probability</item>
+    </string-array>
+    <string-array name="indices_brief_gj">
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Little fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_hc">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_hz">
+        <item></item>
+        <item>Moisturizing, keeping from chapping</item>
+        <item>Moisturizing</item>
+        <item>Oil controlling</item>
+        <item>Sun block, moisturizing</item>
+    </string-array>
+    <string-array name="indices_brief_jt">
+        <item></item>
+        <item>Good</item>
+        <item>Fairly Good</item>
+        <item>Ordinary</item>
+        <item>Bad</item>
+        <item>Very bad</item>
+    </string-array>
+    <string-array name="indices_brief_kqwr">
+        <item></item>
+        <item>Excellent</item>
+        <item>Good</item>
+        <item>Mediate</item>
+        <item>Poor</item>
+        <item>Bad</item>
+    </string-array>
+    <string-array name="indices_brief_kt">
+        <item></item>
+        <item>Run for a long period of time</item>
+        <item>Run it for some time</item>
+        <item>Run for a short period of time</item>
+        <item>Barely run</item>
+        <item>Run for warm air</item>
+    </string-array>
+    <string-array name="indices_brief_ls">
+        <item></item>
+        <item>Perfect fit</item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Little fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_lk">
+        <item></item>
+        <item>Dry</item>
+        <item>Wet</item>
+        <item>Wet and slippery</item>
+        <item>Snow-covering</item>
+        <item>Ice-covering</item>
+    </string-array>
+    <string-array name="indices_brief_ly">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Okay</item>
+        <item>Little fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_mf">
+        <item></item>
+        <item>Perfect fit</item>
+        <item>Fit</item>
+        <item>Ordinary</item>
+    </string-array>
+    <string-array name="indices_brief_pj">
+        <item></item>
+        <item>Unfit</item>
+        <item>Fairly unfit</item>
+        <item>Fairly fit</item>
+        <item>Fit</item>
+        <item>Perfect fit</item>
+    </string-array>
+    <string-array name="indices_brief_ssd">
+        <item>Comfortable</item>
+        <item>Fairly comfortable</item>
+        <item>Fairly uncomfortable</item>
+        <item>Very uncomfortable</item>
+        <item>Extremely uncomfortable</item>
+        <item>Comfortable</item>
+        <item>Fairly comfortable</item>
+        <item>Fairly uncomfortable</item>
+        <item>Very uncomfortable</item>
+        <item>Extremely uncomfortable</item>
+    </string-array>
+    <string-array name="indices_brief_xc">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Little fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_xq">
+        <item></item>
+        <item>Good</item>
+        <item>Fairly good</item>
+        <item>Not good</item>
+        <item>Bad</item>
+    </string-array>
+    <string-array name="indices_brief_ysh">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_ys">
+        <item></item>
+        <item>No umbrella</item>
+        <item>Bringing your umbrella</item>
+        <item>Bringing your umbrella</item>
+        <item>Bringing your umbrella</item>
+    </string-array>
+    <string-array name="indices_brief_yh">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Little fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_yd">
+        <item></item>
+        <item>Fit</item>
+        <item>Fairly fit</item>
+        <item>Unfit</item>
+    </string-array>
+    <string-array name="indices_brief_zs">
+        <item>Safe</item>
+        <item>Almost Safe</item>
+        <item>Almost not safe</item>
+        <item>Not safe</item>
+        <item>Risky</item>
+    </string-array>
+    <string-array name="anniversaries_array">
+        <item>Baidu network disk share</item>
+        <item>Seamless share</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>SMS Share</item>
+        <item>Seamless share</item>
+    </string-array>
+    <string-array name="indices_health_type">
+        <item>CY</item>
+        <item>GM</item>
+        <item>ZWX</item>
+        <item>CL</item>
+        <item>FH</item>
+        <item>KQWR</item>
+        <item>YD</item>
+        <item>ZS</item>
+        <item>FS</item>
+    </string-array>
+    <string-array name="indices_goout_type">
+        <item>XC</item>
+        <item>JT</item>
+        <item>LK</item>
+        <item>YS</item>
+        <item>LS</item>
+        <item>KT</item>
+        <item>SSD</item>
+        <item>MF</item>
+        <item>HZ</item>
+    </string-array>
+    <string-array name="indices_travel_type">
+        <item>LY</item>
+        <item>YSH</item>
+        <item>GJ</item>
+        <item>FFZ</item>
+        <item>DY</item>
+        <item>HC</item>
+        <item>PJ</item>
+        <item>YH</item>
+        <item>XQ</item>
+    </string-array>
+    <string-array name="temperature_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="update_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="share_entry_values">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="warning_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="lunar_tianan">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="lunar_dizhi">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <string-array name="lunar_animals">
+        <item>鼠</item>
+        <item>牛</item>
+        <item>虎</item>
+        <item>兔</item>
+        <item>龙</item>
+        <item>蛇</item>
+        <item>马</item>
+        <item>羊</item>
+        <item>猴</item>
+        <item>鸡</item>
+        <item>狗</item>
+        <item>猪</item>
+    </string-array>
+    <string-array name="lunar_solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="lunar_number1">
+        <item>零</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="lunar_number2">
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>卅</item>
+        <item>正</item>
+        <item>腊</item>
+        <item>冬</item>
+        <item>闰</item>
+    </string-array>
+    <string-array name="lunar_solar_jieri">
+        <item>0101*元旦</item>
+        <item>0214 情人节</item>
+        <item>0308 妇女节</item>
+        <item>0312 植树节</item>
+        <item>0315 消费者权益日</item>
+        <item>0323 气象日</item>
+        <item>0401 愚人节</item>
+        <item>0405 清明节</item>
+        <item>0501 劳动节</item>
+        <item>0504 青年节</item>
+        <item>0509 郝维节</item>
+        <item>0512 护士节</item>
+        <item>0601 儿童节</item>
+        <item>0701 建党节</item>
+        <item>0801 建军节</item>
+        <item>0808 父亲节</item>
+        <item>0816 燕衔泥节</item>
+        <item>0910 教师节</item>
+        <item>1001＊国庆节</item>
+        <item>1006 老人节</item>
+        <item>1024 联合国日</item>
+        <item>1111 光棍节</item>
+        <item>1225 圣诞节</item>
+        <item>1231 元旦</item>
+    </string-array>
+    <string-array name="lunar_lunar_jieri">
+        <item>0101*春节</item>
+        <item>0115 元宵节</item>
+        <item>0505 端午节</item>
+        <item>0707 七夕情人节</item>
+        <item>0715 中元节</item>
+        <item>0815 中秋节</item>
+        <item>0909 重阳节</item>
+        <item>1208 腊八节</item>
+        <item>1223 小年</item>
+        <item>0100＊除夕</item>
+    </string-array>
+    <string-array name="lunar_week_jieri">
+        <item>0520 母亲节</item>
+        <item>0716 合作节</item>
+        <item>0730 被奴役国家周</item>
+    </string-array>
+</resources>

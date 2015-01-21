@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="tty_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="ct_sms_save_location_array">
+        <item>Phone</item>
+        <item>UIM Card</item>
+    </string-array>
+    <array name="email_provider_name_list">
+        <item>@string/email_choose_provider_189</item>
+        <item>Microsoft Exchange</item>
+        <item>Gmail</item>
+        <item>@string/email_choose_provider_sina</item>
+        <item>QQ</item>
+        <item>163</item>
+        <item>@string/email_choose_provider_others</item>
+    </array>
+    <array name="email_provider_icon_list">
+        <item>@drawable/account_provider_189</item>
+        <item>@drawable/account_provider_exchange</item>
+        <item>@drawable/account_provider_gmail</item>
+        <item>@drawable/account_provider_sina</item>
+        <item>@drawable/account_provider_qq</item>
+        <item>@drawable/account_provider_163</item>
+        <item>@drawable/account_provider_other</item>
+    </array>
+    <string-array name="email_provider_domain_list">
+        <item>189.cn</item>
+        <item>exchange</item>
+        <item>gmail.com</item>
+        <item>sina.com</item>
+        <item>qq.com</item>
+        <item>163.com</item>
+        <item>others</item>
+    </string-array>
+    <array name="extra_wallpapers" />
+    <string-array name="bookmarks_for_op09">
+        <item>新浪微博</item>
+        <item>http://weibo.com/</item>
+        <item>大众点评</item>
+        <item>http://android.dianping.com/dianxin</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn/</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com/</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com/</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>新华网</item>
+        <item>http://www.xinhuanet.com/</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com/</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>星星论坛</item>
+        <item>http://www.myzte.cn/</item>
+        <item>中兴商城</item>
+        <item>http://www.myzte.com/</item>
+    </string-array>
+    <string-array name="predefined_websites_op09">
+        <item>新浪微博</item>
+        <item>http://weibo.com/</item>
+        <item>op09_thumb_weibo</item>
+        <item>大众点评</item>
+        <item>http://android.dianping.com/dianxin</item>
+        <item>op09_thumb_dianping</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn/</item>
+        <item>op09_thumb_jqka</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com/</item>
+        <item>op09_thumb_youdao</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com/</item>
+        <item>op09_thumb_chacha</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>op09_thumb_sina</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com/</item>
+        <item>op09_thumb_sohu</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com/</item>
+        <item>op09_thumb_ifeng</item>
+        <item>新华网</item>
+        <item>http://www.xinhuanet.com/</item>
+        <item>op09_thumb_xinhua</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com/</item>
+        <item>op09_site_thumb_cdma</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn/</item>
+        <item>op09_site_thumb_people</item>
+        <item>星星论坛</item>
+        <item>http://www.myzte.cn/</item>
+        <item>op09_bookmark_thumb_xxlt</item>
+        <item>中兴商城</item>
+        <item>http://www.myzte.com/</item>
+        <item>op09_bookmark_thumb_zxsc</item>
+    </string-array>
+    <string-array name="wallpapers">
+        <item>wallpaper_01</item>
+        <item>wallpaper_02</item>
+        <item>wallpaper_03</item>
+        <item>wallpaper_04</item>
+        <item>wallpaper_05</item>
+        <item>wallpaper_06</item>
+        <item>wallpaper_07</item>
+        <item>wallpaper_08</item>
+        <item>wallpaper_09</item>
+        <item>wallpaper_10</item>
+        <item>wallpaper_11</item>
+        <item>wallpaper_12</item>
+        <item>wallpaper_13</item>
+        <item>wallpaper_14</item>
+        <item>wallpaper_15</item>
+        <item>wallpaper_16</item>
+        <item>wallpaper_17</item>
+        <item>wallpaper_18</item>
+        <item>wallpaper_19</item>
+        <item>wallpaper_20</item>
+    </string-array>
+</resources>

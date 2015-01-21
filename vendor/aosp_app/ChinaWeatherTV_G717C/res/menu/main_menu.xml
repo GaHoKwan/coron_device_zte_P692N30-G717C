@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/item_share" android:title="@string/main_menu_share" />
+    <item android:id="@id/item_recommend" android:title="@string/main_menu_recommend" />
+    <item android:id="@id/item_anniversaries" android:title="@string/main_menu_anniversaries" />
+    <item android:id="@id/item_map" android:title="@string/main_menu_map" />
+    <item android:id="@id/item_setting" android:title="@string/main_menu_setting" />
+</menu>

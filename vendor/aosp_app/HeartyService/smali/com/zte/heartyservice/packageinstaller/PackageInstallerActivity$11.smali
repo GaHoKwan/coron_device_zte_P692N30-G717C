@@ -1,0 +1,60 @@
+.class Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity$11;
+.super Ljava/lang/Object;
+.source "PackageInstallerActivity.java"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;->onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;)V
+    .locals 0
+    .parameter
+
+    .prologue
+    .line 2370
+    iput-object p1, p0, Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity$11;->this$0:Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/content/DialogInterface;I)V
+    .locals 2
+    .parameter "dialog"
+    .parameter "which"
+
+    .prologue
+    .line 2372
+    iget-object v0, p0, Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity$11;->this$0:Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;->setResult(I)V
+
+    .line 2373
+    iget-object v0, p0, Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity$11;->this$0:Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;
+
+    invoke-virtual {v0}, Lcom/zte/heartyservice/packageinstaller/PackageInstallerActivity;->finish()V
+
+    .line 2374
+    return-void
+.end method

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="2024" android:versionName="V2.0.24ctch1" package="com.ctc.epush"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <category android:name="android.intent.category.LAUNCHER" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <application android:label="@string/app_name" android:icon="@drawable/app_icon" android:name=".CrashApplication" android:persistent="true" android:process="android.process.acore">
+        <activity android:label="@string/app_name" android:name="com.ctc.epush.IndexActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Dialog" android:name="com.ctc.epush.UserDialogActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.ctc.epush.MainActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:theme="@style/FullHeightDialog2" android:name="com.ctc.epush.PushDialogActivity" android:launchMode="singleTask" android:configChanges="locale" />
+        <activity android:theme="@style/FullHeightDialog2" android:name="com.ctc.epush.PushRecordDialogActivity" android:launchMode="singleTask" android:configChanges="locale" />
+        <activity android:theme="@style/FullHeightDialog2" android:name="com.ctc.epush.CancelDialogActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:theme="@style/FullHeightDialog2" android:name="com.cndatacom.ctc.UserPermissionActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:theme="@style/FullHeightDialog2" android:name="com.ctc.epush.PushResultDialogActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".PushAppDetail" android:launchMode="singleTask" android:configChanges="locale" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <receiver android:name="com.ctc.System.BootReceiver">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.ctc.epush.bootCompleted" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ctc.System.Alarmreceiver" android:process=":remote">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.android.epush.registrtService" />
+                <action android:name="com.android.epush.StarSMSService" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ctc.System.SMSBroadcastReceiver">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".ShutdownReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ctc.System.TimeCountReceiver">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.android.epush.TimeCountReceiver" />
+            </intent-filter>
+        </receiver>
+        <service android:label="EPushService" android:icon="@drawable/app_icon" android:name="com.ctc.System.SMSService" android:enabled="true" />
+        <service android:label="DownOrUnInstalAPPService" android:icon="@drawable/app_icon" android:name="com.ctc.System.DownOrUnInstalAPPService" android:enabled="true" />
+        <service android:label="PushAPPService" android:icon="@drawable/app_icon" android:name="com.ctc.System.PushAPPService" android:enabled="true" />
+        <service android:label="RegisterService" android:icon="@drawable/app_icon" android:name="com.ctc.System.RegisterService" android:enabled="true" />
+        <service android:label="ReportClientInfoService" android:icon="@drawable/app_icon" android:name="com.ctc.System.ReportClientInfoService" android:enabled="true" />
+        <service android:label="ReportClientInfoService" android:icon="@drawable/app_icon" android:name="com.ctc.System.KeepAliveService" android:enabled="true" />
+        <service android:label="ReportClientInfoService" android:icon="@drawable/app_icon" android:name="com.ctc.System.PushArrivedReportService" android:enabled="true" />
+        <service android:label="ReportClientInfoService" android:icon="@drawable/app_icon" android:name="com.ctc.System.ReportAppUpdateInfoService" android:enabled="true" />
+    </application>
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/zte_feedback_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/feedback_info" />
+    <LinearLayout android:id="@id/layout_email" android:background="@drawable/input_box_02_normal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+        <EditText android:textSize="18.0sp" android:textColor="#ff7e7e7e" android:id="@id/zte_feedback_user_email" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:hint="@string/zte_edittext_email_text" android:singleLine="true" android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/layout_feedback" android:background="@drawable/input_box_01_normal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+        <EditText android:textSize="18.0sp" android:textColor="#ff7e7e7e" android:gravity="top" android:id="@id/zte_feedback_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="30.0dip" android:hint="@string/hintFeed" android:maxLength="500" android:freezesText="true" android:layout_alignParentBottom="true" android:inputType="textMultiLine" />
+        <TextView android:textSize="12.0sp" android:id="@id/spare_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:layout_marginBottom="10.0dip" android:text="@string/total" android:layout_alignRight="@id/zte_feedback_text" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <Button android:textSize="@dimen/text_size_16dp" android:textColor="@color/actionbar_menu_text_color" android:id="@id/zte_button_send" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/zte_send" />
+    </LinearLayout>
+    <ImageView android:background="@color/line_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <RelativeLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <ImageView android:id="@id/img" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zte_logo" android:layout_below="@id/item_txt" android:layout_centerHorizontal="true" />
+        <TextView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zte_feedback_tip" android:layout_below="@id/img" android:layout_centerHorizontal="true" style="@style/hearty_black_13dp" />
+    </RelativeLayout>
+</LinearLayout>

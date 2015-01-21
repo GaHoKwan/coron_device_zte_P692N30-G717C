@@ -1,0 +1,251 @@
+.class Lcom/autonavi/xmgd/navigator/dm;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/widget/AdapterView$OnItemLongClickListener;
+
+
+# instance fields
+.field private synthetic a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+
+# direct methods
+.method constructor <init>(Lcom/autonavi/xmgd/navigator/MyNavigate;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/widget/AdapterView",
+            "<*>;",
+            "Landroid/view/View;",
+            "IJ)Z"
+        }
+    .end annotation
+
+    const/4 v4, 0x1
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->l(Lcom/autonavi/xmgd/navigator/MyNavigate;)I
+
+    move-result v0
+
+    if-ne v0, v4, :cond_0
+
+    :goto_0
+    return v4
+
+    :cond_0
+    iget-object v1, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->r(Lcom/autonavi/xmgd/navigator/MyNavigate;)Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/autonavi/xmgd/e/g;
+
+    invoke-virtual {v0}, Lcom/autonavi/xmgd/e/g;->a()Lcom/autonavi/xmgd/e/k;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->a(Lcom/autonavi/xmgd/navigator/MyNavigate;Lcom/autonavi/xmgd/e/k;)Lcom/autonavi/xmgd/e/k;
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->r(Lcom/autonavi/xmgd/navigator/MyNavigate;)Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v2
+
+    new-array v3, v2, [Lcom/autonavi/xmgd/e/k;
+
+    const/4 v0, 0x0
+
+    move v1, v0
+
+    :goto_1
+    if-ge v1, v2, :cond_1
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->r(Lcom/autonavi/xmgd/navigator/MyNavigate;)Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/autonavi/xmgd/e/g;
+
+    invoke-virtual {v0}, Lcom/autonavi/xmgd/e/g;->a()Lcom/autonavi/xmgd/e/k;
+
+    move-result-object v0
+
+    aput-object v0, v3, v1
+
+    add-int/lit8 v0, v1, 0x1
+
+    move v1, v0
+
+    goto :goto_1
+
+    :cond_1
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    new-instance v1, Lcom/autonavi/xmgd/f/z;
+
+    invoke-direct {v1}, Lcom/autonavi/xmgd/f/z;-><init>()V
+
+    invoke-static {v0, v1}, Lcom/autonavi/xmgd/navigator/MyNavigate;->a(Lcom/autonavi/xmgd/navigator/MyNavigate;Lcom/autonavi/xmgd/f/z;)Lcom/autonavi/xmgd/f/z;
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->k(Lcom/autonavi/xmgd/navigator/MyNavigate;)Lcom/autonavi/xmgd/f/z;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p3}, Lcom/autonavi/xmgd/f/z;->a(I)V
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->k(Lcom/autonavi/xmgd/navigator/MyNavigate;)Lcom/autonavi/xmgd/f/z;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v3}, Lcom/autonavi/xmgd/f/z;->a([Lcom/autonavi/xmgd/e/k;)V
+
+    invoke-static {}, Lcom/autonavi/xmgd/controls/ab;->a()Lcom/autonavi/xmgd/controls/ab;
+
+    move-result-object v1
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->r(Lcom/autonavi/xmgd/navigator/MyNavigate;)Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/autonavi/xmgd/e/g;
+
+    invoke-virtual {v1, v0}, Lcom/autonavi/xmgd/controls/ab;->a(Lcom/autonavi/xmgd/e/g;)V
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    new-instance v1, Ljava/util/ArrayList;
+
+    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-static {v0, v1}, Lcom/autonavi/xmgd/navigator/MyNavigate;->a(Lcom/autonavi/xmgd/navigator/MyNavigate;Ljava/util/ArrayList;)Ljava/util/ArrayList;
+
+    :try_start_0
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->o(Lcom/autonavi/xmgd/navigator/MyNavigate;)Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    const-class v1, Lcom/autonavi/xmgd/f/y;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->o(Lcom/autonavi/xmgd/navigator/MyNavigate;)Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    const-class v1, Lcom/autonavi/xmgd/f/d;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v0}, Lcom/autonavi/xmgd/navigator/MyNavigate;->o(Lcom/autonavi/xmgd/navigator/MyNavigate;)Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_2
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/autonavi/xmgd/f/n;
+
+    iget-object v2, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    invoke-static {v2}, Lcom/autonavi/xmgd/navigator/MyNavigate;->p(Lcom/autonavi/xmgd/navigator/MyNavigate;)Lcom/autonavi/xmgd/f/o;
+
+    move-result-object v2
+
+    invoke-interface {v0, v2}, Lcom/autonavi/xmgd/f/n;->a(Lcom/autonavi/xmgd/f/o;)V
+    :try_end_0
+    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
+
+    goto :goto_2
+
+    :catch_0
+    move-exception v0
+
+    invoke-virtual {v0}, Ljava/lang/InstantiationException;->printStackTrace()V
+
+    :cond_2
+    :goto_3
+    iget-object v0, p0, Lcom/autonavi/xmgd/navigator/dm;->a:Lcom/autonavi/xmgd/navigator/MyNavigate;
+
+    const/4 v1, 0x2
+
+    invoke-virtual {v0, v1}, Lcom/autonavi/xmgd/navigator/MyNavigate;->showDialog(I)V
+
+    goto/16 :goto_0
+
+    :catch_1
+    move-exception v0
+
+    invoke-virtual {v0}, Ljava/lang/IllegalAccessException;->printStackTrace()V
+
+    goto :goto_3
+.end method

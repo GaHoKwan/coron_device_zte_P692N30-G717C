@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate ="@drawable/abs__spinner_48_outer_holo" ="0.0" ="1080.0" ="50.0%" ="50.0%" />
+    </item>
+    <item>
+        <rotate ="@drawable/abs__spinner_48_inner_holo" ="720.0" ="0.0" ="50.0%" ="50.0%" />
+    </item>
+</layer-list>

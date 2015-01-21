@@ -239,7 +239,7 @@
 
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x1040078
+    const v3, #android:string@serviceEnabledFor#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -298,7 +298,7 @@
 
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x1040078
+    const v3, #android:string@serviceEnabledFor#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -386,7 +386,7 @@
     .line 1172
     iget-object v1, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v2, 0x1040076
+    const v2, #android:string@mmiFdnError#t
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -400,7 +400,7 @@
     :cond_0
     iget-object v1, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v2, 0x1040075
+    const v2, #android:string@mmiError#t
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -430,7 +430,7 @@
     .line 1182
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x104008b
+    const v1, #android:string@BaMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -453,7 +453,7 @@
     .line 1184
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x1040089
+    const v1, #android:string@CfMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -476,7 +476,7 @@
     .line 1186
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x1040087
+    const v1, #android:string@ClipMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -499,7 +499,7 @@
     .line 1188
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x1040088
+    const v1, #android:string@ClirMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -522,7 +522,7 @@
     .line 1190
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x104008c
+    const v1, #android:string@PwdMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -545,7 +545,7 @@
     .line 1192
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x104008a
+    const v1, #android:string@CwMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -568,7 +568,7 @@
     .line 1195
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x104008d
+    const v1, #android:string@PinMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1019,7 +1019,7 @@
 
     move-result-object v5
 
-    const v6, 0x107002e
+    const v6, #android:array@config_twoDigitNumberPattern#t
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1269,7 +1269,7 @@
     .line 1445
     iget-object v7, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v8, 0x10400bb
+    const v8, #android:string@cfTemplateForwardedTime#t
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1360,7 +1360,7 @@
     :cond_2
     iget-object v7, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v8, 0x10400ba
+    const v8, #android:string@cfTemplateForwarded#t
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1383,7 +1383,7 @@
     .line 1453
     iget-object v7, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v8, 0x10400b9
+    const v8, #android:string@cfTemplateNotForwarded#t
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1400,7 +1400,7 @@
     .line 1460
     iget-object v7, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v8, 0x10400bd
+    const v8, #android:string@cfTemplateRegisteredTime#t
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1414,7 +1414,7 @@
     :cond_5
     iget-object v7, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v8, 0x10400bc
+    const v8, #android:string@cfTemplateRegistered#t
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1938,7 +1938,7 @@
     .local v0, ret:Lcom/android/internal/telephony/gsm/GsmMmiCode;
     iget-object v1, v0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v2, 0x1040075
+    const v2, #android:string@mmiError#t
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1963,13 +1963,13 @@
     .parameter "ar"
 
     .prologue
-    const v7, 0x1040097
+    const v7, #android:string@CLIRDefaultOffNextCallOff#t
 
-    const v6, 0x1040094
+    const v6, #android:string@CLIRDefaultOnNextCallOn#t
 
     const/4 v5, 0x0
 
-    const v4, 0x1040075
+    const v4, #android:string@mmiError#t
 
     .line 1298
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2113,7 +2113,7 @@
     :pswitch_0
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040098
+    const v4, #android:string@serviceNotProvisioned#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2132,7 +2132,7 @@
     :pswitch_1
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040099
+    const v4, #android:string@CLIRPermanent#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2203,7 +2203,7 @@
     :pswitch_5
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040095
+    const v4, #android:string@CLIRDefaultOnNextCallOff#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2240,7 +2240,7 @@
     :pswitch_7
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040096
+    const v4, #android:string@CLIRDefaultOffNextCallOn#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2292,7 +2292,7 @@
     .parameter "ar"
 
     .prologue
-    const v4, 0x1040075
+    const v4, #android:string@mmiError#t
 
     .line 1769
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2436,7 +2436,7 @@
     :pswitch_0
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040098
+    const v4, #android:string@serviceNotProvisioned#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2505,7 +2505,7 @@
     .parameter "ar"
 
     .prologue
-    const v4, 0x1040075
+    const v4, #android:string@mmiError#t
 
     .line 1718
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2649,7 +2649,7 @@
     :pswitch_0
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040098
+    const v4, #android:string@serviceNotProvisioned#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2811,7 +2811,7 @@
     :cond_1
     iget-object v10, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v11, 0x1040075
+    const v11, #android:string@mmiError#t
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2826,7 +2826,7 @@
     :cond_2
     iget-object v10, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v11, 0x1040075
+    const v11, #android:string@mmiError#t
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2855,7 +2855,7 @@
     .line 1519
     iget-object v10, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v11, 0x1040079
+    const v11, #android:string@serviceDisabled#t
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3161,7 +3161,7 @@
 
     const/4 v6, 0x0
 
-    const v5, 0x1040075
+    const v5, #android:string@mmiError#t
 
     .line 1603
     new-instance v2, Ljava/lang/StringBuilder;
@@ -3305,7 +3305,7 @@
     .line 1628
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040079
+    const v4, #android:string@serviceDisabled#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3374,7 +3374,7 @@
     .line 1637
     iget-object v3, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v4, 0x1040077
+    const v4, #android:string@serviceEnabled#t
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3416,7 +3416,7 @@
     .prologue
     const v4, 0x2050001
 
-    const v3, 0x1040075
+    const v3, #android:string@mmiError#t
 
     .line 1211
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3488,7 +3488,7 @@
     .line 1224
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007f
+    const v3, #android:string@badPuk#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3551,7 +3551,7 @@
     .line 1230
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007e
+    const v3, #android:string@badPin#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3588,7 +3588,7 @@
     :cond_4
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007c
+    const v3, #android:string@passwordIncorrect#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3621,7 +3621,7 @@
     .line 1245
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x1040084
+    const v3, #android:string@needPuk2#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3666,7 +3666,7 @@
     .line 1253
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x1040076
+    const v3, #android:string@mmiFdnError#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3717,7 +3717,7 @@
     .line 1264
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x1040077
+    const v3, #android:string@serviceEnabled#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3761,7 +3761,7 @@
     .line 1272
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x1040079
+    const v3, #android:string@serviceDisabled#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3805,7 +3805,7 @@
     .line 1280
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007a
+    const v3, #android:string@serviceRegistered#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3831,7 +3831,7 @@
     .line 1284
     iget-object v2, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007b
+    const v3, #android:string@serviceErased#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4147,7 +4147,7 @@
     :sswitch_0
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400a3
+    const v1, #android:string@serviceClassVoice#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4159,7 +4159,7 @@
     :sswitch_1
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400a4
+    const v1, #android:string@serviceClassData#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4171,7 +4171,7 @@
     :sswitch_2
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400a5
+    const v1, #android:string@serviceClassFAX#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4183,7 +4183,7 @@
     :sswitch_3
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400a6
+    const v1, #android:string@serviceClassSMS#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4195,7 +4195,7 @@
     :sswitch_4
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400a8
+    const v1, #android:string@serviceClassDataSync#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4207,7 +4207,7 @@
     :sswitch_5
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400a7
+    const v1, #android:string@serviceClassDataAsync#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4219,7 +4219,7 @@
     :sswitch_6
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400a9
+    const v1, #android:string@serviceClassPacket#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4231,7 +4231,7 @@
     :sswitch_7
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x10400aa
+    const v1, #android:string@serviceClassPAD#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -5190,7 +5190,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x104007d
+    const v1, #android:string@mmiComplete#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -5246,7 +5246,7 @@
     .line 1067
     iget-object v0, p0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x1040075
+    const v1, #android:string@mmiError#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -5390,7 +5390,7 @@
 
     iget-object v4, v0, Lcom/android/internal/telephony/gsm/GsmMmiCode;->context:Landroid/content/Context;
 
-    const v10, 0x1040075
+    const v10, #android:string@mmiError#t
 
     invoke-virtual {v4, v10}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -6108,7 +6108,7 @@
 
     .line 810
     :cond_1b
-    const v4, 0x104007c
+    const v4, #android:string@passwordIncorrect#t
 
     move-object/from16 v0, p0
 
@@ -6246,7 +6246,7 @@
 
     .line 839
     :cond_1f
-    const v4, 0x104007c
+    const v4, #android:string@passwordIncorrect#t
 
     move-object/from16 v0, p0
 
@@ -6300,7 +6300,7 @@
 
     .line 847
     :cond_22
-    const v4, 0x104007c
+    const v4, #android:string@passwordIncorrect#t
 
     move-object/from16 v0, p0
 
@@ -6606,7 +6606,7 @@
 
     .line 903
     :cond_29
-    const v4, 0x1040075
+    const v4, #android:string@mmiError#t
 
     move-object/from16 v0, p0
 
@@ -6702,7 +6702,7 @@
     if-nez v4, :cond_2c
 
     .line 923
-    const v4, 0x1040075
+    const v4, #android:string@mmiError#t
 
     move-object/from16 v0, p0
 
@@ -6725,7 +6725,7 @@
     if-nez v4, :cond_2d
 
     .line 926
-    const v4, 0x1040080
+    const v4, #android:string@mismatchPin#t
 
     move-object/from16 v0, p0
 
@@ -6877,7 +6877,7 @@
     if-ne v4, v10, :cond_35
 
     .line 938
-    const v4, 0x1040083
+    const v4, #android:string@needPuk#t
 
     move-object/from16 v0, p0
 
@@ -6927,7 +6927,7 @@
     if-nez v4, :cond_37
 
     .line 944
-    const v4, 0x1040075
+    const v4, #android:string@mmiError#t
 
     move-object/from16 v0, p0
 
@@ -6961,7 +6961,7 @@
     if-eqz v4, :cond_38
 
     .line 950
-    const v4, 0x1040083
+    const v4, #android:string@needPuk#t
 
     move-object/from16 v0, p0
 
@@ -7017,7 +7017,7 @@
     if-eqz v4, :cond_3a
 
     .line 962
-    const v4, 0x1040084
+    const v4, #android:string@needPuk2#t
 
     move-object/from16 v0, p0
 

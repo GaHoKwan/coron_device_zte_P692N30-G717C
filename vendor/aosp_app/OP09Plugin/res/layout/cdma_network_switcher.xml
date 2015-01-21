@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|center" android:orientation="horizontal" android:id="@id/cdma_searching" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manual_network_cdma_searching" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cdma_switch_container" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@id/cdma_switch_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manual_network_cdma_switch" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/manual_network_cdma_description" />
+    </LinearLayout>
+</LinearLayout>

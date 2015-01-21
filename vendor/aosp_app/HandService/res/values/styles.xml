@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowTitleSize">50.0dip</item>
+        <item name="android:textSize">100.0sp</item>
+    </style>
+    <style name="test" parent="@*android:style/Theme">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTitleSize">62.0dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/title</item>
+    </style>
+    <style name="EntryCache" parent="@*android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

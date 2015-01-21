@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@id/prompt_icon_container" ="visible" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center" ="@id/prompt_title_icon" ="48.0dip" ="48.0dip" ="@drawable/transparent" />
+</FrameLayout>

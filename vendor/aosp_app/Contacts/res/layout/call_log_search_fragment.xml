@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/call_log_search_layout" android:background="?contact_browser_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/wait_cursor" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@*android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/empty_message_top_margin" />
+    </FrameLayout>
+</LinearLayout>

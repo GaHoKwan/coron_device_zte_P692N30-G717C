@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="10401" android:versionName="1.04B01" coreApp="true" package="com.powermo.smartshow.activity"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
+    <application android:label="@string/app_label" android:icon="@drawable/img_s" android:allowClearUserData="false" android:persistent="true" android:allowBackup="false" android:hardwareAccelerated="true">
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name=".MiniLauncherActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.IDLER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name=".CoverActivity" android:taskAffinity="com.powermo.smartshow.activity.CoverActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.COVER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name=".ConflictCoverActivity" android:taskAffinity="com.powermo.smartshow.activity.ConflictCoverActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.CONFLICTCOVER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name=".PauseCoverActivity" android:taskAffinity="com.powermo.smartshow.activity.PauseCoverActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.PAUSECOVER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:name=".NoContentActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.IDLER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/popup_background" ="320.0dip" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_title" ="fill_parent" ="wrap_content" ="@string/pin_title" ="true" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="2.0dip" ="3.0dip" ="3.0dip" ="3.0dip">
+        <View ="@drawable/separator_left" ="0.0px" ="fill_parent" ="1.0" />
+        <View ="@drawable/separator_right" ="0.0px" ="fill_parent" ="1.0" />
+    </LinearLayout>
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent" ="9.0dip" ="12.0dip" ="9.0dip" ="12.0dip">
+        <LinearLayout ="horizontal" ="fill_parent" ="48.0dip">
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_1" ="true" ="0.0px" ="fill_parent" ="@string/number_1" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_2" ="true" ="0.0px" ="fill_parent" ="@string/number_2" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_3" ="true" ="0.0px" ="fill_parent" ="@string/number_3" ="1.0" ="onPIN" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="fill_parent" ="48.0dip">
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_4" ="true" ="0.0px" ="fill_parent" ="@string/number_4" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_5" ="true" ="0.0px" ="fill_parent" ="@string/number_5" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_6" ="true" ="0.0px" ="fill_parent" ="@string/number_6" ="1.0" ="onPIN" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="fill_parent" ="48.0dip">
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_7" ="true" ="0.0px" ="fill_parent" ="@string/number_7" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_8" ="true" ="0.0px" ="fill_parent" ="@string/number_8" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_9" ="true" ="0.0px" ="fill_parent" ="@string/number_9" ="1.0" ="onPIN" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="fill_parent" ="48.0dip">
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_clear" ="true" ="0.0px" ="fill_parent" ="@string/generic_clear" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_0" ="true" ="0.0px" ="fill_parent" ="@string/number_0" ="1.0" ="onPIN" />
+            <TextView ="16.0sp" ="bold" ="#ffffffff" ="center" ="@id/pin_code_ok" ="true" ="0.0px" ="fill_parent" ="@string/generic_ok" ="1.0" ="onPIN" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -853,7 +853,7 @@
     .local v5, r:Landroid/content/res/Resources;
     if-eqz p1, :cond_0
 
-    const v7, 0x104042c
+    const v7, #android:string@sim_added_title#t
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -864,7 +864,7 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    const v7, 0x104042d
+    const v7, #android:string@sim_added_message#t
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -873,7 +873,7 @@
     .line 443
     .local v4, message:Ljava/lang/String;
     :goto_1
-    const v7, 0x104042e
+    const v7, #android:string@sim_restart_button#t
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -928,7 +928,7 @@
     .end local v4           #message:Ljava/lang/String;
     .end local v6           #title:Ljava/lang/String;
     :cond_0
-    const v7, 0x1040429
+    const v7, #android:string@sim_removed_title#t
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -939,7 +939,7 @@
     .line 441
     .restart local v6       #title:Ljava/lang/String;
     :cond_1
-    const v7, 0x104042a
+    const v7, #android:string@sim_removed_message#t
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
     :try_end_1

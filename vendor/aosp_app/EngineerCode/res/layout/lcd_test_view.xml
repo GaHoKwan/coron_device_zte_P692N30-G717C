@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/fullscreen_linelayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/fullscreen_linelayout_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/lcd_test_pass_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/pass" />
+        <Button android:id="@id/lcd_test_false_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/falsed" />
+    </LinearLayout>
+</RelativeLayout>

@@ -109,92 +109,92 @@
     packed-switch p0, :pswitch_data_0
 
     .line 6523
-    const v0, 0x10402c8
+    const v0, #android:string@orgTypeCustom#t
 
     :goto_0
     return v0
 
     .line 6507
     :pswitch_0
-    const v0, 0x10402ca
+    const v0, #android:string@relationTypeAssistant#t
 
     goto :goto_0
 
     .line 6508
     :pswitch_1
-    const v0, 0x10402cb
+    const v0, #android:string@relationTypeBrother#t
 
     goto :goto_0
 
     .line 6509
     :pswitch_2
-    const v0, 0x10402cc
+    const v0, #android:string@relationTypeChild#t
 
     goto :goto_0
 
     .line 6511
     :pswitch_3
-    const v0, 0x10402cd
+    const v0, #android:string@relationTypeDomesticPartner#t
 
     goto :goto_0
 
     .line 6512
     :pswitch_4
-    const v0, 0x10402ce
+    const v0, #android:string@relationTypeFather#t
 
     goto :goto_0
 
     .line 6513
     :pswitch_5
-    const v0, 0x10402cf
+    const v0, #android:string@relationTypeFriend#t
 
     goto :goto_0
 
     .line 6514
     :pswitch_6
-    const v0, 0x10402d0
+    const v0, #android:string@relationTypeManager#t
 
     goto :goto_0
 
     .line 6515
     :pswitch_7
-    const v0, 0x10402d1
+    const v0, #android:string@relationTypeMother#t
 
     goto :goto_0
 
     .line 6516
     :pswitch_8
-    const v0, 0x10402d2
+    const v0, #android:string@relationTypeParent#t
 
     goto :goto_0
 
     .line 6517
     :pswitch_9
-    const v0, 0x10402d3
+    const v0, #android:string@relationTypePartner#t
 
     goto :goto_0
 
     .line 6519
     :pswitch_a
-    const v0, 0x10402d4
+    const v0, #android:string@relationTypeReferredBy#t
 
     goto :goto_0
 
     .line 6520
     :pswitch_b
-    const v0, 0x10402d5
+    const v0, #android:string@relationTypeRelative#t
 
     goto :goto_0
 
     .line 6521
     :pswitch_c
-    const v0, 0x10402d6
+    const v0, #android:string@relationTypeSister#t
 
     goto :goto_0
 
     .line 6522
     :pswitch_d
-    const v0, 0x10402d7
+    const v0, #android:string@relationTypeSpouse#t
 
     goto :goto_0
 

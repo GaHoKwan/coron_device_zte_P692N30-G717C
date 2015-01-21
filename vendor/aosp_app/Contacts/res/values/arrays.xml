@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="otherLabels">
+        <item>Organization</item>
+        <item>Note</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_0000">false</item>
+    <item type="array" name="APKTOOL_DUMMY_0001">false</item>
+    <item type="array" name="APKTOOL_DUMMY_0002">false</item>
+    <item type="array" name="APKTOOL_DUMMY_0004">false</item>
+</resources>

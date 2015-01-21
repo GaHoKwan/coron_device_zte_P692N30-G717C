@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/message" android:paddingLeft="@dimen/new_dialog_title_padding" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_dialog_title_padding" android:layout_marginBottom="16.0dip" style="@style/hearty_black_15dp" />
+    <EditText android:gravity="center_vertical" android:id="@id/input" android:background="@drawable/dialog_eidttext_bg" android:paddingLeft="3.0dip" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:maxLength="30" style="@style/hearty_black_15dp" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/software_manager_backup_message2" style="@style/hearty_black_15dp" />
+</LinearLayout>

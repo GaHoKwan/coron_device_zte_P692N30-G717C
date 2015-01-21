@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/reject" android:background="@drawable/btn_ask_item_background_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/reject" style="@style/hearty_seconditem_18dp" />
+    <ImageView android:background="@color/line_color" android:focusable="false" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+    <TextView android:id="@id/ask" android:background="@drawable/btn_ask_item_background_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ask" style="@style/hearty_seconditem_18dp" />/>
+<ImageView android:background="@color/line_color" android:focusable="false" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+    <TextView android:id="@id/allow" android:background="@drawable/btn_ask_item_background_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allow" style="@style/hearty_seconditem_18dp" />/>
+</LinearLayout>

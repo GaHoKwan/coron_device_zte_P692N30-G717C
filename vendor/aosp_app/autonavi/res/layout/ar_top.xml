@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ar_titlelbar_nav_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="#ffffffff" android:gravity="right|center" android:id="@id/ar_remain_distance" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textColor="#ffffffff" android:gravity="right|center" android:id="@id/ar_remain_time" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.plugin.installapk.ar.GDScrollText android:textSize="@dimen/ar_next_road_text_size" android:gravity="center" android:id="@id/ar_next_road" android:paddingLeft="@dimen/ar_next_road_padding_left" android:paddingRight="@dimen/ar_next_road_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

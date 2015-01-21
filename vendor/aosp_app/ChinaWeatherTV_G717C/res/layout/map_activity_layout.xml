@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/map_acitvity_root" android:background="#ff1f1f1f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/map_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/hf_map_leida" android:scaleType="matrix" android:layout_above="@id/map_radiogroup" android:layout_centerInParent="true" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/map_radiogroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/map_radar_button" android:layout_alignParentBottom="true">
+        <RadioButton android:textColor="@*android:color/white" android:id="@id/map_radar_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/map_leida" />
+        <RadioButton android:textColor="@*android:color/white" android:id="@id/map_cloud_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/map_run_tu" />
+    </RadioGroup>
+</RelativeLayout>

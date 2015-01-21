@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SOUND_NOTIFY">Heli</string>
+    <string name="OPEN_WITH_SHAKE">Raputa taskulambi sisse-/väljalülitamiseks</string>
+    <string name="SHAKE_SENSITIVITY">Tugevus</string>
+    <string name="main_screen_text">Raputamisega on taskulampi mugavam sisse lülitada.</string>
+    <string name="setting_button">Seaded</string>
+    <string name="flashsetting_title">Taskulambi sätted</string>
+    <string name="shake_sensitivity_weak">Nõrk</string>
+    <string name="shake_sensitivity_strong">tugev</string>
+    <string name="Cancel">Tühista</string>
+    <string name="text_off">VÄLJAS</string>
+    <string name="text_on">SEES</string>
+    <string name="battery_low_warning">Aku on tühjaks saamas. Palun ärge kasutage välklampi.</string>
+    <string name="battery_low">Aku on tühjaks saamas.</string>
+</resources>

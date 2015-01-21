@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/privacy_enter_setting_summary" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/input_privacy_enter_name" />
+    <EditText android:gravity="center_vertical" android:id="@id/privacy_enter_name_input" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="15.0dip" android:hint="@string/privacy_protect" android:maxLength="6" android:inputType="text" />
+    <Button android:id="@id/ok_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="20.0dip" android:text="@string/ok" />
+</LinearLayout>

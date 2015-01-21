@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" style="@style/AccountSwitchSpinnerItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/mail_switcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.mediatek.email.ui.HintImageButton android:id="@id/switch_newer" android:paddingLeft="10.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_item_newer" android:contentDescription="@string/message_view_move_to_newer" style="@android:style/Widget.Holo.Button.Borderless" />
+        <com.mediatek.email.ui.HintImageButton android:id="@id/switch_older" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_item_older" android:contentDescription="@string/message_view_move_to_older" style="@android:style/Widget.Holo.Button.Borderless" />
+    </LinearLayout>
+    <TextView android:id="@id/spinner_count" android:layout_marginLeft="4.0dip" android:layout_toLeftOf="@id/mail_switcher" style="@style/unreadCountActionBar" />
+    <ImageView android:id="@id/sync_interval" android:layout_toLeftOf="@id/spinner_count" style="@style/attachment_thumbnail" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/spinner_count" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/account_spinner" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?android:attr/actionDropDownStyle">
+            <TextView android:ellipsize="end" android:id="@id/spinner_line_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/action_bar_spinner_primary_text" />
+            <TextView android:ellipsize="end" android:id="@id/spinner_line_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:singleLine="true" android:includeFontPadding="false" style="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

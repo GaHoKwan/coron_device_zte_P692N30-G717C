@@ -467,7 +467,7 @@
 
     move-result-object v3
 
-    const v4, 0x10404ba
+    const v4, #android:string@add_account_button_label#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -619,7 +619,7 @@
 
     .prologue
     .line 506
-    const v1, 0x102027a
+    const v1, #android:id@description#t
 
     invoke-virtual {p0, v1}, Landroid/accounts/ChooseTypeAndAccountActivity;->findViewById(I)Landroid/view/View;
 
@@ -659,7 +659,7 @@
     const/4 v3, 0x1
 
     .line 519
-    const v1, 0x102000a
+    const v1, #android:id@list#t
 
     invoke-virtual {p0, v1}, Landroid/accounts/ChooseTypeAndAccountActivity;->findViewById(I)Landroid/view/View;
 
@@ -671,7 +671,7 @@
     .local v0, list:Landroid/widget/ListView;
     new-instance v1, Landroid/widget/ArrayAdapter;
 
-    const v2, 0x109000f
+    const v2, #android:layout@simple_list_item_single_choice#t
 
     invoke-direct {v1, p0, v2, p1}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -1739,7 +1739,7 @@
     iput v3, p0, Landroid/accounts/ChooseTypeAndAccountActivity;->mSelectedItemIndex:I
 
     .line 207
-    const v3, 0x1090036
+    const v3, #android:layout@choose_type_and_account#t
 
     invoke-virtual {p0, v3}, Landroid/accounts/ChooseTypeAndAccountActivity;->setContentView(I)V
 
@@ -1752,7 +1752,7 @@
     invoke-direct {p0, v2}, Landroid/accounts/ChooseTypeAndAccountActivity;->populateUIAccountList([Ljava/lang/String;)V
 
     .line 212
-    const v3, 0x102001a
+    const v3, #android:id@button2#t
 
     invoke-virtual {p0, v3}, Landroid/accounts/ChooseTypeAndAccountActivity;->findViewById(I)Landroid/view/View;
 

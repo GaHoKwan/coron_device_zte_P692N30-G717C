@@ -4969,7 +4969,7 @@
 
     xor-int/2addr v3, v4
 
-    const/high16 v4, 0x101c
+    const/high16 v4, #android:attr@theme#hc
 
     and-int/2addr v3, v4
 

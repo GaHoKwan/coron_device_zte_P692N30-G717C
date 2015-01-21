@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/titlebar_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/gdtitle_text_size" android:textColor="@color/gdtitle_textcolor" android:gravity="center" android:id="@id/gdtitle_text" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/gdtitle_left" android:background="@drawable/gdtitle_back" android:padding="@dimen/gdtitle_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_btn_list_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="15.0sp" android:id="@id/mynavigate_gdtitle_right" android:layout_width="52.0dip" android:layout_height="32.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gdaccount_button_style" />
+</RelativeLayout>

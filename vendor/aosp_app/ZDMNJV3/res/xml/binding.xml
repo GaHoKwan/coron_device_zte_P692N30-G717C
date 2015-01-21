@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+    <mapping name="SyncML" class="com.zte.zdm.framework.syncml.SyncML.class">
+        <member name="SyncHdr" field="header" />
+        <member name="SyncBody" field="body" />
+    </mapping>
+    <mapping name="SyncHdr" class="com.zte.zdm.framework.syncml.SyncHdr.class">
+        <member name="VerDTD" field="verDTD" />
+        <member name="VerProto" field="verProto" />
+        <member name="SessionID" field="sessionID" />
+        <member name="MsgID" field="msgID" />
+        <member name="Target" field="target" />
+        <member name="Source" field="source" />
+        <member name="RespURI" field="respURI" />
+        <member name="NoResp" field="noResp" />
+        <member name="Cred" field="cred" />
+        <member name="Meta" field="meta" />
+    </mapping>
+    <mapping name="SyncBody" class="com.zte.zdm.framework.syncml.SyncBody.class">
+        <collection name="Commands" field="commands" implicit="true" />
+        <member name="Final" field="finalMsg" />
+    </mapping>
+    <mapping name="AbstractCommand" class="com.zte.zdm.framework.syncml.AbstractCommand.class">
+        <member name="CmdID" field="cmdID" />
+        <member name="NoResp" field="noResp" />
+        <member name="Cred" field="credential" />
+        <member name="Meta" field="meta" />
+    </mapping>
+</binding>

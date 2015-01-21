@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_search_base">http://www.google.com/search?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/search?hl=%2$s</string>
+</resources>

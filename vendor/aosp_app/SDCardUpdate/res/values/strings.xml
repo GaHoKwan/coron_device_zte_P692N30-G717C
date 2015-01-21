@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SDcardUpdateActivity!</string>
+    <string name="app_name">Storage card updates</string>
+    <string name="update_from_sdcard_tip">Please copy update package (update.zip) to image directory on storage card, then click OK button.</string>
+    <string name="ok">OK</string>
+    <string name="cancle">Cancel</string>
+    <string name="updateimage_nofound_title">Storage card updates failed</string>
+    <string name="updateimage_nofound_message">Do not find update package (update.zip) on storage card, please confirm that update package has been copied to image directory on storage card!</string>
+    <string name="update_now_title">Update now</string>
+    <string name="update_now_message">Do you want to update now?</string>
+    <string name="error_title">Error</string>
+    <string name="error_message">An unknown error occurred!</string>
+    <string name="update_from_sdcard">Update from phone storage</string>
+    <string name="update_from_sdcard2">Update from external SD card</string>
+    <string name="update_from_sdcard_single_menu">System update</string>
+    <string name="sdcard_updateimage_nofound_message">Do not find update package (update.zip) on phone storage, please confirm that update package has been copied to root directory on phone storage!</string>
+    <string name="sdcard2_updateimage_nofound_message">Do not find update package (update.zip) on external SD card, please confirm that update package has been copied to root directory on external SD card!</string>
+    <string name="swap_sd_no_insert_title">Storage card updates failed</string>
+    <string name="swap_sd_no_insert_message">Please make sure external SD card is mounted, and then try it again!</string>
+    <string name="tip_title">Update tips</string>
+    <string name="tip_summary_double_menus">"1. Please copy update package (update.zip) to root directory on phone storage or external SD card.
+2. According to the actual location of update package, select right menu below the tip to update your system."</string>
+    <string name="tip_summary_single_menu_for_phone_storage_only">"1. Please copy update package (update.zip) to root directory on phone storage.
+2. Click system update menu below the tip to update your system."</string>
+    <string name="tip_summary_for_shared_menu_sdcard_swap">"1. If you want to update system from external SD card, please insert your external SD card. If you only want to update system from phone storage, please do not insert your external SD card.
+2. Copy update package (update.zip) to root directory on phone storage or external SD card.
+3. Click system update menu below the tip to update your system."</string>
+    <string name="category_sdcard_select">SELECT STORAGE CARD</string>
+    <string name="promtion">Please copy update package to root directory on storage card,then click OK button.</string>
+    <string name="update_confirm_title">Confirm</string>
+    <string name="update_fail_title">Storage card updates failed</string>
+    <string name="confirm_summary">Do not find update package on storage card,please confirm that update package has been copied to root directory on storage card!</string>
+    <string name="version_error_summary">Update package is not matching, please check!</string>
+    <string name="update_error_summary">System is busy,please reboot system and try again!</string>
+    <string name="update_error_charging">Sorry, you can not update while charging.</string>
+    <string name="update_error_low">Battery level is low,and can not update.</string>
+    <string name="version_match">Find matched update package, do you want to update?</string>
+    <string name="update_backup">Backup personal info</string>
+</resources>

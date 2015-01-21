@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/bluetooth_ftp_server_settings">
+        <CheckBoxPreference android:persistent="false" android:title="@string/bluetooth_ftp_server_enable_title" android:key="ftp_server_enable" android:summary="@string/bluetooth_ftp_server_enable_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/bluetooth_ftp_server_permission_entries" android:title="@string/bluetooth_ftp_server_permission_title" android:key="ftp_server_permission" android:dependency="ftp_server_enable" android:entryValues="@array/bluetooth_ftp_server_permission_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

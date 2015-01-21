@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="earth_radius">150.0dip</dimen>
+    <dimen name="land_compass_marginRight">60.0dip</dimen>
+    <dimen name="land_compass_marginTop">25.0dip</dimen>
+    <dimen name="map_titlebar_textsize">19.0sp</dimen>
+    <dimen name="map_toolbar_simulate_height">62.0dip</dimen>
+    <dimen name="warn_text_textsize">22.0sp</dimen>
+    <dimen name="warn_title_textsize">24.0sp</dimen>
+    <dimen name="warn_text_padding">8.0dip</dimen>
+    <dimen name="dialog_btn_padding_top">15.0dip</dimen>
+    <dimen name="dialog_btn_padding_buttom">31.0dip</dimen>
+    <dimen name="navi_remain_text_size">16.0sp</dimen>
+    <dimen name="navi_remaining_time_height">29.0dip</dimen>
+    <dimen name="navi_remain_dis_height">24.0dip</dimen>
+    <dimen name="navi_title_horizontal_text_size">20.0sp</dimen>
+    <dimen name="map_tip_width">456.0px</dimen>
+    <dimen name="navi_title_vertical">90.0dip</dimen>
+    <dimen name="navi_title_horizontal">48.0dip</dimen>
+</resources>

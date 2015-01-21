@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Přijmout Rozšířené poprodejní služby?</string>
+    <string name="informative">Rozšířené poprodejní služby</string>
+    <string name="title">Správa zařízení</string>
+    <string name="button_yes">Ano</string>
+    <string name="button_no">Ne</string>
+    <string name="ask_setup_message">Konfigurační informace OTA přijata, potvrďte instalaci a konfiguraci</string>
+    <string name="omacp_setup">Konfigurace</string>
+    <string name="install_compelete">Instalace hotova</string>
+    <string name="instatll_fail">Instalace selhala</string>
+    <string name="security_error">Chyba zabezpečení</string>
+    <string name="xml_parse_error">Chyba XML Parse</string>
+    <string name="user_cancel">Zrušeno uživatelem</string>
+    <string name="input_pin">Vložte PIN</string>
+    <string name="app_name">Aktualizace softwaru</string>
+    <string name="auto_update_settings">Nastavení automatické aktualizace</string>
+    <string name="dm_update_service">Aktualizace software</string>
+    <string name="system_update">Kontrola aktualizací</string>
+    <string name="connecting">Kontrola posledních aktualizací software…</string>
+    <string name="downloading">Vyčkejte, dokončení může trvat několik minut.</string>
+    <string name="downloading_AU">Dokončení může trvat několik minut.</string>
+    <string name="download_title">Stáhnout software</string>
+    <string name="download_val">Stáhnout software přes</string>
+    <string name="download_message">Je k dispozici nová aktualizace software. Stáhnout?</string>
+    <string name="cancel_message">Určitě chcete zrušit stahování software?</string>
+    <string name="cancel">Zrušit</string>
+    <string name="failed">Neúspěšné</string>
+    <string name="update_failed">Aktualizace software selhala</string>
+    <string name="install_title">Instalace software</string>
+    <string name="install_message">Instalaci spustíte restartem telefonu</string>
+    <string name="checking_update">Kontrola aktualizací</string>
+    <string name="update_title">Automatická aktualizace</string>
+    <string name="update_message">Aktualizovat automaticky každý týden</string>
+    <string name="update_deferred">Instalace odložena</string>
+    <string name="update_deferred_AU">Instalace software</string>
+    <string name="service_unavailable">Služba nedostupná</string>
+    <string name="check_new">Kontrola aktualizací</string>
+    <string name="status">Stav</string>
+    <string name="version">Verze:</string>
+    <string name="new_version">Nová verze:</string>
+    <string name="update_setting">Nastavení aktualizace</string>
+    <string name="background">Běžet na pozadí</string>
+    <string name="delay">Zpoždění</string>
+    <string name="dm_session_busy">Relace Dm je obsazena</string>
+    <string name="downloading_notification">Stahování aktualizace software</string>
+    <string name="downloading_notification_message">Stahování nového software</string>
+    <string name="update_warning_notification">Varování při aktualizaci software</string>
+    <string name="update_warning_notification_message">Přichází nová varovná zpráva</string>
+    <string name="update_warning_notification_new_package">Přichází nová varovná zpráva</string>
+    <string name="install_notification">Instalace software</string>
+    <string name="install_notification_message">Instalaci spustíte restartem telefonu.</string>
+    <string name="install_file_notification">Klepnutím nainstalujte soubor</string>
+    <string name="pin">PIN</string>
+    <string name="confirm">Potvrdit</string>
+    <string name="intallresult">Výsledek instalace</string>
+    <string name="ok">OK</string>
+    <string name="wifi">WiFi</string>
+    <string name="wifi_AU">Stáhnout přes Wi-Fi</string>
+    <string name="mobile_networks_AU">Stáhnout přes mobilní síť</string>
+    <string name="mobile_networks">Mobilní sítě(Způsobí silný datový provoz)</string>
+    <string name="autoupdate_toinstall">Autom.aktual.: klepnutím nainstalujte</string>
+    <string name="autoupdate_todownload">Autom.aktual.: klepnutím aktualizujte</string>
+    <string name="autoupdate_busy">Autom.aktual.: aktualizace zrušena, zaneprázdněn</string>
+    <string name="attention">Pozor</string>
+    <string name="update_busy">Aktualizace je zaneprázdněna, vyčkejte…</string>
+    <string name="memory_insufficient">Nedostatek místa</string>
+    <string name="memory_insufficient_info">"Telefon nemá dostatek paměti pro aktualizaci. 
+ Uvolněte paměť a zkuste znovu."</string>
+    <string name="network_unavailable">Síť není dostupná</string>
+    <string name="network_unavailable_info">Síť není připojena, nelze zjistit jinou.</string>
+    <string name="connect_timeout">Spojení vypršelo</string>
+    <string name="uncaught_exception_title">Zpracování neočekávaných událostí</string>
+    <string name="uncaught_exception_info">Správce zařízení selhal. Telefon asi nemá dostatek paměti pro aktualizaci. Uvolněte paměť a zkuste znovu.</string>
+    <string name="updata_ok">Restartovat</string>
+    <string name="updata_Defer">Odložit</string>
+    <string name="updata_info">Instalaci spustíte restartováním telefonu.</string>
+    <string name="updata_title">Aktualizace software</string>
+    <string name="dm_comlete_sec">Vyčkejte, dokončení bude trvat do %1$d sekund.</string>
+    <string name="dm_compele_min">Vyčkejte, dokončení bude trvat do %1$d minut.</string>
+    <string name="dm_compele_hou">Vyčkejte, dokončení bude trvat do %1$d hodin.</string>
+    <string name="dm_backup_install">Zálohování &amp; instalace</string>
+    <string name="backup_title">Zálohování</string>
+    <string name="backup_message">Zařízení zálohuje vaše data, prosím čekejte...</string>
+    <string name="restore_title">Obnovit</string>
+    <string name="restore_message">Zařízení obnovuje vaše data, prosím čekejte...</string>
+    <string name="dm_version">Verze softwaru:</string>
+    <string name="dm_update_date">Stav:</string>
+    <string name="dm_backup_nosdcard">Vložte kartu SD.</string>
+    <string name="dm_backup_lowbattery">Zkontrolujte, zda je baterie alespoň z 30%% nabitá, aby bylo možné dokončit instalaci.</string>
+    <string name="dm_fumo_Message">Stav</string>
+    <string name="dm_fumo_START">Kontrola aktualizací</string>
+    <string name="dm_fumo_INSTAll_DEFER">Nainstalovat odložený software</string>
+    <string name="dm_fumo_SETUP">Balík aktualizací nastavení</string>
+    <string name="dm_fumo_SETUP_content">Čekejte prosím</string>
+    <string name="dm_never_SETUP">Původní verze</string>
+    <string name="dm_fumo_status_noupdate">Software je aktuální</string>
+    <string name="dm_fumo_status_failed">Aktualizace software selhala</string>
+    <string name="dm_fumo_status_sucess">Software byl úspěšně aktualizován</string>
+    <string name="dm_check_updatetile">Kontrola aktualizací</string>
+    <string name="dm_check_update">Kontrola posledních aktualizací software</string>
+    <string name="dm_network_error">Chyba sítě, zkuste později!</string>
+    <string name="dm_already_new">Aktuální software je poslední!</string>
+    <string name="dm_isroaming">Aktualizace software není povolena při datovém roamingu!</string>
+    <string name="dm_isroaming_AU">"Právě jste v režimu roaming. Prověřte u Telstra, může dojít ke zvýšení nákladů. 
+
+Chcete pokračovat?"</string>
+    <string name="dm_isroaming_TNZ">"Nacházíte se v režimu roamingu. Informujte se u svého operátora, zda se na roaming nevztahují další poplatky. 
+
+Chcete pokračovat?"</string>
+    <string name="dm_airplan">Aktualizace software není povolena v režimu Letadlo!</string>
+    <string name="dm_no_dataservice">Nejsou dostupné datové služby, nelze aktualizovat software!</string>
+    <string name="dm_no_dataservice_AU">"Aktualizace software nejsou dostupné, není povolen přenos dat. 
+
+Zkontrolujte dostupnost služby u poskytovatele a nastavení telefonu."</string>
+    <string name="dm_update_setting">Nastavení aktualizace</string>
+    <string name="auto_update_switch_title">Automatická aktualizace</string>
+    <string name="auto_update_switch_key">Automatická aktualizace</string>
+    <string name="auto_update_switch_summary_on">Otevřít automatické aktualizace</string>
+    <string name="auto_update_switch_summary_off">Uzavřít automatické aktualizace</string>
+    <string name="auto_update_frequency_text">Aktualizovat automaticky v %1$s každý %2$s</string>
+    <string name="wifi_auto_update_switch_title">Automaticky aktualizovat přes Wi-Fi</string>
+    <string name="wifi_auto_update_switch_key">Automaticky aktualizovat přes Wi-Fi</string>
+    <string name="wifi_auto_update_switch_summary_on">Po připojení k Wi-Fi vyhledat aktualizace automaticky</string>
+    <string name="wifi_auto_update_switch_summary_off">Po připojení k Wi-Fi vyhledat aktualizace automaticky</string>
+    <string name="cmcc_wifi_auto_update_switch_title">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_key">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">Po připojení Wi-Fi k CMCC vyhledat aktualizace automaticky</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">Po připojení Wi-Fi k CMCC vyhledat aktualizace automaticky</string>
+    <string name="dm_wifi_open">Zapnutím Wi-Fi spustíte stahování nového software</string>
+    <string name="dm_wifi_open_tr">Byl nalezen nový software pro vaše zařízení. Připojte se k bezdrátové síti, abyste jej mohli stáhnout.</string>
+    <string name="dm_via_wifi">Stáhnout přes Wi-Fi</string>
+    <string name="dm_wifi_set">Nastavení WiFi</string>
+    <string name="dm_yes">Ano</string>
+    <string name="dm_no">Ne</string>
+    <string name="dm_wifi_fail">Přístup k Wi-Fi není možný, stahování je zrušeno.</string>
+    <string name="dm_KB">kB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">%1$s vícekrát odložit.</string>
+    <string name="dm_Delay_last_time_show">Operace již byla 3krát odložena a nemůže dále čekat.</string>
+    <string name="download_message_new">"Je k dispozici nová aktualizace software. Chcete ji stáhnout? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_new_tr">"Byl nalezen nový software pro vaše zařízení. Data přijatá v průběhu aktualizace budou účtována v závislosti na vašem datovém tarifu. Chcete software stáhnout? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"Je k dispozici nová aktualizace software. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Verze:"</string>
+    <string name="download_message_size">"
+ Data:"</string>
+    <string name="download_message_description">"
+ Popis:"</string>
+    <string name="download_message_auto_download">"
+
+ Automatické stažení v %1$s sekund"</string>
+    <string name="install_message_new">"Instalaci zahájíte restartem telefonu. 
+
+ %1$s vícekrát odložit."</string>
+    <string name="install_message_tr">Před zahájením instalace je nutný restart telefonu. Zkontrolujte stav baterie a případně baterii dobijte, aby aktualizace proběhla v pořádku.</string>
+    <string name="install_message_new_later">"Před zahájením instalace je nutný restart telefonu. Zkontrolujte, zda je baterie alespoň z 10%% nabitá. 
+ Restart je možné odložit maximálně %1$skrát. Po 3 odkladech musí být telefon restartován."</string>
+    <string name="install_message_new_last_time">"Před zahájením instalace je nutný restart telefonu. Zkontrolujte, zda je baterie alespoň z 10%% nabitá. 
+ Restart byl již 3krát odložen. Po kliknutí na tlačítko Odložit se telefon za %1$s minut restartuje."</string>
+    <string name="install_message_force">Nucená aktualizace za %1$s minut.</string>
+    <string name="install_message_delaycompleted">již odloženo 3krát, telefon bude restartován</string>
+    <string name="wifi_cost_notify">Upozornění na cenu WLAN</string>
+    <string name="wifi_cost_notify_body">Připojená WLAN může způsobit náklady za datový provoz, chcete pokračovat?</string>
+    <string name="dm_continue">Pokračovat</string>
+    <string name="download_message_new_AU">Aktualizace software pro toto zařízení je k dispozici. Velikost %1$s,</string>
+    <string name="download_message_version_AU">povýší váš %1$s z verze %2$s na %3$s software.</string>
+    <string name="download_message_description_AU">Tato aktualizace %1$s</string>
+    <string name="about_charge_AU">"
+
+ Doporučujeme stahování přes Wi-Fi. Stahování může vyvolat další náklady (zvláště při stahování přes mobilní síť nebo při roamingu). Během stahování není činnost přístroje ovlivněna. Více informací naleznete na telstra.com/mobile nebo se obraťte na Centrum zákaznické podpory na 13 2200."</string>
+    <string name="about_charge_TNZ">"
+
+ Je doporučeno stahovat prostřednictvím sítě Wi-Fi. Na stahování se však mohou vázat další poplatky (především stahujete-li přes mobilní síť nebo při roamingu v zahraničí). Během stahování nebude chod telefonu nijak ovlivněn."</string>
+    <string name="dm_later">Později</string>
+    <string name="dm_install">Instalovat</string>
+    <string name="install_message_AU">Aktualizace byla stažena a je připravena k instalaci. Kelpněte na \"Později\", pokud ji nechcete instalovat ihned. Během instalace nebudou dostupné všechny funkce přístroje ani nebudete moci používat nouzové volání. Součástí procesu instalace je restart přístroje. Vaše data nebudou postižena ani smazána. Před spuštěním instalace se ujistěte, že je baterie nabita alespoň ze 30%% a v průběhu instalace ji neodpojujte.</string>
+    <string name="auto_update_frequency_text_AU">Kontrolovat aktualizace automaticky v %1$s v %2$s každý druhý týden.</string>
+    <string name="noti_result_success_title">Přístroj je aktualizován</string>
+    <string name="noti_result_success_content">Aktualizace software úspěšně proběhla</string>
+    <string name="noti_auto_Title">Je dostupná aktualizace software</string>
+    <string name="noti_auto_Text">Je k dispozici nová aktualizace software pro tento přístroj.</string>
+    <string name="dl_pause">Pauza</string>
+    <string name="dl_continue">Pokračovat</string>
+    <string name="dl_pause_message">Stahování je přerušeno</string>
+    <string name="wifi_only_switch_key">Pouze Wi-Fi</string>
+    <string name="wifi_only_switch_title">Pouze Wi-Fi</string>
+    <string name="wifi_only_switch_summary_off">K aktualizaci používat pouze Wi-Fi</string>
+    <string name="wifi_only_switch_summary_on">K aktualizaci používat pouze Wi-Fi</string>
+    <string name="present_net_changedto_mobile">Připojení se změnilo na mobilní síť. Stahování bylo přerušeno. Po dalším připojení k Wi-Fi bude stahování pokračovat.</string>
+    <string name="present_net_changedto_mobile_withContinue">Typ připojení se změnil na připojení přes mobilní síť. Stahování bylo pozastaveno. Chcete pokračovat?</string>
+    <string name="present_net_changedto_mobile_noContinue">Připojení se změnilo na mobilní síť. Stahování je přerušeno. Pokud chcete stahovat v mobilní síti, odznačte položku \"Pouze Wi-Fi\" a označte \"Pokračovat ve stahování\". Stahování bude jinak automaticky pokračovat po připoení k Wi-Fi.</string>
+    <string name="present_net_is_mobile">Aktualizace software nejsou povoleny, není dostupná Wi-Fi.</string>
+    <string name="resume_download">Pokračovat ve stahování</string>
+    <string name="init_message">Spouštění, vyčkejte…</string>
+    <string name="wifi_only_message">"Je nastaveno Pouze Wi-Fi a aktuální připojení není Wi-Fi. 
+ Pokud chcete použít mobilní síť, odznačte \"Pouze Wi-Fi\" a pak označte \"Vyhledat aktualizace\" nebo \"Pokračovat ve stahování\". 
+
+Nastavit?"</string>
+    <string name="resume_download_message">Poslední stahování bylo přerušeno, chcete pokračovat?</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="Install_software">Nainstalovat software</string>
+    <string name="Install_notes">K dokončení instalace je nutný restart telefonu. Není tudíž možné jej během instalace využívat k volání, a to ani k tísňovému volání.</string>
+    <string name="Install_battery_notes">Zkontrolujte, zda je baterie alespoň z 30%% nabitá.</string>
+    <string name="Install_backup_notes">Výběrem možnosti Zálohovat budou vaše data uložena na kartu SD.</string>
+    <string name="defer_install_notification">K dokončení instalace je nutný restart telefonu</string>
+    <string name="install">Instalace</string>
+    <string name="backup_install">Zálohování &amp; instalace</string>
+    <string name="release_notes_default">Toto je nová verze.</string>
+    <string name="fota_main_activity_title">Aktualizace softwaru</string>
+    <string name="current_version_title">Aktuální verze:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Zastavit</string>
+    <string name="network_update">Kontrola aktualizací…</string>
+    <string name="fota_server_package_discovered">Nová verze nalezena:</string>
+    <string name="fota_update_button_label">Aktualizovat ihned</string>
+    <string name="menu_check_new_from_server">Kontrola aktualizací na serveru</string>
+    <string name="menu_check_new_from_server_subtitle">Aktualizace po síti vyžaduje datové služby, doporučujeme použití Wi-Fi.</string>
+    <string name="menu_status">Stav</string>
+    <string name="menu_update_settings">Nastavení</string>
+    <string name="tcard_update">Kontrola aktualizace na SD kartě…</string>
+    <string name="fota_tcard_package_discovered">Nová verze nalezena (SD karta):</string>
+    <string name="dialog_title">Aktualizovat ihned</string>
+    <string name="dialog_warning">Uživatelská data bodou při aktualizaci smazána. Zazálohujte je před aktualizací.</string>
+    <string name="dialog_backup">Zálohování</string>
+    <string name="dialog_cancel">Zrušit</string>
+    <string name="fota_msg_tcard_no_update">Na SD kartě není aktualizace</string>
+    <string name="fota_msg_network_no_update">Na serveru není aktualizace</string>
+    <string name="fota_status">Stav:</string>
+    <string name="fota_status_software_version">Verze softwaru:</string>
+    <string name="fota_status_never_setup">Původní verze</string>
+    <string name="fota_status_no_update">Aktuální software je poslední!</string>
+    <string name="fota_status_failed">Aktualizace software selhala</string>
+    <string name="fota_status_sucess">Aktuální software byla úspěšná</string>
+    <string name="fota_auto_update">Automatická aktualizace</string>
+    <string name="fota_auto_update_switch_summary_on">Otevřít automatické aktualizace</string>
+    <string name="fota_auto_update_switch_summary_off">Uzavřít automatické aktualizace</string>
+    <string name="fota_auto_update_frequency_text">Vyhledat aktualizace</string>
+    <string name="fota_auto_update_frequency_everysunday">každou neděli</string>
+    <string name="fota_auto_update_frequency_everymonday">každé pondělí</string>
+    <string name="fota_auto_update_frequency_everytuesday">každé úterý</string>
+    <string name="fota_auto_update_frequency_everywednesday">každou středu</string>
+    <string name="fota_auto_update_frequency_everythursday">každý čtvrtek</string>
+    <string name="fota_auto_update_frequency_everyfriday">každý pátek</string>
+    <string name="fota_auto_update_frequency_everysaturday">každou sobotu</string>
+    <string name="retry">Opakovat</string>
+    <string name="progress_expand_list_title">Poznámky k verzi</string>
+    <string name="menu">Menu</string>
+    <string name="currentVersionTitle">Aktuální verze:</string>
+    <string name="dataTrafficeNotice">Stahování způsobí datový provoz. Chcete-li pokračovat, klikněte na možnost OK.</string>
+    <string name="notice">Upozornění</string>
+    <string name="wifiSettingNotice">Aktualizační balíček způsobí datový provoz. Je doporučeno jej stáhnout prostřednictvím sítě Wi-Fi.</string>
+    <string name="wifiOnlySettingNotice">Aktualizační balíček lze stáhnout pouze prostřednictvím sítě Wi-Fi.</string>
+    <string name="wifiNotConnect">Připojení prostřednictvím sítě Wi-Fi se nezdařilo. Pokračovat ve stahování je možné pouze s připojením prostřednictvím sítě Wi-Fi.</string>
+    <string name="download">Načíst</string>
+    <string name="lastSearchTime">"Čas poslední aktualizace:
+"</string>
+    <string name="lastSearchTimeDefaultvalue">"Čas poslední aktualizace:
+Žádná aktualizace doposud neproběhla"</string>
+    <string name="backupNotice">zálohujte svůj soubor</string>
+    <string name="autoupdateSetting">Nastavení automatické aktualizace</string>
+    <string name="updateHistory">Aktualizovat záznamy</string>
+    <string name="unconnectNotice">Nelze se připojit k síti</string>
+    <string name="netWorkError">Chyba sítě</string>
+    <string name="defer_title">Odložit</string>
+    <string name="defer_remind">Každou hodinu (celkem 3krát) se zobrazí připomenutí. Toto je %1$s připomínka.</string>
+    <string name="defer_time_first">první</string>
+    <string name="defer_time_second">druhá</string>
+    <string name="defer_time_last">poslední</string>
+    <string name="force_update_remind">Každou hodinu (celkem 3krát) se zobrazí připomenutí. Toto je %1$s připomínka. Za 5 minut proběhne nucená aktualizace.</string>
+    <string name="defer_remind_dialog">Každou hodinu (celkem 3krát) se zobrazí připomenutí.</string>
+    <string name="noremind">Znovu nepřipomínat</string>
+    <string name="dmRetryMessage">Chyba sítě, opakujte akci</string>
+    <string name="forceNetworkConfigureNotice">Síť není dostupná, upravte nastavení</string>
+    <string name="success">proběhlo úspěšně</string>
+    <string name="noRecord">žádné záznamy</string>
+    <string name="force_update_notice">za %1$s sekund dojde ke spuštění NUCENÉ aktualizaci</string>
+    <string name="confirm_cancel_download">Chcete stahování zrušit nebo odložit?</string>
+    <string name="download_defer_message">Každou hodinu se celkem 3krát zobrazí připomínka. Toto je %1$s připomínka. Po 3 odkladech se stahování zruší.</string>
+    <string name="confirm_delay_install">Chcete instalaci zrušit nebo odložit?</string>
+    <string name="delay_install_message">Každé 2 hodiny se zobrazí připomenutí.</string>
+    <string name="install_cancel_message">Dojde k odstranění staženého balíčku. Při příští aktualizaci proběhne stažení znovu.</string>
+    <string name="message_LW_mode_on">Režim Green-Net je zapnutý. Aktualizace byla přerušena. Opusťte tento režim a proveďte aktualizaci později.</string>
+    <string name="send">odeslat</string>
+    <string name="feedback">zpětná vazba</string>
+    <string name="feedback_content">Zadejte, prosím, vaši radu</string>
+    <string name="email">Zadejte, prosím, Váš e-mail</string>
+    <string name="feedback_result">Odeslat úspěšně, děkujeme vám za vaši reakci</string>
+    <string name="email_auth">Vložte prosím správnou e-mailovou adresu</string>
+    <string name="feedback_auth">Vaše zpětná vazba je pro nás velmi důležitý, prosím vložte svůj názor, děkuji</string>
+    <string name="dm_2G">Za současných podmínek pokrytí není možné stáhnout aktualizaci. Počkejte, až budete v síti 3G nebo připojeni prostřednictvím sítě Wi-Fi a operaci zopakujte.</string>
+    <string name="dm_lowbattery">baterie je vybitá, není možné aktualizovat software</string>
+    <string name="feedback_network">Síť je k dispozici, prosím připojte jej znovu a pošlete nám svůj názor, děkuji</string>
+    <string name="userconfirm_title">Potvrdit</string>
+    <string name="userconfirm_button_yes">Ano</string>
+    <string name="userconfirm_button_no">Ne</string>
+    <string name="checkingNotice">Probíhá kontrola aktualizace...</string>
+    <string name="defer_install">Odložit</string>
+    <string name="cancel_install">Zrušit</string>
+    <string name="zdm_path">Pro další aktualizace přejděte na položku Nastavení > Informace o telefonu > Aktualizace systému > Aktualizace systému.</string>
+    <string name="defer_download">Odložit</string>
+    <string name="cancel_download">Zrušit</string>
+    <string name="dm_Delay_show_once">Jednou odložit.</string>
+</resources>

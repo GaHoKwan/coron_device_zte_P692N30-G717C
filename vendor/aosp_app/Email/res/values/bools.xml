@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="use_two_pane">false</bool>
+    <bool name="expand_middle_view">true</bool>
+    <bool name="show_two_pane_search_result">false</bool>
+</resources>

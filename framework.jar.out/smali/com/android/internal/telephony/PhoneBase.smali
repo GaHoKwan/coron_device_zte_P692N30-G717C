@@ -467,7 +467,7 @@
 
     move-result-object v1
 
-    const v2, 0x1110030
+    const v2, #android:bool@config_voice_capable#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -798,7 +798,7 @@
 
     move-result-object v1
 
-    const v2, 0x1110030
+    const v2, #android:bool@config_voice_capable#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1238,7 +1238,7 @@
 
     move-result-object v9
 
-    const v10, 0x1070038
+    const v10, #android:array@carrier_properties#t
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 

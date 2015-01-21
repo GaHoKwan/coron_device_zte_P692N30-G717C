@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/listview_singleitem_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/menu_item_textcolor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/city_child_item_textview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listview_child_paddingleft" android:layout_marginRight="20.0dip" />
+</LinearLayout>

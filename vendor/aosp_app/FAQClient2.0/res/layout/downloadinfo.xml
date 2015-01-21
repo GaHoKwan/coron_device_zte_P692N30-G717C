@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/download_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/header" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/download_mod" android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/download_bom" android:layout_below="@id/download_title"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/notification" />
+        <Button android:layout_gravity="right" android:id="@id/download_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/download_bom" android:background="@drawable/menu_di3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textColor="#ff666666" android:gravity="center" android:id="@id/download_back" android:background="@drawable/fanhui" android:paddingLeft="25.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

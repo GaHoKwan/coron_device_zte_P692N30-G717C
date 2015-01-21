@@ -157,7 +157,7 @@
     invoke-super {p0}, Landroid/widget/LinearLayout;->onFinishInflate()V
 
     .line 108
-    const v0, 0x102029e
+    const v0, #android:id@inputExtractAction#t
 
     invoke-virtual {p0, v0}, Landroid/inputmethodservice/ExtractEditLayout;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
     iput-object v0, p0, Landroid/inputmethodservice/ExtractEditLayout;->mExtractActionButton:Landroid/widget/Button;
 
     .line 109
-    const v0, 0x102029f
+    const v0, #android:id@inputExtractEditButton#t
 
     invoke-virtual {p0, v0}, Landroid/inputmethodservice/ExtractEditLayout;->findViewById(I)Landroid/view/View;
 

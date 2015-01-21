@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="message_use_wide_header_mode">0</integer>
+    <integer name="message_search_list_header_mode">1</integer>
+    <integer name="max_num_notification_digest_items">10</integer>
+</resources>

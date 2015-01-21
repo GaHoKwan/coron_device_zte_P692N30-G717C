@@ -44,7 +44,7 @@
 
     move-result-object v3
 
-    const v4, 0x10102c8
+    const v4, #android:attr@textSelectHandleWindowStyle#t
 
     invoke-direct {p0, v3, v6, v4}, Landroid/widget/PopupWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -75,7 +75,7 @@
     .line 688
     iget-object v3, p0, Landroid/webkit/WebViewClassic$PastePopupWindow;->mContentView:Landroid/view/ViewGroup;
 
-    const v4, 0x10805f4
+    const v4, #android:drawable@text_edit_paste_window#t
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
@@ -101,7 +101,7 @@
 
     .line 697
     .local v2, wrapContent:Landroid/view/ViewGroup$LayoutParams;
-    const v3, 0x10900d5
+    const v3, #android:layout@text_edit_action_popup_text#t
 
     invoke-virtual {v0, v3, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -126,7 +126,7 @@
     .line 701
     iget-object v3, p0, Landroid/webkit/WebViewClassic$PastePopupWindow;->mPasteTextView:Landroid/widget/TextView;
 
-    const v4, 0x104000b
+    const v4, #android:string@paste#t
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 

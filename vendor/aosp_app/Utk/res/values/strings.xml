@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIM Toolkit</string>
+    <string name="menu_end_session">End session</string>
+    <string name="help">Help</string>
+    <string name="menu_back">Back</string>
+    <string name="service_name">Service name</string>
+    <string name="utk_no_service">No service available</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="alphabet">Alphabets</string>
+    <string name="digits">Digits (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Call in progress…</string>
+    <string name="utk_app_state">Application state</string>
+    <string name="enable_app">Enabled</string>
+    <string name="disable_app">Disabled</string>
+    <string name="activity_not_found">No UIM card inserted or the card does not support UIM application, please insert or change into UIM card.</string>
+    <string name="lable_busy_on_call">The phone is busy on call, please finish the call first</string>
+    <string name="lable_on_flight_mode">This app can not be used on flight mode</string>
+    <string name="lable_on_radio_off">This app can not be used on radio off</string>
+    <string name="utk_dialog_title">UIM ToolKit</string>
+    <string name="default_open_channel_msg">Open Channel?</string>
+    <string name="default_send_data_msg">Sending Data</string>
+    <string name="default_receive_data_msg">Receiving Data</string>
+    <string name="default_close_channel_msg">Channel Closed</string>
+    <string name="utk_dialog_accept">YES</string>
+    <string name="utk_dialog_reject">NO</string>
+    <string name="utk_send_sms">Sending message...</string>
+    <item type="string" name="APKTOOL_DUMMY_001c">false</item>
+</resources>

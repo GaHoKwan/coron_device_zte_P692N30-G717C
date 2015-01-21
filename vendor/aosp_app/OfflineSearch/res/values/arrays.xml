@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_choose">
+        <item>所有类型</item>
+        <item>加油站</item>
+        <item>餐馆</item>
+        <item>停车场</item>
+        <item>咖啡厅</item>
+        <item>酒吧</item>
+        <item>ATM</item>
+        <item>杂货店</item>
+        <item>药店</item>
+        <item>购物</item>
+        <item>急救</item>
+    </string-array>
+    <string-array name="sort_choose">
+        <item>按首字母顺序排列</item>
+        <item>按距离排列</item>
+        <item>按匹配度排列</item>
+    </string-array>
+    <string-array name="search_type_choose">
+        <item>周边搜索</item>
+        <item>普通搜索</item>
+    </string-array>
+</resources>

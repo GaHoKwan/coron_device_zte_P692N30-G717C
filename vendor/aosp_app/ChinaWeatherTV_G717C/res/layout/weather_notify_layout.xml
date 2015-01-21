@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f3f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/weather_notify_layout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/notify_tomorrow_layout" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/weather_notify_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_above="@id/notify_tomorrow_layout" android:layout_alignParentTop="true">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="18.0dip" android:textColor="@*android:color/black" android:id="@id/weather_notify_cityname_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknow" android:singleLine="true" android:layout_toLeftOf="@id/weather_notify_time_textview" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@*android:color/darker_gray" android:id="@id/weather_notify_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.2">
+            <TextView android:textSize="15.0dip" android:textColor="@*android:color/black" android:id="@id/notify_sk_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknow" />
+            <TextView android:textSize="15.0dip" android:textColor="@*android:color/black" android:id="@id/notify_sk_weather" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/unknow" android:layout_toRightOf="@id/notify_sk_temperature" />
+            <TextView android:textSize="15.0dip" android:textColor="@*android:color/black" android:id="@id/notify_sk_wind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/unknow" android:layout_toRightOf="@id/notify_sk_weather" />
+            <TextView android:textSize="15.0dip" android:textColor="@*android:color/black" android:gravity="right" android:id="@id/notify_cf_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/unknow" android:layout_toRightOf="@id/notify_sk_wind" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/notify_tomorrow_layout" android:background="#ff1996d0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0dip" android:textColor="@*android:color/white" android:gravity="center" android:id="@id/notify_tomorrow_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

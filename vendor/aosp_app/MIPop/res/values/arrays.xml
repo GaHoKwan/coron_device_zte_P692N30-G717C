@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mipop_first_key_entries">
+        <item>Back Key</item>
+        <item>Home Key</item>
+    </string-array>
+    <string-array name="mipop_first_key_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="drawings">
+        <item>随笔</item>
+        <item>直线</item>
+        <item>矩形</item>
+        <item>椭圆</item>
+        <item>圆形</item>
+        <item>点</item>
+        <item>橡皮擦</item>
+    </string-array>
+</resources>

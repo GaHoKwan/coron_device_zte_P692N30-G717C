@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Acceptere udvidet eftersalgsservice?</string>
+    <string name="informative">Udvidet eftersalgsservice?</string>
+    <string name="title">Enhedstyring</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nej</string>
+    <string name="ask_setup_message">Fik info om OTA-konfiguration for at bekræfte, om installation og konfiguration</string>
+    <string name="omacp_setup">Opsætning</string>
+    <string name="install_compelete">Installation ok</string>
+    <string name="instatll_fail">Installation ikke ok</string>
+    <string name="security_error">Sikkerhedsfejl</string>
+    <string name="xml_parse_error">XML-analysefejl</string>
+    <string name="user_cancel">Brugerannullering</string>
+    <string name="input_pin">Indtast pin</string>
+    <string name="app_name">Softwareopdatering</string>
+    <string name="auto_update_settings">Indstilling for automatisk opdatering</string>
+    <string name="dm_update_service">Softwareopdateringer</string>
+    <string name="system_update">Kontrollerer opdateringer</string>
+    <string name="connecting">Søger efter nyeste softwareopdateringer…</string>
+    <string name="downloading">Vent et øjeblik. Det kan tage flere minutter at gennemføre.</string>
+    <string name="downloading_AU">Dette kan tage flere minutter.</string>
+    <string name="download_title">Download software</string>
+    <string name="download_val">Download software via</string>
+    <string name="download_message">Der er en ny softwareopdatering. Vil du hente den?</string>
+    <string name="cancel_message">Er du sikker på, at du vil annullere og stoppe download af software?</string>
+    <string name="cancel">Annuller</string>
+    <string name="failed">Mislykket</string>
+    <string name="update_failed">Opdatering af software mislykkedes</string>
+    <string name="install_title">Installer software</string>
+    <string name="install_message">Telefonen skal genstartes for at starte installationen</string>
+    <string name="checking_update">Tjekker opdatering</string>
+    <string name="update_title">Aut. opdatering</string>
+    <string name="update_message">Opdater automatisk hver uge</string>
+    <string name="update_deferred">Installation udsat</string>
+    <string name="update_deferred_AU">Installer software</string>
+    <string name="service_unavailable">Tjeneste ikke tilgængelig</string>
+    <string name="check_new">Se efter opdateringer</string>
+    <string name="status">Status</string>
+    <string name="version">Version:</string>
+    <string name="new_version">Ny version:</string>
+    <string name="update_setting">Opdateringsindstil.</string>
+    <string name="background">Kør i baggrunden</string>
+    <string name="delay">Udskyd</string>
+    <string name="dm_session_busy">Dm-session optaget</string>
+    <string name="downloading_notification">Henter softwareopdatering</string>
+    <string name="downloading_notification_message">Henter ny software</string>
+    <string name="update_warning_notification">Adv. om softwareopdatering</string>
+    <string name="update_warning_notification_message">Ny advarselsbesked kommer</string>
+    <string name="update_warning_notification_new_package">Der findes en ny softwareopdatering. Vil du downloade den?</string>
+    <string name="install_notification">Installer software</string>
+    <string name="install_notification_message">Genstart telefonen for at starte installationen.</string>
+    <string name="install_file_notification">Klik for at instal. filen</string>
+    <string name="pin">PIN-kode</string>
+    <string name="confirm">Bekræft</string>
+    <string name="intallresult">Instal.resultat</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_AU">Download via Wi-Fi</string>
+    <string name="mobile_networks_AU">Download via mobilnetværk</string>
+    <string name="mobile_networks">Mobilnetværk(Det skaber mere datatrafik)</string>
+    <string name="autoupdate_toinstall">AutoOpdat.: Klik for at installere</string>
+    <string name="autoupdate_todownload">AutoOpdat.: Klik for at opdatere</string>
+    <string name="autoupdate_busy">AutoOpdat.: Annuller opdat., da den er optaget</string>
+    <string name="attention">NB!</string>
+    <string name="update_busy">Opdatering er optaget. Vent venligst…</string>
+    <string name="memory_insufficient">Ikke nok lagerplads</string>
+    <string name="memory_insufficient_info">"Der mangler lagerplads på tlf. til opdateringen. 
+ Skab plads, og prøv igen."</string>
+    <string name="network_unavailable">Netværk ikke tilgængeligt</string>
+    <string name="network_unavailable_info">Netværk er ikke tilsluttet. Kan ikke tjekke nye.</string>
+    <string name="connect_timeout">Forbindelses-timeout</string>
+    <string name="uncaught_exception_title">Håndtering uden opdaget undtagelse</string>
+    <string name="uncaught_exception_info">Enhedsstyring gik ned. Måske der mangler lagerplads på tlf. til opdateringen. Skab plads, og prøv igen.</string>
+    <string name="updata_ok">Genstart</string>
+    <string name="updata_Defer">Udsæt</string>
+    <string name="updata_info">Genstart telefonen for at starte installationen.</string>
+    <string name="updata_title">Softwareopdateringer</string>
+    <string name="dm_comlete_sec">Vent et øjeblik. Det tager cirka %1$d sekunder at gennemføre.</string>
+    <string name="dm_compele_min">Vent et øjeblik. Det tager cirka %1$d minutter at gennemføre.</string>
+    <string name="dm_compele_hou">Vent et øjeblik. Det tager cirka %1$d timer at gennemføre.</string>
+    <string name="dm_backup_install">Installer &amp; sikkerhedskopi</string>
+    <string name="backup_title">Sikkerhedskopi</string>
+    <string name="backup_message">Enheden sikkerhedskopierer dine data, vent venligst..</string>
+    <string name="restore_title">Gendan</string>
+    <string name="restore_message">Enheden gendanner dine data, vent venligst..</string>
+    <string name="dm_version">Softwareversion:</string>
+    <string name="dm_update_date">Status:</string>
+    <string name="dm_backup_nosdcard">Indsæt SD-kortet.</string>
+    <string name="dm_backup_lowbattery">Sørg for, at batteriniveauet er over 30 % for at fuldføre installationen.</string>
+    <string name="dm_fumo_Message">Status</string>
+    <string name="dm_fumo_START">Se efter opdateringer</string>
+    <string name="dm_fumo_INSTAll_DEFER">Installer udsat software</string>
+    <string name="dm_fumo_SETUP">Konfigurer opdateringspakke</string>
+    <string name="dm_fumo_SETUP_content">Vent et øjeblik</string>
+    <string name="dm_never_SETUP">Original version</string>
+    <string name="dm_fumo_status_noupdate">Din software er opdateret</string>
+    <string name="dm_fumo_status_failed">Opdatering af software mislykkedes</string>
+    <string name="dm_fumo_status_sucess">Din software er nu opdateret</string>
+    <string name="dm_check_updatetile">Kontrollerer opdateringer</string>
+    <string name="dm_check_update">Søger efter nyeste softwareopdateringer</string>
+    <string name="dm_network_error">Netværksfejl. Prøv igen senere!</string>
+    <string name="dm_already_new">Den aktuelle software er opdateret!</string>
+    <string name="dm_isroaming">Softwareopdateringer ikke tilladt ved dataroaming.</string>
+    <string name="dm_isroaming_AU">"Du roamer p.t. Spørg Telstra, da det måske koster ekstra. 
+
+Vil du fortsætte?"</string>
+    <string name="dm_isroaming_TNZ">"Du roamer p.t. Spørg Telecom, da det måske koster ekstra. 
+
+Vil du fortsætte?"</string>
+    <string name="dm_airplan">Softwareopdateringer ikke tilladt i Flytilstand.</string>
+    <string name="dm_no_dataservice">Ingen datatjenester, softwareopdateringer er ikke tilladt!</string>
+    <string name="dm_no_dataservice_AU">"Softwareopdateringer er ikke tilgængelige, da data ikke er aktiveret. 
+
+Spørg din udbyder om denne tjeneste, og tjek indstil. på enheden."</string>
+    <string name="dm_update_setting">Opdater indstillinger</string>
+    <string name="auto_update_switch_title">Aut. opdatering</string>
+    <string name="auto_update_switch_key">Aut. opdatering</string>
+    <string name="auto_update_switch_summary_on">Åbn automatiske opdateringer</string>
+    <string name="auto_update_switch_summary_off">Luk automatiske opdateringer</string>
+    <string name="auto_update_frequency_text">Opdater automatisk kl. %1$s hver %2$s</string>
+    <string name="wifi_auto_update_switch_title">Auto. opdat. via Wi-Fi</string>
+    <string name="wifi_auto_update_switch_key">Auto. opdat. via Wi-Fi</string>
+    <string name="wifi_auto_update_switch_summary_on">Søg automatisk efter opdateringer ved forbindelse til Wi-Fi</string>
+    <string name="wifi_auto_update_switch_summary_off">Søg automatisk efter opdateringer ved forbindelse til Wi-Fi</string>
+    <string name="cmcc_wifi_auto_update_switch_title">CMCC Wi-Fi</string>
+    <string name="cmcc_wifi_auto_update_switch_key">CMCC Wi-Fi</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">Søg automatisk efter opdateringer ved tilslutning af Wi-Fi til CMCC</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">Søg automatisk efter opdateringer ved tilslutning af Wi-Fi til CMCC</string>
+    <string name="dm_wifi_open">Aktiver Wi-Fi for at hente den nye software</string>
+    <string name="dm_wifi_open_tr">Der er fundet ny software til din enhed. Tilslut et trådløst netværk for at downloade den nye software.</string>
+    <string name="dm_via_wifi">Hent via Wi-Fi</string>
+    <string name="dm_wifi_set">Indstillinger for Wi-Fi</string>
+    <string name="dm_yes">Ja</string>
+    <string name="dm_no">Nej</string>
+    <string name="dm_wifi_fail">Der er ikke adgang til Wi-Fi. Download .</string>
+    <string name="dm_KB">Kb</string>
+    <string name="dm_MB">Mb</string>
+    <string name="dm_BYTE">b</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">%1$s gange mere til udsættelse.</string>
+    <string name="dm_Delay_last_time_show">Allerede udsat 3 gange. Kan ikke udsætte flere gange</string>
+    <string name="download_message_new">"Der er en ny softwareopdatering. Vil du hente den? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_new_tr">"Der blev fundet ny software fundet til din enhed. Dataforbruget under opdateringen vil blive opkrævet til almindelig datatakst. Vil du downloade? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"Der er ny softwareopdatering. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Version:"</string>
+    <string name="download_message_size">"
+ Data:"</string>
+    <string name="download_message_description">"
+ Beskrivelse:"</string>
+    <string name="download_message_auto_download">"
+
+ Automatisk download om %1$s sek."</string>
+    <string name="install_message_new">"Tlf. skal genstartes for at starte installationen. 
+
+ %1$s gange mere til udsættelse."</string>
+    <string name="install_message_tr">For at begynde installationen skal telefonen genstartes. Kontroller batteriet, eller sæt opladeren til for at sikre, at opdateringen gennemføres.</string>
+    <string name="install_message_new_later">"Tlf. skal genstartes for at starte installationen. 
+
+ %1$s gange mere til udsættelse."</string>
+    <string name="install_message_new_last_time">"For at begynde installationen skal telefonen genstartes. Kontroller, at der er mindst 10 %% strøm på batteriet. 
+ Allerede udsat 3 gange. Telefonen genstarter om %1$s minutter, efter at der trykkes på forsinkelsesknappen."</string>
+    <string name="install_message_force">Tvungen opdat. om %1$s min.</string>
+    <string name="install_message_delaycompleted">Allerede udsat 3 gange. Tlf. skal genstartes</string>
+    <string name="wifi_cost_notify">Besked om WLAN-pris</string>
+    <string name="wifi_cost_notify_body">Tilslut. af WLAN nu kan medføre udgift til datatrafik. Vil du fortsætte?</string>
+    <string name="dm_continue">Fortsæt</string>
+    <string name="download_message_new_AU">Der er en softwareopdatering til din enhed. Opdateringen fylder %1$s</string>
+    <string name="download_message_version_AU">og opgraderer din %1$s fra softwareversion %2$s til %3$s.</string>
+    <string name="download_message_description_AU">Denne opdat. %1$s</string>
+    <string name="about_charge_AU">"
+
+ Download via Wi-Fi anbefales. Download kan medføre ekstra gebyrer (især ved download via mobilnetværk eller ved roaming i udlandet). Du kan bruge enheden under download. Gå til telstra.com/mobile eller kontakt vores kundeservicecenter på 13 2200 for hjælp eller yderligere oplysninger."</string>
+    <string name="about_charge_TNZ">"
+
+ Download via Wi-Fi anbefales. Download kan medføre ekstra gebyrer (især ved download via mobilnetværk eller ved roaming i udlandet). Du kan bruge enheden under download."</string>
+    <string name="dm_later">Senere</string>
+    <string name="dm_install">Installer</string>
+    <string name="install_message_AU">Opdateringen er hentet og klar til installation. Klik på \"Senere,\" hvis du ikke vil installere den nu. Under installationen er alle enhedsfunktioner utilgængelige, og du kan ikke foretage alarmopkald. Enheden genstarter som led i installationsprocessen. Data ændres og slettes ikke. Inden start af installationen skal du sikre, at der er mindst 30 % batteri, og batteriet må ikke fjernes under processen.</string>
+    <string name="auto_update_frequency_text_AU">Tjek automatisk for opdateringer kl. %1$s om %2$s hver anden uge.</string>
+    <string name="noti_result_success_title">Din enhed er nu opdateret</string>
+    <string name="noti_result_success_content">Opdatering af softwaren gik godt</string>
+    <string name="noti_auto_Title">Ny softwareopdatering</string>
+    <string name="noti_auto_Text">Der er en softwareopdatering til din enhed.</string>
+    <string name="dl_pause">Pause</string>
+    <string name="dl_continue">Genoptag</string>
+    <string name="dl_pause_message">Download sat på pause.</string>
+    <string name="wifi_only_switch_key">Kun Wi-Fi</string>
+    <string name="wifi_only_switch_title">Kun Wi-Fi</string>
+    <string name="wifi_only_switch_summary_off">Brug kun Wi-Fi til opdateringer</string>
+    <string name="wifi_only_switch_summary_on">Brug kun Wi-Fi til opdateringer</string>
+    <string name="present_net_changedto_mobile">Forbindelsen har skiftet til mobilnetværk. Download er på pause. Download fortsætter, når der igen er Wi-Fi-forbindelse.</string>
+    <string name="present_net_changedto_mobile_withContinue">Forbindelsen har skiftet til mobilnetværk. Download er blevet sat på pause. Vil du fortsætte med at downloade?</string>
+    <string name="present_net_changedto_mobile_noContinue">Forbindelsen har skiftet til mobilnetværk. Download er på pause. For at downloade med mobilnetværk skal du fjerne markering af \"Kun Wi-Fi\" og \"Genoptag download\". Ellers fortsætter download automatisk, når Wi-Fi er OK.</string>
+    <string name="present_net_is_mobile">Softwareopdateringer er ikke tilladt, da Wi-Fi er utilgængelig.</string>
+    <string name="resume_download">Fortsæt download</string>
+    <string name="init_message">Initialiserer. Vent venligst…</string>
+    <string name="wifi_only_message">"Kun WiFi er angivet, men aktuel tilslutning er ikke Wi-Fi. 
+ For at bruge mobilnet skal du fjerne markering af \"Kun WiFi\" og derefter \"Tjekker opdatering\" eller \"Fortsæt download\". 
+
+Indstilles?"</string>
+    <string name="resume_download_message">Sidste download afbrudt. Vil du fortsætte?</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="Install_software">Installer software</string>
+    <string name="Install_notes">Din telefon skal genstartes for at fuldfører installationen, så du kan ikke bruge telefonopkald, herunder nødopkald, under installationen.</string>
+    <string name="Install_battery_notes">Sørg for, at batteriet er over 30 % opladet.</string>
+    <string name="Install_backup_notes">Dine data vil være backup for SD-kortet når sikkerhedskopi vælges.</string>
+    <string name="defer">Udsæt</string>
+    <string name="defer_install_notification">Din telefon skal genstartes for at fuldfører installationen</string>
+    <string name="install">Installer</string>
+    <string name="backup_install">Installer &amp; sikkerhedskopi</string>
+    <string name="release_notes_default">Der er en ny version.</string>
+    <string name="fota_main_activity_title">Softwareopdatering</string>
+    <string name="current_version_title">Aktuel version:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Stop</string>
+    <string name="network_update">Søger efter opdatering…</string>
+    <string name="fota_server_package_discovered">Ny version fundet:</string>
+    <string name="fota_update_button_label">Opdater nu</string>
+    <string name="menu_check_new_from_server">Søger efter opdatering på server</string>
+    <string name="menu_check_new_from_server_subtitle">Opdatering via netværk kræver datatjeneste, hvorfor Wi-Fi-miljø anbefales.</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_update_settings">Indstillinger</string>
+    <string name="tcard_update">Søger efter opdat. til SD-kort…</string>
+    <string name="fota_tcard_package_discovered">Ny version fundet(SD-kort):</string>
+    <string name="dialog_title">Opdater nu</string>
+    <string name="dialog_warning">Brugerdata ryddes ved opdatering. Kør backup af data inden opdateringen.</string>
+    <string name="dialog_backup">Sikkerhedskopier</string>
+    <string name="dialog_cancel">Annuller</string>
+    <string name="fota_msg_tcard_no_update">Ingen opdat. på SD-kort</string>
+    <string name="fota_msg_network_no_update">Ingen opdat. på server</string>
+    <string name="fota_status">Status:</string>
+    <string name="fota_status_software_version">Softwareversion:</string>
+    <string name="fota_status_never_setup">Original version</string>
+    <string name="fota_status_no_update">Den aktuelle software er opdateret!</string>
+    <string name="fota_status_failed">Opdatering af software mislykkedes</string>
+    <string name="fota_status_sucess">Softwareopdatering ok</string>
+    <string name="fota_auto_update">Aut. opdatering</string>
+    <string name="fota_auto_update_switch_summary_on">Åbn automatiske opdateringer</string>
+    <string name="fota_auto_update_switch_summary_off">Luk automatiske opdateringer</string>
+    <string name="fota_auto_update_frequency_text">Opdater automatisk ved</string>
+    <string name="fota_auto_update_frequency_everysunday">Hver søndag</string>
+    <string name="fota_auto_update_frequency_everymonday">Hver mandag</string>
+    <string name="fota_auto_update_frequency_everytuesday">Hver tirsdag</string>
+    <string name="fota_auto_update_frequency_everywednesday">Hver onsdag</string>
+    <string name="fota_auto_update_frequency_everythursday">Hver torsdag</string>
+    <string name="fota_auto_update_frequency_everyfriday">Hver fredag</string>
+    <string name="fota_auto_update_frequency_everysaturday">Hver lørdag</string>
+    <string name="retry">Prøv igen</string>
+    <string name="progress_expand_list_title">Produktbemærkninger</string>
+    <string name="menu">Menu</string>
+    <string name="currentVersionTitle">Aktuel version:</string>
+    <string name="dataTrafficeNotice">Download genererer datatrafik</string>
+    <string name="notice">Bemærk</string>
+    <string name="wifiSettingNotice">Opdateringspakken genererer datatrafik, og det anbefales at downloade via Wi-Fi.</string>
+    <string name="wifiOnlySettingNotice">Opdateringspakken kan kun downloades via Wi-Fi.</string>
+    <string name="wifiNotConnect">Adgang via Wi-Fi er ikke tilgængeligt. Kontroller venligst.</string>
+    <string name="download">Hent</string>
+    <string name="lastSearchTime">"Sidst opdateret:
+"</string>
+    <string name="lastSearchTimeDefaultvalue">"Sidst opdateret:
+Ikke opdateret før"</string>
+    <string name="backupNotice">sikkerhedskopier din fil</string>
+    <string name="autoupdateSetting">Indstilling for automatisk opdatering</string>
+    <string name="updateHistory">Opdater poster</string>
+    <string name="unconnectNotice">Kan ikke oprette forbindelse til netværket</string>
+    <string name="netWorkError">Netværksfejl</string>
+    <string name="defer_title">Udsæt</string>
+    <string name="defer_remind">Du vil modtage en påmindelse hver time, 3 gange i alt. Og dette er den %1$s påmindelse.</string>
+    <string name="defer_time_last">sidste</string>
+    <string name="force_update_remind">Du vil modtage en påmindelse hver time, 3 gange i alt. Og dette er den %1$s påmindelse. Gennemtving opdatering om 5 minutter.</string>
+    <string name="defer_remind_dialog">Du vil modtage en påmindelse hver time, 3 gange i alt.</string>
+    <string name="noremind">Mind mig ikke om det igen</string>
+    <string name="dmRetryMessage">Netværksfejl. Prøv igen</string>
+    <string name="forceNetworkConfigureNotice">Netværket er ikke tilgængeligt. Konfigurer igen</string>
+    <string name="success">det lykkedes</string>
+    <string name="noRecord">ingen poster</string>
+    <string name="force_update_notice">opdatering GENNEMTVINGES til at starte efter %1$s sekunder</string>
+    <string name="confirm_cancel_download">Annuller eller udsæt for at downloade?</string>
+    <string name="download_defer_message">Du vil blive påmindet hver time 3 gange i alt. Og dette er den %1$s påmindelse. Når du er blevet påmindet 3 gange, annulleres download.</string>
+    <string name="confirm_delay_install">Annuller eller udsæt for at installere?</string>
+    <string name="delay_install_message">Du vil blive påmindet hver 2. time.</string>
+    <string name="install_cancel_message">Dette vil slette den downloadede pakke, og du vil downloade den igen næste gang du opdaterer.</string>
+    <string name="message_LW_mode_on">Green-Net-tilstand er aktiveret. Opdateringer er afbrudt. Afslut denne tilstand og opdater igen.</string>
+    <string name="send">Send</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_content">Indtast venligst dit råd</string>
+    <string name="email">Indtast venligst din e-mail</string>
+    <string name="feedback_result">Send held, Tak for din tilbagemelding</string>
+    <string name="email_auth">Indtast venligst den korrekte e-mail-adresse</string>
+    <string name="feedback_auth">Din feedback er meget vigtig for os, bedes du indtaste din feedback, tak</string>
+    <string name="dm_2G">Signalet er i øjeblikket ikke godt nok til at downloade opdateringen. Vent, til der er 3G- eller WiFi-signal, og gentag handlingen.</string>
+    <string name="dm_lowbattery">lavt batteriniveau, kan ikke opdatere software</string>
+    <string name="feedback_network">Netværk er tilgængelig, venligst tilslut den igen, og send din feedback, tak</string>
+    <string name="userconfirm_title">Bekræft</string>
+    <string name="userconfirm_button_yes">Ja</string>
+    <string name="userconfirm_button_no">Nej</string>
+    <string name="checkingNotice">Søger efter opdatering ...</string>
+    <string name="defer_install">Udsæt</string>
+    <string name="cancel_install">Annuller</string>
+    <string name="zdm_path">For at opdatere igen, skal du gå til Indstillinger > Om telefonen > Systemopdateringer > Systemopdateringer.</string>
+    <string name="defer_download">Udsæt</string>
+    <string name="cancel_download">Annuller</string>
+</resources>

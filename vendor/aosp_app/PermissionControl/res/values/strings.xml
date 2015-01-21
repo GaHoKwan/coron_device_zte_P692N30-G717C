@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Permission Control</string>
+    <string name="accept_perm">Allow</string>
+    <string name="deny_perm">Deny</string>
+    <string name="notify_check_hint">Do not remind again.</string>
+    <string name="notify_dialog_title">Security warning</string>
+    <string name="notify_dialog_msg_body" formatted="false">%s is trying to %s.</string>
+    <string name="time_count_down_hint">(Deny automatically after %s seconds.)</string>
+    <string name="notification_control_state_title">App permission</string>
+    <string name="notification_control_state_summary">App permission management is closed.</string>
+    <string name="toast_deny_msg_body" formatted="false">%s is denied to %s.</string>
+    <string name="manage_permission_app_label">App permissions</string>
+    <string name="manage_permission_summary">Manage app permissions for security and privacy protection</string>
+    <string name="permissions_label">Permissions</string>
+    <string name="apps">Apps</string>
+    <string name="no_applications">No apps.</string>
+    <string name="version_text">version %1$s</string>
+    <string name="app_count_unit_single">app</string>
+    <string name="app_count_unit_plural">apps</string>
+    <string name="perm_count_unit_single">permission</string>
+    <string name="perm_count_unit_plural">permissions</string>
+    <string name="no_app_use_perm">No apps use this permission.</string>
+    <string name="no_perm_is_used">No permissions are used this app.</string>
+    <string name="notify_user_switch_on">Turn on the switch to manage app permissions.</string>
+    <string name="alert_dlg_title">Turn off protection?</string>
+    <string name="alert_dlg_mgs">Apps will directly get permissions without your confirmation.</string>
+</resources>

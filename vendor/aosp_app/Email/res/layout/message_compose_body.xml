@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText android:id="@id/message_content" style="@style/ComposeBodyStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

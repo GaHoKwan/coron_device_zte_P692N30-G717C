@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/actions_view_container" android:nextFocusRight="@id/secondary_action_button" style="@style/QuickContactListItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/QuickContactListItemTextWrapperStyle">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/primary_text_color" android:ellipsize="end" android:id="@*android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:id="@id/actions_view_container" android:nextFocusRight="@id/association_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/presence_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="4.0dip" android:scaleType="centerInside" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/secondary_text_color" android:ellipsize="middle" android:id="@*android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/association_sim_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/association_sim_icon" android:paddingLeft="6.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="none" android:gravity="left|center" android:layout_gravity="center" android:id="@id/association_sim_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:singleLine="true" android:layout_toLeftOf="@id/primary_icon" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" android:requiresFadingEdge="horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/quickcontact_list_item_base" />
+</LinearLayout>

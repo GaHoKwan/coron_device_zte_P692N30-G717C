@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/id_label_current_version" android:paddingLeft="@dimen/hs_common_padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hs_size_15dp" android:text="@string/current_version_title" style="@style/hs_style" />
+        <TextView android:id="@id/id_current_version" android:paddingLeft="@dimen/hs_common_padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hs_size_15dp" android:text="@string/current_version" style="@style/hs_version_style" />
+    </LinearLayout>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:paddingLeft="@dimen/hs_common_padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/hearty_service_animation_check_for_update" />
+            <TextView android:textSize="@dimen/hs_size_15dp" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/id_label_update" android:paddingLeft="@dimen/hs_common_padding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tcard_update" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

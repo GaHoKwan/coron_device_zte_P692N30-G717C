@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: UserDictionaryProvider.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.android.providers.userdictionary
+  orig_package: com.android.providers.userdictionary
+compressionType: false

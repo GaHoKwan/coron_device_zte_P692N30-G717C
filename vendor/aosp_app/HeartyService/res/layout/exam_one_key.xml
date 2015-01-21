@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/checkup_bg" android:layout_width="fill_parent" android:layout_height="@dimen/main_model_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_15dp" android:textColor="@color/exam_state_text_color" android:ellipsize="marquee" android:id="@id/exam_item_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exam_item_tip" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_15dp" android:textColor="@color/exam_state_text_color" android:ellipsize="marquee" android:id="@id/exam_state_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onekey_exam_state_scanning" android:singleLine="true" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="@dimen/exam_circle_hw" android:layout_height="@dimen/exam_circle_hw" android:layout_marginRight="20.0dip">
+            <ImageView android:id="@id/one_key_examing_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/new_speedup_circle_2" />
+            <ImageView android:layout_gravity="center" android:id="@id/exam_rotate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_speed" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="34.0dip" android:textColor="@color/light_dark" android:id="@id/one_key_examing_score" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/exam_state_text_color" android:ellipsize="marquee" android:id="@id/one_key_examing_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stop_lable" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/exam_result_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/exam_star_lmargin">
+            <ImageView android:id="@id/star1" android:background="@drawable/exam_anima_mark_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/exam_star_tmargin" />
+            <ImageView android:id="@id/star2" android:background="@drawable/exam_anima_mark_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="@dimen/exam_star_tmargin" android:layout_toRightOf="@id/star1" />
+            <ImageView android:id="@id/star3" android:background="@drawable/exam_anima_mark_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5999756dip" android:layout_marginTop="@dimen/exam_star_tmargin" android:layout_toRightOf="@id/star2" />
+            <ImageView android:id="@id/star4" android:background="@drawable/exam_anima_mark_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5999756dip" android:layout_marginTop="@dimen/exam_star_tmargin" android:layout_toRightOf="@id/star3" />
+            <ImageView android:id="@id/star5" android:background="@drawable/exam_anima_mark_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5999756dip" android:layout_marginTop="@dimen/exam_star_tmargin" android:layout_toRightOf="@id/star4" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/one_key_exam_layout" android:background="@color/main_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+        <ListView android:id="@id/one_key_exam_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/list_divider" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/main_model_height_home"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <RelativeLayout android:id="@id/one_key_exam" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/summary_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/main_summary_left_margin" android:layout_marginTop="@dimen/main_summary_right_top" android:layout_marginRight="@dimen/main_summary_right_margin" android:layout_marginBottom="@dimen/main_summary_right_bottom">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/main_summary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_summary_text_left_margin" android:layout_marginTop="@dimen/main_summary_text_top_margin" android:layout_marginRight="@dimen/main_summary_text_right_margin" android:layout_marginBottom="@dimen/main_summary_text_bottom_margin">
+                    <ImageView android:layout_width="@dimen/summary_icon_weight" android:layout_height="@dimen/summary_icon_height" android:layout_marginRight="3.0dip" android:src="@drawable/ic_power" android:scaleType="fitCenter" />
+                    <TextView android:ellipsize="marquee" android:id="@id/battery_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/white_10sp_shadow" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/traffic_summary_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_summary_text_left_margin" android:layout_marginTop="@dimen/main_summary_text_top_margin" android:layout_marginRight="@dimen/main_summary_text_right_margin" android:layout_marginBottom="@dimen/main_summary_text_bottom_margin">
+                    <ImageView android:layout_width="@dimen/summary_icon_weight" android:layout_height="@dimen/summary_icon_height" android:layout_marginRight="3.0dip" android:src="@drawable/ic_data" android:scaleType="fitCenter" />
+                    <TextView android:ellipsize="marquee" android:id="@id/traffic_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/white_10sp_shadow" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_summary_text_left_margin" android:layout_marginTop="@dimen/main_summary_text_top_margin" android:layout_marginRight="@dimen/main_summary_text_right_margin" android:layout_marginBottom="@dimen/main_summary_text_bottom_margin">
+                    <ImageView android:layout_width="@dimen/summary_icon_weight" android:layout_height="@dimen/summary_icon_height" android:layout_marginRight="3.0dip" android:src="@drawable/ic_memo" android:scaleType="fitCenter" />
+                    <TextView android:ellipsize="marquee" android:id="@id/memory_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/white_10sp_shadow" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/main_summary_tmp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/notice_summary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/main_summary_text_left_margin" android:layout_marginRight="@dimen/notice_summary_text_right_margin">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/notice_summary_1" android:layout_width="@dimen/notice_summary_width" android:layout_height="fill_parent">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_summary_text_margin" android:text="@string/harass_intercept_label" style="@style/white_10sp_shadow" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/summary_notice_margin">
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <ImageView android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_call" />
+                                <TextView android:layout_gravity="center" android:id="@id/summary_intercept_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" style="@style/white_10sp_shadow" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <ImageView android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_message" />
+                                <TextView android:layout_gravity="center" android:id="@id/summary_intercept_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" style="@style/white_10sp_shadow" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:id="@id/summay_divider" android:background="@color/divider_color_translucent" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/summay_divider_margin" android:layout_marginBottom="@dimen/summay_divider_margin" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/notice_summary_2" android:layout_width="@dimen/notice_summary_width" android:layout_height="fill_parent">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_summary_text_margin" android:text="@string/privacy_protect" style="@style/white_10sp_shadow" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/summary_notice_margin">
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <ImageView android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_call" />
+                                <TextView android:layout_gravity="center" android:id="@id/summary_privacy_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" style="@style/white_10sp_shadow" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <ImageView android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_message" />
+                                <TextView android:layout_gravity="center" android:id="@id/summary_privacy_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" style="@style/white_10sp_shadow" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/empty_summary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/main_summary_text_left_margin" android:layout_marginRight="@dimen/notice_summary_text_right_margin">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:gravity="top" android:layout_width="@dimen/main_tips_icon_w" android:layout_height="@dimen/main_tips_icon_h" android:src="@drawable/ic_tips" android:scaleType="fitCenter" />
+                        <TextView android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tips_text" android:singleLine="true" style="@style/white_10sp_shadow" />
+                    </LinearLayout>
+                    <TextView android:id="@id/empty_summary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/white_10sp_shadow" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/icon_arrow" android:paddingTop="@dimen/main_arraw_margin_bottom" android:paddingBottom="@dimen/main_arraw_margin_bottom" android:layout_width="@dimen/main_arraw_click_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_summary_text_left_margin" android:layout_marginRight="@dimen/main_summary_text_right_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/main_arraw_height" android:src="@drawable/ic_arrow_down" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/icon_arrow_up" android:paddingTop="@dimen/main_arraw_margin_bottom" android:paddingBottom="@dimen/main_arraw_margin_bottom" android:visibility="gone" android:layout_width="@dimen/main_arraw_click_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_summary_text_left_margin" android:layout_marginRight="@dimen/main_summary_text_right_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/main_arraw_height" android:src="@drawable/ic_arrow_up" android:scaleType="fitCenter" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/main_circle_left_margin" android:layout_marginRight="@dimen/main_circle_right_margin" android:layout_alignParentLeft="true">
+            <ImageView android:layout_width="@dimen/main_model_exam_bg" android:layout_height="@dimen/main_model_exam_bg" android:src="@drawable/main_bg_p3" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/one_key_rotate_view" android:layout_width="@dimen/main_model_exam_rotate_view" android:layout_height="@dimen/main_model_exam_rotate_view" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/exam_circle" android:layout_width="@dimen/main_model_exam_click_bg" android:layout_height="@dimen/main_model_exam_click_bg" android:src="@drawable/main_bg_p3_click_selector" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+            <RelativeLayout android:id="@id/main_exam_indicator" android:layout_width="@dimen/main_exam_indicator_width" android:layout_height="@dimen/main_exam_indicator_height" android:layout_centerInParent="true">
+                <ImageView android:id="@id/dot" android:layout_width="@dimen/exam_indicator_size" android:layout_height="@dimen/exam_indicator_size" android:src="@drawable/dot" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <TextView android:id="@id/main_exam_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/main_light_dark" />
+            <TextView android:id="@id/main_exam_need_exam" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exam_never" android:layout_centerInParent="true" style="@style/main_light_dark_18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

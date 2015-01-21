@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi-POP</string>
+    <string name="mipop_title">Mi-POP</string>
+    <string name="mipop_switch_title">Mi-POP</string>
+    <string name="mipop_switch_summary">Mi-POP включен, можете скрыть панель навигации</string>
+    <string name="mipop_fullscreen_title">Скрыть панель навигации</string>
+    <string name="mipop_fullscreen_summary">Увеличит доступную область экрана</string>
+</resources>

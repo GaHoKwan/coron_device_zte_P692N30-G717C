@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Smart Bar</string>
+    <string name="dummy" />
+    <string name="toast_msg">No app running here, ignore BACK key</string>
+    <string name="camera_using_msg">Camera is on, switch to fullscreen mode</string>
+    <string name="multiwindow_deny_msg">New started APP does not support multi-window</string>
+    <string name="ml_editmode_label">Edit</string>
+    <string name="ml_disabledapp_detected">Previous running APP does not support multi-window</string>
+    <string name="mle_editdone_label">Done</string>
+    <string name="mle_editsort_label">Sort</string>
+    <string name="title_activity_app_list_editor">Minilauncher Editor</string>
+    <string name="cp_btn_text_switch">swap</string>
+    <string name="cp_btn_text_move">move</string>
+    <string name="cp_btn_text_fit">fit</string>
+    <string name="cp_btn_text_mute">mute</string>
+    <string name="cp_btn_text_exit">close</string>
+    <string name="cp_btn_text_home">home</string>
+    <string name="mle_loading_message">Loading App information</string>
+    <string name="mle_disabled_list_label">Apps not support SmartShow</string>
+    <string name="mle_hide_list_label">Apps hidden from SmartShow Launcher</string>
+    <string name="mle_disable_list_show">Show</string>
+    <string name="mle_disable_list_hide">Hide</string>
+    <string name="mle_showall_label">Show all</string>
+    <string name="mle_hideall_label">Hide all</string>
+    <string name="mle_combo_not_allow">Cannot make combo-starter from a combo-starter</string>
+    <string name="mle_combo_exist">Combo Starter exists</string>
+    <string name="mle_combo_op_msg">Combo Starter</string>
+    <string name="mle_combo_op_hide">Hide</string>
+    <string name="mle_combo_op_delete">Delete</string>
+    <string name="sr_title">SmartShow Help</string>
+    <string name="sr_content_menu">Touch and hold MENU key to toggle SmartShow icon. Click \"Details\" to learn more</string>
+    <string name="sr_content_back">Touch and hold BACK key to toggle SmartShow icon. Click \"Details\" to learn more</string>
+    <string name="sr_skip">"Don't reminder me again."</string>
+    <string name="sr_gotit">Got it</string>
+    <string name="sr_detail">Details</string>
+    <string name="check_on">ENABLE</string>
+    <string name="check_off">DISABLE</string>
+    <string name="master_activity_label">SmartShow</string>
+    <string name="master_enable_s">SmartShow Button</string>
+    <string name="master_enable_s_detail_menu">"When enabled, you can open the mini launcher pop up window any time by click the SmartShow floating button. Click or drag the icon in the mini launcher to start APPs in split screen mode.
+You can also long press the MENU key to show/hide the SmartShow Floating button."</string>
+    <string name="master_enable_s_detail_back">"When enabled, you can open the mini launcher pop up window any time by click the SmartShow floating button. Click or drag the icon in the mini launcher to start APPs in split screen mode.
+You can also long press the BACK key to show/hide the SmartShow Floating button."</string>
+    <string name="master_enable_s_faq">FAQ</string>
+    <string name="master_enable_s_faq_title">SmartShow FAQ</string>
+    <string name="master_enable_s_help">More Help</string>
+    <string name="master_enable_s_reset">Reset configuration</string>
+    <string name="master_enable_s_reset_title">Reset configuration</string>
+    <string name="master_enable_s_reset_delete">Delete</string>
+    <string name="master_enable_s_reset_cancel">Cancel</string>
+    <string name="master_enable_s_reset_message">Do you want to reset SmartBar configuration?</string>
+    <string name="master_enable_s_help_title">SmartShow Help</string>
+    <string name="master_enable_s_edit">Edit the mini-launcher</string>
+    <string name="master_enable_sho">Single Hand</string>
+    <string name="master_enable_sho_detail">"When enabled, a mirror of the full screen will show, which will fit for single handed operations.
+Long press the SmartShow Button to enter/exit this mode."</string>
+    <string name="master_enable_sho_faq">FAQ</string>
+    <string name="master_enable_sho_help">More Help</string>
+    <string name="force_close">OK</string>
+    <string name="process_violation_title">Notification</string>
+    <string name="process_violation_long_desc">The application %1$s has been running in other screen</string>
+    <string name="process_violation_desc">The application %1$s has been running</string>
+    <string name="activity_violation_title">Notification</string>
+    <string name="activity_violation_desc">The application %1$s has been running</string>
+    <string name="help_link_component_name_002">com.powermo.smartviewerhelp/.MasterEntryActivity</string>
+    <string name="help_link_component_name_001">com.android.screen/.ScreenSet</string>
+</resources>

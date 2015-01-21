@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:windowBackground="@color/half_transparent_background" android:windowIsTranslucent="true" android:orientation="vertical" android:id="@id/delayinstall_dialog_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/delay_install_radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@color/deep_gray" android:id="@id/one_hour_install_radiobutton" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:button="@null" android:text="@string/oneHour" android:drawableRight="@*android:drawable/btn_radio" />
+        <View android:id="@id/view" android:background="@color/button_down_bg_v3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RadioButton android:textColor="@color/deep_gray" android:id="@id/four_hour_install_radiobutton" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:button="@null" android:text="@string/fourHour" android:drawableRight="@*android:drawable/btn_radio" />
+        <View android:id="@id/view" android:background="@color/button_down_bg_v3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RadioButton android:textColor="@color/deep_gray" android:id="@id/eight_hour_install_radiobutton" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:button="@null" android:text="@string/eightHour" android:drawableRight="@*android:drawable/btn_radio" />
+        <View android:id="@id/view" android:background="@color/button_down_bg_v3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RadioButton android:textColor="@color/deep_gray" android:id="@id/cancel_install_radiobutton" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:button="@null" android:text="@string/cancel_thisTime" android:drawableRight="@*android:drawable/btn_radio" />
+    </RadioGroup>
+    <View android:id="@id/view" android:background="@color/button_down_bg_v3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

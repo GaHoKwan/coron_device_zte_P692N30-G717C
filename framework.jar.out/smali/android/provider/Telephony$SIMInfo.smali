@@ -44,6 +44,12 @@
 
 .field public mNumber:Ljava/lang/String;
 
+.field public mSimBackgroundDarkRes:I
+
+.field public mSimBackgroundLightRes:I
+
+.field public mSimBackgroundRes:I
+
 .field public mOperator:Ljava/lang/String;
 
 .field public mSimId:J

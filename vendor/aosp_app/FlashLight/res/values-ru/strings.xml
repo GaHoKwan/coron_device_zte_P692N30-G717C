@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фонарик</string>
+    <string name="SOUND_NOTIFY">Звук</string>
+    <string name="OPEN_WITH_SHAKE">Вкл/Выкл встряхиванием</string>
+    <string name="SHAKE_SENSITIVITY">Интенсивность</string>
+    <string name="main_screen_text">Встряхивание позволит удобнее пользоваться приложением!</string>
+    <string name="setting_button">Настройки</string>
+    <string name="flashsetting_title">Настройки фонарика</string>
+    <string name="shake_sensitivity_weak">Слабая</string>
+    <string name="shake_sensitivity_strong">Сильная</string>
+    <string name="Cancel">Отмена</string>
+    <string name="text_off">ВЫКЛ.</string>
+    <string name="text_on">ВКЛ.</string>
+    <string name="battery_low_warning">Батарея разряжена, не используйте фонарик!</string>
+    <string name="battery_low">Батарея разряжена</string>
+</resources>

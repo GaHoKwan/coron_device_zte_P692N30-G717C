@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Video>
+  <VideoFile>
+    <Title>朝闻天下天气预报</Title>
+    <En>Morning News Weather Forecasts</En>
+    <Image>0</Image>
+    <URL>http://pv.mywtv.cn/iphone/zhaowen3_iphone.mp4</URL>
+    <Size>3670016</Size>
+  </VideoFile>
+  <VideoFile>
+    <Title>午间天气预报</Title>
+    <En>Midday Weather Forecasts</En>
+    <Image>1</Image>
+    <URL>http://pv.mywtv.cn/iphone/wujian1227_iphone.mp4</URL>
+    <Size>1258921</Size>
+  </VideoFile>
+  <VideoFile>
+    <Title>新闻联播天气预报</Title>
+    <En>XINWEM LIANBO Weather Forecasts</En>
+    <Image>2</Image>
+    <URL>http://pv.mywtv.cn/iphone/lianbo_iphone.mp4</URL>
+    <Size>6815744</Size>
+    <!-- http://pv.mywtv.cn/iphone/lianbo_iphone.mp4
+    http://pv.mywtv.cn/iphone/lianbo_h264.mp4
+     -->
+  </VideoFile>
+  <VideoFile>
+    <Title>天气生活：四季养生堂</Title>
+    <En>Weather Life:Health preserving all seasons</En>
+    <Image>3</Image>
+    <URL>http://pv.mywtv.cn/iphone/sjyst_iphone.mp4</URL>
+    <Size>22020096</Size>
+  </VideoFile>
+  <VideoFile>
+    <Title>天气资讯：风云进行时</Title>
+    <En>Weather Information:Weather express</En>
+    <Image>4</Image>
+    <URL>http://pv.mywtv.cn/iphone/fyjxs12_iphone.mp4</URL>
+    <Size>14680064</Size>
+  </VideoFile>
+  <copyright>2012 HuaFeng Group, All Rights Reserved.</copyright>
+  <usage>HuaFeng Pocket PC Weather Forecast</usage>
+</Video>

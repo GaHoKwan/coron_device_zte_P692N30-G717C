@@ -145,23 +145,23 @@
     .line 25
     :array_0
     .array-data 0x4
-        0x60t 0x2t 0x8t 0x1t
-        0x65t 0x2t 0x8t 0x1t
-        0x69t 0x2t 0x8t 0x1t
-        0x67t 0x2t 0x8t 0x1t
-        0x66t 0x2t 0x8t 0x1t
-        0x61t 0x2t 0x8t 0x1t
-        0x6bt 0x2t 0x8t 0x1t
-        0x5ct 0x2t 0x8t 0x1t
-        0x64t 0x2t 0x8t 0x1t
-        0x5ft 0x2t 0x8t 0x1t
-        0x5et 0x2t 0x8t 0x1t
-        0x5bt 0x2t 0x8t 0x1t
-        0x68t 0x2t 0x8t 0x1t
-        0x5dt 0x2t 0x8t 0x1t
-        0x63t 0x2t 0x8t 0x1t
-        0x62t 0x2t 0x8t 0x1t
-        0x6at 0x2t 0x8t 0x1t
+        #android:drawable@emo_im_happy#a
+        #android:drawable@emo_im_sad#a
+        #android:drawable@emo_im_winking#a
+        #android:drawable@emo_im_tongue_sticking_out#a
+        #android:drawable@emo_im_surprised#a
+        #android:drawable@emo_im_kissing#a
+        #android:drawable@emo_im_yelling#a
+        #android:drawable@emo_im_cool#a
+        #android:drawable@emo_im_money_mouth#a
+        #android:drawable@emo_im_foot_in_mouth#a
+        #android:drawable@emo_im_embarrassed#a
+        #android:drawable@emo_im_angel#a
+        #android:drawable@emo_im_undecided#a
+        #android:drawable@emo_im_crying#a
+        #android:drawable@emo_im_lips_are_sealed#a
+        #android:drawable@emo_im_laughing#a
+        #android:drawable@emo_im_wtf#a
     .end array-data
 .end method
 

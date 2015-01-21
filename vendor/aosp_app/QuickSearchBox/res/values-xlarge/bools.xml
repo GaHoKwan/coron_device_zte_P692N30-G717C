@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_zero_query_suggestions">false</bool>
+    <bool name="show_zero_query_shortcuts">false</bool>
+    <bool name="show_non_all_corpora_in_settings">false</bool>
+</resources>

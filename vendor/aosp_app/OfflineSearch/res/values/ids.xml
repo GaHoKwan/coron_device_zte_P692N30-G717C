@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="spinner_search_type">false</item>
+    <item type="id" name="spinner_type">false</item>
+    <item type="id" name="edt_count">false</item>
+    <item type="id" name="edt_keyword">false</item>
+    <item type="id" name="edt_admin">false</item>
+    <item type="id" name="spinner_sort">false</item>
+    <item type="id" name="btn_search">false</item>
+    <item type="id" name="btn_search_inland">false</item>
+    <item type="id" name="btn_search_taiwan">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="spinner_dropdown_item">false</item>
+    <item type="id" name="spinner_item">false</item>
+</resources>

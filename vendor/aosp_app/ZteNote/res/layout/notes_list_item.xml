@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/note_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="-5.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="15.0dip" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/item_bottom_layout" android:background="@drawable/page_infor" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginBottom="5.0dip">
+        <FrameLayout android:id="@id/option_outer_layout" android:layout_width="15.0dip" android:layout_height="16.0dip" android:layout_marginRight="11.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <CheckBox android:id="@id/note_selected" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-3.5dip" />
+            <ImageView android:id="@id/note_option" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-3.0dip" android:src="@drawable/imagebutton_notelist_menu" />
+        </FrameLayout>
+        <ImageView android:id="@id/note_option_divider_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/divider_small" android:layout_toLeftOf="@id/option_outer_layout" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/list_group_text_color" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:singleLine="true" android:layout_toLeftOf="@id/note_option_divider_1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0dip" android:textColor="#ff8c8c8c" android:layout_gravity="bottom|center" android:id="@id/created" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</FrameLayout>

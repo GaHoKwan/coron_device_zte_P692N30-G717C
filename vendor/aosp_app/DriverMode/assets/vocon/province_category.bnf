@@ -1,0 +1,70 @@
+#BNF+EMV2.0;
+!grammar main_entry;
+!start <_main_>;
+<_main_> : <SwitchProvinceMap> | <NearbyCategorySearch> |<NearbyCategorySearchSimple>|<NearbyCategorySearchSimple2>| <cancel>;
+
+<menu>: 退出!id(5001) | 取消!id(5001) | 结束!id(5001) | 关闭!id(5001) | 
+	    返回!id(5010) | 帮助!id(5020) | 更多帮助!id(5021);
+	
+<SwitchProvinceMap> : (切换到!id(4001) | 切到!id(4001) | 换到!id(4001) | 转到!id(4001))<province>;
+
+<NearbyCategorySearch> : (我要去!id(30001) | 我想去!id(30001) | 怎么去!id(30001) | 带我去!id(30001) | 我要找!id(30001) |
+						  我想找!id(30001) | 寻找!id(30001) | 想找!id(30001) | 想查找!id(30001) | 查找!id(30001))(附近的!id(30010) | 周围的!id(30010) | 最近的!id(30010)) <category>;
+<NearbyCategorySearchSimple>: (附近的!id(30010) | 周围的!id(30010) | 最近的!id(30010)) <category>;
+<NearbyCategorySearchSimple2>: (我要去!id(30001) | 我想去!id(30001) | 怎么去!id(30001) | 带我去!id(30001) | 我要找!id(30001) |
+						  我想找!id(30001) | 寻找!id(30001) | 想找!id(30001) | 想查找!id(30001) | 查找!id(30001)| 搜索!id(30001))<category>;						  
+<cancel>: <cancel_cmd>;				  
+						  
+<province> :
+			北京市!id(4101) |
+			天津市!id(4102) |
+			上海市!id(4103) |
+			重庆市!id(4104) |
+			河北省!id(4105) |
+			辽宁省!id(4106) |
+			吉林省!id(4107) |
+			黑龙江省!id(4108) |
+			江苏省!id(4109) |
+			浙江省!id(4110) |
+			安徽省!id(4111) |
+			福建省!id(4112) |
+			江西省!id(4113) |
+			山东省!id(4114) |
+			河南省!id(4115) |
+			湖北省!id(4116) |
+			湖南省!id(4117) |
+			广东省!id(4118) |
+			海南省!id(4119) |
+			四川省!id(4120) |
+			贵州省!id(4121) |
+			云南省!id(4122) |
+			陕西省!id(4123) |
+			甘肃省!id(4124) |
+			青海省!id(4125) |
+			香港特别行政区!id(4126) |
+			澳门特别行政区!id(4127);
+			
+<category> :
+加油站!id(31001) | 
+餐馆 |
+停车场 |
+咖啡厅 |
+酒吧 |
+ATM |
+杂货店 |
+药店 |
+购物 |
+急救;
+
+<cancel_cmd>: "取消";
+
+
+!pronounce "退出" PRONAS "tui4 chu1";
+!pronounce "取消" PRONAS "qu3 xiao1";
+!pronounce "结束" PRONAS "jie2 shu4";
+!pronounce "关闭" PRONAS "guan1 bi4";
+!pronounce "返回" PRONAS "fan3 hui2";
+!pronounce "帮助" PRONAS "bang1 zhu4";
+!pronounce "更多帮助" PRONAS "geng4 duo1 bang1 zhu4";
+
+

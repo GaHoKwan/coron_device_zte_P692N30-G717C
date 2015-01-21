@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/listview_singleitem_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/listview_text_size" android:textColor="@color/listview_default_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/item_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listview_group_paddingleft" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/listview_text_size" android:textColor="@color/listview_default_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/item_result" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.autonavi.xmgd.view.GDImageButton android:layout_gravity="center_vertical" android:id="@id/item_icon" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/list_image" />
+</LinearLayout>

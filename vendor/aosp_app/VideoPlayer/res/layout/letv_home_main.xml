@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/letv_content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/topLogImg" android:background="#ff1d1d1d" android:layout_width="fill_parent" android:layout_height="32.0dip" android:src="@drawable/letv_top_logo_img" android:scaleType="center" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/topLogImg">
+        <include android:id="@id/letv_home_main_conent" android:visibility="gone" layout="@layout/letv_home_conent" />
+        <com.mediatek.videoplayer.view.ErrorLayout android:gravity="center" android:id="@id/nodatalayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:background="@drawable/letv_content_top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

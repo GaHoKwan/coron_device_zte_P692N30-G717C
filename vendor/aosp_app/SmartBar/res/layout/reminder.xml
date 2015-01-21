@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sr_help_image" android:layout_width="200.0dip" android:layout_height="80.0dip" android:src="@drawable/img_smartview_btn_back" android:layout_centerInParent="true" android:contentDescription="@string/dummy" />
+    </RelativeLayout>
+    <TextView android:id="@id/sr_help_text" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sr_content_back" />
+    <LinearLayout android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/sr_skip_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sr_skip" />
+    </LinearLayout>
+</LinearLayout>

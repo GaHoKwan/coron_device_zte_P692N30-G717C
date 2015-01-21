@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/settings_item_layout" android:layout_width="wrap_content" android:layout_height="68.0dip">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ff000000" android:id="@id/settingitemtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" />
+        <TextView android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <CheckBox android:id="@id/switchWidget" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:layout_alignBottom="@id/settings_item_layout" android:layout_alignParentRight="true" android:layout_centerInParent="false" android:layout_centerHorizontal="false" android:layout_centerVertical="false" />
+</RelativeLayout>

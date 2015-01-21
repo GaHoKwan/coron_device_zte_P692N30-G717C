@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/myPhone_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/header" />
+    </LinearLayout>
+    <RelativeLayout android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/myPhone__bom" android:layout_below="@id/myPhone_title"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TableLayout android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonetypetxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonetype" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phoneversiontxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phoneversion" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonememorytxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonememory" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonespacertxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonespacer" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phoneleftspacetxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phoneleftspace" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonesdspacertxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonesdspacer" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonesdleftspacer" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phoneimeitxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phoneimei" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+                <TableRow>
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonemactxt" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    <TextView />
+                    <TextView android:textColor="#ff43586c" android:id="@id/phonemac" android:background="#ffefefef" android:layout_height="wrap_content" android:layout_weight="4.0" />
+                    <TextView />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/myPhone_bom" android:background="@drawable/menu_di3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textColor="#ff666666" android:gravity="center" android:id="@id/myPhone_back" android:background="@drawable/fanhui" android:paddingLeft="25.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

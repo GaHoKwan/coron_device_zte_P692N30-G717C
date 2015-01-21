@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cancel_array">
+        <item>取消下载</item>
+    </string-array>
+    <string-array name="ignore_array">
+        <item>忽略升级提示</item>
+    </string-array>
+</resources>

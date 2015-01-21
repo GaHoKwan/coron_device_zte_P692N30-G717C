@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_days">
+        <item>nedelja</item>
+        <item>ponedeljak</item>
+        <item>utorak</item>
+        <item>sreda</item>
+        <item>četvrtak</item>
+        <item>petak</item>
+        <item>subota</item>
+    </string-array>
+</resources>

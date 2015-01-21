@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/product_model" android:key="product_model" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/hardware_version" android:key="hardware_version" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:persistent="false" android:title="@string/software_version" android:key="software_version" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+    <PreferenceCategory android:title="CDMA" android:key="cdma_info">
+        <Preference android:persistent="false" android:title="@string/prl_version" android:key="prl_version" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:persistent="false" android:title="@string/current_sid" android:key="sid" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:persistent="false" android:title="@string/current_nid" android:key="nid" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:persistent="false" android:title="@string/current_meid" android:key="meid" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:persistent="false" android:title="@string/current_uim_id" android:key="uim_id" android:summary="@string/unknown" style="?android:attr/preferenceInformationStyle" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -131,7 +131,7 @@
     .line 250
     iget-object v0, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v1, 0x104008d
+    const v1, #android:string@PinMmi#t
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -361,7 +361,7 @@
     .parameter "ar"
 
     .prologue
-    const v3, 0x1040075
+    const v3, #android:string@mmiError#t
 
     .line 259
     new-instance v1, Ljava/lang/StringBuilder;
@@ -422,7 +422,7 @@
     .line 268
     iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007f
+    const v3, #android:string@badPuk#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -448,7 +448,7 @@
     :cond_0
     iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007c
+    const v3, #android:string@passwordIncorrect#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -499,7 +499,7 @@
     .line 284
     iget-object v2, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v3, 0x104007a
+    const v3, #android:string@serviceRegistered#t
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -756,7 +756,7 @@
     if-nez v4, :cond_0
 
     .line 204
-    const v4, 0x1040080
+    const v4, #android:string@mismatchPin#t
 
     invoke-direct {p0, v4}, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->handlePasswordError(I)V
 
@@ -782,7 +782,7 @@
 
     .line 207
     :cond_1
-    const v4, 0x1040081
+    const v4, #android:string@invalidPin#t
 
     invoke-direct {p0, v4}, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->handlePasswordError(I)V
     :try_end_0
@@ -806,7 +806,7 @@
     .line 220
     iget-object v4, p0, Lcom/android/internal/telephony/cdma/CdmaMmiCode;->context:Landroid/content/Context;
 
-    const v5, 0x1040075
+    const v5, #android:string@mmiError#t
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_days">
+        <item>katru Svētdienu</item>
+        <item>katru Pirmdienu</item>
+        <item>katru Otrdienu</item>
+        <item>katru Trešdienu</item>
+        <item>katru Ceturtdienu</item>
+        <item>katru Piektdienu</item>
+        <item>katru Sestdienu</item>
+    </string-array>
+</resources>

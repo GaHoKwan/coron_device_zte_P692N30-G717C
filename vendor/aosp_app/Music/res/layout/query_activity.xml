@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/sd_error" />
+    <ListView android:id="@*android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/search_empty" android:layout_weight="1.0" />
+</LinearLayout>

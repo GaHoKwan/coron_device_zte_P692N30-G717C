@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pop_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:id="@id/open" android:background="@drawable/pop_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/autoupdateSetting" android:layout_weight="4.0" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:id="@id/save" android:background="@drawable/pop_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/updateHistory" android:layout_weight="4.0" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:id="@id/feedbackinfo" android:background="@drawable/pop_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/feedback" android:layout_weight="4.0" />
+    </LinearLayout>
+</LinearLayout>

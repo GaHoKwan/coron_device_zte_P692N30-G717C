@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Customer Service</string>
+    <string name="ehall">Mobile e-hall</string>
+    <string name="subscription">My Subscription</string>
+    <string name="prlupdate">PRL Update</string>
+    <string name="customerhotline">Customer Hotline</string>
+    <string name="globalhotline">Global Hotline</string>
+    <string name="serviceguide">Phone Service Guide</string>
+    <string name="ehallwap">http://wap.ct10000.com</string>
+    <string name="smsNumber">10001</string>
+    <string name="smsSearch">0000</string>
+    <string name="smsUnsubscribe">00000</string>
+    <string name="smsprlNumber">10659165</string>
+    <string name="smsPRL">PRL</string>
+    <string name="smsToast">Message has been sent</string>
+    <string name="noSimToast">Please check the calling card is plugged in</string>
+    <string name="hotlineNumber0">10000</string>
+    <string name="hotlineNumber1">10001</string>
+    <string name="hotlineTelNumber0">tel://10000</string>
+    <string name="hotlineTelNumber1">tel://10001</string>
+    <string name="selectService">Select Services</string>
+    <string name="ztehotline">Service hotline</string>
+    <string name="zteHotlineTitle">Hotline introduction</string>
+    <string name="zte0755">tel://075526779999</string>
+    <string name="zte400">tel://4008809999</string>
+    <string name="ztehotlinecall">You sure you want to allocate it?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="customerhotlineMessage">Customer service hotline is 10000.Self-help service hotline is 10001.Please prefix the area code before hotline when you are roaming in the country.</string>
+    <string name="globalhotlineMessage">When you are roaming in foreign countries and Hong Kong,Macao and Taiwan regions,you can call China Telecom International Roaming Customer Service Hotline +8618918910000,calling from this phone is free,for detail information,please refer to roaming welcome message.You also can check internet http://manyou.189.cn to get customer service.</string>
+    <string name="serviceguideMessage">"1.Provide the address and telephone numbers of over 3000 zhongxing mobile phone customer service centers.
+ 2.Provide introduction and activity information of the zhongxing plam services. 
+ 3.Disposal customer questions and advice over zhongxing mobile phones.
+ 4.ZTE Home (http://www.zte.com.cn/ ) -> Technical Support -> phone service to support namely http://www.zte.com.cn/cn/products/mobile/services_support/, ZTE phone PC side software, SD card upgrade package, the online upgrade of the client, one-click upgrade tools, user manuals, software tools or documents, please visit the website and access to phone service support."</string>
+</resources>

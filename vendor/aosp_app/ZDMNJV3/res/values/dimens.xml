@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hs_padding_small">8.0dip</dimen>
+    <dimen name="hs_padding_medium">8.0dip</dimen>
+    <dimen name="hs_padding_large">16.0dip</dimen>
+    <dimen name="hs_size_15dp">15.0dip</dimen>
+    <dimen name="hs_size_9dp">9.0dip</dimen>
+    <dimen name="hs_text_normal_size">20.0dip</dimen>
+    <dimen name="hs_version_text_size">15.0dip</dimen>
+    <dimen name="hs_status_title_text_size">20.0dip</dimen>
+    <dimen name="hs_status_msg_text_size">15.0dip</dimen>
+    <dimen name="hs_margin">5.0dip</dimen>
+    <dimen name="hs_common_padding_5">5.0dip</dimen>
+    <dimen name="hs_common_padding_10">10.0dip</dimen>
+    <dimen name="hs_dialog_item_padding">5.0dip</dimen>
+    <dimen name="hs_button_min_width">220.0dip</dimen>
+</resources>

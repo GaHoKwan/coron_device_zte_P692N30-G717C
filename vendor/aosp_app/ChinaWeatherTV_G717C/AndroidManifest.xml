@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="13" android:versionName="1.1.3" package="com.hf"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <application android:label="@string/app_name" android:icon="@drawable/hf_icon" android:name="com.hf.HFWeatherApp" android:debuggable="false">
+        <meta-data android:name="UMENG_APPKEY" android:value="4f8d2b825270157c0e00008c" />
+        <meta-data android:name="UMENG_CHANNEL" android:value="@string/channel_name" />
+        <service android:name="com.umeng.common.net.DownloadingService" android:process=":DownloadingService" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.umeng.update.UpdateDialogActivity" />
+        <meta-data android:name="@string/channel_key" android:value="@string/channel_name" />
+        <meta-data android:name="BaiduMobAd_CHANNEL" android:value="@string/channel_name" />
+        <meta-data android:name="BaiduMobAd_STAT_ID" android:value="01c7cdcb65" />
+        <meta-data android:name="BaiduMobAd_EXCEPTION_LOG" android:value="true" />
+        <meta-data android:name="BaiduMobAd_SEND_STRATEGY" android:value="SET_TIME_INTERVAL" />
+        <meta-data android:name="BaiduMobAd_TIME_INTERVAL" android:value="3" />
+        <meta-data android:name="BaiduMobAd_ONLY_WIFI" android:value="false" />
+        <meta-data android:name="BaiduMobAd_CELL_LOCATION" android:value="true" />
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name="com.hf.UI.LogoActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.hf.weather.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.GuideActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:name="com.hf.UI.MainActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.ztemt.action.hfweather.MAINACTIVITY" />
+                <action android:name="com.hf.weather.WEATHER_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:name="com.hf.UI.InitDefaultActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.hf.UI.CityActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name="com.hf.UI.WeatherGroupActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.hf.UI.IndicesActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.hf.UI.VideoActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.MapActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.hf.UI.MapWeatherActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:name="com.hf.UI.VideoPlayActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.WarningListActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="hf.weather.warning" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.WarningItemActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.IndicesSelectActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.preference.SettingActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.hf.weather.SETTING" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.UpdateBackgroundActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/hf_dialog_style" android:name="com.hf.UI.DownloadingActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.HelpActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/TitleBarStyle" android:name="com.hf.UI.WindIntroduceActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/ThemeActivity" android:name="com.tencent.tauth.TAuthView" android:launchMode="singleTask" android:configChanges="keyboardHidden|navigation|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="auth" />
+            </intent-filter>
+        </activity>
+        <receiver android:label="@string/appwidget_name4_2" android:name="com.hf.widget.HFWeatherWidget4_2">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_4_2" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hf.CHANGE_DEFAULT_CITY" />
+                <action android:name="com.hf.UPDATE_WEATHER" />
+                <action android:name="com.hf.UPDATE_ALL_WEATHER" />
+                <action android:name="com.hf.CHANGE_TEMPERATURE_TYPE" />
+                <action android:name="com.hf.TIME_TICK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/appwidget_name4_1" android:name="com.hf.widget.HFWeatherWidget4_1">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget4_1" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hf.CHANGE_DEFAULT_CITY" />
+                <action android:name="com.hf.UPDATE_WEATHER" />
+                <action android:name="com.hf.UPDATE_ALL_WEATHER" />
+                <action android:name="com.hf.CHANGE_TEMPERATURE_TYPE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hf.service.WeatherReceiver">
+            <intent-filter>
+                <action android:name="com.ztemt.action.hfweather.CREATECITY" />
+                <action android:name="com.hf.CHANGE_UPDATE_TIME" />
+                <action android:name="com.hf.QUERY_ALL_WEATHER" />
+                <action android:name="com.hf.QUERY_WARNING" />
+                <action android:name="com.hf.QUERY_NEW_CITY_WEATHER" />
+                <action android:name="com.hf.QUERY_WEATHER" />
+                <action android:name="com.hf.weather.LOCATION" />
+                <action android:name="com.hf.APP_START" />
+                <action android:name="com.hf.RESET_TRAFFIC" />
+                <action android:name="com.hf.QUERY_ALL_WEATHER_PM" />
+                <action android:name="com.hf.QUERY_ALL_WEATHER_AM" />
+                <action android:name="com.hf.QUERY_ALL_WEATHER_ALARM" />
+                <action android:name="com.hf.QUERY_ALL_WEATHER_NET_STATE_CHANGE" />
+                <action android:name="com.zte.BOOT_SWITCH" />
+                <action android:name="com.hf.QUERY_ALL_WEATHER_WIDGET" />
+                <action android:name="com.hf.KILL_PROCESS" />
+                <action android:name="com.zte.TEMPTERATURE_TYPE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hf.service.SystemReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hf.service.NotifyReceiver">
+            <intent-filter>
+                <action android:name="com.hf.CHANGE_DEFAULT_CITY" />
+                <action android:name="com.hf.UPDATE_WEATHER" />
+                <action android:name="com.hf.UPDATE_ALL_WEATHER" />
+                <action android:name="com.hf.CHANGE_TEMPERATURE_TYPE" />
+                <action android:name="com.hf.NOTIFY_OPEN" />
+                <action android:name="com.hf.UPDATE_NOTIFY" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.hf.provider.HFContentProvider" android:authorities="hf.weather" />
+        <service android:name="com.hf.widget.TimeService" />
+        <activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <meta-data android:name="BaiduMobAd_APP_ID" android:value="c7c20df2" />
+        <meta-data android:name="BaiduMobAd_APP_SEC" android:value="c7c20df2" />
+        <activity android:name="com.baidu.mobads.appoffers.OffersActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="@string/app_name" android:name="com.adchina.android.ads.views.AdBrowserView" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="@string/app_name" android:name="com.adchina.android.ads.views.NomalVideoPlayActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+    </application>
+</manifest>

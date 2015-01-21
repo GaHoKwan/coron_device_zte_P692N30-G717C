@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">是否接受增强售后服务？</string>
+    <string name="informative">增强售后服务</string>
+    <string name="title">设备管理</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    <string name="ask_setup_message">收到一个OTA配置安装消息，请确认是否安装</string>
+    <string name="omacp_setup">OTAP安装</string>
+    <string name="install_compelete">安装完成</string>
+    <string name="instatll_fail">安装失败</string>
+    <string name="security_error">鉴权错误</string>
+    <string name="xml_parse_error">XML解析错误</string>
+    <string name="user_cancel">用户取消</string>
+    <string name="input_pin">PIN码输入</string>
+    <string name="app_name">系统升级</string>
+    <string name="auto_update_settings">自动更新设置</string>
+    <string name="dm_update_service">系统升级</string>
+    <string name="system_update">系统更新</string>
+    <string name="connecting">正在检测系统更新，请稍侯…</string>
+    <string name="downloading">请稍候，可能需要几分钟完成下载。</string>
+    <string name="download_title">软件下载</string>
+    <string name="download_val">请选择下载网络</string>
+    <string name="download_message">您的手机有可用更新，是否要下载？</string>
+    <string name="cancel_message">您确定要取消下载并且结束此次软件更新吗？</string>
+    <string name="cancel">取消</string>
+    <string name="failed">失败</string>
+    <string name="update_failed">系统更新失败</string>
+    <string name="install_title">软件安装</string>
+    <string name="install_message">安装更新包，需要重启手机，请确认手机电量高于10%</string>
+    <string name="checking_update">检测更新</string>
+    <string name="update_title">自动更新</string>
+    <string name="update_message">每周自动更新</string>
+    <string name="update_deferred">延时安装</string>
+    <string name="update_deferred_AU">安装升级包</string>
+    <string name="service_unavailable">服务不可用</string>
+    <string name="check_new">检查更新</string>
+    <string name="status">状态消息</string>
+    <string name="version">版本号：</string>
+    <string name="new_version">新版本：</string>
+    <string name="desc" />
+    <string name="update_setting">更新设置</string>
+    <string name="background">后台下载</string>
+    <string name="bg_check">后台检测</string>
+    <string name="delay">延迟安装</string>
+    <string name="dm_session_busy">会话正忙</string>
+    <string name="downloading_notification">系统软件更新下载</string>
+    <string name="downloading_notification_message">软件正在下载</string>
+    <string name="backup_notification">数据备份</string>
+    <string name="backup_notification_message">正在备份用户数据</string>
+    <string name="update_warning_notification">系统升级</string>
+    <string name="update_warning_notification_message">通知消息，请点击查看</string>
+    <string name="update_warning_notification_new_package">有适用于您设备的新的系统软件更新，请确认是否下载</string>
+    <string name="install_notification">软件安装</string>
+    <string name="install_notification_message">要安装软件，请重启手机</string>
+    <string name="install_file_notification">点击安装文件</string>
+    <string name="pin">PIN码</string>
+    <string name="confirm">确认</string>
+    <string name="intallresult">安装结果</string>
+    <string name="ok">确定</string>
+    <string name="wifi">WLAN网络</string>
+    <string name="wifi_AU">WLAN下载</string>
+    <string name="mobile_networks_AU">手机网络下载</string>
+    <string name="mobile_networks">移动网络(会产生少量流量费用)</string>
+    <string name="autoupdate_toinstall">点击安装更新</string>
+    <string name="autoupdate_todownload">发现升级包：点击进行更新</string>
+    <string name="autoupdate_busy">更新正忙，取消当前更新</string>
+    <string name="attention">注意</string>
+    <string name="update_busy">当前更新正忙，请稍等…</string>
+    <string name="memory_insufficient">空间不足</string>
+    <string name="memory_insufficient_info">您的手机没有足够的空间存储安装包，请释放部分手机空间后重试</string>
+    <string name="memory_insufficient_info_inner_space">您的手机没有足够的内部存储空间下载升级包，还需要%1$s的空间， 您可以通过“任务管理器”将部分安装的应用数据移动到手机存储上以释放手机的内部存储空间。</string>
+    <string name="network_unavailable">网络连接不可用</string>
+    <string name="network_unavailable_info">网络未连接，无法检测更新</string>
+    <string name="connect_timeout">网络连接超时</string>
+    <string name="uncaught_exception_title">提示</string>
+    <string name="uncaught_exception_info">"程序崩溃，可能是您的设备没有足够空间。
+请检查后重新尝试更新"</string>
+    <string name="updata_ok">重启</string>
+    <string name="updata_Defer">延迟</string>
+    <string name="updata_info">安装更新包，需要重启手机</string>
+    <string name="updata_title">系统升级</string>
+    <string name="dm_comlete_sec">请稍候，下载需要 %1$d 秒钟完成</string>
+    <string name="dm_download_complete">请稍候，下载完成。</string>
+    <string name="dm_compele_min">请稍候，下载需要 %1$d 分钟完成</string>
+    <string name="dm_compele_hou">请稍候，下载需要 %1$d 小时完成</string>
+    <string name="dm_backup_install">备份后安装</string>
+    <string name="backup_title">备份</string>
+    <string name="backup_message">正在备份您的个人数据，请稍等...</string>
+    <string name="download_warn_message">正在下载数据，请您不要断开网络和移除SD卡。</string>
+    <string name="restore_title">备份恢复</string>
+    <string name="restore_message">正在恢复您的个人数据，请稍等...</string>
+    <string name="dm_version">软件版本</string>
+    <string name="dm_update_date">状态消息</string>
+    <string name="dm_backup_nosdcard">请插入SD卡</string>
+    <string name="dm_backup_lowbattery">请确保电池电量不低于30%以完成升级。</string>
+    <string name="dm_fumo_Message">当前状态</string>
+    <string name="dm_fumo_START">检查更新</string>
+    <string name="dm_fumo_INSTAll_DEFER">安装延时更新包</string>
+    <string name="dm_fumo_SETUP">安装更新包</string>
+    <string name="dm_never_SETUP">原始版本</string>
+    <string name="dm_fumo_status_noupdate">当前已是最新版本</string>
+    <string name="dm_fumo_status_failed">系统更新失败</string>
+    <string name="dm_fumo_status_sucess">系统更新成功</string>
+    <string name="dm_check_updatetile">检查更新</string>
+    <string name="dm_check_update">正在检查最新系统软件版本…</string>
+    <string name="dm_network_error">网络错误，请稍后再试！</string>
+    <string name="dm_already_new">没有找到当前版本的升级包！</string>
+    <string name="dm_isroaming">数据漫游时无法进行软件更新！</string>
+    <string name="dm_isroaming_AU">"当前处于漫游状态，可能产生漫游费用，请联系澳洲电信咨询资费信息
+
+是否继续？"</string>
+    <string name="dm_isroaming_TNZ">"当前处于漫游状态，可能产生漫游费用，请联系新西兰电信咨询资费信息
+
+是否继续？"</string>
+    <string name="dm_airplan">飞行模式下不允许发起更新！</string>
+    <string name="dm_no_dataservice">当前没有数据连接，无法发起更新，请查看网络设置</string>
+    <string name="dm_no_dataservice_AU">"数据连接不可用，无法发起自动更新
+
+请查看服务是否可用以及手机数据连接是否开启"</string>
+    <string name="dm_update_setting">更新设置</string>
+    <string name="auto_update_switch_title">自动更新</string>
+    <string name="auto_update_switch_key">自动更新</string>
+    <string name="auto_update_switch_summary_on">打开自动更新功能</string>
+    <string name="auto_update_switch_summary_off">关闭自动更新功能</string>
+    <string name="auto_update_frequency_text">每%2$s%1$s自动更新</string>
+    <string name="wifi_auto_update_switch_title">连接WLAN时自动更新</string>
+    <string name="wifi_auto_update_switch_key">连接WLAN时自动更新</string>
+    <string name="wifi_auto_update_switch_summary_on">当WLAN连接上时，自动检测更新</string>
+    <string name="wifi_auto_update_switch_summary_off">当WLAN连接上时，自动检测更新</string>
+    <string name="cmcc_wifi_auto_update_switch_title">中国移动WLAN</string>
+    <string name="cmcc_wifi_auto_update_switch_key">中国移动WLAN</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">连接到中国移动 WLAN 时进行自动更新</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">连接到中国移动 WLAN 时进行自动更新</string>
+    <string name="dm_wifi_open">请先打开WLAN，然后进行下载</string>
+    <string name="dm_via_wifi">通过WLAN下载</string>
+    <string name="dm_wifi_set">"WLAN
+设置"</string>
+    <string name="dm_yes">是</string>
+    <string name="dm_no">否</string>
+    <string name="dm_wifi_fail">WLAN网络不可用，下载将取消</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">上午%1$s</string>
+    <string name="dm_time_pm">下午%1$s</string>
+    <string name="dm_Delay_show">还可延迟%1$s次</string>
+    <string name="dm_Delay_last_time_show">已延迟三次，不能再次延迟</string>
+    <string name="download_message_new">"您的手机有可用更新，是否下载？ 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"您的手机有可用更新 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">新版本号：%1$s</string>
+    <string name="download_message_size">更新包大小：%1$s</string>
+    <string name="download_message_description">"
+新版说明：
+"</string>
+    <string name="download_message_auto_download">"
+
+ %1$s秒钟后将自动下载"</string>
+    <string name="install_message_new">"安装更新包，需要重启手机，请确认手机电量高于10%%。 
+可延迟%1$s次，延迟三次后必须重启安装"</string>
+    <string name="install_message_new_later">"安装更新包，需要重启手机，请确认手机电量高于10%%。 
+可延迟%1$s次，延迟三次后必须重启安装"</string>
+    <string name="install_message_new_last_time">"安装更新包，需要重启手机，请确认手机电量高于20%%。 
+已延迟三次，点击延迟%1$s分钟后将重启升级"</string>
+    <string name="install_message_force">%1$s分钟后将重启升级</string>
+    <string name="install_message_delaycompleted">已延迟三次，手机将重启升级</string>
+    <string name="wifi_cost_notify">WLAN费用提醒</string>
+    <string name="wifi_cost_notify_body">当前接入的WLAN可能会产生流量费用，是否继续检测？</string>
+    <string name="dm_continue">继续</string>
+    <string name="download_message_new_AU">当前设备存在可用升级版本，升级包大小为%1$s</string>
+    <string name="download_message_version_AU">%1$s将从%2$s升级到%3$s</string>
+    <string name="download_message_description_AU">该升级包 %1$s</string>
+    <string name="about_charge_AU">"
+
+ 建议使用WLAN下载，通过移动网络下载该更新所产生的费用情况请咨询澳洲电信。"</string>
+    <string name="about_charge_TNZ">"
+
+ 建议使用WLAN下载，通过移动网络下载该更新所产生的费用情况请咨询新西兰电信。"</string>
+    <string name="dm_later">延迟</string>
+    <string name="dm_delay">稍后</string>
+    <string name="dm_install">安装</string>
+    <string name="install_message_AU">升级包已下载完成，现在可以进行升级。升级过程中手机所有功能将不可用，包括紧急呼叫。升级时将重启手机，请确保电池电量不低于30%，且尽量不要拔掉电池。 如果需要延时升级请点击“延时”。</string>
+    <string name="auto_update_frequency_text_AU">每隔一周%2$s%1$s进行自动更新</string>
+    <string name="noti_result_success_title">设备更新完成</string>
+    <string name="noti_result_success_content">升级成功</string>
+    <string name="noti_auto_Title">有可用升级包</string>
+    <string name="noti_auto_Text">您的设备有新的升级包</string>
+    <string name="dl_pause">暂停</string>
+    <string name="dl_continue">恢复</string>
+    <string name="dl_pause_message">下载已暂停</string>
+    <string name="wifi_only_switch_key">使用WLAN</string>
+    <string name="wifi_only_switch_title">使用WLAN</string>
+    <string name="wifi_only_switch_summary_off">只在WLAN连接时进行升级检测</string>
+    <string name="wifi_only_switch_summary_on">只在WLAN连接时进行升级检测</string>
+    <string name="present_net_changedto_mobile">当前网络连接已切换为手机数据网络。下载已暂停，当重新连接WLAN时自动恢复下载</string>
+    <string name="present_net_changedto_mobile_withContinue">当前网络连接已切换为手机数据网络，下载已暂停。是否继续下载？</string>
+    <string name="present_net_changedto_mobile_noContinue">当前网络连接已切换为手机数据网络，下载已暂停。 由于设置了只在WLAN连接时进行下载，所以在WLAN网络可用后，将自动恢复下载</string>
+    <string name="present_net_is_mobile">当前WLAN不可用，请设置连接后进行更新</string>
+    <string name="resume_download">恢复下载</string>
+    <string name="init_message">请稍等，正在初始化</string>
+    <string name="wifi_only_message">"已设置只在WLAN下进行更新，当前网络不是WLAN网络，更新已取消。 
+ 如果允许在手机数据网络下进行更新，请在菜单中进行设置。 
+
+现在进行设置吗?"</string>
+    <string name="resume_download_message">上次下载过程被中断，是否恢复下载？</string>
+    <string name="action_settings">设置</string>
+    <string name="Install_notes">您的手机需要重启完成安装，在此期间您不能使用手机</string>
+    <string name="Install_battery_notes">安装过程中，请您确保电池电量不低于30%</string>
+    <string name="Install_backup_notes">SD卡数据备份</string>
+    <string name="defer">延迟安装</string>
+    <string name="defer_install_notification">重启手机完成安装</string>
+    <string name="install">立即安装</string>
+    <string name="fota_main_activity_title">手机版本升级</string>
+    <string name="current_version_title">当前版本：</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="new_version_content" />
+    <string name="stop_lable">停止</string>
+    <string name="network_update">正在检查网络更新…</string>
+    <string name="fota_server_package_discovered">发现新版本：</string>
+    <string name="fota_update_button_label">立即升级</string>
+    <string name="menu_check_new_from_server">检查网络端新版本</string>
+    <string name="menu_check_new_from_server_subtitle">网络端更新需要流量支持，建议使用WLAN环境</string>
+    <string name="menu_status">状态</string>
+    <string name="menu_update_settings">设置</string>
+    <string name="tcard_update">正在检查T卡更新…</string>
+    <string name="fota_tcard_package_discovered">发现新版本（存储卡）：</string>
+    <string name="dialog_title">立即升级</string>
+    <string name="dialog_warning">本次升级会清除手机中的用户数据，升级版本前请做好数据备份</string>
+    <string name="dialog_backup">数据备份</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="fota_msg_tcard_no_update">T卡无更新版本</string>
+    <string name="fota_msg_network_no_update">网络无更新版本</string>
+    <string name="fota_status">状态：</string>
+    <string name="fota_status_software_version">软件版本：</string>
+    <string name="fota_status_never_setup">初始版本</string>
+    <string name="fota_status_no_update">软件已经是最新版本</string>
+    <string name="fota_status_failed">软件更新失败</string>
+    <string name="fota_status_sucess">软件更新成功</string>
+    <string name="fota_auto_update">自动更新</string>
+    <string name="fota_auto_update_switch_summary_on">打开自动更新</string>
+    <string name="fota_auto_update_switch_summary_off">关闭自动更新</string>
+    <string name="fota_auto_update_frequency_text">查看更新</string>
+    <string name="fota_auto_update_frequency_everysunday">每周日</string>
+    <string name="fota_auto_update_frequency_everymonday">每周一</string>
+    <string name="fota_auto_update_frequency_everytuesday">每周二</string>
+    <string name="fota_auto_update_frequency_everywednesday">每周三</string>
+    <string name="fota_auto_update_frequency_everythursday">每周四</string>
+    <string name="fota_auto_update_frequency_everyfriday">每周五</string>
+    <string name="fota_auto_update_frequency_everysaturday">每周六</string>
+    <string name="retry">继续下载</string>
+    <string name="release_notes">更新内容：</string>
+    <string name="progress_expand_list_title">新版本特性</string>
+    <string name="menu">菜单</string>
+    <string name="currentVersionTitle">当前系统版本：</string>
+    <string name="currentVersionDefault">Z998V1.0.0B01</string>
+    <string name="checkingNotice_title">升级过程：</string>
+    <string name="checkingNotice_title1">数据下载：</string>
+    <string name="checkingNotice_title2">备份恢复：</string>
+    <string name="checkingNotice_content">检测更新-数据备份-数据下载-安装准备-重启安装。</string>
+    <string name="checkingNotice_content1">数据下载会产生流量，建议连接WLAN后进行下载</string>
+    <string name="checkingNotice_content2">可以通过设置中的数据恢复恢复升级前数据</string>
+    <string name="system_update_failed">系统升级未完成</string>
+    <string name="fail_package_mismatch">升级包与当前设备版本不匹配。</string>
+    <string name="fail_no_space">您的设备没有足够的空间。</string>
+    <string name="fail_open_package">您的设备打开升级包出错。</string>
+    <string name="fail_mobile_root">您的设备已经获取过root权限。</string>
+    <string name="fail_signkey_not_correct">升级包签名与设备版本不匹配。</string>
+    <string name="fail_packagetime_not_correct">升级包时间格式校验不成功。</string>
+    <string name="fail_space_mount">数据分区打开不成功。</string>
+    <string name="congratulation">恭喜升级成功!</string>
+    <string name="system_update_sucess">您的系统是最新版本。</string>
+    <string name="dataTrafficeNotice">温馨提示，下载时会使用您连接的当前网络进行数据通讯。</string>
+    <string name="notice">温馨提示：</string>
+    <string name="wifiSettingNotice">下载过程会产生大量流量，请您使用WLAN进行下载。</string>
+    <string name="wifiOnlySettingNotice">当前升级包只可通过WLAN下载，请先打开WLAN</string>
+    <string name="wifiNotConnect">WLAN网络不可用，请连上WLAN网络后继续下载！</string>
+    <string name="download">下载</string>
+    <string name="not_now">稍后</string>
+    <string name="backup_data">数据备份：</string>
+    <string name="lastSearchTime">上次更新时间：</string>
+    <string name="lastSearchTimeDefaultvalue">"上次更新时间
+尚未更新"</string>
+    <string name="lastSearchTimeNotYet">尚未更新</string>
+    <string name="backupNotice">备份文件</string>
+    <string name="autoupdateSetting">更新设置</string>
+    <string name="updateHistory">更新历史</string>
+    <string name="unconnectNotice">无法连接到网络</string>
+    <string name="netWorkError">网络错误</string>
+    <string name="defer_title">延迟安装</string>
+    <string name="defer_remind">延迟安装将每隔一小时提醒一次，共提醒三次。当前为%1$s次提醒。</string>
+    <string name="defer_time_first">第一</string>
+    <string name="defer_time_second">第二</string>
+    <string name="defer_time_last">最后一</string>
+    <string name="force_update_remind">延迟安装将每隔一小时提醒一次，共提醒三次。当前为%1$s次提醒。您的手机将在5分钟后重启升级。</string>
+    <string name="defer_remind_dialog">延迟安装将每隔一小时提醒一次，共提醒三次。</string>
+    <string name="noremind">不再提示</string>
+    <string name="dmRetryMessage">网络错误，请重试</string>
+    <string name="forceNetworkConfigureNotice">网络不可用，请重新配置</string>
+    <string name="success">系统更新成功</string>
+    <string name="noRecord">没有记录</string>
+    <string name="force_update_notice">"本升级包为强制升级包(一般用于系统补丁)
+ %1$s秒钟后会进行强制更新"</string>
+    <string name="force_update_notice_wifi">"本升级包为强制升级包(一般用于系统补丁)
+ %1$s秒钟后WLAN网络下会进行自动下载"</string>
+    <string name="tips">"ZTE中兴官方温馨提示：
+超过100万用户成功升级，
+您的手机已有%1$s天没有进行系统更新。"</string>
+    <string name="tips_current">"ZTE中兴官方温馨提示：
+超过100万用户成功升级，
+感谢您的手机已经升级到最新版本。"</string>
+    <string name="every_day_auto_check">每天一次</string>
+    <string name="every_week_auto_check">每周一次</string>
+    <string name="every_month_auto_check">每月一次</string>
+    <string name="no_auto_check">不检查</string>
+    <string name="long_no_update">"您已经有一个月没有进行系统更新
+ZTE中兴可能已经发布了新系统，赶紧去试试吧。"</string>
+    <string name="func_desc">功能介绍</string>
+    <string name="oper_guide">用户指南</string>
+    <string name="func_setting">系统设置</string>
+    <string name="check_update">检测更新</string>
+    <string name="history">操作历史</string>
+    <string name="menu_update_desc">检测，下载，安装系统升级包。</string>
+    <string name="menu_oper_guide">系统功能介绍，ZTE中兴官方反馈。</string>
+    <string name="menu_setting_desc">自定义设置系统自动更新时间。</string>
+    <string name="menu_feedback_desc">发送用户体验反馈意见。</string>
+    <string name="menu_history_desc">查看系统升级详细历史记录。</string>
+    <string name="check_node">检测更新</string>
+    <string name="download_node">下载数据</string>
+    <string name="update_node">开始升级</string>
+    <string name="complete_node">升级完成</string>
+    <string name="HelpWelcome">"系统升级 V1.5.0
+
+欢迎使用功能介绍"</string>
+    <string name="SelfIntro">应用简介</string>
+    <string name="help_text_1">“系统升级”可将用户的系统更新至最新版本。最新版本是由ZTE中兴官方发布，修复当前版本中的一些问题。升级新版本后用户可以拥有更好、更快的系统体验。升级不会收集用户的任何个人数据，安全放心。目前已有1000万用户体验使用“系统更新”。系统升级会产生一定的流量，建议用户在WLAN网络下进行。</string>
+    <string name="UpdateGuide">升级指导</string>
+    <string name="help_text_2">用户进入“检查更新”应用后，点击“检查更新” 即可发起更新。如果有新的升级包可用，则会有提示用户下载升级包的按钮，点击“下载”后开始下载升级包。在下载的过程中，如果用户不想下载，可用点击“取消”按钮。下载完成后会提示用户安装，用户可选择“马上安装”，也可选择“稍后安装”。选择安装后，系统进入安装过程，安装完成后，系统更新成功。</string>
+    <string name="otherGuide">其他操作</string>
+    <string name="help_text_3">“系统设置”：用户可自行设置自动更新的时间间隔。“意见反馈”：用户在使用过程中遇到任何问题都可通过该功能反馈，ZTE中兴会马上给用户解决。“更新历史”：用户可以查询自己何时更新过系统，更新过几次。</string>
+    <string name="contectUS">联系我们</string>
+    <string name="contectOfficialNet">官网：</string>
+    <string name="contectBBS">论坛：</string>
+    <string name="contectEmail">邮箱：</string>
+    <string name="contectWeibo">微博：</string>
+    <string name="contectOfficialNet_link">http://www.zte.com.cn</string>
+    <string name="contectBBS_link">http://www.zhongxingfans.com/forum.php</string>
+    <string name="contectEmail_link">service@cloud.ztedevice.com</string>
+    <string name="contectWeibo_link">http://weibo.com/u/3722746367</string>
+    <string name="delay_download_message">多长时间后提醒我下载</string>
+    <string name="oneHour">1小时</string>
+    <string name="fourHour">4小时</string>
+    <string name="eightHour">8小时</string>
+    <string name="userCancel">用户在更新过程中取消</string>
+    <string name="netWorkErrorInupdate">更新过程中发生网络错误，中断。</string>
+    <string name="resumeLastSession">正在恢复上次未完成的下载任务，请稍等…</string>
+    <string name="install_delay_message">多长时间后提醒我安装</string>
+    <string name="cancel_thisTime">忽略本次</string>
+    <string name="find_new_version">下载版本</string>
+    <string name="learn_more">详细信息</string>
+    <string name="download_progress_title">数据下载：</string>
+    <string name="start_update">开始安装：</string>
+    <string name="restart_title">设备重启</string>
+    <string name="install_tips">需要重启完成安装，是否立即重启？</string>
+    <string name="install_desc">设备需要重启升级，请您不要断开网络。</string>
+    <string name="about_backup">关于备份</string>
+    <string name="learn_more_message1">"
+我们建议您在升级之前备份您的数据，您可以备份如下数据："</string>
+    <string name="learn_content">"--联系人
+--短信
+--彩信
+--通话记录
+--日历
+--浏览器(Android原生)
+--部分设置数据
+--ZTE闹钟
+--记事本"</string>
+    <string name="learn_more_message2">正常情况下升级不会丢失数据，但如果在掉电、SD卡热插拔等一些极端情况下丢失了您的数据，备份后您可以选择数据恢复。</string>
+    <string name="version_title">当前版本：%1$s</string>
+    <string name="done">完成</string>
+    <string name="prepare_update">准备安装：</string>
+    <string name="cur_version">当前版本：%1$s</string>
+    <string name="Model">型号：%1$s</string>
+    <string name="data_restore">数据恢复</string>
+    <string name="restore_file_not_exist">数据备份文件不存在，请您检查系统升级过程中是否进行了数据备份。</string>
+    <string name="cancel_backup">您已经取消备份。</string>
+    <string name="message_LW_mode_on">已打开绿网模式，升级任务已取消。如需对系统版本进行升级，请退出绿网模式。</string>
+    <string name="download_delay_over_msg">已取消下载</string>
+    <string name="auto_update_setting_introduce">系统升级自动更新时间默认每周发起一次，您可以设置和关闭，但是为了时刻保持您的设备为最新版本，我们强烈建议设置自动更新时间！</string>
+    <string name="auto_update_setting_introduce_cmcc">当WLAN连接时可发起自动更新，您可以选择关闭自动更新功能。为了保持您的设备为最新版本，我们强烈建议打开自动更新功能。</string>
+    <string name="system_update_history">您可以看到系统升级日志，比如下载数据，升级版本等，如果您想查看更加详细的日志，请您通过用户反馈及时提出要求和建议！</string>
+    <string name="system_update_history_title">系统升级日志</string>
+    <string name="no_sdcard">设备没有插入SD卡，无法进行数据备份，您是否要求取消数据备份直接进行数据下载？</string>
+    <string name="copy_package_to_sdcard_error">拷贝升级包时出错，请确认SD卡是否正常插入并且有足够可用空间。</string>
+    <string name="send">发送</string>
+    <string name="feedback">意见反馈</string>
+    <string name="feedback_content_title">问题与建议</string>
+    <string name="feedback_content">请留下您宝贵的问题与建议，我们将会在第一时间通过您留下的联系方式回复处理结果！</string>
+    <string name="contact">联系方式</string>
+    <string name="email">输入您的手机或者邮箱(选填)</string>
+    <string name="feedback_result">发送成功，谢谢您的反馈意见</string>
+    <string name="email_auth">请输入正确的邮箱地址</string>
+    <string name="feedback_auth">您的反馈对我们非常重要，请输入您的反馈意见，谢谢！</string>
+    <string name="feedback_network">网络不可用，请重新连接，并发送您的反馈，谢谢！</string>
+    <string name="userconfirm_title">用户确认</string>
+    <string name="userconfirm_button_yes">是</string>
+    <string name="userconfirm_button_no">否</string>
+    <string name="download_message_already_download">"
+
+ 您已下载%1$s，点击确定将继续下载"</string>
+</resources>

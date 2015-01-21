@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/img1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_06" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <Button android:textSize="15.0sp" android:textColor="#ff707070" android:id="@id/button1" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="0.0dip" android:text="@string/user_guide" android:drawableLeft="@drawable/ic_help" />
+            <Button android:textSize="15.0sp" android:textColor="#ff707070" android:id="@id/button2" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="0.0dip" android:text="@string/phone_doctor" android:drawableLeft="@drawable/phone_doctor" />
+            <Button android:textSize="15.0sp" android:textColor="#ff707070" android:id="@id/button3" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="145.0dip" android:layout_marginTop="50.0dip" android:text="@string/after_service" android:drawableLeft="@drawable/after_service" />
+            <Button android:textSize="15.0sp" android:textColor="#ff707070" android:id="@id/button4" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="190.0dip" android:layout_marginTop="130.0dip" android:text="@string/app_update" android:drawableLeft="@drawable/app_update" />
+            <Button android:textSize="15.0sp" android:textColor="#ff707070" android:id="@id/button5" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="190.0dip" android:layout_marginTop="230.0dip" android:text="@string/phone_update" android:drawableLeft="@drawable/phone_update" />
+            <Button android:textSize="15.0sp" android:textColor="#ff707070" android:id="@id/button6" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="140.0dip" android:layout_marginTop="310.0dip" android:text="@string/question_feedback" android:drawableLeft="@drawable/question_feedback" />
+            <Button android:textSize="15.0sp" android:textColor="#ff707070" android:id="@id/button7" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="355.0dip" android:text="@string/star" android:drawableLeft="@drawable/star" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/img2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_bottom" android:contentDescription="@string/app_name" />
+</LinearLayout>

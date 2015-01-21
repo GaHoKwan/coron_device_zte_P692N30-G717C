@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/channelbgrepeat" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/header" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/mainListlayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textStyle="bold" android:textColor="@color/blue" android:gravity="center" android:id="@id/home_hosttest" android:background="@drawable/title_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/home_newest" android:background="@drawable/title_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_channel_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.farben.faq.widget.ChannelGallery android:id="@id/main_listad" android:paddingTop="5.0px" android:paddingBottom="5.0px" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spacing="5.0px" />
+            <ImageView android:id="@id/main_channel_one" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0px" />
+        </LinearLayout>
+        <ListView android:id="@id/main_listview" android:background="#ffefefef" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@drawable/list_title_xian_bg" android:layout_below="@id/main_channel_view" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/progBar" android:background="#ffefefef" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ProgressBar android:layout_width="35.0dip" android:layout_height="35.0dip" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/progressbar" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

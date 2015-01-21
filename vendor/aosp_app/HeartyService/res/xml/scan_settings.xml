@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:layout="@layout/custom_preference" android:title="@string/need_cloud_scan" android:key="virus_cloud_scan_enable" android:summary="@string/need_cloud_scan_note" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="true" android:layout="@layout/custom_preference" android:title="@string/update_db_auto" android:key="virusdb_auto_update_enable" android:summary="@string/virusdb_autoupdate_summary" android:defaultValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: MTKLogger.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.mediatek.mtklogger
+  orig_package: com.mediatek.mtklogger
+compressionType: false

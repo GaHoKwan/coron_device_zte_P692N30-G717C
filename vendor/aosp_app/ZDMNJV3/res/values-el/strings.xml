@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Αποδοχή ενισχυμένης υπηρεσίας κατόπιν πώλησης;</string>
+    <string name="informative">Ενισχυμένη υπηρεσία κατόπιν πώλησης</string>
+    <string name="title">Διαχείριση συσκευών</string>
+    <string name="button_yes">Ναι</string>
+    <string name="button_no">Όχι</string>
+    <string name="ask_setup_message">Ληφθείσες πληροφορίες διαμόρφωσης OTA, για να επιβεβαιωθεί η εγκατάσταση και η διαμόρφωση</string>
+    <string name="omacp_setup">Διαμόρφωση ρυθμίσεων</string>
+    <string name="install_compelete">Η εγκατάσταση ολοκληρώθηκε</string>
+    <string name="instatll_fail">Η εγκατάσταση απέτυχε</string>
+    <string name="security_error">Σφάλμα ασφάλειας</string>
+    <string name="xml_parse_error">XML ανάλυση σφάλματος</string>
+    <string name="user_cancel">Ακύρωση από χρήστη</string>
+    <string name="input_pin">Εισαγωγή Pin</string>
+    <string name="app_name">Ενημέρωση Λογισμικού</string>
+    <string name="auto_update_settings">Ρυθμίσεις αυτόματης ενημέρωσης</string>
+    <string name="dm_update_service">Ενημερώσεις λογισμικού</string>
+    <string name="system_update">Έλεγχος ενημερώσεων σε εξέλιξη</string>
+    <string name="connecting">Έλεγχος για τις τελευταίες ενημερώσεις λογισμικού σε εξέλιξη...</string>
+    <string name="downloading">Παρακαλώ περιμένετε, αυτό μπορεί να διαρκέσει μερικά λεπτά μέχρι να ολοκληρωθεί.</string>
+    <string name="downloading_AU">Αυτό μπορεί να πάρει μερικά λεπτά για να ολοκληρωθεί</string>
+    <string name="download_title">Λήψη λογισμικού</string>
+    <string name="download_val">Λήψη λογισμικού μέσω</string>
+    <string name="download_message">Είναι διαθέσιμη μια νέα ενημέρωση λογισμικού. Θέλετε να γίνει λήψη;</string>
+    <string name="cancel_message">Είστε βέβαιοι ότι θέλετε να ακυρωθεί και να διακοπεί η λήψη λογισμικού;</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="failed">Απέτυχε</string>
+    <string name="update_failed">Η ενημέρωση λογισμικού απέτυχε</string>
+    <string name="install_title">Εγκατάσταση λογισμικού</string>
+    <string name="install_message">Για να ξεκινήσει η εγκατάσταση πρέπει να γίνει επανεκκίνηση του τηλεφώνου σας</string>
+    <string name="checking_update">Έλεγχος ενημερώσεων σε εξέλιξη</string>
+    <string name="update_title">Αυτόματη ενημέρωση</string>
+    <string name="update_message">Αυτόματη ενημέρωση κάθε εβδομάδα</string>
+    <string name="update_deferred">Εγκατάσταση που έχει αναβληθεί</string>
+    <string name="update_deferred_AU">Εγκατάσταση λογισμικού</string>
+    <string name="service_unavailable">Μη διαθέσιμη υπηρεσία</string>
+    <string name="check_new">Έλεγχος για ενημερώσεις</string>
+    <string name="status">Κατάσταση</string>
+    <string name="version">Έκδοση:</string>
+    <string name="new_version">Νέα έκδοση:</string>
+    <string name="update_setting">Ρυθμίσεις ενημερώσεων</string>
+    <string name="background">Εκτέλεση στο παρασκήνιο</string>
+    <string name="delay">Καθυστέρηση</string>
+    <string name="dm_session_busy">Η περίοδος Dm είναι απασχολημένη</string>
+    <string name="downloading_notification">Λήψη ενημέρωσης λογισμικού σε εξέλιξη</string>
+    <string name="downloading_notification_message">Λήψη νέου λογισμικού σε εξέλιξη</string>
+    <string name="update_warning_notification">Προειδοποίηση για ενημέρωση λογισμικού</string>
+    <string name="update_warning_notification_message">Λήψη νέου μηνύματος προειδοποίησης σε εξέλιξη</string>
+    <string name="update_warning_notification_new_package">Υπάρχει μια νέα ενημέρωση για την συσκευή σας, παρακαλώ επιβεβαιώστε την λήψη της.</string>
+    <string name="install_notification">Εγκατάσταση λογισμικού</string>
+    <string name="install_notification_message">Κάντε επανεκκινηση του τηλεφώνου σας για να ξεκινήσει η εγκατάσταση</string>
+    <string name="install_file_notification">Κάντε κλικ για εγκατάσταση του αρχείου</string>
+    <string name="pin">PIN</string>
+    <string name="confirm">Επιβεβαίωση</string>
+    <string name="intallresult">Αποτέλεσμα εγκατάστασης</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_AU">Λήψη μέσω Wi-Fi</string>
+    <string name="mobile_networks_AU">Λήψη μέσω κινητού δικτύου</string>
+    <string name="mobile_networks">Κινητά δίκτυα (Αυτή η ενέργεια θα δημιουργήσει μεγαλύτερη κίνηση δεδομένων)</string>
+    <string name="autoupdate_toinstall">Αυτόματη ενημέρωση: κάντε κλικ για εγκατάσταση</string>
+    <string name="autoupdate_todownload">Αυτόματη ενημέρωση: κάντε κλικ για ενημέρωση</string>
+    <string name="autoupdate_busy">Αυτόματη ενημέρωση: ακύρωση εγκατάστασης γιατί η ενημέρωση είναι απασχολημένη</string>
+    <string name="attention">Προσοχή</string>
+    <string name="update_busy">Η ενημέρωση είναι απασχολημένη αυτή τη στιγμή, παρακαλώ περιμένετε…</string>
+    <string name="memory_insufficient">Δεν υπάρχει αρκετός χώρος</string>
+    <string name="memory_insufficient_info">"Δεν υπάρχει στπ τηλέφωνό σας αρκετός χώρος για αυτή την ενημέρωση. 
+ Παρακαλώ απελευθερώστε λίγο χώρο και δοκιμάστε ξανά."</string>
+    <string name="network_unavailable">Μη διαθέσιμο δίκτυο</string>
+    <string name="network_unavailable_info">Το δίκτυο δεν είναι σε κατάσταση σύνδεσης, δεν είναι δυνατό να γίνει έλεγχος για νέα αυτή τη στιγμή.</string>
+    <string name="connect_timeout">Η σύνδεση διεκόπει</string>
+    <string name="uncaught_exception_title">Διαχειριστής εξαιρέσεων που δεν έχουν επιλυθεί</string>
+    <string name="uncaught_exception_info">Η λειτουργία της διαχείρισης συσκευών διακόπηκε. Ίσως το τηλέφωνό σας δεν έχει αρκετό χώρο για αυτή την ενημέρωση. Παρακαλώ απελευθερώστε λίγο χώρο και δοκιμάστε ξανά.</string>
+    <string name="updata_ok">Επανεκκίνηση</string>
+    <string name="updata_Defer">Αναβολή</string>
+    <string name="updata_info">Κάντε επανεκκινηση του τηλεφώνου σας για να ξεκινήσει η εγκατάσταση</string>
+    <string name="updata_title">Ενημερώσεις λογισμικού</string>
+    <string name="dm_comlete_sec">Παρακαλώ περιμένετε, χρειάζονται περίπου %1$d δευτερόλεπτα για την ολοκλήρωση.</string>
+    <string name="dm_compele_min">Παρακαλώ περιμένετε, χρειάζονται περίπου %1$d λεπτά για την ολοκλήρωση.</string>
+    <string name="dm_compele_hou">Παρακαλώ περιμένετε, χρειάζονται περίπου %1$d ώρες για την ολοκλήρωση.</string>
+    <string name="dm_backup_install">Αντίγρ. &amp; Εγκατάσταση</string>
+    <string name="backup_title">Δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="backup_message">Δημιουργία αντιγράφου ασφαλείας, παρακαλώ περιμένετε…</string>
+    <string name="restore_title">Επαναφορά</string>
+    <string name="restore_message">Επαναφορά δεδομένων, παρακαλώ περιμένετε…</string>
+    <string name="dm_version">Έκδοση λογισμικού:</string>
+    <string name="dm_update_date">Κατάσταση:</string>
+    <string name="dm_backup_nosdcard">Παρακαλώ εισάγετε την κάρτα SD</string>
+    <string name="dm_backup_lowbattery">Παρακαλώ βεβαιώστε ότι έχετε πάνω από 30% μπαταρία πριν προβείτε στην εγκατάσταση.</string>
+    <string name="dm_fumo_Message">Κατάσταση</string>
+    <string name="dm_fumo_START">Έλεγχος για ενημερώσεις</string>
+    <string name="dm_fumo_INSTAll_DEFER">Εγκατάσταση λογισμικού που έχει αναβληθεί</string>
+    <string name="dm_fumo_SETUP">Ρύθμιση πακέτου ενημερώσεων</string>
+    <string name="dm_fumo_SETUP_content">Παρακαλώ περιμένετε</string>
+    <string name="dm_never_SETUP">Αρχική έκδοση</string>
+    <string name="dm_fumo_status_noupdate">Το λογισμικό σας είναι ενημερωμένο</string>
+    <string name="dm_fumo_status_failed">Η ενημέρωση λογισμικού απέτυχε</string>
+    <string name="dm_fumo_status_sucess">Το λογισμικό σας ενημερώθηκε με επιτυχία</string>
+    <string name="dm_check_updatetile">Έλεγχος ενημερώσεων σε εξέλιξη</string>
+    <string name="dm_check_update">Έλεγχος για τις τελευταίες ενημερώσεις λογισμικού σε εξέλιξη</string>
+    <string name="dm_network_error">Σφάλμα δικτύου, παρακαλώ προσπαθήστε αργότερα!</string>
+    <string name="dm_already_new">Το τρέχον λογισμικό είναι ενημερωμένο!</string>
+    <string name="dm_isroaming">Οι ενημερώσεις λογισμικού δεν επιτρέπονται κατά την περιαγωγή δεδομένων!</string>
+    <string name="dm_isroaming_AU">"Αυτή τη στιγμή βρίσκεστε σε κατάσταση περιαγωγής. Ελέγξτε αν υπάρχουν επιπλέον χρεώσεις από την Telstra. 
+
+Θέλετε να συνεχίσετε;"</string>
+    <string name="dm_isroaming_TNZ">"Είστε σε περιαγωγή. Παρακαλώ επικοινωνήστε με τον πάροχο σας σχετικά με τις επιπλέον χρεώσεις. 
+
+Θα θέλατε να συνεχίσετε;"</string>
+    <string name="dm_airplan">Οι ενημερώσεις λογισμικού δεν επιτρέπονται κατά τη λειτουργία πτήσης!</string>
+    <string name="dm_no_dataservice">Δεν υπάρχουν υπηρεσίες δεδομένων. Δεν επιτρέπονται ενημερώσεις λογισμικού!</string>
+    <string name="dm_no_dataservice_AU">"Οι ενημερώσεις λογισμικού δεν είναι διαθέσιμες καθώς δεν είναι ενεργοποιημένα τα δεδομένα. 
+
+Ελέγξτε τη διαθεσιμότητα αυτής της υπηρεσίας με τον πάροχό σας καθώς και τις ρυθμίσεις στη συσκευή."</string>
+    <string name="dm_update_setting">Ρυθμίσεις ενημερώσεων</string>
+    <string name="auto_update_switch_title">Αυτόματη ενημέρωση</string>
+    <string name="auto_update_switch_key">Αυτόματη ενημέρωση</string>
+    <string name="auto_update_switch_summary_on">Άνοιγμα αυτόματων ενημερώσεων</string>
+    <string name="auto_update_switch_summary_off">Κλείσιμο αυτόματων ενημερώσεων</string>
+    <string name="auto_update_frequency_text">Αυτόματη ενημέρωση στις %1$s κάθε %2$s</string>
+    <string name="wifi_auto_update_switch_title">Αυτόματη ενημέρωση μέσω WiFi</string>
+    <string name="wifi_auto_update_switch_key">Αυτόματη ενημέρωση μέσω WiFi</string>
+    <string name="wifi_auto_update_switch_summary_on">Όταν WiFi είναι συνδεδεμένο, να γίνεται αυτόματος έλεγχος για ενημέρωση</string>
+    <string name="wifi_auto_update_switch_summary_off">Όταν WiFi είναι συνδεδεμένο, να γίνεται αυτόματος έλεγχος για ενημέρωση</string>
+    <string name="cmcc_wifi_auto_update_switch_title">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_key">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">Όταν το WiFi είναι συνδεδεμένο με CMCC, να γίνεται αυτόματος έλεγχος για ενημέρωση</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">Όταν το WiFi είναι συνδεδεμένο με CMCC, να γίνεται αυτόματος έλεγχος για ενημέρωση</string>
+    <string name="dm_wifi_open">Ενεργοποιήστε το Wi-Fi για να ξεκινήσει η λήψη του νέου λογισμικού</string>
+    <string name="dm_wifi_open_tr">Μια νέα ενημέρωση βρέθηκε για την συσκευή σας. Παρακαλώ συνδεθείτε σε ένα ασύρματο δίκτυο για να κάνετε λήψη.</string>
+    <string name="dm_via_wifi">Λήψη μέσω Wi-Fi</string>
+    <string name="dm_wifi_set">Ρυθμίσεις Wi-Fi</string>
+    <string name="dm_yes">Ναι</string>
+    <string name="dm_no">Όχι</string>
+    <string name="dm_wifi_fail">Η πρόσβαση στο Wi-Fi δεν είναι δυνατή. Η λήψη θα ακυρωθεί.</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s π.μ.</string>
+    <string name="dm_time_pm">%1$s μ.μ.</string>
+    <string name="dm_Delay_show">Απομένουν%1$s φορές για αναβολή.</string>
+    <string name="dm_Delay_last_time_show">Ήδη έχει αναβληθεί 3 φορές, δεν μπορεί να αναβληθεί άλλο</string>
+    <string name="download_message_new">"Είναι διαθέσιμη μια νέα ενημέρωση λογισμικού. Θέλετε να γίνει λήψη; 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_new_tr">"Μια νέα ενημέρωση βρέθηκε για την συσκευή σας. Η κίνηση δεδομένων για την λήψη θα χρεωθεί σχετικά με το πρόγραμμα δεδομένων που έχετε. Θέλετε να κάνετε λήψη; 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"Είναι διαθέσιμη μια νέα ενημέρωση λογισμικού. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Έκδοση:"</string>
+    <string name="download_message_size">"
+ Δεδομένα:"</string>
+    <string name="download_message_description">"
+ Περιγραφή:"</string>
+    <string name="download_message_auto_download">"
+
+ Αυτόματη λήψη σε %1$s δευτερόλεπτα"</string>
+    <string name="install_message_new">"Για να ξεκινήσει η εγκατάσταση πρέπει να γίνει επανεκκίνηση του τηλεφώνου σας. 
+
+ Απομένουν %1$s φορές για αναβολή."</string>
+    <string name="install_message_tr">Το τηλέφωνο χρειάζεται να κάνει επανεκκίνηση για την ολοκλήρωση της εγκατάστασης. Παρακαλώ ελέγξτε την μπαταρία ή συνδέστε τον φορτιστή για να βεβαιώσετε την ενημέρωση.</string>
+    <string name="install_message_new_later">"Για να εκκινήσει η εγκατάσταση, το τηλέφωνό σας πρέπει να επανεκκινήσει. Βεβαιωθείτε ότι η μπαταρία έχει τουλάχιστον 10%% της ισχύς της. 
+ %1$s φορές αναβολής επιτρέπονται, το τηλέφωνό σας πρέπει να επανεκκινήσει μετά από καθυστέρηση 3 φορών."</string>
+    <string name="install_message_new_last_time">"Για να εκκινήσει η εγκατάσταση, το τηλέφωνό σας πρέπει να επανεκκινήσει. Βεβαιωθείτε ότι η μπαταρία έχει τουλάχιστον 10%% της ισχύς της. 
+ Ήδη έχει αναβληθεί 3 φορές, το τηλέφωνό σας θα επανεκκινήσει σε %1$s λεπτά αφού επιλέξετε το πλήκτρο καθυστέρησης."</string>
+    <string name="install_message_force">Επιβολή ενημέρωσης σε %1$s λεπτά.</string>
+    <string name="install_message_delaycompleted">Έχει γίνει ήδη αναβολή 3 φορές, θα πραγματοποιηθεί επανεκκίνηση του τηλεφώνου</string>
+    <string name="wifi_cost_notify">Ειδοποίηση για κόστος WLAN</string>
+    <string name="wifi_cost_notify_body">Η τρέχουσα σύνδεση σε WLAN μπορεί να οδηγήσει σε χρεώσεις για κίνηση δεδομένων. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;</string>
+    <string name="dm_continue">Συνέχεια</string>
+    <string name="download_message_new_AU">Είναι διαθέσιμη μια ενημέρωση λογισμικού για τη συσκευή σας. Το μέγεθος αυτής της ενημέρωσης είναι %1$s</string>
+    <string name="download_message_version_AU">και θα αναβαθμιστεί το %1$s από έκδοση %2$s σε λογισμικό %3$s.</string>
+    <string name="download_message_description_AU">Αυτή η ενημέρωση %1$s</string>
+    <string name="about_charge_AU">"
+
+ Συνιστάται η λήψη μέσω Wi-Fi. Η λήψη μπορεί να επιφέρει πρόσθετες χρεώσεις (ειδικά αν γίνεται μέσω κινητού δικτύου ή κατά την υπερατλαντική περιαγωγή). Κατά τη διάρκεια της λήψης δεν θα επηρεαστεί η λειτουργία της συσκευής. Για περισσότερες πληροφορίες και βοήθεια, επισκεφτείτε τον ιστότοπο telstra.com/mobile ή επικοινωνήστε με το Κέντρο εξυπηρέτησης πελατών μας στο 13 2200."</string>
+    <string name="about_charge_TNZ">"
+
+ Η λήψη μέσω Wi-Fi προτείνεται. Η λήψη μπορεί να περιλαμβάνει κάποια χρέωση (ειδικά αν κάνετε λήψη μέσω δικτύου κινητής τηλεφωνίας ή σε περιαγωγή). Κατά την διάρκεια της λήψης, η συσκευή μπορεί να χρησιμοποιηθεί κανονικά."</string>
+    <string name="dm_later">Αργότερα</string>
+    <string name="dm_install">Εγκατάσταση</string>
+    <string name="install_message_AU">Έχει ολοκληρωθεί η λήψη της ενημέρωσης και είναι έτοιμη για εγκατάσταση. Κάντε κλικ στο \"Αργότερα\" αν δεν θέλετε να γίνει εγκατάσταση της ενημέρωσης τώρα. Κατά τη διάρκεια της εγκατάστασης, δεν θα είναι διαθέσιμη καμία λειτουργιά της συσκευής και δεν θα μπορείτε να πραγματοποιήσετε κλήσεις έκτακτης ανάγκης. Θα γίνει επανεκκίνηση της συσκευής ως μέρος της διαδικασίας εγκατάστασης. Δεν θα γίνει τροποποίηση ή διαγραφή των δεδομένων σας. Πριν ξεκινήσετε την εγκατάσταση, βεβαιωθείτε ότι η μπαταρία είναι φορτισμένη κατά το 30%% τουλάχιστον και μην την αποσυνδέετε κατά τη διάρκεια της διαδικασίας.</string>
+    <string name="auto_update_frequency_text_AU">Έλεγχος για ενημερώσεις αυτόματα στις %1$s το %2$s κάθε δεύτερη εβδομάδα.</string>
+    <string name="noti_result_success_title">Η συσκευή σας είναι πλέον ενημερωμένη</string>
+    <string name="noti_result_success_content">Η ενημέρωση λογισμικού ολοκληρώθηκε με επιτυχία</string>
+    <string name="noti_auto_Title">Διατίθεται ενημέρωση λογισμικού</string>
+    <string name="noti_auto_Text">Υπάρχει μια νέα ενημέρωση λογισμικού για τη συσκευή σας.</string>
+    <string name="dl_pause">Παύση</string>
+    <string name="dl_continue">Συνέχεια</string>
+    <string name="dl_pause_message">Η λήψη σταμάτησε.</string>
+    <string name="wifi_only_switch_key">Μόνο WiFi</string>
+    <string name="wifi_only_switch_title">Μόνο WiFi</string>
+    <string name="wifi_only_switch_summary_off">Να χρησιμοποιείται μόνο WiFi για ενημερώσεις</string>
+    <string name="wifi_only_switch_summary_on">Να χρησιμοποιείται μόνο WiFi για ενημερώσεις</string>
+    <string name="present_net_changedto_mobile">Η σύνδεση άλλαξε σε κινητό δίκτυο. Η λήψη σταμάτησε. Αφότου γίνει και πάλι σύνδεση σε WiFi, η λήψη θα συνεχιστεί.</string>
+    <string name="present_net_changedto_mobile_withContinue">Η σύνδεση άλλαξε σε δίκτυο κινητής τηλεφωνίας. Έχει γίνει παύση της λήψης. Θέλετε να την συνεχίσετε;</string>
+    <string name="present_net_changedto_mobile_noContinue">Η σύνδεση άλλαξε σε κινητό δίκτυο. Η λήψη σταμάτησε. Εάν θέλετε να συνεχίσετε την λήψη μέσω κινητού δικτύου, παρακαλώ απο-επιλέξτε την ρύθμιση \"WiFi μόνο\" και στη συνέχεια επιλέξτε \"Συνέχεια Λήψης\". Αφότου γίνει και πάλι σύνδεση σε WiFi, η λήψη θα συνεχιστεί.</string>
+    <string name="present_net_is_mobile">Δεν επιτρέπονται αναβαθμίσεις λογισμικού επειδή το WI-FI δεν είναι διαθέσιμο</string>
+    <string name="resume_download">Συνέχεια Λήψης</string>
+    <string name="init_message">Αρχικοποίηση, παρακαλώ περιμένετε...</string>
+    <string name="wifi_only_message">"Έχει οριστεί Wifi-μόνο και η παρούσα σύνδεση δεν είναι Wifi. 
+ Εάν θέλετε να χρησιμοποιήσετε κινητό δίκτυο, παρακαλώ απο-επιλέξτε την ρύθμιση «Wifi-μόνο» και στη συνέχεια «Έλεγχος Ενημέρωσης» ή «Συνέχει Λήψης». 
+
+ Να οριστεί;"</string>
+    <string name="resume_download_message">Η τελευταία λήψη έχει διακοπεί, θέλετε να συνεχιστείτε;</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="Install_software">Εγκατάσταση λογισμικού</string>
+    <string name="Install_notes">Το τηλέφωνο χρειάζεται να κάνει επανεκκίνηση για την ολοκλήρωση της εγκατάστασης, και δεν θα μπορέσετε να κάνετε κλήση κατά τη διάρκεια της εγκατάστασης.</string>
+    <string name="Install_battery_notes">Βεβαιώστε ότι έχετε πάνω από 30% μπαταρία.</string>
+    <string name="Install_backup_notes">Θα δημιουργηθεί αντίγραφο ασφαλείας στην κάρτα SD, επιλέγοντας δημιουργία αντιγράφου ασφαλείας.</string>
+    <string name="defer_install_notification">Το τηλέφωνο θα κάνει επανεκκίνηση για την ολοκλήρωση της εγκατάστασης</string>
+    <string name="install">Εγκατάσταση</string>
+    <string name="backup_install">Αντίγρ. &amp; Εγκατάσταση</string>
+    <string name="release_notes_default">Αυτή είναι μια νέα έκδοση.</string>
+    <string name="fota_main_activity_title">Ενημέρωση Λογισμικού</string>
+    <string name="current_version_title">Τρέχουσα έκδοση:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Διακοπή</string>
+    <string name="network_update">Έλεγχος για ενημερώσεις σε εξέλιξη...</string>
+    <string name="fota_server_package_discovered">Βρέθηκε νέα έκδοση:</string>
+    <string name="fota_update_button_label">Ενημέρωση τώρα</string>
+    <string name="menu_check_new_from_server">Έλεγχος για ενημερώσεις σε εξέλιξη στο διακομιστή</string>
+    <string name="menu_check_new_from_server_subtitle">Για την ενημέρωση μέσω δικτύου απαιτούνται υπηρεσίες δεδομένων, επομένως συνιστάται περιβάλλον Wi-Fi</string>
+    <string name="menu_status">Κατάσταση</string>
+    <string name="menu_update_settings">Ρυθμίσεις</string>
+    <string name="tcard_update">Έλεγχος για ενημερώσεις στην κάρτα SD σε εξέλιξη...</string>
+    <string name="fota_tcard_package_discovered">Βρέθηκε νέα έκδοση (κάρτα SD):</string>
+    <string name="dialog_title">Ενημέρωση τώρα</string>
+    <string name="dialog_warning">Θα γίνει εκκαθάριση των δεδομένων χρήστη κατά την ενημέρωση. Παρακαλώ δημιουργήστε αντίγραφα ασφαλείας των δεδομένων σας πριν από την ενημέρωση.</string>
+    <string name="dialog_backup">Δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="dialog_cancel">Ακύρωση</string>
+    <string name="fota_msg_tcard_no_update">Δεν υπάρχει ενημέρωση στην κάρτα SD</string>
+    <string name="fota_msg_network_no_update">Δεν υπάρχει ενημέρωση στο διακομιστή</string>
+    <string name="fota_status">Κατάσταση:</string>
+    <string name="fota_status_software_version">Έκδοση λογισμικού:</string>
+    <string name="fota_status_never_setup">Αρχική έκδοση</string>
+    <string name="fota_status_no_update">Το τρέχον λογισμικό είναι ενημερωμένο!</string>
+    <string name="fota_status_failed">Η ενημέρωση λογισμικού απέτυχε</string>
+    <string name="fota_status_sucess">Επιτυχής ενημέρωση λογισμικού</string>
+    <string name="fota_auto_update">Αυτόματη ενημέρωση</string>
+    <string name="fota_auto_update_switch_summary_on">Άνοιγμα αυτόματων ενημερώσεων</string>
+    <string name="fota_auto_update_switch_summary_off">Κλείσιμο αυτόματων ενημερώσεων</string>
+    <string name="fota_auto_update_frequency_text">Αναζήτηση ενημερώσεων</string>
+    <string name="fota_auto_update_frequency_everysunday">κάθε Κυριακή</string>
+    <string name="fota_auto_update_frequency_everymonday">κάθε Δευτέρα</string>
+    <string name="fota_auto_update_frequency_everytuesday">κάθε Τρίτη</string>
+    <string name="fota_auto_update_frequency_everywednesday">κάθε Τετάρτη</string>
+    <string name="fota_auto_update_frequency_everythursday">κάθε Πέμπτη</string>
+    <string name="fota_auto_update_frequency_everyfriday">κάθε Παρασκευή</string>
+    <string name="fota_auto_update_frequency_everysaturday">κάθε Σάββατο</string>
+    <string name="retry">Επανάληψη</string>
+    <string name="progress_expand_list_title">Σημειώσεις έκδοσης</string>
+    <string name="menu">Μενού</string>
+    <string name="currentVersionTitle">Τρέχουσα έκδοση:</string>
+    <string name="currentVersionDefault">Z998V1.0.0B01</string>
+    <string name="dataTrafficeNotice">Η λήψη θα προκαλέσει κίνηση δεδομένων, πατήστε ΟΚ για να συνεχίσετε.</string>
+    <string name="notice">Σημείωση</string>
+    <string name="wifiSettingNotice">Η λήψη της ενημέρωσης θα προκαλέσει μεγάλη κίνηση δεδομένων, προτείνετε να κάνετε λήψη μέσω Wi-Fi.</string>
+    <string name="wifiOnlySettingNotice">Το πακέτο ενημέρωσης μπορεί να ληφθεί μόνο μέσω Wi-Fi.</string>
+    <string name="wifiNotConnect">Η πρόσβαση στο Wi-Fi δεν είναι εφικτή, παρακαλώ συνδεθείτε στο Wi-Fi για να συνεχίσετε την λήψη.</string>
+    <string name="download">Λήψη</string>
+    <string name="lastSearchTime">"Τελευταία ενημέρωση:
+"</string>
+    <string name="lastSearchTimeDefaultvalue">"Τελευταία ενημέρωση:
+Δεν έχει γίνει κάποια ενημέρωση"</string>
+    <string name="backupNotice">Δημιουργήστε αντίγραφο ασφαλείας των δεδομένων σας</string>
+    <string name="autoupdateSetting">Ρυθμίσεις αυτόματης ενημέρωσης</string>
+    <string name="updateHistory">Ιστορικό ενημ/σεων</string>
+    <string name="unconnectNotice">Δεν είναι δυνατή η σύνδεση στο δίκτυο</string>
+    <string name="netWorkError">Σφάλμα δικτύου</string>
+    <string name="defer_title">Αναβολή</string>
+    <string name="defer_remind">Θα γίνει υπενθύμιση κάθε μία ώρα, 3 φορές. Και αυτή είναι η %1$s υπενθύμιση.</string>
+    <string name="defer_time_first">1η</string>
+    <string name="defer_time_second">2η</string>
+    <string name="defer_time_last">τελευταία</string>
+    <string name="force_update_remind">Θα γίνει υπενθύμιση κάθε μία ώρα, 3 φορές. Και αυτή είναι η %1$s υπενθύμιση. Αναγκαστική ενημέρωση σε 5 λεπτά.</string>
+    <string name="defer_remind_dialog">Θα γίνει υπενθύμιση κάθε μία ώρα, 3 φορές.</string>
+    <string name="noremind">Απενεργοποίηση υπενθύμισης</string>
+    <string name="dmRetryMessage">Σφάλμα δικτύου, παρακαλώ ξαναπροσπαθήστε</string>
+    <string name="forceNetworkConfigureNotice">Το δίκτυο δεν είναι διαθέσιμο, παρακαλώ συνδεθείτε σε δίκτυο</string>
+    <string name="success">Επιτυχές</string>
+    <string name="noRecord">Καμία εγγραφή</string>
+    <string name="force_update_notice">Η ενημέρωση θα ξεκινήσει ΑΝΑΓΚΑΣΤΙΚΑ σε %1$s δευτερόλεπτα</string>
+    <string name="confirm_cancel_download">Ακύρωση ή αναβολή της λήψης;</string>
+    <string name="download_defer_message">Θα γίνει υπενθύμιση κάθε μία ώρα, 3 φορές. Και αυτή είναι η %1$s υπενθύμιση. Μετά από 3 αναβολές η λήψη θα ακυρωθεί.</string>
+    <string name="confirm_delay_install">Ακύρωση ή αναβολή της λήψης;</string>
+    <string name="delay_install_message">Θα γίνεται υπενθύμιση κάθε 2 ώρες.</string>
+    <string name="install_cancel_message">Το πακέτο ενημέρωσης θα διαγραφθεί, και θα γίνει λήψη ξανά την επόμενη φορά.</string>
+    <string name="message_LW_mode_on">Η λειτουργία Green-Net είναι ανοιχτή. Η ενημέρωση ακυρώθηκε. Παρακαλώ απενεργοποιήστε την και δοκιμάστε ξανά.</string>
+    <string name="send">στέλλω</string>
+    <string name="feedback">ανατροφοδότηση</string>
+    <string name="feedback_content">Παρακαλώ εισάγετε τις συμβουλές σας</string>
+    <string name="email">Παρακαλώ εισάγετε το e-mail σας</string>
+    <string name="feedback_result">Αποστολή με επιτυχία, σας ευχαριστώ για τα σχόλιά σας</string>
+    <string name="email_auth">Παρακαλώ εισάγετε τη σωστή διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="feedback_auth">Η γνώμη σας είναι πολύ σημαντική για εμάς, παρακαλώ στείλτε μας τα σχόλιά σας, σας ευχαριστώ</string>
+    <string name="dm_2G">Το δίκτυο δεδομένων είναι αργό για την λήψη της ενημέρωσης. Παρακαλώ συνδεθείτε σε 3G ή σε Wi-Fi δίκτυο.</string>
+    <string name="dm_lowbattery">Αδύνατη η ενημέρωση λογισμικού λόγω χαμηλής μπαταρίας.</string>
+    <string name="feedback_network">Δίκτυο δεν είναι διαθέσιμο, παρακαλώ συνδέστε το ξανά και να στείλετε τα σχόλιά σας, σας ευχαριστώ</string>
+    <string name="userconfirm_title">Επιβεβαίωση</string>
+    <string name="userconfirm_button_yes">Ναι</string>
+    <string name="userconfirm_button_no">Όχι</string>
+    <string name="checkingNotice">Έλεγχος για ενημερώσεις…</string>
+    <string name="defer_install">Αναβολή</string>
+    <string name="cancel_install">Ακύρωση</string>
+    <string name="zdm_path">Για να ενημερώσετε ξανά, παρακαλώ πηγαίντε στις Ρυθμίσεις > Ενημέρωση συστήματος > Ενημερώσεις κάρτας αποθήκευσης.</string>
+    <string name="defer_download">Αναβολή</string>
+    <string name="cancel_download">Ακύρωση</string>
+    <string name="dm_Delay_show_once">Απομένει 1 φορά για αναβολή.</string>
+</resources>

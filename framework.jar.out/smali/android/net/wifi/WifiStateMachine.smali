@@ -1447,7 +1447,7 @@
 
     move-result-object v8
 
-    const v9, 0x10e000e
+    const v9, #android:integer@config_wifi_driver_stop_delay#t
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1462,7 +1462,7 @@
 
     move-result-object v8
 
-    const v9, 0x1110017
+    const v9, #android:bool@config_wifi_background_scan_support#t
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1477,7 +1477,7 @@
 
     move-result-object v8
 
-    const v9, 0x104001a
+    const v9, #android:string@config_wifi_p2p_device_type#t
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

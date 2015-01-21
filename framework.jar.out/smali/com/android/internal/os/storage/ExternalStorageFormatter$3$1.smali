@@ -46,7 +46,7 @@
 
     iget-object v0, v0, Lcom/android/internal/os/storage/ExternalStorageFormatter$3;->this$0:Lcom/android/internal/os/storage/ExternalStorageFormatter;
 
-    const v1, 0x10404a3
+    const v1, #android:string@format_error#t
 
     const/4 v2, 0x1
 

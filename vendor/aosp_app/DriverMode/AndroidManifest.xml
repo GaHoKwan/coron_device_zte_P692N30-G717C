@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="72" android:versionName="2.0.40" package="zte.com.cn.driverMode"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <application android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/app_icon_72" android:name=".service.DMApplication" android:screenOrientation="landscape">
+        <uses-library android:name="android.test.runner" />
+        <meta-data android:name="appuid" android:value="44726976654d6f6465636f6c6c656374" />
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="f2b65fe3b28e834fa719097e3591d779" />
+        <meta-data android:name="appDescription" android:value="@string/UpdateParam" />
+        <meta-data android:name="debugtag" android:value="@string/debugOff" />
+        <service android:name=".service.DMService" android:exported="false">
+            <meta-data android:name="languages" android:value="@string/lang_1_cmnchn" />
+            <meta-data android:name="default_language" android:value="@string/lang_cmnchn" />
+            <meta-data android:name="version" android:value="@string/sign_P692N60" />
+            <meta-data android:name="build_type" android:value="@string/is_quick_release_false" />
+            <meta-data android:name="platform_tag" android:value="platform_arm" />
+            <meta-data android:name="bluetoothtag" android:value="false" />
+            <meta-data android:name="statisticstag" android:value="@string/statisticsOn" />
+            <intent-filter>
+                <action android:name="zte.com.cn.driverMode.startDMService" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="zte.com.cn.driverMode.serviceEngineCrash" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMGPSNoticeDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMBluetoothNoticeDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMDownloadMapNoticeDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMConfirmDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMCrashDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMHelpExpandableActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMSettingsActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMPermissionListActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMContactListActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMGridActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myActivityTheme" android:name=".ui.DMDisclaimerActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ui.DMHomeActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMDoNotDisturbDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMNewMissedCallNotice" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMNewMissedCallNotice2" android:taskAffinity="com.autonavi.xmgd.navigator.tob" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" android:allowTaskReparenting="true" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMConfirmActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMSelectContactNameActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMSelectContactNumberActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMSelectNaviActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMDialPadActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".ui.DMMusicActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMDisturbActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMStatisActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMSettingsHelpActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMPoiDownloadActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMSelectAddressActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMTtsSpeedSettingActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMDistrubSettingActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMVersion" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMDisclaimerOnly" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMCallDelayDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/myDialogTheme" android:name=".ui.DMNoticeDialog" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMNoticeActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMGaoDeDownload" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMNewFeedbackActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMfeedBackActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.SpecialTipsActivity" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMAutoReplyActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMPrivacyActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMKeyPoiEditActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMNaviTipsActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.DMStartActivity" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="zte.com.cn.driverMode.DOCK_CONNECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".service.DMMusicService" android:exported="false" />
+        <service android:name=".service.DMDownloadPoiService" android:exported="false" />
+        <receiver android:name="zte.com.cn.driverMode.service.MusicBtnIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="appuid" android:value="44726976654d6f6465636f6c6c656374" />
+        <receiver android:name=".service.DMNaviStartReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.autonavi.xmgd.navigator.broadcast.APP_START" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="zte.com.cn.driverMode" />
+</manifest>

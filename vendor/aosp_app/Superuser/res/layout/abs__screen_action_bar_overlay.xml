@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout ="@id/abs__content" ="fill_parent" ="fill_parent" />
+    <com.actionbarsherlock.internal.widget.ActionBarContainer ="top" ="@id/abs__action_bar_container" ="fill_parent" ="wrap_content" style="?actionBarStyle">
+        <com.actionbarsherlock.internal.widget.ActionBarView ="@id/abs__action_bar" ="fill_parent" ="wrap_content" style="?actionBarStyle" />
+        <com.actionbarsherlock.internal.widget.ActionBarContextView ="@id/abs__action_context_bar" ="gone" ="fill_parent" ="wrap_content" style="?actionModeStyle" />
+    </com.actionbarsherlock.internal.widget.ActionBarContainer>
+    <ImageView ="fill_parent" ="wrap_content" ="?windowContentOverlay" ="fitXY" ="@id/abs__action_bar_container" />
+    <com.actionbarsherlock.internal.widget.ActionBarContainer ="center" ="@id/abs__split_action_bar" ="gone" ="fill_parent" ="wrap_content" ="true" style="?actionBarSplitStyle" />
+</RelativeLayout>

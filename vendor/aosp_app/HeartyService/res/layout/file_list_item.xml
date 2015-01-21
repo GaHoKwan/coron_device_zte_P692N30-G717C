@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:scaleType="fitCenter" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@*android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/preference_widget_width">
+        <CheckBox android:id="@id/checkbox" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

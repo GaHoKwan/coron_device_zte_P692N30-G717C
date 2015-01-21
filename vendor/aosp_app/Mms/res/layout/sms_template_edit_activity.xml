@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ListView android:id="@id/quick_text_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/divider_horizontal" />
+    </LinearLayout>
+    <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/LinearLayout02" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:typeface="normal" android:layout_gravity="left" android:id="@id/new_quick_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/type_to_compose_text_or_leave_blank" android:maxLength="128" android:layout_weight="1.0" />
+        <Button android:layout_gravity="bottom|right|center" android:id="@id/quickText_add_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add" android:layout_weight="5.0" />
+    </LinearLayout>
+</LinearLayout>

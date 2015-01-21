@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_title" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/titleIconImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/app_icon" android:maxWidth="25.0dip" android:maxHeight="25.0dip" android:minWidth="20.0dip" android:minHeight="20.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="@style/font_big_white" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/app_cancel_title" android:layout_toRightOf="@id/titleIconImage" android:layout_centerVertical="true" />
+    <Button android:id="@id/btn_back" android:background="@drawable/button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

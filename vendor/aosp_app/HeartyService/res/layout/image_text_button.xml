@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_image" android:layout_width="@dimen/intercept_setting_icon_hw" android:layout_height="@dimen/intercept_setting_icon_hw" android:layout_marginTop="@dimen/intercept_setting_margin_top" android:scaleType="fitCenter" />
+    <TextView android:gravity="center_horizontal" android:id="@id/tip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/intercept_grey_12dp_icon" />
+</LinearLayout>

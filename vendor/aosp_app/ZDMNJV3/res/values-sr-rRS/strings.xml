@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Prihvatiti unapređeni postprodajni servis?</string>
+    <string name="informative">Poboljšana postprodajna usluga</string>
+    <string name="title">Upravljanje uređajem</string>
+    <string name="button_yes">Da</string>
+    <string name="button_no">Ne</string>
+    <string name="ask_setup_message">Primljene informacije o OTA konfiguraciji, radi potvrde instaliranja ili konfigurisanja</string>
+    <string name="omacp_setup">Podešavanje</string>
+    <string name="install_compelete">Instaliranje dovršeno</string>
+    <string name="instatll_fail">Instaliranje nije uspelo</string>
+    <string name="security_error">Greška u vezi sa bezbednošću</string>
+    <string name="xml_parse_error">Greška prilikom raščlanjivanja XML-a</string>
+    <string name="user_cancel">Korisničko otkazivanje</string>
+    <string name="input_pin">Unos Pin-a</string>
+    <string name="app_name">Ažuriranje softvera</string>
+    <string name="auto_update_settings">Podešavanja Automatskog Ažuriranja</string>
+    <string name="dm_update_service">Ažuriranje softvera</string>
+    <string name="system_update">Provera ažuriranja</string>
+    <string name="connecting">Traženje novih verzija softvera...</string>
+    <string name="downloading">Sačekajte, treba će možda nekoliko minuta da se završi.</string>
+    <string name="downloading_AU">Ovo može potrajati nekoliko minuta.</string>
+    <string name="download_title">Preuzmi softver</string>
+    <string name="download_val">Preuzmi softver preko</string>
+    <string name="download_message">Dostupna je nova verzija softvera. Želite li da je preuzmete?</string>
+    <string name="cancel_message">Da li ste sigurni da želite da otkažete i zaustavite preuzimanje nove verzije softvera?</string>
+    <string name="cancel">Otkaži</string>
+    <string name="failed">Nije uspelo</string>
+    <string name="update_failed">Ažuriranje softvera nije uspelo</string>
+    <string name="install_title">Instaliraj softver</string>
+    <string name="install_message">Da biste započeli instalaciju, morate da ponovo pokrenete telefon.</string>
+    <string name="checking_update">Provera ažuriranja</string>
+    <string name="update_title">Automatsko ažuriranje</string>
+    <string name="update_message">Automatski ažuriraj svake nedelje</string>
+    <string name="update_deferred">Instaliranje odloženo</string>
+    <string name="update_deferred_AU">Instaliraj softver</string>
+    <string name="service_unavailable">Usluga nije dostupna</string>
+    <string name="check_new">Proveri ima li ažuriranja</string>
+    <string name="status">Status</string>
+    <string name="version">Verzija:</string>
+    <string name="new_version">Nova Verzija</string>
+    <string name="update_setting">Podešavanje ažuriranja</string>
+    <string name="background">Pokreni u pozadini</string>
+    <string name="delay">Odlaganje</string>
+    <string name="dm_session_busy">Dm sesija je zauzeta</string>
+    <string name="downloading_notification">Preuzimanje ažuriranja softvera</string>
+    <string name="downloading_notification_message">Preuzimanje novog softvera</string>
+    <string name="update_warning_notification">Upozorenje o ažuriranju softvera</string>
+    <string name="update_warning_notification_message">Dolazi nova poruka upozorenja</string>
+    <string name="update_warning_notification_new_package">Dolazi nova poruka upozorenja</string>
+    <string name="install_notification">Instaliraj softver</string>
+    <string name="install_notification_message">Ponovo pokrenite telefon da biste započeli instalaciju.</string>
+    <string name="install_file_notification">Kliknite da biste instalirali datoteku</string>
+    <string name="pin">PIN</string>
+    <string name="confirm">Potvrda</string>
+    <string name="intallresult">Rezultat instalacije</string>
+    <string name="ok">Potvrdi</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_AU">Preuzmi preko Wi-Fi-a</string>
+    <string name="mobile_networks_AU">Preuzmi preko mobilne mreže</string>
+    <string name="mobile_networks">Mobilne mreže(Ovo će generisati dodatni prenos podataka)</string>
+    <string name="autoupdate_toinstall">Automatsko ažuriranje: kliknite da biste instalirali</string>
+    <string name="autoupdate_todownload">Automatsko ažuriranje: kliknite da biste ažurirali</string>
+    <string name="autoupdate_busy">Automatsko ažuriranje: otkaži ažuriranje jer je zauzeto</string>
+    <string name="attention">Pažnja</string>
+    <string name="update_busy">Ažuriranje je trenutno zauzeto, molimo sačekajte...</string>
+    <string name="memory_insufficient">Nema dovoljno prostora u memoriji.</string>
+    <string name="memory_insufficient_info">"U telefonu nema dovoljno prostora za ovo ažuriranje. 
+ Oslobodite dodatni prostor i pokušajte ponovo."</string>
+    <string name="network_unavailable">Mreža nije dostupna</string>
+    <string name="network_unavailable_info">Mreža nije povezana, nije moguće proveriti ažuriranja.</string>
+    <string name="connect_timeout">Isteklo je vreme konekcije</string>
+    <string name="uncaught_exception_title">Rukovanje neuhvatljivim izuzetkom</string>
+    <string name="uncaught_exception_info">Upravljanje uređajem je prestalo sa radom. Moguće je da u telefonu nema dovoljno prostora za ovo ažuriranje. Oslobodite dodatni prostor i pokušajte ponovo.</string>
+    <string name="updata_ok">Restartuj</string>
+    <string name="updata_Defer">Odloži</string>
+    <string name="updata_info">Ponovo pokrenite telefon da biste započeli instalaciju.</string>
+    <string name="updata_title">Ažuriranje softvera</string>
+    <string name="dm_comlete_sec">Sačkajte, trebaće otprilike %1$d sekundi da se završi.</string>
+    <string name="dm_compele_min">Sačkajte, trebaće otprilike %1$d minuta da se završi.</string>
+    <string name="dm_compele_hou">Sačekajte, za ovo je potrebno oko %1$d sati.</string>
+    <string name="dm_backup_install">Pravljenje rezervne kopije &amp; Instalacija</string>
+    <string name="backup_title">Pravljenje rezervne kopije</string>
+    <string name="backup_message">Uređaj pravi rezervnu kopiju vaših podataka, sačekajte</string>
+    <string name="restore_title">Vraćanje podataka</string>
+    <string name="restore_message">Uređaj vraća vaše podatke, sačekajte</string>
+    <string name="dm_version">Verzija softvera:</string>
+    <string name="dm_update_date">Status:</string>
+    <string name="dm_backup_nosdcard">Molim Vas ubacite SD karticu</string>
+    <string name="dm_backup_lowbattery">Proverite da li je nivo baterije veći od 30% da bi završili instalaciju</string>
+    <string name="dm_fumo_Message">Status</string>
+    <string name="dm_fumo_START">Proveri ima li ažuriranja</string>
+    <string name="dm_fumo_INSTAll_DEFER">Instaliraj odloženi softver</string>
+    <string name="dm_fumo_SETUP">Instaliraj paket za ažuriranje</string>
+    <string name="dm_fumo_SETUP_content">Sačekajte</string>
+    <string name="dm_never_SETUP">Originalna verzija</string>
+    <string name="dm_fumo_status_noupdate">Trenutna verzija softvera je najnovija!</string>
+    <string name="dm_fumo_status_failed">Ažuriranje softvera nije uspelo</string>
+    <string name="dm_fumo_status_sucess">Ažuriranje softvera je uspelo</string>
+    <string name="dm_check_updatetile">Provera ažuriranja</string>
+    <string name="dm_check_update">Traženje novih verzija softvera...</string>
+    <string name="dm_network_error">Greška na mreži, pokušajte kasnije!</string>
+    <string name="dm_already_new">Trenutna verzija softvera je najnovija!</string>
+    <string name="dm_isroaming">Ažuriranje softvera nije dozvoljeno u data romingu!</string>
+    <string name="dm_isroaming_AU">"Trenutno se nalazite u romingu. Molimo vas da proverite sa Telstra-om jer je moguće da će doći do dodatnih troškova. 
+
+Želite li da nastavite?"</string>
+    <string name="dm_isroaming_TNZ">"Trenutno ste u romingu. Proverite sa vašim operaterom o dodatnom naplaćivanju.
+
+Da li želite da nastavite?"</string>
+    <string name="dm_airplan">Ažuriranje softvera nije dozvoljeno u avionskom režimu!</string>
+    <string name="dm_no_dataservice">Nema data usluga, ažuriranje softvera nije dozvoljeno!</string>
+    <string name="dm_no_dataservice_AU">"Ažuriranje softvera nije dostupno jer prenos podataka nije omogućen. 
+
+Molimo proverite sa svojim operaterom i proverite podešavanja vašeg uređaja."</string>
+    <string name="dm_update_setting">Podešavanje ažuriranja</string>
+    <string name="auto_update_switch_title">Automatsko ažuriranje</string>
+    <string name="auto_update_switch_key">Automatsko ažuriranje</string>
+    <string name="auto_update_switch_summary_on">Otvori automatska ažuriranja</string>
+    <string name="auto_update_switch_summary_off">Zatvori automatska ažuriranja</string>
+    <string name="auto_update_frequency_text">Ažuriraj automatski %1$s svakih %2$s</string>
+    <string name="wifi_auto_update_switch_title">Automatsko ažuriranje preko WiFi-ja</string>
+    <string name="wifi_auto_update_switch_key">Automatsko ažuriranje preko WiFi-ja</string>
+    <string name="wifi_auto_update_switch_summary_on">Kada je WiFi povezan, automatski proverite ažuriranja</string>
+    <string name="wifi_auto_update_switch_summary_off">Kada je WiFi povezan, automatski proverite ažuriranja</string>
+    <string name="cmcc_wifi_auto_update_switch_title">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_key">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">Kada je WiFi povezan na CMCC, automatski proverite ažuriranja</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">Kada je WiFi povezan na CMCC, automatski proverite ažuriranja</string>
+    <string name="dm_wifi_open">Uključite Wi-Fi da biste započeli preuzimanje novog softvera</string>
+    <string name="dm_wifi_open_tr">Postoji nova verzija za vaš uređaj. Konektujte se na wireless mrežu da bi preuzeli novu verziju.</string>
+    <string name="dm_via_wifi">Preuzimanje preko Wi-Fi mreže</string>
+    <string name="dm_wifi_set">Wi-Fi podešavanja</string>
+    <string name="dm_yes">Da</string>
+    <string name="dm_no">Ne</string>
+    <string name="dm_wifi_fail">Pristup Wi-Fi mreži nije moguć, preuzimanje se otkazuje.</string>
+    <string name="dm_KB">kB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s pre podne</string>
+    <string name="dm_time_pm">%1$s po podne</string>
+    <string name="dm_Delay_show">Još %1$s puta za odlaganje.</string>
+    <string name="dm_Delay_last_time_show">Već 3 puta odloženo, odlaganje više nije moguće</string>
+    <string name="download_message_new">"Dostupna je nova verzija softvera. Želite li da je preuzmete? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_new_tr">"Postoji nova verzija za vaš uređaj. Preuzeti podaci će biti naplaćeni po tarifi vašeg operatera. Da li želite da preuzmete nadogradnju? 
+ %1$s %2$s"</string>
+    <string name="download_message_force">"Dostupna je nova verzija softvera. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Verzija:"</string>
+    <string name="download_message_size">"
+ Podaci:"</string>
+    <string name="download_message_description">"
+ Opis:"</string>
+    <string name="download_message_auto_download">"
+
+ Automatsko preuzimanje za %1$s sekundi"</string>
+    <string name="install_message_new">"Da biste započeli instalaciju, morate da ponovo pokrenete telefon. Još 
+
+ %1$s puta za odlaganje."</string>
+    <string name="install_message_tr">Da bi se započela instalacija vaš telefon mora da se restartuje. Proverite bateriju ili priključite punjač da bi bili sigurni da se nadogradnja uspešno završi.</string>
+    <string name="install_message_new_later">"Da biste započeli instalaciju, morate ponovo da pokrenete telefon. Uverite se da je baterija ima barem 10%% kapaciteta. 
+ %1$s puta je dozvoljeno odložiti, morate ponovo pokrenuti svoj telefon nakon što ste 3 puta odložili."</string>
+    <string name="install_message_new_last_time">"Da biste započeli instalaciju, morate ponovo da pokrenete telefon. Uverite se da je baterija ima barem 10%% kapaciteta. 
+ Već ste 3 puta odložili, morate ponovo pokrenuti svoj telefon za %1$s minuta nakon što kliknete taster Odlaganje."</string>
+    <string name="install_message_force">Prinudno ažuriranje za %1$s minuta.</string>
+    <string name="install_message_delaycompleted">Već je odloženo 3 puta, telefon će biti ponovo pokrenut</string>
+    <string name="wifi_cost_notify">Obaveštenje o troškovima WLAN-a</string>
+    <string name="wifi_cost_notify_body">Povezanost na WLAN može da dovede do troškova za prenos podataka, da li ste sigurni da želite da nastavite?</string>
+    <string name="dm_continue">Nastavi</string>
+    <string name="download_message_new_AU">Dostupna je nova verzija softvera za vaš uređaj. Ovo ažuriranje ima veličinu od %1$s</string>
+    <string name="download_message_version_AU">i ažuriraće vaš %1$s sa verzije %2$s na %3$s softvera.</string>
+    <string name="download_message_description_AU">Ovo ažuriranje %1$s</string>
+    <string name="about_charge_AU">"
+
+ Preporučujemo preuzimanje preko Wi-Fi mreže. Preuzimanje može da prouzrokuje dodatne troškove (naročito ako preuzimate preko mobilne mreže ili dok ste u romingu u inostranstvu). Tokom preuzimanja nema nikakvih uticaja na rad uređaja. Za više informacija i pomoć, molimo vas da posetite telstra.com/mobile ili kontaktirajte naš Korisnički servis na 13 2200"</string>
+    <string name="about_charge_TNZ">"
+
+ Predlaže se da preuzimate podatke preko Wi-Fi. Preuzimanje podataka može biti naplaćeno (posebno ako preuzimate preko mobilne mreže ili dok ste u romingu). Preuzimanje neće uticati na rad uređaja."</string>
+    <string name="dm_later">Kasnije</string>
+    <string name="dm_install">Instaliraj</string>
+    <string name="install_message_AU">Ažuriranje je preuzeto i spremno je za instaliranje Kliknite \"Kasnije\" ako ne želite da odmah instalirate novu verziju. Tokom instalacije neće biti dostupna nijedna funkcija uređaja, i nećete moći da obavite čak ni poziv ka hitnim službama. Kao deo procesa instalacije, uređaj će se ponovo pokrenuti. Vaši podaci neće biti izmenjeni ili izbrisani. Pre početka instalacije, proverite da li je baterija napunjena na barem 30%, i nemojte da vadite bateriju tokom procesa instalacije.</string>
+    <string name="auto_update_frequency_text_AU">Automatski proveravaj ažuriranja u %1$s u %2$s svake druge nedelje.</string>
+    <string name="noti_result_success_title">Vaš uređaj je sada ažuriran.</string>
+    <string name="noti_result_success_content">Ažuriranje softvera je uspelo</string>
+    <string name="noti_auto_Title">Dostupno je ažuriranje softvera</string>
+    <string name="noti_auto_Text">Postoji novo ažuriranje softvera za vaš uređaj.</string>
+    <string name="dl_pause">Pauziraj</string>
+    <string name="dl_continue">Nastavi</string>
+    <string name="dl_pause_message">Preuzimanje je pauzirano.</string>
+    <string name="wifi_only_switch_key">Wifi-Only</string>
+    <string name="wifi_only_switch_title">Wifi-Only</string>
+    <string name="wifi_only_switch_summary_off">Za ažuriranje koristite samo wifi</string>
+    <string name="wifi_only_switch_summary_on">Za ažuriranje koristite samo wifi</string>
+    <string name="present_net_changedto_mobile">Konekcija je prebačena na mobilnu mrežu. Preuzimanje je pauzirano. Kada se ponovo povežete na WiFi, preuzimanje će se nastaviti.</string>
+    <string name="present_net_changedto_mobile_withContinue">Konekcija se promenila u mobilnu mrežu. Preuzimanje je pauzirano. Da li želite da nastavite?</string>
+    <string name="present_net_changedto_mobile_noContinue">Konekcija je prebačena na mobilnu mrežu. Preuzimanje je pauzirano. Ako želite da preuzimate dok ste povezani na mobilnu mrežu, opozovite izbor \"Wifi-Only\" i kliknite \"Nastavi preuzimanje\". U suprotnom, preuzimanje će se automatski nastaviti kada se povežete na wifi.</string>
+    <string name="present_net_is_mobile">Nije dozvoljeno ažuriranje softvera jer nema dostupne Wi-Fi mreže.</string>
+    <string name="resume_download">Nastavi preuzimanje</string>
+    <string name="init_message">Pokretanje, molimo sačekajte…</string>
+    <string name="wifi_only_message">"Podešeno je Wifi-Only a trenutna konekcija nije Wifi. 
+ Ako želite da koristite mobilnu mrežu, opozovite izbor \"Wifi-Only\" pa kliknite \"Provera ažuriranja\" ili \"Nastavi preuzimanje\". 
+
+Podesiti?"</string>
+    <string name="resume_download_message">Poslednje preuzimanje je prekinuto, želite li da nastavite?</string>
+    <string name="action_settings">Podešavanja</string>
+    <string name="Install_software">Instaliraj softver</string>
+    <string name="Install_notes">Vaš uređaj mora da se restartuje da bi se završila instalacija, ne možete koristiti usluge pozivanja u hitno pozivanje dok traje instalacija.</string>
+    <string name="Install_battery_notes">Proverite da li je nivo baterije veći od 30%</string>
+    <string name="Install_backup_notes">Rezervna kopija vaših podataka će biti napravljena na SD kartici ukoliko izaberete opciju Napravi rezervnu kopiju.</string>
+    <string name="defer_install_notification">Vaš telefon mora da se restartuje da bi završio instalaciju</string>
+    <string name="install">Instaliraj</string>
+    <string name="backup_install">Napravi rezervnu kopiju &amp; Instaliraj</string>
+    <string name="release_notes_default">Ovo je zadnja verzija</string>
+    <string name="fota_main_activity_title">Ažuriranje softvera</string>
+    <string name="current_version_title">Trenutna verzija:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Zaustavi</string>
+    <string name="network_update">Provera ažuriranja...</string>
+    <string name="fota_server_package_discovered">Pronađena je nova verzija:</string>
+    <string name="fota_update_button_label">Ažuriraj sada</string>
+    <string name="menu_check_new_from_server">Provera ažuriranja na serveru</string>
+    <string name="menu_check_new_from_server_subtitle">Za ažuriranje preko mobilne mreže potrebna je usluga prenosa podataka, pa stoga preporučujemo Wi-Fi okruženje.</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_update_settings">Podešavanja</string>
+    <string name="tcard_update">Provera ažuriranja SD kartice...</string>
+    <string name="fota_tcard_package_discovered">Pronađena je nova verzija(SD kartica):</string>
+    <string name="dialog_title">Ažuriraj sada</string>
+    <string name="dialog_warning">Prilikom ažuriranja biće izbrisani svi korisnički podaci. Molimo vas da napravite rezervnu kopiju podataka pre ažuriranja.</string>
+    <string name="dialog_backup">Pravljenje rezervne kopije</string>
+    <string name="dialog_cancel">Otkaži</string>
+    <string name="fota_msg_tcard_no_update">Nema ažuriranja na SD kartici.</string>
+    <string name="fota_msg_network_no_update">Nema ažuriranja na serveru</string>
+    <string name="fota_status">Status:</string>
+    <string name="fota_status_software_version">Verzija softvera:</string>
+    <string name="fota_status_never_setup">Originalna verzija</string>
+    <string name="fota_status_no_update">Trenutna verzija softvera je najnovija!</string>
+    <string name="fota_status_failed">Ažuriranje softvera nije uspelo</string>
+    <string name="fota_status_sucess">Ažuriranje softvera je uspelo</string>
+    <string name="fota_auto_update">Automatsko ažuriranje</string>
+    <string name="fota_auto_update_switch_summary_on">Otvori automatska ažuriranja</string>
+    <string name="fota_auto_update_switch_summary_off">Zatvori automatska ažuriranja</string>
+    <string name="fota_auto_update_frequency_text">Ažuriraj automatski</string>
+    <string name="fota_auto_update_frequency_everysunday">svake nedelje</string>
+    <string name="fota_auto_update_frequency_everymonday">svakog ponedeljka</string>
+    <string name="fota_auto_update_frequency_everytuesday">svakog utorka</string>
+    <string name="fota_auto_update_frequency_everywednesday">svake srede</string>
+    <string name="fota_auto_update_frequency_everythursday">svakog četvrtka</string>
+    <string name="fota_auto_update_frequency_everyfriday">svakog petka</string>
+    <string name="fota_auto_update_frequency_everysaturday">svake subote</string>
+    <string name="retry">Pokušaj ponovo</string>
+    <string name="progress_expand_list_title">Podaci o Verziji</string>
+    <string name="menu">Meni</string>
+    <string name="currentVersionTitle">Trenutna verzija:</string>
+    <string name="currentVersionDefault">Z998V1.0.0B01</string>
+    <string name="dataTrafficeNotice">Preuzimanje će prouzrokovati potrošnju mrežnog saobraćaja, pritisnite OK da bi nastavili.</string>
+    <string name="notice">Obaveštenje</string>
+    <string name="wifiSettingNotice">Nadogradnja će prouzrokovati potrošnju mrežnog saobraćaja, predlaže se da preuzmete preko Wi-Fi.</string>
+    <string name="wifiOnlySettingNotice">Nadogradnja se može preuzeti samo preko Wi-Fi.</string>
+    <string name="wifiNotConnect">Wi-Fi nije dostupan, molim vas da se konektujete na Wi-Fi da bi nastavili sa preuzimanjem.</string>
+    <string name="download">Preuzmi</string>
+    <string name="lastSearchTime">"Poslednja nadogradnja je bila :
+"</string>
+    <string name="lastSearchTimeDefaultvalue">"Poslednja nadogradnja je bila :
+Nije bilo nadogradnje"</string>
+    <string name="backupNotice">Napravite rezervnu kopiju vašeg fajla</string>
+    <string name="autoupdateSetting">Podešavanja Automatskog Ažuriranja</string>
+    <string name="updateHistory">Informacije o Ažuriranju</string>
+    <string name="unconnectNotice">Nemoguće je konektovati se na mrežu</string>
+    <string name="netWorkError">Greška na mreži</string>
+    <string name="defer_title">Odloži</string>
+    <string name="defer_remind">Biće te obavešteni tri puta na svakih sat vremena. Ovo je %1$s obaveštenje.</string>
+    <string name="defer_time_first">Prvi</string>
+    <string name="defer_time_second">Drugi</string>
+    <string name="defer_time_last">poslednji</string>
+    <string name="force_update_remind">Biće te obavešteni tri puta na svakih sat vremena. Ovo je %1$s obaveštenje. Neodložna nadogradnja će biti urađena za 5 minuta.</string>
+    <string name="defer_remind_dialog">Biće te obavešteni tri puta na svakih sat vremena.</string>
+    <string name="noremind">Ne obaveštavaj više</string>
+    <string name="dmRetryMessage">Greška na mreži, pokušajte opet</string>
+    <string name="forceNetworkConfigureNotice">Mreža nije dostupna, konfigurišite je opet</string>
+    <string name="success">Uspešno</string>
+    <string name="noRecord">Nema beleške</string>
+    <string name="force_update_notice">Nadogradnja će se POKRENUTI nakon %1$s sekundi</string>
+    <string name="confirm_cancel_download">Prekinite ili odložite preuzimanje?</string>
+    <string name="download_defer_message">Biće te obavešteni tri puta na svakih sat vremena. Ovo je %1$s obaveštenje. Posle 3 odglaganja, preuzimanje će biti prekinuto.</string>
+    <string name="confirm_delay_install">Prekinite ili odložite instaliranje?</string>
+    <string name="delay_install_message">Bićete obavešteni svaka 2 sata.</string>
+    <string name="install_cancel_message">Nadogradnja će biti obrisana, pri novom pokretanju nadogradnje biće opet preuzeta.</string>
+    <string name="message_LW_mode_on">Green-Net mod je uključen. Nadogradnja je prekinuta.Izađite iz ovog moda i pokrenite nadogradnju ponovo.</string>
+    <string name="send">послати</string>
+    <string name="feedback">Повратне информације</string>
+    <string name="feedback_content">Молимо унесите своју савет</string>
+    <string name="email">Молимо унесите своју е-маил</string>
+    <string name="feedback_result">Пошаљи успешно, Хвала на повратним информацијама</string>
+    <string name="email_auth">Морате навести исправну е-адресу</string>
+    <string name="feedback_auth">Ваше мишљење је веома важно за нас,молимо унесите Ваше повратне информације,хвала</string>
+    <string name="dm_2G">Trenutna brzina vaše konekcije nije dovoljno dobra da bi se skinula nadogradnja. Sačekajte da budete u 3G ili WiFI i pokušajte ponovo.</string>
+    <string name="dm_lowbattery">baterija je prazna, nadogradnja je nemoguća</string>
+    <string name="feedback_network">Мрежа није доступна,повежите га поново и пошаљите повратне информације,хвала</string>
+    <string name="userconfirm_title">Potvrda</string>
+    <string name="userconfirm_button_yes">Da</string>
+    <string name="userconfirm_button_no">Ne</string>
+    <string name="checkingNotice">Proveravam nadogradnju</string>
+    <string name="defer_install">Odloži</string>
+    <string name="cancel_install">Otkaži</string>
+    <string name="zdm_path">Da bi uradili nadogradnju opet, idite u Opcije > O telefonu > Ažuriranje sistema > Ažuriranje sistema.</string>
+    <string name="defer_download">Odloži</string>
+    <string name="cancel_download">Otkaži</string>
+    <string name="dm_Delay_show_once">Još 1 put za odlaganje.</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_top" android:background="@drawable/bg_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textAppearance="@style/font_middle_white" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/btnBack" android:background="@drawable/btn_back_selector" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/back" />
+        <TextView android:textAppearance="@style/font_big_white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/app_info" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/detail_top">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/appIcon" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <TextView android:textAppearance="@style/font_middle" android:id="@id/appNameTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天翼客运通 V1.2" />
+                <RatingBar android:id="@id/app_ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:numStars="5" android:rating="3.0" style="?android:attr/ratingBarStyleSmall" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dotted_line" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/font_small_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_size" />
+                    <TextView android:textAppearance="@style/font_small_gray" android:id="@id/appSizeTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1.4M" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/font_small_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_category" />
+                    <TextView android:textAppearance="@style/font_small_gray" android:id="@id/appCategoryTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="生活" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/font_small_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_price" />
+                    <TextView android:textAppearance="@style/font_small_gray" android:id="@id/appPriceTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="免费" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/font_small_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_update_time" />
+                    <TextView android:textAppearance="@style/font_small_gray" android:id="@id/appUpdateTimeTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2012-5-20" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/line_gray" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Gallery android:gravity="left|center" android:id="@id/mgallery" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:spacing="16.0dip" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/viewGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textAppearance="@style/font_middle2" android:id="@id/appInfoTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="暂无" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

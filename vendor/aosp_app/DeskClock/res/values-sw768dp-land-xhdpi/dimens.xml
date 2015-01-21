@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="glowpadview_margin_right">-42.0dip</dimen>
+    <dimen name="alarm_alert_clock_padding_left">16.0dip</dimen>
+</resources>

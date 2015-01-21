@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appPackageName" format="string" />
+    <attr name="appClassName" format="string" />
+    <attr name="page" format="string" />
+    <attr name="cellX" format="string" />
+    <attr name="cellY" format="string" />
+    <attr name="visible" format="string" />
+</resources>

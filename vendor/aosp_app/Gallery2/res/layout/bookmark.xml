@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@*android:id/empty" android:paddingBottom="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bookmark_empty" android:layout_centerInParent="true" />
+</FrameLayout>

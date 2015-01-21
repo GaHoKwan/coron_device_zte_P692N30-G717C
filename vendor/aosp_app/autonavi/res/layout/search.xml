@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autonavi.xmgd.view.GDTitle android:id="@id/search_title" android:layout_width="fill_parent" android:layout_height="@dimen/gdtitle_height" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/search_editarea_color" android:layout_width="fill_parent" android:layout_height="@dimen/search_editarea_height">
+        <EditText android:layout_gravity="center_vertical" android:id="@id/search_edit" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/edittext_min_height" android:layout_marginLeft="6.0dip" android:maxLength="20" android:layout_weight="1.0" style="@style/gdedittext_style" />
+        <com.autonavi.xmgd.view.GDImageButton android:layout_gravity="center_vertical" android:id="@id/btnSearch" android:background="@drawable/btn_default" android:layout_width="@dimen/search_button_height" android:layout_height="@dimen/search_button_width" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ic_btn_search" />
+    </LinearLayout>
+    <TextView android:background="#ffc6c6c6" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/viewpager_height">
+        <Button android:textSize="@dimen/viewpager_textsize" android:gravity="center" android:id="@id/btn_button1" android:background="@drawable/tab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="3.0" />
+        <Button android:textSize="@dimen/viewpager_textsize" android:gravity="center" android:id="@id/btn_button2" android:background="@drawable/tab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="3.0" />
+        <Button android:textSize="@dimen/viewpager_textsize" android:gravity="center" android:id="@id/btn_button3" android:background="@drawable/tab_bg_noline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="3.0" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@id/gdviewpager" android:persistentDrawingCache="animation" android:layout_width="fill_parent" android:layout_height="0.0dip" android:flipInterval="30" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_area" android:background="@drawable/search_area" android:layout_width="fill_parent" android:layout_height="@dimen/search_area_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/search_area_item_icon" android:background="@drawable/ic_search_list_gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/menu_item_icon_marginleft" />
+        <TextView android:textSize="@dimen/search_area_textsize" android:textColor="@color/search_area_textcolor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/search_area_item_text" android:paddingLeft="@dimen/menu_item_text_paddingleft" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/search_item_detail" android:background="@drawable/list_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/menu_item_icon_marginleft" />
+    </LinearLayout>
+</LinearLayout>

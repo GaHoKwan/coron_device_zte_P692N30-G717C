@@ -334,7 +334,7 @@
     packed-switch p1, :pswitch_data_0
 
     .line 1436
-    const v3, 0x104000f
+    const v3, #android:string@untitled#t
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -354,7 +354,7 @@
 
     move-result-object v3
 
-    const/high16 v4, 0x107
+    const/high16 v4, #android:array@emailAddressTypes#h
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 
@@ -405,7 +405,7 @@
 
     move-result-object v3
 
-    const v4, 0x1070004
+    const v4, #android:array@postalAddressTypes#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 

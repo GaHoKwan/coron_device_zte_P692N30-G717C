@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkable_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/entry_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_toLeftOf="@id/checkable_view" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.mediatek.bluetooth.ftp.EntryInfoView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@id/entry_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/checkable_view" android:layout_below="@id/entry_name" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

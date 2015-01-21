@@ -1473,7 +1473,7 @@
     if-ltz v9, :cond_17
 
     .line 383
-    const v11, 0x1040034
+    const v11, #android:string@numeric_date_template#t
 
     invoke-virtual {p0, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1659,7 +1659,7 @@
     .end local v9           #year:I
     .end local v10           #yearValue:Ljava/lang/String;
     :cond_17
-    const v11, 0x1040033
+    const v11, #android:string@numeric_date_format#t
 
     invoke-virtual {p0, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1813,7 +1813,7 @@
     if-eqz v0, :cond_0
 
     .line 272
-    const v1, 0x1040031
+    const v1, #android:string@twenty_four_hour_time_format#t
 
     .line 277
     .local v1, res:I
@@ -1831,7 +1831,7 @@
     .line 274
     .end local v1           #res:I
     :cond_0
-    const v1, 0x1040030
+    const v1, #android:string@twelve_hour_time_format#t
 
     .restart local v1       #res:I
     goto :goto_0

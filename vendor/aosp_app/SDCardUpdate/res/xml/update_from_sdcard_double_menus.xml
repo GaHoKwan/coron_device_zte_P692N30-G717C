@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/tip_title" android:key="update_tip" android:summary="@string/tip_summary_double_menus" />
+    <PreferenceCategory android:title="@string/category_sdcard_select" android:key="category_sdcard_update">
+        <PreferenceScreen android:title="@string/update_from_sdcard" android:key="update_from_sdcard" />
+        <PreferenceScreen android:title="@string/update_from_sdcard2" android:key="update_from_sdcard2" />
+    </PreferenceCategory>
+</PreferenceScreen>

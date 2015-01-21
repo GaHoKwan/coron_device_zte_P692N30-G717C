@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/FrameLayout" android:background="@drawable/music_list_bg" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/music_Layout1" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/title_bar_medium" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <ImageButton android:id="@id/music_list_back_Button" android:background="#00ffffff" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_ab_back_holo_dark" android:scaleType="fitXY" />
+            <TextView android:textSize="30.0dip" android:textColor="#ffffffff" android:gravity="left|center" android:id="@id/music_title_TextView" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/music_list_title" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/music_list" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:divider="#ffcccccc" android:dividerHeight="1.0dip" android:minHeight="30.0dip" android:layout_weight="0.5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/music_Layout2" android:paddingTop="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_weight="0.2">
+            <ImageButton android:id="@id/musicbackButton" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_back_selector" android:scaleType="fitCenter" />
+            <ImageButton android:id="@id/musiclistButton" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_btn_menu_normal" android:scaleType="fitCenter" android:layout_alignParentLeft="false" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/imageView1" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginLeft="120.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:scaleType="fitCenter" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="30.0sp" android:textColor="#ff535353" android:ellipsize="marquee" android:id="@id/musicTitle" android:paddingBottom="10.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff757575" android:id="@id/musicArtist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff757575" android:id="@id/musicAlbum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_music" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.35">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="0.08">
+                <TextView android:textSize="15.0sp" android:textColor="#ff757575" android:gravity="center" android:layout_gravity="center" android:id="@id/minText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="00:00" android:layout_weight="0.15" />
+                <SeekBar android:layout_gravity="center" android:id="@id/seekBar1" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="20.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/musicprogress" android:thumb="@drawable/music_progress_btn" android:layout_weight="0.9" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff757575" android:gravity="center" android:layout_gravity="center" android:id="@id/maxText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="00:00" android:layout_weight="0.15" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1">
+                <ImageButton android:id="@id/play_stop" android:background="#00ffffff" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_play" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ImageButton android:id="@id/next" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_next" android:scaleType="fitCenter" android:layout_toRightOf="@id/play_stop" android:layout_alignParentTop="true" />
+                <ImageButton android:id="@id/previous" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_last" android:scaleType="fitCenter" android:layout_toLeftOf="@id/play_stop" android:layout_alignParentTop="true" />
+                <ImageButton android:id="@id/sequence_mode" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="36.0dip" android:src="@drawable/music_mode_on" android:scaleType="fitCenter" android:layout_alignTop="@id/random" android:layout_alignParentLeft="true" />
+                <ImageButton android:id="@id/random" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginRight="36.0dip" android:src="@drawable/music_shuffle_off" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

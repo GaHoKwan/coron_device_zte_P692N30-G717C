@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title_display_settings">
+        <Preference android:title="@string/pref_chat_wallpaper" android:key="pref_key_chat_wallpaper_for_chat" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_notification_settings_title">
+        <CheckBoxPreference android:title="@string/pref_title_notification_enabled" android:key="pref_key_enable_notifications_for_chat" android:summary="@string/pref_summary_notification_enabled" android:defaultValue="true" />
+        <ListPreference android:entries="@array/pref_mute_choices" android:layout="?android:preferenceLayoutChild" android:title="@string/pref_mute" android:key="pref_key_mute_for_chat" android:dependency="pref_key_enable_notifications_for_chat" android:defaultValue="0" android:dialogTitle="@string/pref_mute" android:entryValues="@array/pref_mute_values" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_ringtone" android:key="pref_key_ringtone_for_chat" android:summary="@string/pref_summary_notification_ringtone" android:dependency="pref_key_enable_notifications_for_chat" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_vibrate" android:key="pref_key_vibrate_for_chat" android:summary="@string/pref_summary_vibrate" android:dependency="pref_key_enable_notifications_for_chat" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_actions_settings" android:key="pref_key_actions_settings">
+        <Preference android:title="@string/pref_download_chat_history" android:key="pref_key_download_chat_history" android:summary="@string/pref_summary_download_chat_history" />
+        <Preference android:title="@string/pref_email_chat_history" android:key="pref_key_email_chat_history" android:summary="@string/pref_summary_email_chat_history" />
+        <Preference android:title="@string/pref_clear_chat_history" android:key="pref_key_clear_chat_history" />
+    </PreferenceCategory>
+</PreferenceScreen>

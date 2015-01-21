@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin">
+                <include android:id="@id/poidetail_setstart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+                <include android:id="@id/poidetail_setwaypoint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin" android:layout_marginBottom="@dimen/poidetail_item_margin">
+                <include android:id="@id/poidetail_setdest" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+                <include android:id="@id/poidetail_showmap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin">
+                <include android:id="@id/poidetail_sethome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+                <include android:id="@id/poidetail_setcompany" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin" android:layout_marginBottom="@dimen/poidetail_item_margin">
+                <include android:id="@id/poidetail_addfav" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+                <include android:id="@id/poidetail_adddsp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" layout="@layout/poidetail_item" />
+            </LinearLayout>
+            <include android:id="@id/poidetail_shortcut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin" layout="@layout/poidetail_item" />
+            <include android:id="@id/poidetail_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin" layout="@layout/poidetail_item" />
+            <Button android:id="@id/poidetail_feedback" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/poidetail_item_margin" style="@style/gdbutton_style" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

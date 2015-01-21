@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ask_setup_message">ได้รับการตั้งค่าใหม่ ติดตั้งหร์อไม่?</string>
+    <string name="omacp_setup">ข้อความ OTAP</string>
+    <string name="install_compelete">ติดตั้งประสบความสำเร็จ!</string>
+    <string name="instatll_fail">ติดตั้งไม่สำเร็จ!</string>
+    <string name="security_error">ติดตั้งไม่สำเร็จ!</string>
+    <string name="xml_parse_error">ติดตั้งไม่สำเร็จ!</string>
+    <string name="user_cancel">ยกเลิก</string>
+    <string name="input_pin">รหัส PIN</string>
+    <string name="app_name">อัพเดต ซอฟต์แวร์</string>
+    <string name="dm_update_service">อัพเดต ซอฟต์แวร์</string>
+    <string name="system_update">การอัพเดตการตรวจสอบ</string>
+    <string name="connecting">การอัพเดตการตรวจสอบ</string>
+    <string name="downloading">โปรดรอสักครู่ซึ่งอาจใช้เวลาสักครู่ในการดำเนิน</string>
+    <string name="download_title">บริการอัพเดตซอฟต์แวร์</string>
+    <string name="download_val">กำลังอัพเดตในขณะนี้</string>
+    <string name="download_message">อัพเดตซอฟต์แวร์ใหม่ที่สามารถใช้ได้ คุณต้องการที่จะดาวน์โหลดหรือไม่?</string>
+    <string name="cancel_message">คุณแน่ใจว่าจะยกเลิกการดาวน์โหลดและยุติอัพเดตซอฟต์แวร์?</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="failed">ไม่สำเร็จ</string>
+    <string name="update_failed">อัพเดตซอฟต์แวร์ไม่สำเร็จ</string>
+    <string name="install_title">ติดตั้งซอฟต์แวร์</string>
+    <string name="install_message">เพื่อเริ่มต้นการติดตั้ง โทรศัพท์ของคุณจะต้องเริ่มต้นใหม่</string>
+    <string name="checking_update">การอัพเดตการตรวจสอบ</string>
+    <string name="update_title">การอัพเดตอัตโนมัติ</string>
+    <string name="update_message">Update automatically at every week</string>
+    <string name="update_deferred">ติดตั้งซอฟแวร์เลื่อน</string>
+    <string name="service_unavailable">ไม่มีบริการข้อมูล การอัพเดตซอฟท์แวไม่ได้รับอนุญาต!</string>
+    <string name="check_new">ตรวจหาการอัพเดต</string>
+    <string name="status">สถานะ:</string>
+    <string name="version">เวอร์ชั่นของซอฟต์แวร์:</string>
+    <string name="desc" />
+    <string name="update_setting">อัพเดตค่าตั้ง</string>
+    <string name="background">พื้นหลัง</string>
+    <string name="delay">ความล่าช้า</string>
+    <string name="dm_session_busy">เซสชัน DM ก่อนหน้านี้ยังทำงานอยู่ในขณะนี้ โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="downloading_notification">ดาวน์โหลด</string>
+    <string name="downloading_notification_message">กำลังดาวน์โหลด ...</string>
+    <string name="update_warning_notification">บริการอัพเดตซอฟต์แวร์</string>
+    <string name="update_warning_notification_message">อัพเดตซอฟต์แวร์ใหม่ที่สามารถใช้ได้ คุณต้องการที่จะดาวน์โหลดหรือไม่?</string>
+    <string name="update_warning_notification_new_package">อัพเดตซอฟต์แวร์ใหม่ที่สามารถใช้ได้ คุณต้องการที่จะดาวน์โหลดหรือไม่?</string>
+    <string name="install_notification">ติดตั้งซอฟต์แวร์</string>
+    <string name="install_notification_message">เพื่อเริ่มต้นการติดตั้ง โทรศัพท์ของคุณจะต้องเริ่มต้นใหม่</string>
+    <string name="install_file_notification">ได้รับการตั้งค่าใหม่ ติดตั้งหร์อไม่?</string>
+    <string name="pin">รหัส PIN</string>
+    <string name="confirm">OK</string>
+    <string name="intallresult">ข้อความ OTAP</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="mobile_networks">ดาวน์โหลดผ่านเครือข่ายมือถือ</string>
+    <string name="autoupdate_toinstall">ติดตั้งซอฟต์แวร์</string>
+    <string name="autoupdate_todownload">ดาวน์โหลด</string>
+    <string name="autoupdate_busy">เซสชัน DM ก่อนหน้านี้ยังทำงานอยู่ในขณะนี้ โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="attention">บริการอัพเดตซอฟต์แวร์</string>
+    <string name="update_busy">ไม่ว่างในขณะนี้โปรดลองในภายหลัง!</string>
+    <string name="memory_insufficient">พื้นที่ไม่เพียงพอ</string>
+    <string name="memory_insufficient_info">พื้นที่อยู่ในระดับต่ำ กรุณาเพิ่มพื้นที่ว่างและไปที่การอัพเดตซอฟต์แวร์แตะตรวจหาการปรับปรุงในตัวเลือกเมนูที่จะลองดาวน์โหลด</string>
+    <string name="network_unavailable">บริการอัพเดตซอฟต์แวร์</string>
+    <string name="network_unavailable_info">ไม่มีบริการข้อมูล การอัพเดตซอฟท์แวไม่ได้รับอนุญาต!</string>
+    <string name="uncaught_exception_title" />
+    <string name="uncaught_exception_info" />
+    <string name="updata_ok">รีสตาร์ท</string>
+    <string name="updata_Defer">ความล่าช้า</string>
+    <string name="updata_info">เพื่อเริ่มต้นการติดตั้ง โทรศัพท์ของคุณจะต้องเริ่มต้นใหม่</string>
+    <string name="updata_title">บริการอัพเดตซอฟต์แวร์</string>
+    <string name="dm_comlete_sec">"โปรดรอสักครู่จะใช้เวลาประมาณ  %1$d วินาทีในการดำเนิน"</string>
+    <string name="dm_compele_min">"โปรดรอสักครู่จะใช้เวลาประมาณ  %1$d นาทีในการดำเนิน"</string>
+    <string name="dm_compele_hou" />
+    <string name="dm_version">เวอร์ชั่นของซอฟต์แวร์:</string>
+    <string name="dm_update_date">สถานะ:</string>
+    <string name="dm_fumo_Message">สถานะ:</string>
+    <string name="dm_fumo_START">ตรวจหาการอัพเดต</string>
+    <string name="dm_fumo_INSTAll_DEFER">ติดตั้งซอฟแวร์เลื่อน</string>
+    <string name="dm_fumo_SETUP">การติดตั้งแพคเกจอัพเดต</string>
+    <string name="dm_never_SETUP">เวอร์ชั่นรุ่นต้นฉบับ</string>
+    <string name="dm_fumo_status_noupdate">ซอฟแวร์ในปัจจุบันใหม่สุด!</string>
+    <string name="dm_fumo_status_failed">อัพเดตซอฟต์แวร์ไม่สำเร็จ</string>
+    <string name="dm_fumo_status_sucess">อัพเดตซอฟต์แวร์สำเร็จ</string>
+    <string name="dm_check_updatetile">กำลังตรวจหาการอัพเดต</string>
+    <string name="dm_check_update">การตรวจสอบการปรับปรุงซอฟต์แวร์ใหม่ล่าสุด ...</string>
+    <string name="dm_network_error">เครือข่ายผิดพลาดโปรดลองในภายหลัง!</string>
+    <string name="dm_already_new">ซอฟแวร์ในปัจจุบันใหม่สุด!</string>
+    <string name="dm_isroaming">โรมมิ่งข้อมูลไม่อนุญาตให้ปรับปรุงซอฟต์แวร์</string>
+    <string name="dm_airplan">เมื่อโหมดเครื่องบิน การอัพเดตซอฟท์แวไม่ได้รับอนุญาต!</string>
+    <string name="dm_no_dataservice">ไม่มีบริการข้อมูล การอัพเดตซอฟท์แวไม่ได้รับอนุญาต!</string>
+    <string name="dm_update_setting">อัพเดตค่าตั้ง</string>
+    <string name="auto_update_switch_title">การอัพเดตอัตโนมัติ</string>
+    <string name="auto_update_switch_key">การอัพเดตอัตโนมัติ</string>
+    <string name="auto_update_switch_summary_on">เปิดใช้การอัพเดตอัตโนมัติ</string>
+    <string name="auto_update_switch_summary_off">เปิดใช้การอัพเดตอัตโนมัติ</string>
+    <string name="auto_update_frequency_text">ค้นหาการอัพเดต %1$s %2$s</string>
+    <string name="dm_wifi_open">เปิดการเชื่อมต่อ Wi-Fi และเริ่มต้นการดาวน์โหลด</string>
+    <string name="dm_via_wifi">กำลังอัพเดตในขณะนี้</string>
+    <string name="dm_wifi_set">การตั้งค่า Wi-Fi</string>
+    <string name="dm_yes">ใช่</string>
+    <string name="dm_no">ไม่ใช่</string>
+    <string name="dm_wifi_fail">การเชื่อมต่อ Wi-Fi ไม่พร้อม ดาวน์โหลดจะถูกยกเลิก</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">นอกจากนี้คุณยังสามารถชะลอ %1$s ครั้ง</string>
+    <string name="download_message_new">"อัพเดตซอฟต์แวร์ใหม่ที่สามารถใช้ได้ คุณต้องการที่จะดาวน์โหลดหรือไม่? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"อัพเดตซอฟต์แวร์ ใหม่ สามารถใช้. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ รุ่น:"</string>
+    <string name="download_message_size">"
+ ข้อมูล:"</string>
+    <string name="download_message_description">"
+ ลักษณะ:"</string>
+    <string name="download_message_auto_download">"
+
+ ดาวน์โหลดอัตโนมัติใน %1$s วินาที"</string>
+    <string name="install_message_new">"เพื่อเริ่มต้นการติดตั้ง โทรศัพท์ของคุณจะต้องเริ่มต้นใหม่. 
+
+ นอกจากนี้คุณยังสามารถชะลอ %1$s ครั้ง."</string>
+    <string name="install_message_force">กองทัพปรับปรุงใน %1$s นาที.</string>
+    <string name="dm_continue">ต่อ</string>
+    <string name="send">ส่ง</string>
+    <string name="feedback">ข้อเสนอแนะ</string>
+    <string name="feedback_content">กรุณาใส่คำแนะนำของคุณ</string>
+    <string name="email">กรุณาใส่อีเมล์ของคุณ</string>
+    <string name="feedback_result">ส่งประสบความสำเร็จขอบคุณสำหรับข้อมูลของท่าน</string>
+    <string name="email_auth">กรุณาใส่ที่อยู่อีเมลที่ถูกต้อง</string>
+    <string name="feedback_auth">ความคิดเห็นของคุณเป็นสิ่งสำคัญมากสำหรับเรา,กรุณาใส่ความคิดเห็นของคุณ,ขอขอบคุณคุณ</string>
+    <string name="feedback_network">เครือข่ายไม่สามารถใช้งาน,โปรดเชื่อมต่ออีกครั้งและส่งความคิดเห็นของคุณ,ขอขอบคุณคุณ</string>
+    <string name="dm_Delay_show_once">นอกจากนี้คุณยังสามารถชะลอ 1 ครั้ง.</string>
+</resources>

@@ -139,32 +139,32 @@
     packed-switch p0, :pswitch_data_0
 
     .line 5845
-    const v0, 0x10402af
+    const v0, #android:string@emailTypeCustom#t
 
     :goto_0
     return v0
 
     .line 5841
     :pswitch_0
-    const v0, 0x10402b0
+    const v0, #android:string@emailTypeHome#t
 
     goto :goto_0
 
     .line 5842
     :pswitch_1
-    const v0, 0x10402b1
+    const v0, #android:string@emailTypeWork#t
 
     goto :goto_0
 
     .line 5843
     :pswitch_2
-    const v0, 0x10402b2
+    const v0, #android:string@emailTypeOther#t
 
     goto :goto_0
 
     .line 5844
     :pswitch_3
-    const v0, 0x10402b3
+    const v0, #android:string@emailTypeMobile#t
 
     goto :goto_0
 

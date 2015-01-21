@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/handwrite_toolbar" android:background="@drawable/tools_bg" style="@style/scroll_footer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/handwrite_delete" android:src="@drawable/handwrite_delete_normal" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/handwrite_blank" android:src="@drawable/handwrite_blank_normal" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/handwrite_return" android:src="@drawable/handwrite_enter_normal" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/handwrite_colorbox" android:src="@drawable/doodle_color" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/handwrite_paint" android:src="@drawable/doodle_line" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/handwrite_write_done_view" android:src="@drawable/handwrite_done" style="@style/footer_img_button" />
+    </LinearLayout>
+</LinearLayout>

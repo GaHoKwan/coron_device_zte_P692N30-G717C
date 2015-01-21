@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape ="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient ="#ffffffff" ="#ff404040" ="0.0" ="linear" />
+</shape>

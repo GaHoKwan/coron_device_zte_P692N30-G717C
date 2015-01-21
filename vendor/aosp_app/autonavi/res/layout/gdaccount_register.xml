@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autonavi.xmgd.view.GDTitle android:id="@id/gdaccout_register_title" android:layout_width="wrap_content" android:layout_height="@dimen/gdtitle_height" />
+    <ViewFlipper android:id="@id/gdaccout_register_viewflipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include layout="@layout/gdaccount_register_1" />
+        <include layout="@layout/gdaccount_register_2" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/gdaccount_register_3" />
+        </ScrollView>
+        <include layout="@layout/gdaccount_register_4" />
+    </ViewFlipper>
+</LinearLayout>

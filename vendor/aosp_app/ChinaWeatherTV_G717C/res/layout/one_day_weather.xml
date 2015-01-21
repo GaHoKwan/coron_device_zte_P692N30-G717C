@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hf.UI.CFView android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/weather_sk_item_layout" android:background="@*android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_oneday_margin_top" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/weather_oneday_week_text_size" android:textColor="@*android:color/white" android:id="@id/day_week_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/weather_oneday_date_text_size" android:textColor="@*android:color/white" android:id="@id/day_date_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/line" android:background="@drawable/hf_weather_other_day_line" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/line_height" android:layout_marginLeft="@dimen/weather_other_day_margin_left_right" android:layout_marginRight="@dimen/weather_other_day_margin_left_right" android:layout_below="@id/date_layout" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/one_day_image_layout" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/day_temperature_textview" android:layout_below="@id/line" android:layout_centerHorizontal="true">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/day_weather_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+                <ImageView android:id="@id/day_wind_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:layout_alignRight="@id/day_weather_imageview" android:layout_alignBottom="@id/day_weather_imageview" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/day_weather_imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+                <ImageView android:id="@id/day_wind_imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:layout_alignRight="@id/day_weather_imageview2" android:layout_alignBottom="@id/day_weather_imageview2" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/weather_oneday_temperature_text_size" android:textColor="@*android:color/white" android:gravity="center_horizontal" android:id="@id/day_temperature_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/day_weather_textview" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/weather_oneday_temperature_text_size" android:textColor="@*android:color/white" android:gravity="center_horizontal" android:id="@id/day_weather_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.hf.UI.CFView>

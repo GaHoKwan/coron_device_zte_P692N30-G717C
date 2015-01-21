@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="296.0dip" android:layout_height="216.0dip">
+        <zte.com.cn.cloudnotepad.skitch.view.HueView android:id="@id/ambilwarna_viewKotak" android:layout_width="@dimen/hsv_rect_len" android:layout_height="@dimen/hsv_rect_len" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" />
+        <ImageView android:id="@id/ambilwarna_viewHue" android:layout_width="26.0dip" android:layout_height="@dimen/hsv_rect_len" android:layout_marginLeft="262.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/ambilwarna_hue" android:scaleType="fitXY" />
+        <ImageView android:id="@id/ambilwarna_panah" android:layout_width="8.0dip" android:layout_height="9.0dip" android:layout_marginLeft="252.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/ambilwarna_panah" android:scaleType="matrix" />
+        <ImageView android:id="@id/ambilwarna_keker" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginLeft="243.0dip" android:layout_marginTop="243.0dip" android:src="@drawable/ambilwarna_keker" android:scaleType="matrix" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="296.0dip" android:layout_height="56.0dip">
+        <ImageView android:id="@id/ambilwarna_warnaBaru" android:layout_width="80.0dip" android:layout_height="40.0dip" android:layout_margin="8.0dip" />
+        <TextView android:textSize="15.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/current_selected" android:layout_toRightOf="@id/ambilwarna_warnaBaru" />
+        <LinearLayout android:orientation="vertical" android:id="@id/history_color_layout" android:layout_width="136.0dip" android:layout_height="40.0dip" android:layout_margin="8.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

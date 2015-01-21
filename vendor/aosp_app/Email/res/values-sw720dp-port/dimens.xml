@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkmark_left_margin_wide">0.0dip</dimen>
+    <dimen name="date_region_width_wide">100.0dip</dimen>
+    <dimen name="star_right_margin_wide">0.0dip</dimen>
+    <dimen name="spinner_frame_width">200.0dip</dimen>
+    <dimen name="mailbox_list_width">200.0dip</dimen>
+    <dimen name="message_list_width">0.0dip</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.powermo.SmartBar.MLRootLayout android:orientation="vertical" android:background="@drawable/ml_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <LinearLayout android:gravity="left|center" android:id="@id/ml_editmode" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ml_edit" android:contentDescription="@string/dummy" />
+            <View android:layout_width="5.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="15.0sp" android:textColor="@drawable/text_color_white" android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ml_editmode_label" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/ml_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="298.0dip">
+        <com.powermo.SmartBar.DragGridView android:gravity="center" android:id="@id/apps_list" android:padding="0.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="2.0dip" android:verticalSpacing="5.0dip" android:stretchMode="columnWidth" android:columnWidth="64.0dip" android:numColumns="4" android:overScrollMode="never" />
+    </FrameLayout>
+</com.powermo.SmartBar.MLRootLayout>

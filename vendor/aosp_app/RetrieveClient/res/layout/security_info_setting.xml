@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:fillViewport="true">
+        <TextView android:textSize="18.0sp" android:id="@id/tv_security_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_security_title" />
+        <TextView android:textColor="@color/black_hint" android:id="@id/tv_security_text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/text_security_title_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_security_contact" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="10.0dip">
+            <EditText android:textSize="17.0sp" android:textColor="@color/black_text" android:layout_gravity="center" android:id="@id/et_securityNumber" android:background="@drawable/textedit3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/Hint_input_number" android:singleLine="true" android:layout_weight="1.0" android:inputType="phone" />
+            <ImageButton android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/ib_contact" android:background="@drawable/contact_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:onClick="clickController" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:id="@id/tv_security_sms_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/text_security_sms_title" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="16.0sp" android:id="@id/tv_owner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hostname_prefix" />
+            <EditText android:textColor="@color/black_text" android:gravity="center" android:id="@id/et_security_contact_name" android:background="@drawable/textedit3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/host_name" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:id="@id/tv_security_sms_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/text_security_sms_content" android:lineSpacingExtra="8.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0">
+            <Button android:textColor="@color/green_button" android:id="@id/btn_next" android:background="@drawable/button_new" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_margin="20.0dip" android:text="@string/SOFTKEY_finish" android:onClick="clickController" style="@style/ButtonStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

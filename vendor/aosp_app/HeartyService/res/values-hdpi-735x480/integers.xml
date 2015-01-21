@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_auto_check_period">3</integer>
+    <integer name="default_virus_scan_period">7</integer>
+    <integer name="default_clear_app_period">2</integer>
+    <integer name="default_auto_update_period">7</integer>
+    <integer name="default_memory_optimize_threshold">20</integer>
+    <integer name="widget_adjustment_1">1</integer>
+    <integer name="widget_adjustment_2">0</integer>
+    <integer name="widget_adjustment_3">43</integer>
+    <integer name="translate_aniamtion_diameter">125</integer>
+    <integer name="cpu_memory_width">155</integer>
+    <integer name="text_picker_height">60</integer>
+    <integer name="text_picker_content_height">140</integer>
+    <integer name="translate_aniamtion_StrokeWidth">7</integer>
+    <integer name="multi_list_txt_item_height">35</integer>
+    <integer name="sms_spanable_txt_size">23</integer>
+    <integer name="app_lock_locked_list_size">3</integer>
+    <integer name="edit_shortcut_line_limit">3</integer>
+</resources>

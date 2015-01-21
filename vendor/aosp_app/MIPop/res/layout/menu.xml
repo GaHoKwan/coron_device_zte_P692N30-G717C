@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base" android:background="@drawable/bg_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="left" android:orientation="vertical" android:id="@id/power_off" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/imageView_power_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_power_off" />
+            <TextView android:textSize="24.0px" android:textColor="@color/text_color" android:id="@id/textView_power_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_off" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/reboot" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/imageView_reboot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reboot" />
+            <TextView android:textSize="24.0px" android:textColor="@color/text_color" android:id="@id/textView_reboot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reboot" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="right" android:orientation="vertical" android:id="@id/lock_screen" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/imageView_lock_screen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_screen" />
+            <TextView android:textSize="24.0px" android:textColor="@color/text_color" android:id="@id/textView_lock_screen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_screen" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="left" android:orientation="vertical" android:id="@id/screenshots" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/imageView_screenshots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_screenshots" />
+            <TextView android:textSize="24.0px" android:textColor="@color/text_color" android:id="@id/textView_screenshots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screenshots" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/volume" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/imageView_volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_volume" />
+            <TextView android:textSize="24.0px" android:textColor="@color/text_color" android:id="@id/textView_volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mute" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/imageView_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mute" />
+            <TextView android:textSize="24.0px" android:textColor="@color/text_color" android:id="@id/textView_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mute" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

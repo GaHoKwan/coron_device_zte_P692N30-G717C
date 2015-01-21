@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.WPMessageListItem android:orientation="horizontal" android:id="@id/wpms_list_item" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mms.ui.MmsQuickContactBadge android:id="@id/avatar" android:visibility="gone" android:layout_centerVertical="true" style="?android:attr/quickContactBadgeStyleWindowLarge" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="none" android:id="@id/from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:singleLine="true" android:requiresFadingEdge="horizontal" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/expiration_indicator" android:paddingLeft="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alert_wappush_si_expired" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="10.0dip" android:textColor="#ffffffff" android:linksClickable="false" android:id="@id/sim_type_conv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/dlg_text_counter_color" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="bottom|left|center" android:id="@id/subject" android:layout_width="0.0dip" android:layout_height="fill_parent" android:lines="2" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/dlg_text_counter_color" android:gravity="bottom" android:layout_gravity="bottom|right|center" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.mms.ui.WPMessageListItem>

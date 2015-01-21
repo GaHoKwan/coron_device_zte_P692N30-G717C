@@ -124,26 +124,26 @@
     packed-switch p0, :pswitch_data_0
 
     .line 6052
-    const v0, 0x10402b4
+    const v0, #android:string@postalTypeCustom#t
 
     :goto_0
     return v0
 
     .line 6049
     :pswitch_0
-    const v0, 0x10402b5
+    const v0, #android:string@postalTypeHome#t
 
     goto :goto_0
 
     .line 6050
     :pswitch_1
-    const v0, 0x10402b6
+    const v0, #android:string@postalTypeWork#t
 
     goto :goto_0
 
     .line 6051
     :pswitch_2
-    const v0, 0x10402b7
+    const v0, #android:string@postalTypeOther#t
 
     goto :goto_0
 

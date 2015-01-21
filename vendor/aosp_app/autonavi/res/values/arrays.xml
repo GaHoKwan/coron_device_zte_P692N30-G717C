@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="routerule_dialog_items">
+        <item>Best</item>
+        <item>Highway</item>
+        <item>Economy</item>
+        <item>Shortest</item>
+    </string-array>
+    <string-array name="priority_dialog_items">
+        <item>Gas Station</item>
+        <item>Park</item>
+        <item>Restaurant</item>
+        <item>Hotel</item>
+        <item>Entertainment</item>
+        <item>Spot</item>
+        <item>Hospital</item>
+    </string-array>
+    <string-array name="font_dialog_items">
+        <item>Small</item>
+        <item>Middle</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="density_dialog_items">
+        <item>Most</item>
+        <item>Normal</item>
+        <item>Least</item>
+    </string-array>
+    <string-array name="speed_dialog_items">
+        <item>Slow</item>
+        <item>Medium</item>
+        <item>Fast</item>
+        <item>Jump</item>
+    </string-array>
+    <string-array name="theme_dialog_items">
+        <item>Day</item>
+        <item>Night</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="role_dialog_items">
+        <item>Mandarin</item>
+        <item>Cantonese</item>
+    </string-array>
+    <string-array name="fjtqh_dialog_items">
+        <item>Simplified</item>
+        <item>Traditional</item>
+    </string-array>
+    <string-array name="switch_dialog_items">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tts_dialog_items">
+        <item>General</item>
+        <item>Frequent</item>
+    </string-array>
+    <string-array name="wakelock_dialog_items">
+        <item>Auto</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="tmc_showoption_items">
+        <item>City</item>
+        <item>Route</item>
+    </string-array>
+    <string-array name="custommap_day_dialog_items">
+        <item>Sunshine</item>
+        <item>Sakura</item>
+        <item>Matcha</item>
+    </string-array>
+    <string-array name="custommap_night_dialog_items">
+        <item>Moonlight</item>
+        <item>Cappuccino</item>
+        <item>Greenfield</item>
+    </string-array>
+    <string-array name="text_roadnode_soundtype">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Straight ahead, to the</item>
+        <item></item>
+        <item>By the left side of the road, to the</item>
+        <item>By the right side of the road, to the</item>
+        <item>High-speed merging Road, to</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>By the left side of the road, to the</item>
+        <item>By the right side of the road, to the</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Straight uphill, to the</item>
+        <item>Right in front of uphill, to the</item>
+        <item>Turn right uphill, into e</item>
+        <item></item>
+        <item>Front of the U-turn uphill, to the</item>
+        <item></item>
+        <item>Turn left uphill, to the</item>
+        <item>Left front of the uphill, to the</item>
+        <item>Uphill, to the</item>
+        <item>Straight downhill to the</item>
+        <item>Right in front of downhill, to the</item>
+        <item>Turn right downhill to</item>
+        <item></item>
+        <item>U-turn downhill to the</item>
+        <item></item>
+        <item>Turn left downhill to</item>
+        <item>Left front of the downhill, to the</item>
+        <item>Downhill, to the</item>
+        <item></item>
+        <item></item>
+        <item>U-turn right to</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Roundabout turn right to</item>
+        <item>Around the roundabout go straight to the</item>
+        <item>Around the roundabout turn left to</item>
+        <item>U-turn around the roundabout, to the</item>
+        <item>Enter the roundabout, exit from the first to the</item>
+        <item>Enter the roundabout, exit from the second to</item>
+        <item>Enter the roundabout, exit from the third to</item>
+        <item>Enter the roundabout, exit from the fourth to</item>
+        <item>Enter the roundabout, exit from the fifth to</item>
+        <item>Enter the roundabout, exit from the sixth to</item>
+        <item>Enter the roundabout, exit from the Seventh to</item>
+        <item>Enter the roundabout, exit from the Eighth to</item>
+        <item>Into the main road</item>
+        <item>Right into the main road</item>
+        <item>Left into the main road</item>
+        <item>Out of the main road to the</item>
+        <item>Right out of the main road to the</item>
+        <item>Left out of the main road to the</item>
+        <item>Into high-speed</item>
+        <item>Right into the high-speed</item>
+        <item>Left into the high-speed</item>
+        <item>High speed, to the</item>
+        <item>Right out of high speed, to the</item>
+        <item>Left out of high speed, to the</item>
+        <item>On the viaduct to the</item>
+        <item>Straight ahead, to the</item>
+        <item>Right in front of moving to</item>
+        <item>Turn right to the</item>
+        <item>Right rear driving to</item>
+        <item>Intersection U-turn to the</item>
+        <item>To the left rear drive, enter</item>
+        <item>Turn left into the</item>
+        <item>To the left front running to</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Access to the internal road</item>
+        <item>Leave the internal road, to the</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Remain straight to the</item>
+        <item>Remain straight to the</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="dsptype_choose">
+        <item>Surveillance camera</item>
+        <item>Speed camera 40km</item>
+        <item>Speed camera 50km</item>
+        <item>Speed camera 60km</item>
+        <item>Speed camera 70km</item>
+        <item>Speed camera 80km</item>
+        <item>Speed camera 90km</item>
+        <item>Speed camera 100km</item>
+        <item>Speed camera 110km</item>
+        <item>Speed camera 120km</item>
+    </string-array>
+    <string-array name="poi_err_type">
+        <item>name error</item>
+        <item>address error</item>
+        <item>telephone error</item>
+        <item>position error</item>
+        <item>Out of time</item>
+        <item>Repeat</item>
+        <item>no exit</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="poi_err_type_value">
+        <item>01</item>
+        <item>02</item>
+        <item>05</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="road_err_type">
+        <item>Road name change</item>
+        <item>Add new roads</item>
+        <item>Road widening</item>
+        <item>Road extension</item>
+        <item>Road changes</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="road_err_type_value">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+    </string-array>
+    <string-array name="routes_set_opera">
+        <item>Using my location</item>
+        <item>Selected from Map</item>
+        <item>Selected from Favorites</item>
+    </string-array>
+    <string-array name="road_condition_set_array">
+        <item>Automatic reporting</item>
+        <item>Manual reporting</item>
+    </string-array>
+    <string-array name="recommend_ways">
+        <item>Use SMS</item>
+        <item>Use BlueTooth</item>
+    </string-array>
+    <integer-array name="xmgd_zoomcross_size">
+        <item>480</item>
+        <item>400</item>
+        <item>400</item>
+        <item>451</item>
+    </integer-array>
+    <integer-array name="xmgd_wholeview_size">
+        <item>480</item>
+        <item>400</item>
+        <item>400</item>
+        <item>451</item>
+    </integer-array>
+    <integer-array name="xmgd_default_preferences">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="xmgd_day_night_range">
+        <item>6</item>
+        <item>18</item>
+    </integer-array>
+</resources>

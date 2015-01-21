@@ -4214,7 +4214,7 @@
     :cond_0
     iget-object v1, p0, Lcom/android/internal/telephony/cdma/CDMAPhone;->mContext:Landroid/content/Context;
 
-    const v2, 0x1040004
+    const v2, #android:string@defaultVoiceMailAlphaTag#t
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -4257,7 +4257,7 @@
 
     move-result-object v2
 
-    const v3, 0x1110037
+    const v3, #android:bool@config_telephony_use_own_number_for_voicemail#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getBoolean(I)Z
 

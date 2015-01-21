@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">智能分屏</string>
+    <string name="toast_msg">此处无应用程序运行，忽略后退键</string>
+    <string name="camera_using_msg">即将在全屏模式下使用照相机</string>
+    <string name="multiwindow_deny_msg">即将运行的程序无法支持双屏</string>
+    <string name="ml_editmode_label">编辑</string>
+    <string name="ml_disabledapp_detected">之前运行的程序无法支持双屏</string>
+    <string name="mle_editdone_label">完成</string>
+    <string name="mle_editsort_label">排序</string>
+    <string name="title_activity_app_list_editor">快速启动编辑器</string>
+    <string name="cp_btn_text_switch">交换</string>
+    <string name="cp_btn_text_move">移动</string>
+    <string name="cp_btn_text_fit">适配</string>
+    <string name="cp_btn_text_mute">静音</string>
+    <string name="cp_btn_text_exit">关闭</string>
+    <string name="cp_btn_text_home">启动器</string>
+    <string name="mle_loading_message">正在加载应用信息</string>
+    <string name="mle_disabled_list_label">无法使用智能分屏的应用</string>
+    <string name="mle_hide_list_label">从智能分屏启动器隐藏的应用</string>
+    <string name="mle_disable_list_show">展开</string>
+    <string name="mle_disable_list_hide">收起</string>
+    <string name="mle_showall_label">全部显示</string>
+    <string name="mle_hideall_label">全部隐藏</string>
+    <string name="mle_combo_not_allow">已经有一个图标是启动组合了</string>
+    <string name="mle_combo_exist">启动组合已经存在</string>
+    <string name="mle_combo_op_msg">启动组合</string>
+    <string name="mle_combo_op_hide">隐藏</string>
+    <string name="mle_combo_op_delete">删除</string>
+    <string name="sr_title">智能分屏帮助</string>
+    <string name="sr_content_menu">长按MENU键可以将智能分屏图标暂时隐藏，再次长按可以重新显示；单击详情可以察看更多帮助内容</string>
+    <string name="sr_content_back">长按BACK键可以将智能分屏图标暂时隐藏，再次长按可以重新显示；单击详情可以察看更多帮助内容</string>
+    <string name="sr_skip">不再提醒</string>
+    <string name="sr_gotit">知道了</string>
+    <string name="sr_detail">详情</string>
+    <string name="check_on">禁用</string>
+    <string name="check_off">启用</string>
+    <string name="master_activity_label">智能分屏</string>
+    <string name="master_enable_s">显示智能分屏悬浮按钮</string>
+    <string name="master_enable_s_detail_menu">"启动后，你可以通过点击悬浮的分屏按钮打开智能分屏快速启动栏。你可以点击或者拖动快速启动栏中的图标将程序启动到分屏模式中。
+你也可以长按MENU键来打开或者关闭智能分屏悬浮按钮。"</string>
+    <string name="master_enable_s_detail_back">"启动后，你可以通过点击悬浮的分屏按钮打开智能分屏快速启动栏。你可以点击或者拖动快速启动栏中的图标将程序启动到分屏模式中。
+你也可以长按BACK键来打开或者关闭智能分屏悬浮按钮。"</string>
+    <string name="master_enable_s_faq">FAQ</string>
+    <string name="master_enable_s_faq_title">智能分屏FAQ</string>
+    <string name="master_enable_s_help">显示更详细的帮助信息</string>
+    <string name="master_enable_s_reset">重置应用配置</string>
+    <string name="master_enable_s_reset_title">重置应用配置</string>
+    <string name="master_enable_s_reset_delete">重置</string>
+    <string name="master_enable_s_reset_cancel">取消</string>
+    <string name="master_enable_s_reset_message">确定重置应用配置请点击“重置”</string>
+    <string name="master_enable_s_help_title">智能分屏帮助</string>
+    <string name="master_enable_s_edit">编辑快速启动栏</string>
+    <string name="master_enable_sho">单手操作</string>
+    <string name="master_enable_sho_detail">"允许单手操作后将在屏幕下方显示一个适合于单手操作的小尺寸全屏幕镜像。
+长按悬浮的分屏按钮可以进入/退出此模式。"</string>
+    <string name="master_enable_sho_faq">FAQ</string>
+    <string name="master_enable_sho_help">显示更详细的帮助信息</string>
+    <string name="force_close">知道了</string>
+    <string name="process_violation_title">注意</string>
+    <string name="process_violation_long_desc">应用 %1$s 正在另一分屏窗口中运行</string>
+    <string name="process_violation_desc">应用 %1$s 正在运行</string>
+    <string name="activity_violation_title">注意</string>
+    <string name="activity_violation_desc">应用 %1$s 正在运行</string>
+</resources>

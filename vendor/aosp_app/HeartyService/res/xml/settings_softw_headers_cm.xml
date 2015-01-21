@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/status_bar_show" android:title="@string/status_bar_show" android:summary="@string/status_bar_show_summary" />
+    <header android:id="@id/auto_update" android:title="@string/auto_update_title" android:summary="@string/auto_update_summary" />
+    <header android:id="@id/whitelist_setting" android:title="@string/whitelist_setting_title" android:summary="@string/whitelist_setting_summary" />
+    <header android:id="@id/feedback" android:title="@string/feedback_title" android:summary="@string/feedback_summary" />
+    <header android:id="@id/app_exit" android:title="@string/app_exit_title" android:summary="@string/app_exit_summary" />
+</preference-headers>

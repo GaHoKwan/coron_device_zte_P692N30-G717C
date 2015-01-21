@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="citys_grid">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="item_layout">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="phone_num_list">false</item>
+    <item type="id" name="addr">false</item>
+    <item type="id" name="view_map">false</item>
+    <item type="id" name="city">false</item>
+    <item type="id" name="city_name">false</item>
+    <item type="id" name="service_centers_list">false</item>
+    <item type="id" name="search">false</item>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/singlebutton_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview_1" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview_2" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview_3" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview_4" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview_5" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview_6" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:textColor="#ffffffff" android:id="@id/singlebutton_textview_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/singlebutton_textview_7" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/singlebutton_pass_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/pass" />
+        <Button android:id="@id/singlebutton_false_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/falsed" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autonavi.xmgd.view.GDTitle android:id="@id/title" android:layout_width="wrap_content" android:layout_height="@dimen/gdtitle_height" />
+    <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/default_textcolor" android:id="@id/softversion_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_checkversion" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/default_textcolor" android:id="@id/softupdate_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/progress_horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@*android:drawable/progress_horizontal" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="#ffffffff" android:id="@id/tip_detail" android:background="#ff494949" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/update_detail" />
+    <ScrollView android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/default_textcolor" android:id="@id/text_info" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    </ScrollView>
+    <Button android:textSize="@dimen/textSizeMedium" android:textColor="@color/default_textcolor" android:gravity="center" android:id="@id/button_update" android:background="@drawable/btn_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/activity_bottom_button_height" />
+</LinearLayout>

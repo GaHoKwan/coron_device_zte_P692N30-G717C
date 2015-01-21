@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/weather_city_name_size" android:textColor="@*android:color/white" android:id="@id/indices_city_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" android:shadowColor="#38000000" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Spinner android:id="@id/indices_types_spinner" android:background="@drawable/indices_spinner_bg" android:paddingLeft="6.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="@dimen/indices_spinner_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/indices_item_padding" android:layout_below="@id/indices_city_name" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/indices_item_grid_padding" android:layout_marginRight="@dimen/indices_item_grid_padding" android:layout_below="@id/indices_types_spinner" android:layout_alignParentBottom="true">
+        <GridView android:id="@id/indices_gridview" android:background="@*android:color/transparent" android:scrollbars="none" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/item_selector" android:verticalSpacing="@dimen/indices_item_vertical_spacing" android:numColumns="3" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/indices_no_date_layout" android:background="#70ffffff" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@*android:style/TextAppearance.Large" android:textColor="@*android:color/black" android:gravity="center" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/indices_no_date" />
+    </LinearLayout>
+</RelativeLayout>

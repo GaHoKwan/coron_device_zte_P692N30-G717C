@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/whole" android:background="@color/main_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/upper_half" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:background="@drawable/fengelan_bg" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/main_edit_height" android:text="@string/locked" style="@style/main_grey_13sp" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/no_locked_app" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height" android:text="@string/no_locked_app" />
+        <ListView android:id="@id/locked_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/line_color" android:dividerHeight="1.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/lower_half" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:background="@drawable/fengelan_bg" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/main_edit_height" android:text="@string/unlocked" style="@style/main_grey_13sp" />
+        <ListView android:id="@id/unlocked_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/line_color" android:dividerHeight="1.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

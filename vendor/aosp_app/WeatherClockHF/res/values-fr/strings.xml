@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Météo_ZTE</string>
+    <string name="weather_default_location">Mon Emplacement</string>
+    <string name="weather_invalid">Inconnu</string>
+    <string name="widget_loading">Le Widget est en cours de chargement…</string>
+    <string name="activity_not_found">"L'application n'est pas installée sur votre téléphone."</string>
+    <string name="data_not_refreshed">"Autoriser l'accès aux données via le réseau mobile, puis essaye de mettre à jour les informations climatiques."</string>
+    <string name="data_has_refreshed">les données météorologiques sont en cours de mise à jour</string>
+    <string name="weather_add_city_text">Ajouter une ville</string>
+    <string name="weather_CMO">Afficher le Site Internet météorologique</string>
+    <string name="widget_weather_location_fail">La récupération des données météorologiques a échoué</string>
+    <string name="widget_land_text">Ce Widget ne peut pas êtreffiché en paysage.</string>
+</resources>

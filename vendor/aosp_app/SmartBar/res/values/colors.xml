@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_list_item_bg">#70000000</color>
+    <color name="app_list_item_active">#506db003</color>
+    <color name="color_text_w">#f0ebebeb</color>
+    <color name="color_text_w_active">#f06db003</color>
+    <color name="color_text_b">#f0000000</color>
+    <color name="color_text_b_active">#f06db003</color>
+    <color name="ml_separator">#40eeeeee</color>
+    <color name="ml_bg_center">#e0000000</color>
+    <color name="drag_bg_center">#606cb900</color>
+    <color name="mle_bg">#ffcccccc</color>
+    <color name="mle_separator">#40333333</color>
+    <color name="mla_bg">#ff333333</color>
+    <color name="shopm_bg">#90505050</color>
+    <color name="shopm_bar_bg">#f0333333</color>
+    <color name="shopm_mask">#90ebebeb</color>
+    <color name="shopm_frame_bg">#e06db003</color>
+    <color name="color_dialog_bg">#fe000000</color>
+    <color name="color_dialog_bg_transparent">#00000000</color>
+</resources>

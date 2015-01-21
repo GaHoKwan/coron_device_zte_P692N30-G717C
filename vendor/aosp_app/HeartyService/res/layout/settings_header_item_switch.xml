@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0" android:layout_alignParentLeft="true">
+        <TextView android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" style="@style/hearty_black_16dp" />
+        <TextView android:textSize="@dimen/white_11dp" android:ellipsize="marquee" android:id="@id/item_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/item_title" android:layout_alignLeft="@id/item_title" />
+    </LinearLayout>
+    <com.zte.heartyservice.common.datatype.P3Switch android:layout_gravity="center_vertical" android:id="@id/switchWidget" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_marginLeft="3.0dip" />
+</LinearLayout>

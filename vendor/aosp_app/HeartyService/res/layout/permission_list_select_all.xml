@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/speedup_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_1line_height" android:minHeight="@dimen/list_item_1line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <TextView android:ellipsize="end" android:id="@id/app_name" android:paddingLeft="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_all" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/hearty_seconditem_18dp" />
+    <com.zte.heartyservice.common.datatype.P3Switch android:id="@id/switch_button" android:paddingLeft="5.0dip" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+<version>1</version>
+<vendor>autonavi</vendor>
+<url>www.autonavi.com</url>
+<form>2</form>
+<file>com.autonavi.xmgd.plugin.maplayer</file>
+<package>com.autonavi.xmgd.plugin.maplayer</package>
+<entry>com.autonavi.xmgd.plugin.maplayer.FavoriteLayer</entry>
+<title>收藏夹</title>
+<description>随便写点什么</description>
+<key>010119CAE8455F90289EE97FE94DF6206122991D73E85E20C6465AB67342C65499976ACC7015FB27D9E4DF582492029D6629F08D2162DC5047A195F941B915C62446AB1253992799976A0202A98C363DF3CA866C24515B84C56D2C3DB09BE0A92DD8FA0865D22B8308DF8F223CC1F987D3718D9C3824D8100FCEE71B8BC8F839C59F047B5ED3FB0175AB97660D2A861914E376E1B5D41C8F9789</key>
+<feature>com.autonavi.xmgd.plugin.interfaces.IMapLayerPlugin</feature>
+</plugin>

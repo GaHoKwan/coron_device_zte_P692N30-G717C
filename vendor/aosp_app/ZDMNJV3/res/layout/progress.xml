@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/layout_body_partOne" android:background="@drawable/bgv3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="6.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="70.0dip" android:textColor="@color/title_v3" android:gravity="center" android:layout_gravity="center" android:id="@id/progress_msg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0%" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/title_v3" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/progress_msg_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="3.0dip" android:text="@string/download_warn_message" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_body_partTwo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="6.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/backup_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/backup_progress_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/backup_data" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:layout_gravity="right|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                <ProgressBar android:id="@id/backup_progress" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:indeterminateDrawable="@drawable/progressbar" />
+                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/backup_complete" android:background="@drawable/confirm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/download_progress_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/download_progress_title" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:layout_gravity="right|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/download_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="" />
+                <ImageView android:id="@id/download_complete" android:background="@drawable/confirm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/prepare_update_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/prepare_update" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:layout_gravity="right|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                <ProgressBar android:id="@id/prepare_update" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="15.0dip" android:indeterminateDrawable="@drawable/progressbar" />
+                <ImageView android:id="@id/prepare_complete" android:background="@drawable/confirm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/start_update" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:layout_gravity="right|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:gravity="right|center" android:layout_gravity="right|center" android:id="@id/restart_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/restart_title" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/expand_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ExpandableListView android:scrollbarAlwaysDrawHorizontalTrack="true" android:textColor="@color/titleandbutton" android:id="@id/expandableListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:drawSelectorOnTop="false" android:cacheColorHint="@null" android:childIndicatorLeft="0.0dip" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/layout_body_partThree" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="center" android:layout_gravity="center" android:id="@id/download_bg" android:background="@drawable/button_selector" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/background" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="center" android:layout_gravity="center" android:id="@id/progress_retry" android:background="@drawable/button_selector" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/retry" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/text_special_v3" android:gravity="center" android:layout_gravity="center" android:id="@id/progress_cancel" android:background="@drawable/button_selector" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/cancel" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="center" android:layout_gravity="center" android:id="@id/delay_update" android:background="@drawable/button_selector" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/not_now" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/text_special_v3" android:gravity="center" android:layout_gravity="center" android:id="@id/update" android:background="@drawable/button_selector" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/updata_ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

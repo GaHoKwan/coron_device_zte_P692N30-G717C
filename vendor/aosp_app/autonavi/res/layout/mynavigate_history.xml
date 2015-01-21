@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_list_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="@dimen/search_result_nodata_textsize" android:textColor="@color/search_result_noresult_textview_color" android:gravity="center" android:id="@id/mynavigate_total_history" android:background="@drawable/search_result_display_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/search_result_nodata_textsize" android:textColor="@color/search_result_noresult_textview_color" android:gravity="center" android:id="@id/mynavigator_history_clear" android:background="@drawable/search_result_sort" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mynavigate_clear" android:singleLine="true" android:layout_weight="2.0" />
+    </LinearLayout>
+    <ExpandableListView android:id="@id/mynavigate_history_list" android:background="@color/general_list_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/general_list_back_color" android:childDivider="@color/list_driver_color" android:divider="@color/list_driver_color" android:dividerHeight="0.5dip" />
+</LinearLayout>

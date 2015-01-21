@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/main_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/msim_switch_layout" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/msim_switch" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:textColor="@color/check_btn_text_color" android:gravity="center" android:id="@id/sim0" android:background="@drawable/btn_left_layer" android:layout_width="100.0dip" android:layout_height="35.0dip" android:button="@null" android:text="@string/sim0_title" />
+            <RadioButton android:textColor="@color/check_btn_text_color" android:gravity="center" android:id="@id/sim1" android:background="@drawable/btn_right_layer" android:layout_width="100.0dip" android:layout_height="35.0dip" android:button="@null" android:text="@string/sim1_title" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ScrollView android:id="@id/self_mode_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:gravity="left|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/net_setting_main_view">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/max_month_flow_setting" android:background="@drawable/item_press_bg_selector" android:paddingLeft="@dimen/setting_list_margin_lr" android:paddingRight="@dimen/setting_list_margin_lr" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_traffic_max_month" style="@style/main_dark_17sp" />
+                <TextView android:id="@id/max_month_flow_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/never_setting" style="@style/light_grey_12sp" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/idle_hours_flow_setting" android:background="@drawable/item_press_bg_selector" android:paddingLeft="@dimen/setting_list_margin_lr" android:paddingRight="@dimen/setting_list_margin_lr" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_traffic_idle_hours_limit_quota" android:singleLine="true" style="@style/main_dark_17sp" />
+                    <TextView android:id="@id/net_idle_hours_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/light_grey_12sp" />
+                </LinearLayout>
+                <com.zte.heartyservice.common.datatype.P3Switch android:id="@id/idle_hours_switch_icon" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/warnning_month_flow_setting" android:background="@drawable/item_press_bg_selector" android:paddingLeft="@dimen/setting_list_margin_lr" android:paddingRight="@dimen/setting_list_margin_lr" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_traffic_month_warn_title" android:singleLine="true" style="@style/main_dark_17sp" />
+                    <TextView android:id="@id/month_warn_percent_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/light_grey_12sp" />
+                </LinearLayout>
+                <com.zte.heartyservice.common.datatype.P3Switch android:id="@id/month_warn_switch_icon" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/stats_adjustment" android:background="@drawable/item_press_bg_selector" android:paddingLeft="@dimen/setting_list_margin_lr" android:paddingRight="@dimen/setting_list_margin_lr" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stats_adjustment_title" style="@style/main_dark_17sp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/sim_info_setting" android:background="@drawable/item_press_bg_selector" android:paddingLeft="@dimen/setting_list_margin_lr" android:paddingRight="@dimen/setting_list_margin_lr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calibration_setting" style="@style/main_dark_17sp" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/calculate_day_setting" android:background="@drawable/item_press_bg_selector" android:paddingLeft="@dimen/setting_list_margin_lr" android:paddingRight="@dimen/setting_list_margin_lr" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_traffic_set_value_day" style="@style/main_dark_17sp" />
+                <TextView android:id="@id/calculate_day_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/light_grey_12sp" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/warnning_day_flow_setting" android:background="@drawable/item_press_bg_selector" android:paddingLeft="@dimen/setting_list_margin_lr" android:paddingRight="@dimen/setting_list_margin_lr" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_traffic_set_day_quota" android:singleLine="true" style="@style/main_dark_17sp" />
+                    <TextView android:id="@id/net_warn_day_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/light_grey_12sp" />
+                </LinearLayout>
+                <com.zte.heartyservice.common.datatype.P3Switch android:id="@id/day_warn_switch_icon" android:focusable="false" android:clickable="true" android:layout_width="@dimen/setting_switch_width" android:layout_height="@dimen/setting_switch_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

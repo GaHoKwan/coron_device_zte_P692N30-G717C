@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="3.0dip" />
+                    <solid android:color="#ff00aeff" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/paintpad_color_orange" android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="3.0dip" />
+                    <solid android:color="#ff9a9999" />
+                </shape>
+            </item>
+            <item android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip">
+                <shape>
+                    <corners android:radius="2.0dip" />
+                    <solid android:color="#ffeff0ef" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

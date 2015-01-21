@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Svetleća Baterija</string>
+    <string name="SOUND_NOTIFY">Zvuk</string>
+    <string name="OPEN_WITH_SHAKE">Protresi da bi Upalio/Ugasio Svetleću Bateriju</string>
+    <string name="SHAKE_SENSITIVITY">Jačina</string>
+    <string name="main_screen_text">Ako protresete možete upaliti svetleću bateriju mnogo lakše!</string>
+    <string name="setting_button">Podešavanja</string>
+    <string name="flashsetting_title">Podešavanja Svetleće Baterije</string>
+    <string name="shake_sensitivity_weak">Slabo</string>
+    <string name="shake_sensitivity_strong">Snažno</string>
+    <string name="Cancel">Otkaži</string>
+    <string name="text_off">ISKLjUČENO</string>
+    <string name="text_on">UKLjUČENO</string>
+</resources>

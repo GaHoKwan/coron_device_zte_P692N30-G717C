@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/letv_loading_dialog_bg" android:layout_width="146.0dip" android:layout_height="116.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/letv_tosat_icon" />
+    <TextView android:gravity="center" android:id="@id/tosat_msg" android:layout_width="146.0dip" android:layout_height="wrap_content" style="@style/letv_16_ffffff" />
+</LinearLayout>

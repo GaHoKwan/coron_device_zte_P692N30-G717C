@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="software">
+        <item>com.google.android.apps.maps</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>cld.navi.mainframe</item>
+        <item>cld.navi.cm</item>
+        <item>cn.com.tiros.android.navidog4x</item>
+        <item>cn.com.tiros.android.navidog</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.autonavi.xmgd.navigator.tob</item>
+        <item>com.route66.maps5</item>
+        <item>com.sogou.map.android.maps</item>
+        <item>com.sygic.aura</item>
+        <item>com.tencent.map</item>
+        <item>com.mapbar.android.trybuynavi</item>
+        <item>com.mapbar.android.mapbarmap</item>
+        <item>com.mapbar.android.mapbarmap1</item>
+        <item>com.uu.uunavi</item>
+    </string-array>
+    <string-array name="weather_condition_num">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+    </string-array>
+    <string-array name="weather_condition_cn">
+        <item>晴</item>
+        <item>以晴为主</item>
+        <item>局部晴朗</item>
+        <item>晴间多云</item>
+        <item>晴有薄雾</item>
+        <item>多云</item>
+        <item>多云</item>
+        <item>闷热</item>
+        <item>雾</item>
+        <item>薄雾</item>
+        <item>阵雨</item>
+        <item>多云，有阵雨</item>
+        <item>晴，有阵雨</item>
+        <item>雷雨</item>
+        <item>多云，有雷阵雨</item>
+        <item>晴，有雷阵雨</item>
+        <item>雨</item>
+        <item>小雪</item>
+        <item>多云，有小雪</item>
+        <item>晴，有小雪</item>
+        <item>雪</item>
+        <item>多云，有雪</item>
+        <item>冰雹</item>
+        <item>雨夹雪</item>
+        <item>冻雨</item>
+        <item>雨夹雪</item>
+        <item>高温</item>
+        <item>严寒</item>
+        <item>大风</item>
+        <item>晴</item>
+        <item>以晴为主</item>
+        <item>多云</item>
+        <item>晴间多云</item>
+        <item>薄雾</item>
+        <item>多云</item>
+        <item>多云间阵雨</item>
+        <item>多云，有阵雨</item>
+        <item>多云有时有雷阵雨</item>
+        <item>多云，有雷阵雨</item>
+        <item>多云，有小雪</item>
+        <item>多云，有雪</item>
+    </string-array>
+    <string-array name="wind_direction_en">
+        <item>N</item>
+        <item>E</item>
+        <item>W</item>
+        <item>S</item>
+        <item>NW</item>
+        <item>NE</item>
+        <item>SW</item>
+        <item>SE</item>
+        <item>WNW</item>
+        <item>NNW</item>
+        <item>NNE</item>
+        <item>ENE</item>
+        <item>ESE</item>
+        <item>SSE</item>
+        <item>SSW</item>
+        <item>WSW</item>
+    </string-array>
+    <string-array name="wind_direction_cn">
+        <item>北风</item>
+        <item>东风</item>
+        <item>西风</item>
+        <item>南风</item>
+        <item>西北风</item>
+        <item>东北风</item>
+        <item>西南风</item>
+        <item>东南风</item>
+        <item>西北偏西风</item>
+        <item>西北偏北风</item>
+        <item>东北偏北风</item>
+        <item>东北偏东风</item>
+        <item>东南偏东风</item>
+        <item>东南偏南风</item>
+        <item>西南偏南风</item>
+        <item>西南偏西风</item>
+    </string-array>
+    <string-array name="weather_zh">
+        <item>晴</item>
+        <item>多云</item>
+        <item>阴</item>
+        <item>阵雨</item>
+        <item>雷阵雨</item>
+        <item>雷阵雨并伴有冰雹</item>
+        <item>雨夹雪</item>
+        <item>小雨</item>
+        <item>中雨</item>
+        <item>大雨</item>
+        <item>暴雨</item>
+        <item>大暴雨</item>
+        <item>特大暴雨</item>
+        <item>阵雪</item>
+        <item>小雪</item>
+        <item>中雪</item>
+        <item>大雪</item>
+        <item>暴雪</item>
+        <item>雾</item>
+        <item>冻雨</item>
+        <item>沙尘暴</item>
+        <item>小雨-中雨</item>
+        <item>中雨-大雨</item>
+        <item>大雨-暴雨</item>
+        <item>暴雨-大暴雨</item>
+        <item>大暴雨-特大暴雨</item>
+        <item>小雪-中雪</item>
+        <item>中雪-大雪</item>
+        <item>大雪-暴雪</item>
+        <item>浮尘</item>
+        <item>扬沙</item>
+        <item>强沙尘暴</item>
+        <item>飑</item>
+        <item>龙卷风</item>
+        <item>弱高吹雪</item>
+        <item>轻雾</item>
+    </string-array>
+    <string-array name="weather_en">
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Shade</item>
+        <item>Shower</item>
+        <item>Thunder shower</item>
+        <item>Thunder shower and hail</item>
+        <item>Rain and snow mixed</item>
+        <item>Rain</item>
+        <item>Rain</item>
+        <item>Rain</item>
+        <item>Hard rain</item>
+        <item>Hard rain</item>
+        <item>Hard rain</item>
+        <item>Snow shower</item>
+        <item>Snow</item>
+        <item>Snow</item>
+        <item>Great Snow</item>
+        <item>Blizzard</item>
+        <item>Frog</item>
+        <item>Freezing rain</item>
+        <item>Dust storm</item>
+        <item>Rain</item>
+        <item>Rain</item>
+        <item>Rain</item>
+        <item>Hard rain</item>
+        <item>Hard rain</item>
+        <item>Snow</item>
+        <item>Snow</item>
+        <item>Snow</item>
+        <item>Smoke</item>
+        <item>Blowing sand</item>
+        <item>Strong sandstorm</item>
+        <item>Squall</item>
+        <item>Tornado</item>
+        <item>Snow</item>
+        <item>Light frog</item>
+    </string-array>
+</resources>

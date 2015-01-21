@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="115.0dip" android:layout_height="145.0dip" android:layout_marginTop="4.0dip">
+        <RelativeLayout android:layout_width="103.0dip" android:layout_height="134.5dip" android:layout_centerInParent="true">
+            <com.letv.cache.view.LetvImageView android:id="@id/detail_info_pic" android:layout_width="103.0dip" android:layout_height="134.5dip" android:src="@drawable/letv_image_detail_default" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <TextView android:gravity="center" android:id="@id/price_textview" android:background="#cc000000" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="18.0dip" android:text="@string/letv_album_detail_info_vip_tag" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/letv_10_ff2418" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/letv_image_detail_frame" android:layout_width="115.0dip" android:layout_height="145.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/album_detail_info_imagePlayBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/letv_albumdetail_playicon" android:scaleType="center" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/album_detail_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/detail_info_grade_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RatingBar android:layout_gravity="center_vertical" android:id="@id/detail_info_grade_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="10" android:numStars="5" android:stepSize="0.5" style="@style/letv_gradeRatingBar" />
+            <TextView android:id="@id/detail_info_grade_text_int" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/letv_16_ff2216" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/letv_album_detail_info_dota_tag" style="@style/letv_16_ff2216" />
+            <TextView android:id="@id/detail_info_grade_text_float" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/letv_12_ff2216" />
+        </LinearLayout>
+        <include android:id="@id/info_item01" layout="@layout/letv_album_detail_info_item" />
+        <include android:id="@id/info_item02" layout="@layout/letv_album_detail_info_item" />
+        <include android:id="@id/info_item03" layout="@layout/letv_album_detail_info_item" />
+        <include android:id="@id/info_item04" layout="@layout/letv_album_detail_info_item" />
+        <include android:id="@id/info_item05" layout="@layout/letv_album_detail_info_item" />
+        <include android:id="@id/info_item06" layout="@layout/letv_album_detail_info_item" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_background">#00000000</color>
+    <color name="text_color">#ff787878</color>
+    <color name="widgetTextColor">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gainsboro">#ffdcdcdc</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffc8c8c8</color>
+    <color name="grey">#ffa0a0a0</color>
+    <color name="status_bar_recents_app_label_color">#ffffffff</color>
+    <color name="notification_list_shadow_top">#80000000</color>
+    <color name="BLACK">#ff000000</color>
+    <color name="BLUE">#ff0000ff</color>
+    <color name="CYAN">#ff00ffff</color>
+    <color name="DKGRAY">#ff444444</color>
+    <color name="GRAY">#ff888888</color>
+    <color name="GREEN">#ff00ff00</color>
+    <color name="LTGRAY">#ffcccccc</color>
+    <color name="MAGENTA">#ffff00ff</color>
+    <color name="RED">#ffff0000</color>
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="WHITE">#ffffffff</color>
+    <color name="YELLOW">#ffffff00</color>
+    <color name="bottom_btn_en_bg">#ff7d7d7d</color>
+    <color name="bottom_btn_dis_bg">#ffc2c2c2</color>
+    <color name="menu_bg">#ff757575</color>
+    <color name="color_btn_red">#ffff0000</color>
+    <color name="color_btn_black">#ff000000</color>
+    <color name="color_btn_white">#ffffffff</color>
+    <color name="color_btn_yellow">#fffdff2d</color>
+    <color name="color_btn_green">#ff16cc79</color>
+    <color name="color_btn_dkblue">#ff38a8ff</color>
+    <color name="color_btn_ltblue">#ffff49c9</color>
+</resources>

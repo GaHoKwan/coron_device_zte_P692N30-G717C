@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_notification_settings_title">
+        <CheckBoxPreference android:title="@string/pref_title_notification_enabled" android:key="pref_key_enable_notifications" android:summary="@string/pref_summary_notification_enabled" android:defaultValue="true" />
+        <ListPreference android:entries="@array/pref_mute_choices" android:layout="?android:preferenceLayoutChild" android:title="@string/pref_mute" android:key="pref_key_mute" android:dependency="pref_key_enable_notifications" android:defaultValue="0" android:dialogTitle="@string/pref_mute" android:entryValues="@array/pref_mute_values" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_ringtone_card_one" android:key="pref_key_ringtone" android:summary="@string/pref_summary_notification_ringtone" android:dependency="pref_key_enable_notifications" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_title_notification_ringtone_card_two" android:key="pref_key_ringtone_card_second" android:summary="@string/pref_summary_notification_ringtone" android:dependency="pref_key_enable_notifications" android:defaultValue="content://settings/system/notif_sound_second" android:ringtoneType="notification" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_vibrate" android:key="pref_key_vibrate" android:summary="@string/pref_summary_vibrate" android:dependency="pref_key_enable_notifications" android:defaultValue="true" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/pref_popup_notification" android:key="pref_key_popup_notification" android:summary="@string/pref_summary_popup_notification" android:dependency="pref_key_enable_notifications" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

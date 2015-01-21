@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bootup_mode">
+        <item>双卡</item>
+        <item>SIM1</item>
+        <item>SIM2</item>
+    </string-array>
+    <string-array name="gprs_mode_1">
+        <item>SIM1</item>
+        <item>禁用数据连接</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="gprs_mode_2">
+        <item>SIM2</item>
+        <item>禁用数据连接</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="new_search_engines">
+        <item>--</item>
+        <item>baidu--百度--baidu.com--search_engine_baidu--http://m.baidu.com/s?word={searchTerms}&amp;amp;from=902c--UTF-8--http://suggestion.baidu.com/su?wd={searchTerms}</item>
+        <item>yahoo_cn--中国雅虎--cn.yahoo.com--search_engine_yahoo--http://search.cn.yahoo.com/s?ei={inputEncoding}&amp;amp;fr=crmas&amp;amp;p={searchTerms}--GB2312--nil</item>
+        <item>bing_zh_CN--Bing--bing.com--search_engine_bing--http://www.bing.com/search?setmkt=zh-CN&amp;amp;q={searchTerms}--UTF-8--http://api.bing.com/osjson.aspx?query={searchTerms}&amp;amp;language={language}</item>
+    </string-array>
+</resources>

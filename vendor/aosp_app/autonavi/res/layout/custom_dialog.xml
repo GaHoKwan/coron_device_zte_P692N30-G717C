@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dialog_title_linearlayout" android:background="@drawable/popup_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:gravity="center" android:id="@id/dialog_title_imag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/title_text_size" android:textColor="@color/btn_color" android:gravity="center" android:id="@id/dialog_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_right_linearlayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerHorizontal="true">
+            <ImageButton android:gravity="center" android:id="@id/title_right_btn" android:background="@drawable/btn_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/title_text_size" android:textColor="@color/btn_color" android:gravity="center" android:id="@id/dialog_title_text1" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:id="@id/content_linear_layout" android:background="@drawable/popup_list_default" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:id="@id/dialog_content_text" android:paddingLeft="6.0dip" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:visibility="gone" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0dip" android:maxLines="10" style="@style/dialogContentTheme" />
+        <ListView android:id="@id/dailog_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@color/listview_pressed_color" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/dialog_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:layout_gravity="center" android:id="@id/dialog_bar_progress" android:padding="@dimen/progress_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/progress_ring" />
+            <TextView android:layout_gravity="center" android:id="@id/dialog_bar_text" android:paddingLeft="@dimen/dialog_content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/dialogContentTheme" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/dialog_custom_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/dialog_btn_linearlayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_cancel" android:background="@drawable/btn_fix_press" style="@style/dialogBtn" />
+        <Button android:id="@id/btn_mid" android:background="@drawable/btn_mid" android:visibility="gone" style="@style/dialogBtn" />
+        <Button android:id="@id/btn_sure" android:background="@drawable/btn_cancel_press" style="@style/dialogBtn" />
+    </LinearLayout>
+</LinearLayout>

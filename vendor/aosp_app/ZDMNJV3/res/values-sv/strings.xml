@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Godkänn förbättrad service ef. försälj.?</string>
+    <string name="informative">Förbättrad service ef. försälj.</string>
+    <string name="title">Enhetshantering</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nej</string>
+    <string name="ask_setup_message">Tog emot OTA-konfigurationsinformation, bekräfta om installation och konfiguration</string>
+    <string name="omacp_setup">Konfiguration</string>
+    <string name="install_compelete">Installation klar</string>
+    <string name="instatll_fail">Installationfel</string>
+    <string name="security_error">Säkerhetsfel</string>
+    <string name="xml_parse_error">XML-parsningsfel</string>
+    <string name="user_cancel">Avbröts av användaren</string>
+    <string name="input_pin">Ange PIN</string>
+    <string name="app_name">Programuppdatering</string>
+    <string name="auto_update_settings">Autoinställningar för uppdatering</string>
+    <string name="dm_update_service">Programvaruuppdateringar</string>
+    <string name="system_update">Söker efter uppdateringar</string>
+    <string name="connecting">Söker efter senaste programuppdateringarna...</string>
+    <string name="downloading">Vänta. Det kan ta några minuter innan detta är klart.</string>
+    <string name="downloading_AU">Detta kan ta flera minuter att slutföra.</string>
+    <string name="download_title">Hämta programvara</string>
+    <string name="download_val">Hämta programvara via</string>
+    <string name="download_message">Det finns en ny programvaruuppdatering. Vill du hämta den?</string>
+    <string name="cancel_message">Är du säker på att du vill avbryta och stoppa programhämtningen?</string>
+    <string name="cancel">Avbryt</string>
+    <string name="failed">Misslyckad</string>
+    <string name="update_failed">Programuppdateringen misslyckades</string>
+    <string name="install_title">Installera programvara</string>
+    <string name="install_message">Starta om telefonen för att påbörja installationen</string>
+    <string name="checking_update">Söker efter uppdatering</string>
+    <string name="update_title">Automatisk uppdatering</string>
+    <string name="update_message">Uppdatera automatiskt varje vecka</string>
+    <string name="update_deferred">Installation uppskjuten</string>
+    <string name="update_deferred_AU">Installera programvara</string>
+    <string name="service_unavailable">Service ej tillgänglig</string>
+    <string name="check_new">Sök efter uppdateringar</string>
+    <string name="status">Status</string>
+    <string name="version">Version:</string>
+    <string name="new_version">Ny version:</string>
+    <string name="update_setting">Uppdateringsinst.</string>
+    <string name="background">Kör i bakgrunden</string>
+    <string name="delay">Fördröjning</string>
+    <string name="dm_session_busy">Dm-session är upptagen</string>
+    <string name="downloading_notification">Programuppdatering hämtas</string>
+    <string name="downloading_notification_message">Ny programvara hämtas</string>
+    <string name="update_warning_notification">Programuppdateringsvarning</string>
+    <string name="update_warning_notification_message">Nytt varningsmeddelande kommer</string>
+    <string name="update_warning_notification_new_package">En ny programvaruuppdatering är tillgänglig. Vill du hämta den?</string>
+    <string name="install_notification">Installera programvara</string>
+    <string name="install_notification_message">Starta om telefonen för att påbörja installationen.</string>
+    <string name="install_file_notification">Klicka för att installera filen</string>
+    <string name="pin">PIN</string>
+    <string name="confirm">Bekräfta</string>
+    <string name="intallresult">Installationsresultat</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_AU">Hämta via WiFi</string>
+    <string name="mobile_networks_AU">Hämta via mobilt nätverk</string>
+    <string name="mobile_networks">Mobila nätverk(Det genererar mer datatrafik)</string>
+    <string name="autoupdate_toinstall">Auto. uppdatering: klicka för att installera</string>
+    <string name="autoupdate_todownload">Auto. uppdatering: klicka för att uppdatera</string>
+    <string name="autoupdate_busy">Auto. uppdatering: avbryt uppdatering eftersom den är upptagen</string>
+    <string name="attention">Obs!</string>
+    <string name="update_busy">Uppdateringen är upptagen, vänta...</string>
+    <string name="memory_insufficient">Inte tillräckligt med lagringsutrymme</string>
+    <string name="memory_insufficient_info">"Telefonen har inte tillräckligt med utrymme för uppdateringen. 
+ Frigör utrymme och försök igen."</string>
+    <string name="network_unavailable">Nätverk ej tillgängligt</string>
+    <string name="network_unavailable_info">Nätverksstatus är ej ansluten, kan inte kontrollera ny.</string>
+    <string name="connect_timeout">Timeout för anslutning</string>
+    <string name="uncaught_exception_title">Hanterare för undantagsfel</string>
+    <string name="uncaught_exception_info">Enhetshantering kraschade. Telefonen kanske inte har tillräckligt med utrymme för den här uppdateringen. Frigör utrymme och försök igen.</string>
+    <string name="updata_ok">Starta om</string>
+    <string name="updata_Defer">Skjut upp</string>
+    <string name="updata_info">Starta om telefonen för att påbörja installationen.</string>
+    <string name="updata_title">Programvaruuppdateringar</string>
+    <string name="dm_comlete_sec">Vänta. Det tar ungefär %1$d sekunder innan det är klart.</string>
+    <string name="dm_compele_min">Vänta. Det tar ungefär %1$d minuter innan det är klart.</string>
+    <string name="dm_compele_hou">Vänta. Det tar ungefär %1$d timmar innan det är klart.</string>
+    <string name="dm_backup_install">Säkerhetskopiera och installera</string>
+    <string name="backup_title">Säkerhetskopiera</string>
+    <string name="backup_message">Enheten tar säkerhetskopierar dina data. Vänta...</string>
+    <string name="restore_title">Återställ</string>
+    <string name="restore_message">Enheten återställer dina data. Vänta...</string>
+    <string name="dm_version">Programvaruversion:</string>
+    <string name="dm_update_date">Status:</string>
+    <string name="dm_backup_nosdcard">Sätt in SD-kortet.</string>
+    <string name="dm_backup_lowbattery">Se till att batterinivån ligger på över 30 % så att installationen ska kunna genomföras.</string>
+    <string name="dm_fumo_Message">Status</string>
+    <string name="dm_fumo_START">Sök efter uppdateringar</string>
+    <string name="dm_fumo_INSTAll_DEFER">Installera uppskjuten uppdatering</string>
+    <string name="dm_fumo_SETUP">Konfigurera uppdateringspaket</string>
+    <string name="dm_fumo_SETUP_content">Vänta</string>
+    <string name="dm_never_SETUP">Originalversion</string>
+    <string name="dm_fumo_status_noupdate">Programvaran är uppdaterad</string>
+    <string name="dm_fumo_status_failed">Programuppdateringen misslyckades</string>
+    <string name="dm_fumo_status_sucess">Programvaran har uppdaterats</string>
+    <string name="dm_check_updatetile">Söker efter uppdateringar</string>
+    <string name="dm_check_update">Söker efter de senaste programuppdateringarna</string>
+    <string name="dm_network_error">Nätverksfel. Försök igen senare.</string>
+    <string name="dm_already_new">Programvaran är den senaste.</string>
+    <string name="dm_isroaming">Programvaruuppdatering tillåts ej vid dataroaming.</string>
+    <string name="dm_isroaming_AU">"Du använder roaming. Kontrollera med Telstra eftersom extra avgifter kan förekomma. 
+
+Vill du fortsätta?"</string>
+    <string name="dm_isroaming_TNZ">"Du använder roamingfunktionen. Kontrollera med Telecom eftersom extra avgifter kan tillkomma. 
+
+Vill du fortsätta?"</string>
+    <string name="dm_airplan">Programvaruuppdatering tillåts ej i flygplansläge.</string>
+    <string name="dm_no_dataservice">Inga datatjänster. Programvaruuppdatering tillåts ej.</string>
+    <string name="dm_no_dataservice_AU">"Programuppdateringar är inte tillgängliga, data är inte aktiverade. 
+
+Kontrollera tjänsten med leverantören och inställningarna på enheten."</string>
+    <string name="dm_update_setting">Uppdateringsinställningar</string>
+    <string name="auto_update_switch_title">Automatisk uppdatering</string>
+    <string name="auto_update_switch_key">Automatisk uppdatering</string>
+    <string name="auto_update_switch_summary_on">Öppna automatisk uppdatering</string>
+    <string name="auto_update_switch_summary_off">Stäng automatisk uppdatering</string>
+    <string name="auto_update_frequency_text">Uppdateras automatiskt %1$s varje %2$s</string>
+    <string name="wifi_auto_update_switch_title">Auto. uppdatering via WiFi</string>
+    <string name="wifi_auto_update_switch_key">Auto. uppdatering via WiFi</string>
+    <string name="wifi_auto_update_switch_summary_on">När WiFi är anslutet, sök efter uppdateringar automatiskt</string>
+    <string name="wifi_auto_update_switch_summary_off">När WiFi är anslutet, sök efter uppdateringar automatiskt</string>
+    <string name="cmcc_wifi_auto_update_switch_title">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_key">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">När WiFi är anslutet till CMCC, sök efter uppdateringar automatiskt</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">När WiFi är anslutet till CMCC, sök efter uppdateringar automatiskt</string>
+    <string name="dm_wifi_open">Slå på Wi-Fi för att hämta nya programvara</string>
+    <string name="dm_wifi_open_tr">En ny programvara för din enhet har hittats. Anslut till ett trådlöst nätverk för att hämta den nya programvaran.</string>
+    <string name="dm_via_wifi">Hämta via Wi-Fi</string>
+    <string name="dm_wifi_set">Wi-Fi-inställningar</string>
+    <string name="dm_yes">Ja</string>
+    <string name="dm_no">Nej</string>
+    <string name="dm_wifi_fail">Wi-Fi-åtkomst fungerar inte. Hämtningen avbryts.</string>
+    <string name="dm_KB">kB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s FM</string>
+    <string name="dm_time_pm">%1$s EM</string>
+    <string name="dm_Delay_show">%1$s gånger till att skjuta upp.</string>
+    <string name="dm_Delay_last_time_show">Redan uppskjutet 3 gånger, det går inte att skjuta upp längre</string>
+    <string name="download_message_new">"Det finns en ny programvaruuppdatering. Vill du hämta den? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_new_tr">"Ny programvara har hittats för enheten. Dataförbrukningen under uppdateringsprocessen kommer att debiteras i enlighet med din datatjänsteravgift. Vill du hämta? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"Det finns en ny programvaruuppdatering. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Version:"</string>
+    <string name="download_message_size">"
+ Data:"</string>
+    <string name="download_message_description">"
+ Beskrivning:"</string>
+    <string name="download_message_auto_download">"
+
+ Automatisk hämtning om %1$s sekunder"</string>
+    <string name="install_message_new">"Starta om telefonen för att påbörja installationen. 
+
+ %1$s gånger till att skjuta upp."</string>
+    <string name="install_message_tr">Mobilen måste startas om för att installationen ska kunna påbörjas. Kontrollera batteriet eller anslut laddaren för att se till att uppdateringen kan genomföras.</string>
+    <string name="install_message_new_later">"Starta om telefonen för att påbörja installationen. 
+
+ %1$s gånger till att skjuta upp."</string>
+    <string name="install_message_new_last_time">"För att installationen ska påbörjas måste telefonen startas om. Se till att batterinivån är minst 10%%. 
+ Redan uppskjutet 3 gånger, telefonen kommer att startas om %1$s minuter efter att du klickat på fördröjningsknappen."</string>
+    <string name="install_message_force">Tvinga uppdatering om %1$s min.</string>
+    <string name="install_message_delaycompleted">Redan försenad 3 gånger, telefonen startas om</string>
+    <string name="wifi_cost_notify">Medd. om WLAN-kostnad</string>
+    <string name="wifi_cost_notify_body">WLAN anslutet nu kan orsaka datatrafikkostnad, är du säker på att du vill fortsätta?</string>
+    <string name="dm_continue">Fortsätt</string>
+    <string name="download_message_new_AU">En programuppdatering är tillgänglig för enheten. Uppdateringen har storleken %1$s</string>
+    <string name="download_message_version_AU">och uppgraderar %1$s från version %2$s till %3$s.</string>
+    <string name="download_message_description_AU">Uppdateringen %1$s</string>
+    <string name="about_charge_AU">"
+
+ Hämtning via Wi-Fi rekommenderas. Hämtning kan medföra extra kostnader (särskilt vid hämtning via mobilt nätverk eller vid roaming utomlands). Enhetsdriften påverkas inte under hämtningen. Mer information och hjälp finns på telstra.com/mobile eller kontakta vår kundtjänst på 13 2200."</string>
+    <string name="about_charge_TNZ">"
+
+ Hämtning via Wi-Fi rekommenderas. Hämtningen kan medföra extra kostnader (särskilt vid hämtning via ett mobilt nätverk eller vid roaming utomlands). Enhetens funktion påverkas inte under hämtningen."</string>
+    <string name="dm_later">Senare</string>
+    <string name="dm_install">Installera</string>
+    <string name="install_message_AU">Uppdateringen har hämtats och är redo att installeras. Klicka på \"Senare\" om du inte vill installera uppdateringen nu. Under installationen är alla enhetsfunktioner otillgängliga, och du kan inte ringa nödsamtal. Enheten startar om som en del av installationsprocessen. Dina data varken ändras eller tas bort. Innan installationen startas, kontrollera att batteriet är laddat till minst 30 % och koppla inte ur batteriet under processen.</string>
+    <string name="auto_update_frequency_text_AU">Sök automatiskt efter uppdateringar på %1$s på %2$s varannan vecka.</string>
+    <string name="noti_result_success_title">Enheten är nu uppdaterad</string>
+    <string name="noti_result_success_content">Programuppdateringen är klar</string>
+    <string name="noti_auto_Title">Programuppdatering tillgänglig</string>
+    <string name="noti_auto_Text">Det finns en ny programuppdatering för enheten.</string>
+    <string name="dl_pause">Pausa</string>
+    <string name="dl_continue">Fortsätt</string>
+    <string name="dl_pause_message">Hämtningen har pausats.</string>
+    <string name="wifi_only_switch_key">Endast Wifi</string>
+    <string name="wifi_only_switch_title">Endast Wifi</string>
+    <string name="wifi_only_switch_summary_off">Använd endast wifi för uppdat.</string>
+    <string name="wifi_only_switch_summary_on">Använd endast wifi för uppdat.</string>
+    <string name="present_net_changedto_mobile">Anslutningen har ändrats till mobilt nätverk. Hämtningen har pausats. När WiFi har anslutits igen återupptas hämtningen.</string>
+    <string name="present_net_changedto_mobile_withContinue">Anslutningen har ändrats till mobilt nätverk. Hämtningen har pausats. Fortsätta hämtningen?</string>
+    <string name="present_net_changedto_mobile_noContinue">Anslutningen har ändrats till mobilt nätverk. Hämtningen har pausats. Om du vill hämta med mobilt nätverk avmarkerar du \"Endast Wifi\" och väljer \"Återuppta hämtning\". Annars återupptas hämtningen automatiskt när wifi är OK.</string>
+    <string name="present_net_is_mobile">Programuppdateringar tillåts inte eftersom Wi-Fi inte är tillgängligt.</string>
+    <string name="resume_download">Återuppta hämtning</string>
+    <string name="init_message">Initierar, vänta...</string>
+    <string name="wifi_only_message">"Endast Wifi är inställt och anslutningen är inte Wifi. 
+ Om du vill använda mobilt nätverk avmarkerar du \"Endast Wifi\" och \"Söker efter uppdatering\" eller \"Återuppta hämtning\". 
+
+Ställ in?"</string>
+    <string name="resume_download_message">Senaste hämtningen avbröts, vill du fortsätta?</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="Install_software">Installera programvara</string>
+    <string name="Install_notes">Du behöver starta om din telefon för att slutföra installationen, så du kan inte använda telefonen för att ringa (inte heller nödsamtal) under installationen.</string>
+    <string name="Install_battery_notes">Se till att batteriet är laddat till minst 30 %.</string>
+    <string name="Install_backup_notes">Dina data kommer att säkerhetskopieras till ett SD-kort när du har valt att säkerhetskopiera.</string>
+    <string name="defer">Skjut upp</string>
+    <string name="defer_install_notification">Du behöver starta om din telefon för att slutföra installationen</string>
+    <string name="install">Installera</string>
+    <string name="backup_install">Säkerhetskopiera och installera</string>
+    <string name="release_notes_default">Det här är en ny version.</string>
+    <string name="fota_main_activity_title">Programuppdatering</string>
+    <string name="current_version_title">Aktuell version:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Stoppa</string>
+    <string name="network_update">Söker efter uppdatering...</string>
+    <string name="fota_server_package_discovered">Ny version upptäckt:</string>
+    <string name="fota_update_button_label">Uppdatera nu</string>
+    <string name="menu_check_new_from_server">Söker efter uppdatering på server</string>
+    <string name="menu_check_new_from_server_subtitle">Uppdatering genom nätverk kräver datatjänster så WiFi rekommenderas.</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_update_settings">Inställningar</string>
+    <string name="tcard_update">Söker efter SD-kortuppdatering...</string>
+    <string name="fota_tcard_package_discovered">Ny version upptäckt (SD-kort):</string>
+    <string name="dialog_title">Uppdatera nu</string>
+    <string name="dialog_warning">Användardata rensas vid uppdatering. Säkerhetskopiera data före uppdateringen.</string>
+    <string name="dialog_backup">Säkerhetskopiera</string>
+    <string name="dialog_cancel">Avbryt</string>
+    <string name="fota_msg_tcard_no_update">Ingen uppdat. på SD-kort</string>
+    <string name="fota_msg_network_no_update">Ingen uppdat. på server</string>
+    <string name="fota_status">Status:</string>
+    <string name="fota_status_software_version">Programvaruversion:</string>
+    <string name="fota_status_never_setup">Originalversion</string>
+    <string name="fota_status_no_update">Programvaran är den senaste.</string>
+    <string name="fota_status_failed">Programuppdateringen misslyckades</string>
+    <string name="fota_status_sucess">Programvara har uppdaterats</string>
+    <string name="fota_auto_update">Automatisk uppdatering</string>
+    <string name="fota_auto_update_switch_summary_on">Öppna automatisk uppdatering</string>
+    <string name="fota_auto_update_switch_summary_off">Stäng automatisk uppdatering</string>
+    <string name="fota_auto_update_frequency_text">Uppdatera automatiskt</string>
+    <string name="fota_auto_update_frequency_everysunday">varje söndag</string>
+    <string name="fota_auto_update_frequency_everymonday">varje måndag</string>
+    <string name="fota_auto_update_frequency_everytuesday">varje tisdag</string>
+    <string name="fota_auto_update_frequency_everywednesday">varje onsdag</string>
+    <string name="fota_auto_update_frequency_everythursday">varje torsdag</string>
+    <string name="fota_auto_update_frequency_everyfriday">varje fredag</string>
+    <string name="fota_auto_update_frequency_everysaturday">varje lördag</string>
+    <string name="retry">Försök igen</string>
+    <string name="progress_expand_list_title">Versionsanteckningar</string>
+    <string name="menu">Meny</string>
+    <string name="currentVersionTitle">Aktuell version:</string>
+    <string name="dataTrafficeNotice">Hämtningen kommer att generera datatrafik</string>
+    <string name="notice">Meddelande</string>
+    <string name="wifiSettingNotice">Uppdateringspaketet kommer att generera datatrafik, så vi rekommenderar att du hämtar via Wi-Fi.</string>
+    <string name="wifiOnlySettingNotice">Uppdateringspaketet kan endast hämtas via Wi-Fi.</string>
+    <string name="wifiNotConnect">Det finns ingen Wi-Fi-anslutning. Var vänlig kontrollera.</string>
+    <string name="download">Ladda ned</string>
+    <string name="lastSearchTime">"Senaste uppdatering:
+"</string>
+    <string name="lastSearchTimeDefaultvalue">"Senaste uppdatering:
+Ej tidigare uppdaterad"</string>
+    <string name="backupNotice">säkerhetskopiera din fil</string>
+    <string name="autoupdateSetting">Automatisk inställning för uppdatering</string>
+    <string name="updateHistory">Uppdatera inspelning</string>
+    <string name="unconnectNotice">Det går inte att ansluta till nätverket</string>
+    <string name="netWorkError">Nätverksfel</string>
+    <string name="defer_title">Skjut upp</string>
+    <string name="defer_remind">Du kommer att få en påminnelse 1 gång per timme, sammanlagt 3 gånger. Och detta är påminnelse %1$s.</string>
+    <string name="defer_time_first">1:a</string>
+    <string name="defer_time_second">2:a</string>
+    <string name="defer_time_last">sista</string>
+    <string name="force_update_remind">Du kommer att få en påminnelse 1 gång per timme, sammanlagt 3 gånger. Och detta är påminnelse %1$s. Tvinga fram en uppdatering om 5 minuter.</string>
+    <string name="defer_remind_dialog">Du kommer att få 1 påminnelse per timme, sammanlagt 3 gånger.</string>
+    <string name="noremind">Påminn mig inte igen</string>
+    <string name="dmRetryMessage">Nätverksfel. Försök igen</string>
+    <string name="forceNetworkConfigureNotice">Nätverket är inte tillgängligt, gör om konfigureringen</string>
+    <string name="success">slutfört</string>
+    <string name="noRecord">ingen registrering</string>
+    <string name="force_update_notice">uppdateringen kommer att TVINGAS till att starta efter %1$s sekunder</string>
+    <string name="confirm_cancel_download">Vill du avbryta eller skjuta upp hämtningen?</string>
+    <string name="download_defer_message">Du kommer att påminnas varje timme, totalt 3 gånger. Detta är påminnelse %1$s. Efter 3 uppskjutningar avbryts hämtningen helt.</string>
+    <string name="confirm_delay_install">Vill du avbryta eller skjuta upp installationen?</string>
+    <string name="delay_install_message">Du kommer att påminnas varannan timme.</string>
+    <string name="install_cancel_message">Detta raderar det hämtade paketet och du kommer att behöva hämta det igen vid nästa uppdatering.</string>
+    <string name="message_LW_mode_on">Läge för grönt nät är aktiverat. Uppdateringen avbryts. Avaktivera läget och uppdatera igen.</string>
+    <string name="send">Skicka</string>
+    <string name="feedback">Respons</string>
+    <string name="feedback_content">Vänligen ange ditt råd</string>
+    <string name="email">Vänligen ange din e-postadress</string>
+    <string name="feedback_result">Skicka framgångsrikt, Tack för din feedback</string>
+    <string name="email_auth">Vänligen skriv in rätt e-postadress</string>
+    <string name="feedback_auth">Dina synpunkter är mycket viktiga för oss,vänligen input feedback,tack</string>
+    <string name="dm_2G">Du har för närvarande inte tillräckligt goda mottagningsförhållanden för att hämta uppdateringen. Vänta tills du har täckning med 3G eller WiFi och upprepa åtgärden.</string>
+    <string name="dm_lowbattery">Svagt batteri, det går inte att uppdatera programvaran</string>
+    <string name="feedback_network">Nätverket är inte tillgänglig,anslut den igen och skicka feedback,tack</string>
+    <string name="userconfirm_title">Bekräfta</string>
+    <string name="userconfirm_button_yes">Ja</string>
+    <string name="userconfirm_button_no">Nej</string>
+    <string name="checkingNotice">Kontrollerar uppdatering …</string>
+    <string name="defer_install">Skjut upp</string>
+    <string name="cancel_install">Avbryt</string>
+    <string name="zdm_path">Om du vill uppdatera igen går du till Inställningar > Om telefonen > Systemuppdateringar > Systemuppdateringar.</string>
+    <string name="defer_download">Skjut upp</string>
+    <string name="cancel_download">Avbryt</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/progress_dlg_linearlayout_paddingleftright" android:paddingTop="@dimen/progress_dlg_linearlayout_paddingtopbottom" android:paddingRight="@dimen/progress_dlg_linearlayout_paddingleftright" android:paddingBottom="@dimen/progress_dlg_linearlayout_paddingtopbottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ProgressBar android:gravity="center_vertical" android:id="@*android:id/progress" android:background="@drawable/progress_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar" />
+        <TextView android:textSize="@dimen/progress_dlg_text_textsize" android:textColor="@color/btn_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/message" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:textColor="@color/btn_color" android:layout_gravity="center_horizontal" android:id="@id/button_cancel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alert_dialog_cancel" />
+</LinearLayout>

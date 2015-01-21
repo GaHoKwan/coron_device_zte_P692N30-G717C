@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ffab1516" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdaccount_register_head_check_phone" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  >  " />
+        <TextView android:textSize="15.0sp" android:textColor="#ffa4aaaa" android:gravity="center" android:layout_gravity="center" android:id="@id/bt_set_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdaccount_register_head_set_password" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  >  " />
+        <TextView android:textSize="15.0sp" android:textColor="#ffa4aaaa" android:gravity="center" android:layout_gravity="center" android:id="@id/bt_registration_completed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdaccount_register_head_complete_register" android:layout_weight="1.0" />
+    </LinearLayout>
+    <EditText android:id="@id/user_register_1_edit_phone_number" android:layout_margin="10.0dip" android:hint="@string/gdaccount_hint_phone_number" android:maxLength="11" android:phoneNumber="true" android:imeOptions="actionDone" style="@style/gdaccount_edittext_style" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/user_register_1_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:button="@drawable/checkbox_style" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff5e5e5e" android:layout_gravity="center_vertical" android:id="@id/user_register_1_service_terms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/gdaccount_service_terms" />
+    </LinearLayout>
+    <Button android:id="@id/user_register_1_next_step" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gdaccount_next_step" style="@style/gdaccount_button_style" />
+</LinearLayout>

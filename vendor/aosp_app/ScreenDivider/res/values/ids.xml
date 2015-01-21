@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="textView0">false</item>
+    <item type="id" name="textView00">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="textView11">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="textView22">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="textView33">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="textView44">false</item>
+    <item type="id" name="flipper">false</item>
+    <item type="id" name="faq">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="imageView2">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="imageView3">false</item>
+    <item type="id" name="imageView4">false</item>
+    <item type="id" name="imageView5">false</item>
+    <item type="id" name="imageView6">false</item>
+    <item type="id" name="imageView7">false</item>
+    <item type="id" name="imageView8">false</item>
+    <item type="id" name="imageView9">false</item>
+    <item type="id" name="imageView10">false</item>
+    <item type="id" name="imageView11">false</item>
+    <item type="id" name="screenSwitch">false</item>
+</resources>

@@ -41,63 +41,63 @@
 
     :array_0
     .array-data 0x4
-        0x48t 0x3t 0x4t 0x1t
-        0x49t 0x3t 0x4t 0x1t
-        0x4at 0x3t 0x4t 0x1t
-        0x4bt 0x3t 0x4t 0x1t
-        0x4ct 0x3t 0x4t 0x1t
-        0x4dt 0x3t 0x4t 0x1t
-        0x4et 0x3t 0x4t 0x1t
-        0x4ft 0x3t 0x4t 0x1t
-        0x50t 0x3t 0x4t 0x1t
-        0x51t 0x3t 0x4t 0x1t
-        0x52t 0x3t 0x4t 0x1t
-        0x53t 0x3t 0x4t 0x1t
-        0x54t 0x3t 0x4t 0x1t
-        0x55t 0x3t 0x4t 0x1t
-        0x56t 0x3t 0x4t 0x1t
-        0x57t 0x3t 0x4t 0x1t
-        0x58t 0x3t 0x4t 0x1t
-        0x59t 0x3t 0x4t 0x1t
-        0x5at 0x3t 0x4t 0x1t
-        0x5bt 0x3t 0x4t 0x1t
-        0x5ct 0x3t 0x4t 0x1t
-        0x5dt 0x3t 0x4t 0x1t
-        0x5et 0x3t 0x4t 0x1t
-        0x5ft 0x3t 0x4t 0x1t
-        0x60t 0x3t 0x4t 0x1t
-        0x61t 0x3t 0x4t 0x1t
-        0x62t 0x3t 0x4t 0x1t
-        0x63t 0x3t 0x4t 0x1t
-        0x64t 0x3t 0x4t 0x1t
-        0x65t 0x3t 0x4t 0x1t
-        0x66t 0x3t 0x4t 0x1t
-        0x67t 0x3t 0x4t 0x1t
-        0x68t 0x3t 0x4t 0x1t
-        0x69t 0x3t 0x4t 0x1t
-        0x6at 0x3t 0x4t 0x1t
-        0x6bt 0x3t 0x4t 0x1t
-        0x6ct 0x3t 0x4t 0x1t
-        0x6dt 0x3t 0x4t 0x1t
-        0x6et 0x3t 0x4t 0x1t
-        0x6ft 0x3t 0x4t 0x1t
-        0x70t 0x3t 0x4t 0x1t
-        0x71t 0x3t 0x4t 0x1t
-        0x72t 0x3t 0x4t 0x1t
-        0x73t 0x3t 0x4t 0x1t
-        0x74t 0x3t 0x4t 0x1t
-        0x75t 0x3t 0x4t 0x1t
-        0x76t 0x3t 0x4t 0x1t
-        0x77t 0x3t 0x4t 0x1t
-        0x78t 0x3t 0x4t 0x1t
-        0x79t 0x3t 0x4t 0x1t
-        0x7at 0x3t 0x4t 0x1t
-        0x7bt 0x3t 0x4t 0x1t
-        0x7ct 0x3t 0x4t 0x1t
-        0x7dt 0x3t 0x4t 0x1t
-        0x7et 0x3t 0x4t 0x1t
-        0x7ft 0x3t 0x4t 0x1t
-        0x80t 0x3t 0x4t 0x1t
+        #android:string@autofill_address_name_separator#a
+        #android:string@autofill_address_summary_name_format#a
+        #android:string@autofill_address_summary_separator#a
+        #android:string@autofill_address_summary_format#a
+        #android:string@autofill_attention_ignored_re#a
+        #android:string@autofill_region_ignored_re#a
+        #android:string@autofill_company_re#a
+        #android:string@autofill_address_line_1_re#a
+        #android:string@autofill_address_line_1_label_re#a
+        #android:string@autofill_address_line_2_re#a
+        #android:string@autofill_address_line_3_re#a
+        #android:string@autofill_country_re#a
+        #android:string@autofill_zip_code_re#a
+        #android:string@autofill_zip_4_re#a
+        #android:string@autofill_city_re#a
+        #android:string@autofill_state_re#a
+        #android:string@autofill_address_type_same_as_re#a
+        #android:string@autofill_address_type_use_my_re#a
+        #android:string@autofill_billing_designator_re#a
+        #android:string@autofill_shipping_designator_re#a
+        #android:string@autofill_email_re#a
+        #android:string@autofill_username_re#a
+        #android:string@autofill_name_re#a
+        #android:string@autofill_name_specific_re#a
+        #android:string@autofill_first_name_re#a
+        #android:string@autofill_middle_initial_re#a
+        #android:string@autofill_middle_name_re#a
+        #android:string@autofill_last_name_re#a
+        #android:string@autofill_phone_re#a
+        #android:string@autofill_area_code_re#a
+        #android:string@autofill_phone_prefix_re#a
+        #android:string@autofill_phone_suffix_re#a
+        #android:string@autofill_phone_extension_re#a
+        #android:string@autofill_name_on_card_re#a
+        #android:string@autofill_name_on_card_contextual_re#a
+        #android:string@autofill_card_cvc_re#a
+        #android:string@autofill_card_number_re#a
+        #android:string@autofill_expiration_month_re#a
+        #android:string@autofill_expiration_date_re#a
+        #android:string@autofill_card_ignored_re#a
+        #android:string@autofill_fax_re#a
+        #android:string@autofill_country_code_re#a
+        #android:string@autofill_area_code_notext_re#a
+        #android:string@autofill_phone_prefix_separator_re#a
+        #android:string@autofill_phone_suffix_separator_re#a
+        #android:string@autofill_province#a
+        #android:string@autofill_postal_code#a
+        #android:string@autofill_state#a
+        #android:string@autofill_zip_code#a
+        #android:string@autofill_county#a
+        #android:string@autofill_island#a
+        #android:string@autofill_district#a
+        #android:string@autofill_department#a
+        #android:string@autofill_prefecture#a
+        #android:string@autofill_parish#a
+        #android:string@autofill_area#a
+        #android:string@autofill_emirate#a
     .end array-data
 .end method
 

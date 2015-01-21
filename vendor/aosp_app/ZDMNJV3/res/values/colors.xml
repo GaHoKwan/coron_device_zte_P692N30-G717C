@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_background">#00000000</color>
+    <color name="half_transparent_background">#e0000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="speed_green">#ff6fad1b</color>
+    <color name="mid_dark">#ff595959</color>
+    <color name="deep_gray">#ff7f7f7f</color>
+    <color name="green">#ff449a00</color>
+    <color name="title">#ffffffff</color>
+    <color name="button">#ff449a00</color>
+    <color name="titleandbutton">#ff444444</color>
+    <color name="orange">#ffff9000</color>
+    <color name="blue">#ff1889e3</color>
+    <item type="color" name="title_v3">@color/white</item>
+    <color name="button_up_bg_v3">#ffe6e6e6</color>
+    <color name="button_down_bg_v3">#ffc6c6c6</color>
+    <item type="color" name="button_v3">@color/black</item>
+    <color name="text_special_v3">#ff6aaa00</color>
+    <color name="dialog_color">#fff3f3ed</color>
+</resources>

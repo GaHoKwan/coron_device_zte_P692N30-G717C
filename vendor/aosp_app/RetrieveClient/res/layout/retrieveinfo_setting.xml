@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_sms" android:background="@drawable/list_press" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="clickController">
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:text="@string/smsAndnumber" />
+        <TextView android:id="@id/tv_PhoneName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="15.0dip" />
+        <TextView android:id="@id/tv_sms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="15.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:id="@id/TV_divider1" android:background="#ffc8c6c6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_password" android:background="@drawable/list_press" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="clickController">
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:text="@string/securityPassword" />
+        <TextView android:textColor="@color/black_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="15.0dip" android:text="@string/password_modify" />
+    </LinearLayout>
+    <TextView android:id="@id/TV_divider2" android:background="#ffc8c6c6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_account" android:background="@drawable/list_press" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="clickController">
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/accountSwitch" />
+    </LinearLayout>
+    <TextView android:id="@id/TV_divider3" android:background="#ffc8c6c6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_update" android:background="@drawable/list_press" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="clickController">
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/CheckUpdate" />
+    </LinearLayout>
+    <TextView android:id="@id/TV_divider4" android:background="#ffc8c6c6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

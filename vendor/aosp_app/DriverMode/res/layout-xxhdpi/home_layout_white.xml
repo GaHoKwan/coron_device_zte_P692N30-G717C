@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/backLinearLayout" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="0.15">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/home_help_btn" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_help_selector" android:contentDescription="@string/help" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffc8c8c8" android:id="@id/TextView_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0">
+                <ImageView android:id="@id/home_voice_wave" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voice_wave_leve_04" android:scaleType="fitCenter" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/home_voice_tts" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voice_selector" android:scaleType="center" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/btn_assistant_active_extend_1" android:paddingLeft="0.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.6">
+                <TextView android:textColor="#ff000000" android:id="@id/mainTips" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ssdf" android:layout_toRightOf="@id/imageView2" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_assistant_active" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/home_settingButton" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_settings_selector" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffc8c8c8" android:id="@id/TextView_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="0.1">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <ImageButton android:id="@id/home_disturbButton" android:background="#00ffffff" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_disturb_selector" android:scaleType="centerInside" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#ff969696" android:id="@id/TextView05" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Donot_disturb_button_text" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <ImageButton android:id="@id/home_navigationButton" android:background="#00ffffff" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_nav_selector" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#ff969696" android:id="@id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NavBtText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:gravity="center" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <ImageButton android:id="@id/home_dailButton" android:background="#00ffffff" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_dail_selector" android:scaleType="centerInside" />
+                <RelativeLayout android:id="@id/missedCallView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/home_dailButton" android:layout_alignParentTop="true">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/missed_call_indicator" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/missedCallNumerText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#ff969696" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CallBtText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <ImageButton android:id="@id/home_musicButton" android:background="#00ffffff" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_music_selector" android:scaleType="centerInside" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#ff969696" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MusicBtText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/home_carTrackerLayout" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <ImageButton android:id="@id/home_cardvrButton" android:background="#00ffffff" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/main_car_tracker" android:scaleType="centerInside" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#ff969696" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CarDvrBtText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

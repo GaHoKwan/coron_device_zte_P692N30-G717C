@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mediatek.gallery3d.mav.MAVView android:layout_gravity="center" android:id="@id/mavview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/mavviewer_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/firstrun" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/mav_first_run" />
+</FrameLayout>

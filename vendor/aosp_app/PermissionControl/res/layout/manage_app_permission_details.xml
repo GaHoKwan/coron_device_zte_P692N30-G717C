@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="?android:panelMenuIsCompact" android:paddingEnd="?android:panelMenuListWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/app_snippet" layout="@layout/manage_applications_item" />
+    <View android:background="@*android:drawable/indicator_input_error" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:fastScrollEnabled="false" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_perm_is_used" />
+    </FrameLayout>
+</LinearLayout>

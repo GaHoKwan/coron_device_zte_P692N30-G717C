@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autonavi.xmgd.view.GDTitle android:id="@id/title_cityselect" android:layout_width="wrap_content" android:layout_height="@dimen/gdtitle_height" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ExpandableListView android:id="@id/list_cityselect" android:background="@color/general_list_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/general_list_back_color" android:childDivider="@color/list_driver_color" android:divider="@color/list_driver_color" android:dividerHeight="0.5dip" />
+    </LinearLayout>
+</LinearLayout>

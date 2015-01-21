@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/text_size_fixed_medium" android:textStyle="bold" android:gravity="center" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/list_icon_continue_default" />
+    </LinearLayout>
+    <ImageView android:layout_width="250.0dip" android:layout_height="wrap_content" android:src="@drawable/listview_divider" />
+    <ListView android:id="@id/service_centers_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:overScrollMode="never" />
+</LinearLayout>

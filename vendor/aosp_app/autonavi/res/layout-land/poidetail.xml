@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autonavi.xmgd.view.GDTitle android:id="@id/poidetail_title" android:layout_width="fill_parent" android:layout_height="@dimen/gdtitle_height" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/poidetail_title">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/list_poi_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginTop="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin" android:layout_weight="3.0">
+                <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="@dimen/poidetail_title_textsize" android:textColor="@color/poidetail_title_textcolor" android:id="@id/poidetail_name" android:paddingLeft="@dimen/poidetail_text_paddingLeft" android:paddingTop="10.0dip" android:paddingRight="@dimen/poidetail_text_paddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="这个是一个灰常灰常长的POI名称" />
+                        <TextView android:textSize="@dimen/poidetail_item_textsize" android:textColor="@color/poidetail_general_textcolor_normal" android:id="@id/poidetail_tel" android:paddingLeft="@dimen/poidetail_text_paddingLeft" android:paddingTop="3.0dip" android:paddingRight="@dimen/poidetail_text_paddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0592-88888888" />
+                        <TextView android:textSize="@dimen/poidetail_item_textsize" android:textColor="@color/poidetail_general_textcolor_normal" android:id="@id/poidetail_area" android:paddingLeft="@dimen/poidetail_text_paddingLeft" android:paddingTop="3.0dip" android:paddingRight="@dimen/poidetail_text_paddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="这个是一个灰常灰常灰常灰常长的POI区域" android:layout_alignParentLeft="true" />
+                        <TextView android:textSize="@dimen/poidetail_item_textsize" android:textColor="@color/poidetail_general_textcolor_normal" android:id="@id/poidetail_distance" android:paddingLeft="@dimen/poidetail_text_paddingLeft" android:paddingTop="3.0dip" android:paddingRight="@dimen/poidetail_text_paddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="999.9KM" android:layout_alignParentLeft="true" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/poidetail_item_margin" android:layout_marginRight="@dimen/poidetail_item_margin" android:layout_marginBottom="@dimen/poidetail_item_margin" android:layout_weight="4.0">
+                <ImageView android:id="@id/poidetail_share" android:background="@drawable/list_poi_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_btn_poi_share" android:scaleType="center" android:layout_weight="3.0" />
+                <ImageView android:id="@id/poidetail_navi" android:background="@drawable/list_poi_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_btn_poi_nav" android:scaleType="center" android:layout_weight="3.0" />
+                <ImageView android:id="@id/poidetail_call" android:background="@drawable/list_poi_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_btn_poi_call" android:scaleType="center" android:layout_weight="3.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <include android:id="@id/poidetail_opera_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/poidetail_item_margin" android:layout_weight="1.0" layout="@layout/poidetail_opera" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <EditText android:id="@id/NumInput" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/input_box" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+                <cn.com.zte.nlt.widget.MarqueeText android:textColor="#ffa9a9a9" android:ellipsize="marquee" android:id="@id/tvHint" android:paddingLeft="12.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inputhinttext" android:singleLine="true" android:layout_alignBaseline="@id/NumInput" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+            <Button android:id="@id/ClearButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_vertical" android:id="@id/error_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/errorPhone" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/cityTile" android:paddingRight="15.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cityname" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/cityValue" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/areaCodeTile" android:paddingRight="15.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/areacode" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/areaCodeValue" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/lawText" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@id/lawinfo" />
+    </LinearLayout>
+</RelativeLayout>

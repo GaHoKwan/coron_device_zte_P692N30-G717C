@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: LocationEM.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.mediatek.lbs.em
+  orig_package: com.mediatek.lbs.em
+compressionType: false

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.InLineSettingVirtual style="@style/SettingRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_toLeftOf="@id/current_setting" android:layout_alignParentLeft="true" style="@style/SettingItemTitle" />
+    <TextView android:id="@id/current_setting" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/SettingItemText" />
+</com.android.camera.ui.InLineSettingVirtual>

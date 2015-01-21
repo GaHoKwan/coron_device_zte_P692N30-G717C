@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/emodeconf_info_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/emodeconf_title0" android:key="emode_info0" android:summary="@string/emodeconf_summary_default" />
+    <PreferenceScreen android:title="@string/emodeconf_title1" android:key="emode_info1" android:summary="@string/emodeconf_summary_default" />
+    <PreferenceScreen android:title="@string/emodeconf_title2" android:key="emode_info2" android:summary="@string/emodeconf_summary_default" />
+    <PreferenceScreen android:title="@string/emodeconf_title3" android:key="emode_info3" android:summary="@string/emodeconf_summary_default" />
+    <PreferenceScreen android:title="@string/emodeconf_title4" android:key="emode_info4" android:summary="@string/emodeconf_summary_default" />
+    <PreferenceScreen android:title="@string/emodeconf_title5" android:key="emode_info5" android:summary="@string/emodeconf_summary_default" />
+    <PreferenceScreen android:title="@string/emodeconf_title6" android:key="emode_info6" android:summary="@string/emodeconf_summary_default" />
+</PreferenceScreen>

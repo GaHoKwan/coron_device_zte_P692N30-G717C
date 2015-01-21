@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:descendantFocusability="blocksDescendants" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_2line_height" style="@style/listview_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/intercept_setting_mode_item_margin" android:layout_weight="1.0">
+        <TextView android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/main_dark_17sp" />
+        <TextView android:id="@id/summary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/light_grey_12sp" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/divider_color" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="5.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/linearradio" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RadioButton android:id="@id/radioBtn" android:background="@drawable/radio_selector" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/intercept_setting_mode_item_margin" android:layout_marginRight="@dimen/intercept_setting_mode_item_margin" android:button="@null" />
+    </LinearLayout>
+</LinearLayout>

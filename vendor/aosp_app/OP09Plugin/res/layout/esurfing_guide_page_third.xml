@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/step2" android:background="@*android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/esurfing_dialing_guide_text_size" android:id="@id/stepText" android:paddingLeft="@dimen/esurfing_dialing_button_margin" android:paddingRight="@dimen/esurfing_dialing_button_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/esurfing_dialing_step2_china_callback" android:maxLines="7" />
+    <LinearLayout android:id="@id/esurfing_in_call_screen" android:background="@drawable/esurfing_in_call_screen" android:layout_width="173.0dip" android:layout_height="275.0dip" android:layout_marginTop="200.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/esurfing_dialing_radio_button_text_size" android:id="@id/in_call_screen_phone_number" android:paddingLeft="@dimen/esurfing_dialing_button_margin" android:paddingRight="@dimen/esurfing_dialing_button_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/esurfing_dialing_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_alignParentLeft="true">
+        <include layout="@layout/esurfing_guide_esurfing_dialog" />
+    </LinearLayout>
+    <ImageButton android:id="@id/esurfing_dialing_hand" android:background="@drawable/esurfing_dialing_hand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="-20.0dip" android:layout_below="@id/esurfing_dialing_dialog" />
+    <ImageButton android:id="@id/esurfing_dialing_arrow" android:background="@drawable/esurfing_dialing_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150.0dip" android:layout_above="@id/guide_icon" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/guide_icon" android:paddingLeft="145.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="25.0dip" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/guide_icon_first" android:background="@drawable/esurfing_guide_unselect" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:id="@id/guide_icon_second" android:background="@drawable/esurfing_guide_unselect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/esurfing_dialing_guide_left_margin" />
+        <ImageButton android:id="@id/guide_icon_third" android:background="@drawable/esurfing_guide_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/esurfing_dialing_guide_left_margin" />
+        <ImageButton android:id="@id/guide_icon_fourth" android:background="@drawable/esurfing_guide_unselect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/esurfing_dialing_guide_left_margin" />
+    </LinearLayout>
+    <Button android:textSize="20.0dip" android:id="@id/skip_button" android:background="@drawable/btn_skip" android:layout_width="80.0dip" android:layout_height="42.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="18.0dip" android:text="@string/skip_button_string" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

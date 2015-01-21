@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Godta Enhanced Post-sale Service?</string>
+    <string name="informative">Enhanced Post-sale Service</string>
+    <string name="title">Enhetsbehandling</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nei</string>
+    <string name="ask_setup_message">Mottatt informasjon om OTA-konfigurasjon for å bekrefte installasjonen og konfigurasjonen</string>
+    <string name="omacp_setup">Konfigurering</string>
+    <string name="install_compelete">Installeringen er fullført</string>
+    <string name="instatll_fail">Installeringen mislyktes</string>
+    <string name="security_error">Sikkerhetsfeil</string>
+    <string name="xml_parse_error">XML-analysefeil</string>
+    <string name="user_cancel">Brukeren har avbrutt</string>
+    <string name="input_pin">Angi PIN-kode</string>
+    <string name="app_name">Programvareoppdatering</string>
+    <string name="auto_update_settings">Innstilling for automatisk oppdatering</string>
+    <string name="dm_update_service">Programvareoppdateringer</string>
+    <string name="system_update">Ser etter oppdateringer</string>
+    <string name="connecting">Ser etter nye programvareoppdateringer ...</string>
+    <string name="downloading">Vent litt, dette kan ta flere minutter å fullføre.</string>
+    <string name="downloading_AU">Dette kan ta flere minutter å fullføre.</string>
+    <string name="download_title">Last ned programvare</string>
+    <string name="download_val">Last ned programvare via</string>
+    <string name="download_message">En ny programvareoppdatering er tilgjengelig. Vil du laste ned?</string>
+    <string name="cancel_message">Er du sikker på at du vil avbryte og stoppe nedlastingen av programvaren?</string>
+    <string name="cancel">Avbryt</string>
+    <string name="failed">Mislyktes</string>
+    <string name="update_failed">Programvareoppdateringen mislyktes</string>
+    <string name="install_title">Installer programvare</string>
+    <string name="install_message">Telefonen må startes på nytt for å starte installasjonen</string>
+    <string name="checking_update">Kontrollerer oppdateringen</string>
+    <string name="update_title">Automatisk oppdatering</string>
+    <string name="update_message">Oppdater automatisk hver uke</string>
+    <string name="update_deferred">Installasjonen ble utsatt</string>
+    <string name="update_deferred_AU">Installer programvare</string>
+    <string name="service_unavailable">Tjenesten er ikke tilgjengelig</string>
+    <string name="check_new">Sjekk for oppdateringer</string>
+    <string name="status">Status</string>
+    <string name="version">Versjon:</string>
+    <string name="new_version">Ny versjon:</string>
+    <string name="update_setting">Oppdater innstillinger</string>
+    <string name="background">Kjør i bakgrunnen</string>
+    <string name="delay">Forsinkelse</string>
+    <string name="dm_session_busy">DM-økt er opptatt</string>
+    <string name="downloading_notification">Nedlasting av programvareoppdatering</string>
+    <string name="downloading_notification_message">Nedlasting av ny programvare</string>
+    <string name="update_warning_notification">Varsel om programvareoppdatering</string>
+    <string name="update_warning_notification_message">Ny varselmelding kommer</string>
+    <string name="update_warning_notification_new_package">En ny programvareoppdatering er tilgjengelig. Vil du laste ned?</string>
+    <string name="install_notification">Installer programvare</string>
+    <string name="install_notification_message">Start telefonen på nytt for å starte installasjonen.</string>
+    <string name="install_file_notification">Klikk for å installere filen</string>
+    <string name="pin">Personlig kode</string>
+    <string name="confirm">Bekreft</string>
+    <string name="intallresult">Installasjonsresultat</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Trådløst nett</string>
+    <string name="wifi_AU">Last ned via WiFi</string>
+    <string name="mobile_networks_AU">Last ned via mobilt nettverk</string>
+    <string name="mobile_networks">Mobile nettverk (dette vil generere mer datatrafikk)</string>
+    <string name="autoupdate_toinstall">Autom. oppdatering: klikk for å installere</string>
+    <string name="autoupdate_todownload">Autom. oppdatering: klikk for å oppdatere</string>
+    <string name="autoupdate_busy">Autom. oppdatering: avbryt oppdateringen fordi den er opptatt</string>
+    <string name="attention">Merk</string>
+    <string name="update_busy">Oppdateringen er for øyeblikket opptatt, vent litt ...</string>
+    <string name="memory_insufficient">Ikke nok lagringsplass</string>
+    <string name="memory_insufficient_info">"Telefonen har ikke nok plass til denne oppdateringen. 
+Frigjør plass, og prøv på nytt."</string>
+    <string name="network_unavailable">Nettverket er ikke tilgjengelig</string>
+    <string name="network_unavailable_info">Nettverket er ikke tilkoblet og kan ikke kontrolleres</string>
+    <string name="connect_timeout">Tilkoblingen er gått ut på tid</string>
+    <string name="uncaught_exception_title">Behandling av uoppfanget unntak</string>
+    <string name="uncaught_exception_info">Enhetsbehandleren krasjet. Kanskje telefonen ikke har nok plass til denne oppdateringen. Frigjør plass, og prøv på nytt.</string>
+    <string name="updata_ok">Start på nytt</string>
+    <string name="updata_Defer">Utsett</string>
+    <string name="updata_info">Start telefonen på nytt for å starte installasjonen.</string>
+    <string name="updata_title">Programvareoppdateringer</string>
+    <string name="dm_comlete_sec">Vent litt, det tar ca. %1$d sekunder å fullføre.</string>
+    <string name="dm_compele_min">Vent litt, det tar ca. %1$d minutter å fullføre.</string>
+    <string name="dm_compele_hou">Vent litt, det tar ca. %1$d timer å fullføre.</string>
+    <string name="dm_backup_install">Sikkerhetskopier &amp; Installer</string>
+    <string name="backup_title">Sikkerhetskopier</string>
+    <string name="backup_message">Enheten sikkerhetskopierer dataene dine. Vent litt ...</string>
+    <string name="restore_title">Gjenopprett</string>
+    <string name="restore_message">Enheten gjenoppretter dataene dine. Vent litt ...</string>
+    <string name="dm_version">Programvareversjon:</string>
+    <string name="dm_update_date">Status:</string>
+    <string name="dm_backup_nosdcard">Sett inn SD-kortet.</string>
+    <string name="dm_backup_lowbattery">Sørg for at batterinivået er høyere 30 % for å fullføre installeringen.</string>
+    <string name="dm_fumo_Message">Status</string>
+    <string name="dm_fumo_START">Sjekk for oppdateringer</string>
+    <string name="dm_fumo_INSTAll_DEFER">Installer utsatt programvare</string>
+    <string name="dm_fumo_SETUP">Konfigurer oppdateringspakke</string>
+    <string name="dm_fumo_SETUP_content">Vent litt</string>
+    <string name="dm_never_SETUP">Originalversjon</string>
+    <string name="dm_fumo_status_noupdate">Programvaren er oppdatert</string>
+    <string name="dm_fumo_status_failed">Programvareoppdateringen mislyktes</string>
+    <string name="dm_fumo_status_sucess">Programvaren er blitt oppdatert</string>
+    <string name="dm_check_updatetile">Ser etter oppdateringer</string>
+    <string name="dm_check_update">Ser etter nye programvareoppdateringer.</string>
+    <string name="dm_network_error">Nettverksfeil, prøv på nytt senere!</string>
+    <string name="dm_already_new">Nåværende programvare er oppdatert!</string>
+    <string name="dm_isroaming">Programvareoppdateringer ikke tillatt under dataroaming.</string>
+    <string name="dm_isroaming_AU">"Du bruker roaming. Forhør deg med Telstra, siden ekstra avgifter kan forekomme. 
+
+Vil du fortsette?"</string>
+    <string name="dm_isroaming_TNZ">"Du bruker roaming. Forhør deg med Telecom, siden ekstra avgifter kan forekomme. 
+
+Vil du fortsette?"</string>
+    <string name="dm_airplan">Programvareoppdateringer ikke tillatt i flymodus.</string>
+    <string name="dm_no_dataservice">Ingen datatjenester, programvareoppdateringer er ikke tillatt!</string>
+    <string name="dm_no_dataservice_AU">"Programvareoppdateringer er ikke tilgjengelige fordi data ikke er aktivert. 
+
+Forhør deg med leverandøren din om denne tjenesten og innstillingene på enheten."</string>
+    <string name="dm_update_setting">Innstillinger for oppdatering</string>
+    <string name="auto_update_switch_title">Automatisk oppdatering</string>
+    <string name="auto_update_switch_key">Automatisk oppdatering</string>
+    <string name="auto_update_switch_summary_on">Åpne automatiske oppdateringer</string>
+    <string name="auto_update_switch_summary_off">Lukk automatiske oppdateringer</string>
+    <string name="auto_update_frequency_text">Oppdater automatisk kl. %1$s hver %2$s</string>
+    <string name="wifi_auto_update_switch_title">Automatisk oppdatering via WiFi</string>
+    <string name="wifi_auto_update_switch_key">Automatisk oppdatering via WiFi</string>
+    <string name="wifi_auto_update_switch_summary_on">Se etter oppdateringer automatisk når WiFi er tilkoblet</string>
+    <string name="wifi_auto_update_switch_summary_off">Se etter oppdateringer automatisk når WiFi er tilkoblet</string>
+    <string name="cmcc_wifi_auto_update_switch_title">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_key">CMCC WiFi</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">Se etter oppdateringer automatisk når WiFi er koblet til CMCC</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">Se etter oppdateringer automatisk når WiFi er koblet til CMCC</string>
+    <string name="dm_wifi_open">Slå på Wi-Fi for å laste ned den nye programvaren</string>
+    <string name="dm_wifi_open_tr">En ny programvare funnet for enheten. Koble til et trådløst nettverk for å laste ned ny programvare.</string>
+    <string name="dm_via_wifi">Last ned via Wi-Fi</string>
+    <string name="dm_wifi_set">Innstillinger for trådløst nett</string>
+    <string name="dm_yes">Ja</string>
+    <string name="dm_no">Nei</string>
+    <string name="dm_wifi_fail">Wi-Fi ikke er tilgjengelig, nedlastingen avbrytes.</string>
+    <string name="dm_KB">kB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">Utsett %1$s ganger til.</string>
+    <string name="dm_Delay_last_time_show">Allerede utsatt 3 ganger, kan ikke vente lenger</string>
+    <string name="download_message_new">"En ny programvareoppdatering er tilgjengelig. Vil du laste den ned? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_new_tr">"En ny programvare funnet for enheten. Dataforbruk under oppdateringsprosessen vil bli belastet ifølge din dataplan-sats.Vil du laste ned? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"En ny programvareoppdatering er tilgjengelig. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Versjon:"</string>
+    <string name="download_message_size">"
+ Data:"</string>
+    <string name="download_message_description">"
+ Beskrivelse:"</string>
+    <string name="download_message_auto_download">"
+
+ Last ned automatisk om %1$s sekunder"</string>
+    <string name="install_message_new">"Telefonen må startes på nytt for å starte installasjonen. 
+
+ Utsett %1$s ganger til."</string>
+    <string name="install_message_tr">For å begynne installasjonen må du starte telefonen på nytt. Kontroller batteriet eller sett inn laderen for å være sikker på at oppdateringen blir vellykket.</string>
+    <string name="install_message_new_later">"Telefonen må startes på nytt for å starte installasjonen. 
+
+ Utsett %1$s ganger til."</string>
+    <string name="install_message_new_last_time">"For å begynne installasjonen må du starte telefonen på nytt. Kontroller at batteriet er minst 10%% ladet. 
+ Allerede utsatt 3 ganger, telefonen vil starte på nytt om %1$s minutter etter at du trykker på utsettelse-knappen."</string>
+    <string name="install_message_force">Fremtving oppdatering om %1$s minutter.</string>
+    <string name="install_message_delaycompleted">Allerede utsatt 3 ganger, telefonen startes på nytt</string>
+    <string name="wifi_cost_notify">Varsel om kostnader for bruk av WLAN</string>
+    <string name="wifi_cost_notify_body">WLAN er nå koblet til. Det kan medføre datatrafikkostnader. Er du sikker på at du vil fortsette?</string>
+    <string name="dm_continue">Fortsett</string>
+    <string name="download_message_new_AU">En programvareoppdatering er tilgjengelig for enheten. Denne oppdateringen er %1$s,</string>
+    <string name="download_message_version_AU">og vil oppgradere %1$s fra versjon %2$s til %2$s-programvaren.</string>
+    <string name="download_message_description_AU">Denne oppdateringen er %1$s</string>
+    <string name="about_charge_AU">"
+
+Det anbefales å laste ned via Wi-Fi. Nedlastingen kan medføre ekstra kostnader ( spesielt hvis du laster ned via et mobilnettverk eller under roaming i utlandet). Betjeningen av enheten vil ikke bli påvirket under nedlastingen. Hvis du vil ha mer informasjon og hjelp, kan du besøke telstra.com/mobile eller kontakte vårt kundesenter på 13 2200."</string>
+    <string name="about_charge_TNZ">"
+
+ Det anbefales å laste ned via Wi-Fi. Nedlastingen kan medføre ekstra kostnader (spesielt hvis du laster ned via et mobilnettverk eller under roaming i utlandet). Betjeningen av enheten vil ikke bli påvirket under nedlastingen."</string>
+    <string name="dm_later">Senere</string>
+    <string name="dm_install">Installer</string>
+    <string name="install_message_AU">Oppdateringen har blitt lastet ned og er klar til å bli installert. Klikk på \"Later\" (Senere) hvis du ikke vil installere oppdateringen nå. Under installasjon vil alle funksjonene på enheten være utilgjengelige, og du vil ikke kunne foreta nødanrop. Enheten vil starte på nytt som en del av installasjonsprosessen. Dataene dine vil ikke bli endret eller slettet. Før du starter installeringen, må du kontrollere at batteriet er minst 30 % ladet. Ikke koble fra batteriet i løpet av prosessen.</string>
+    <string name="auto_update_frequency_text_AU">Se etter oppdateringer automatisk kl. %1$s på %2$s annenhver uke.</string>
+    <string name="noti_result_success_title">Enheten din er nå oppdatert</string>
+    <string name="noti_result_success_content">Programvareoppdateringen er fullført</string>
+    <string name="noti_auto_Title">Programvareoppdatering er tilgjengelig</string>
+    <string name="noti_auto_Text">Det finnes en ny programvareoppdatering for enheten.</string>
+    <string name="dl_pause">Pause</string>
+    <string name="dl_continue">Fortsett</string>
+    <string name="dl_pause_message">Nedlastingen er midlertidig stanset.</string>
+    <string name="wifi_only_switch_key">Kun WiFi</string>
+    <string name="wifi_only_switch_title">Kun WiFi</string>
+    <string name="wifi_only_switch_summary_off">Bruk bare WiFi for oppdateringer</string>
+    <string name="wifi_only_switch_summary_on">Bruk bare WiFi for oppdateringer</string>
+    <string name="present_net_changedto_mobile">Tilkoblingen er endret til mobilt nettverk. Nedlastingen er midlertidig stanset. Når du kobler til WiFi igjen, vil nedlastingen fortsette.</string>
+    <string name="present_net_changedto_mobile_withContinue">Tilkoblingen er endret til mobilt nettverk. Nedlastingen er satt på pause. Vil du fortsette nedlastingen?</string>
+    <string name="present_net_changedto_mobile_noContinue">Tilkoblingen er endret til mobilt nettverk. Nedlastingen er midlertidig stanset. Hvis du vil laste ned via et mobilnettverk, fjerner du avmerkingen for \"Wifi-Only\" (Kun Wi-Fi) og velger \"Resume Downloading\" (Fortsett nedlasting). Eller så vil nedlastingen gjenopptas automatisk når Wi-Fi er aktivert.</string>
+    <string name="present_net_is_mobile">Programvareoppdateringer er ikke tillatt fordi WiFi ikke er tilgjengelig.</string>
+    <string name="resume_download">Gjenoppta nedlastingen</string>
+    <string name="init_message">Initialiserer, vent litt ...</string>
+    <string name="wifi_only_message">"Kun WiFi er angitt, men den gjeldende tilkoblingen er ikke WiFi. 
+ Hvis du vil bruke et mobilnettverk, fjerner du avmerkingen for \"Wifi-Only\" (Kun WiFi) og velger \"Checking update\" (Ser etter oppdatering) eller \"Resume Downloading\" (Fortsett nedlasting). 
+
+Angi?"</string>
+    <string name="resume_download_message">Den siste nedlastingen ble avbrutt. Vil du fortsette?</string>
+    <string name="action_settings">Settings</string>
+    <string name="Install_software">Installer programvare</string>
+    <string name="Install_notes">Telefonen må startes på nytt for å fullføre installeringen, og du kan ikke bruke telefonen til å ringe nødsamtaler under installeringen.</string>
+    <string name="Install_battery_notes">Kontroller at batterinivået er høyere enn 30 %.</string>
+    <string name="Install_backup_notes">Dataene sikkerhetskopieres til SD-kortet etter at du har valgt sikkerhetskopieringen.</string>
+    <string name="defer">Utsett</string>
+    <string name="defer_install_notification">Telefonen må startes på nytt for å fullføre installeringen</string>
+    <string name="install">Installer</string>
+    <string name="backup_install">Sikkerhetskopier &amp; Installer</string>
+    <string name="release_notes_default">Dette er en ny versjon.</string>
+    <string name="fota_main_activity_title">Programvareoppdatering</string>
+    <string name="current_version_title">Gjeldende versjon:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Avbryt</string>
+    <string name="network_update">Ser etter oppdateringer ...</string>
+    <string name="fota_server_package_discovered">Ny versjon oppdaget:</string>
+    <string name="fota_update_button_label">Oppdater nå</string>
+    <string name="menu_check_new_from_server">Ser etter oppdateringer på serveren</string>
+    <string name="menu_check_new_from_server_subtitle">Oppdatering via nettverk krever datatjenester, så et WiFi-miljø anbefales.</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_update_settings">Innstillinger</string>
+    <string name="tcard_update">Ser etter oppdateringer for SD-kort ...</string>
+    <string name="fota_tcard_package_discovered">Ny versjon oppdaget (SD-kort):</string>
+    <string name="dialog_title">Oppdater nå</string>
+    <string name="dialog_warning">Brukerdataene vil bli slettet under oppdateringen. Sikkerhetskopier dataene før du oppdaterer.</string>
+    <string name="dialog_backup">Sikkerhetskopier</string>
+    <string name="dialog_cancel">Avbryt</string>
+    <string name="fota_msg_tcard_no_update">Ingen oppdatering på SD-kortet</string>
+    <string name="fota_msg_network_no_update">Ingen oppdatering på serveren</string>
+    <string name="fota_status">Status:</string>
+    <string name="fota_status_software_version">Programvareversjon:</string>
+    <string name="fota_status_never_setup">Originalversjon</string>
+    <string name="fota_status_no_update">Nåværende programvare er oppdatert!</string>
+    <string name="fota_status_failed">Programvareoppdateringen mislyktes</string>
+    <string name="fota_status_sucess">Programvaren er blitt oppdatert</string>
+    <string name="fota_auto_update">Automatisk oppdatering</string>
+    <string name="fota_auto_update_switch_summary_on">Åpne automatiske oppdateringer</string>
+    <string name="fota_auto_update_switch_summary_off">Lukk automatiske oppdateringer</string>
+    <string name="fota_auto_update_frequency_text">Oppdater automatisk kl.</string>
+    <string name="fota_auto_update_frequency_everysunday">hver søndag</string>
+    <string name="fota_auto_update_frequency_everymonday">hver mandag</string>
+    <string name="fota_auto_update_frequency_everytuesday">hver tirsdag</string>
+    <string name="fota_auto_update_frequency_everywednesday">hver onsdag</string>
+    <string name="fota_auto_update_frequency_everythursday">hver torsdag</string>
+    <string name="fota_auto_update_frequency_everyfriday">hver fredag</string>
+    <string name="fota_auto_update_frequency_everysaturday">hver lørdag</string>
+    <string name="retry">Prøv på nytt</string>
+    <string name="progress_expand_list_title">Utgivelsesmerknader</string>
+    <string name="menu">Meny</string>
+    <string name="currentVersionTitle">Gjeldende versjon:</string>
+    <string name="dataTrafficeNotice">Nedlastingen vil føre til datatrafikk</string>
+    <string name="notice">Varsel</string>
+    <string name="wifiSettingNotice">Oppdateringspakken vil føre til datatrafikk, og det anbefales at du laster ned via Wi-Fi.</string>
+    <string name="wifiOnlySettingNotice">Oppdateringspakken kan kun lastes ned via Wi-Fi.</string>
+    <string name="wifiNotConnect">Wi-Fi-tilgang er ikke tilgjengelig. Kontroller.</string>
+    <string name="download">Last ned</string>
+    <string name="lastSearchTime">"Sist oppdatert:
+"</string>
+    <string name="lastSearchTimeDefaultvalue">"Sist oppdatert:
+Har ikke vært oppdatert før"</string>
+    <string name="backupNotice">sikkerhetskopier filen</string>
+    <string name="autoupdateSetting">Innstilling for automatisk oppdatering</string>
+    <string name="updateHistory">Oppdateringshistorikk</string>
+    <string name="unconnectNotice">Kan ikke koble til nettverket</string>
+    <string name="netWorkError">Nettverksfeil</string>
+    <string name="defer_title">Utsett</string>
+    <string name="defer_remind">Du får en påminnelse hver time i tre timer. Og dette er den %1$s påminnelsen.</string>
+    <string name="defer_time_first">1</string>
+    <string name="defer_time_second">2</string>
+    <string name="defer_time_last">siste</string>
+    <string name="force_update_remind">Du får en påminnelse hver time i tre timer. Og dette er den %1$s påminnelsen. Tvinger frem oppdatering om 5 minutter</string>
+    <string name="defer_remind_dialog">Du får en påminnelse hver time i tre timer.</string>
+    <string name="noremind">ikke påminn meg igjen</string>
+    <string name="dmRetryMessage">Nettverksfeil. Prøv på nytt</string>
+    <string name="forceNetworkConfigureNotice">Nettverket er utilgjengelig. Konfigurer på nytt.</string>
+    <string name="success">vellykket</string>
+    <string name="noRecord">ingen historikk</string>
+    <string name="force_update_notice">oppdateringen blir TVUNGET til å starte etter %1$s sekunder</string>
+    <string name="confirm_cancel_download">Avbryte eller utsette nedlastingen?</string>
+    <string name="download_defer_message">Du vil få en påminnelse hver time i tre timer. Og dette er %1$s påminnelsen. Etter tre timers utsettelse blir nedlastingen avbrutt.</string>
+    <string name="confirm_delay_install">Avbryte eller utsette installeringen?</string>
+    <string name="delay_install_message">Du vil få en påminnelse annenhver time.</string>
+    <string name="install_cancel_message">Da blir nedlastingspakken slettet, og du kan laste den ned igjen når du oppdaterer neste gang.</string>
+    <string name="message_LW_mode_on">Green-Net-modus er på. Oppdateringene er avbrutt. Avslutt denne modusen, og oppdater igjen.</string>
+    <string name="send">Send</string>
+    <string name="feedback">Tilbakemelding</string>
+    <string name="feedback_content">Vennligst skriv ditt råd</string>
+    <string name="email">Legg inn din e-post</string>
+    <string name="feedback_result">Send vellykket, takk for tilbakemeldingen</string>
+    <string name="email_auth">Vennligst skriv den riktig e-postadresse</string>
+    <string name="feedback_auth">Din tilbakemelding er veldig viktig for oss,legg inn dine tilbakemeldinger,takk</string>
+    <string name="dm_2G">Du mottar for øyeblikket ikke radio, forholdene er gode nok til å laste ned oppdateringen. Vent til du befinner deg i 3G eller WiFi og gjenta operasjonen.</string>
+    <string name="dm_lowbattery">Lite batteristrøm, kan ikke oppdatere programvare</string>
+    <string name="feedback_network">Nettverket ikke er tilgjengelig,vennligst koble den til igjen og sende tilbakemelding,takk</string>
+    <string name="userconfirm_title">Bekreft</string>
+    <string name="userconfirm_button_yes">Ja</string>
+    <string name="userconfirm_button_no">Nei</string>
+    <string name="checkingNotice">Kontrollerer oppdatering …</string>
+    <string name="defer_install">Utsett</string>
+    <string name="cancel_install">Avbryt</string>
+    <string name="zdm_path">Hvis du vil oppdatere igjen, går du til Innstillinger > Om telefonen > Systemoppdateringer > Systemoppdateringer.</string>
+    <string name="defer_download">Utsett</string>
+    <string name="cancel_download">Avbryt</string>
+</resources>

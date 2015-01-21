@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_interaction">Accetta servizio post-vendita avanzato?</string>
+    <string name="informative">Servizio post-vendita avanzato</string>
+    <string name="title">Gestione dispositivo</string>
+    <string name="button_yes">Sì</string>
+    <string name="button_no">No</string>
+    <string name="ask_setup_message">Sono state ricevute le informazioni di configurazione OTA. Confermare per installare</string>
+    <string name="omacp_setup">Configurazione</string>
+    <string name="install_compelete">Installazione completata</string>
+    <string name="instatll_fail">Installazione non riuscita</string>
+    <string name="security_error">Errore di sicurezza</string>
+    <string name="xml_parse_error">Errore analisi XML</string>
+    <string name="user_cancel">Annullamento utente</string>
+    <string name="input_pin">Inserisci PIN</string>
+    <string name="app_name">Aggiornamenti sistema</string>
+    <string name="dm_update_service">Aggiornamenti sistema</string>
+    <string name="system_update">Controllo aggiornamenti in corso</string>
+    <string name="connecting">Verifica degli ultimi aggiornamenti software…</string>
+    <string name="downloading">Occorrono diversi minuti per completare il processo. Attendere.</string>
+    <string name="download_title">Scarica software</string>
+    <string name="download_val">Scarica software mediante</string>
+    <string name="download_message">Nuovo aggiornamento software disponibile. Scaricare?</string>
+    <string name="cancel_message">Annullare e interrompere il download del software?</string>
+    <string name="cancel">Annulla</string>
+    <string name="failed">Non riuscito</string>
+    <string name="update_failed">Aggiornamento software non riuscito</string>
+    <string name="install_title">Installa software</string>
+    <string name="install_message">"Per iniziare l'installazione è necessario riavviare il telefono"</string>
+    <string name="checking_update">Controllo aggiornamenti</string>
+    <string name="update_title">Aggiornamento automatico</string>
+    <string name="update_message">Aggiorna automaticamente ogni settimana</string>
+    <string name="update_deferred">Installazione posticipata</string>
+    <string name="update_deferred_AU">Installa software</string>
+    <string name="service_unavailable">Servizio non disponibile</string>
+    <string name="check_new">Cerca aggiornamenti</string>
+    <string name="status">Stato</string>
+    <string name="version">Versione:</string>
+    <string name="update_setting">Impostazioni di aggiornamento</string>
+    <string name="background">Esegui in background</string>
+    <string name="delay">Ritardo</string>
+    <string name="dm_session_busy">Sessione DM occupata</string>
+    <string name="downloading_notification">Download aggiornamento software in corso</string>
+    <string name="downloading_notification_message">Download nuovo software</string>
+    <string name="update_warning_notification">Avviso di aggiornamento software</string>
+    <string name="update_warning_notification_message">Nuovo messaggio di avviso in arrivo</string>
+    <string name="install_notification">Installa software</string>
+    <string name="install_notification_message">"Riavviare il telefono per iniziare l'installazione."</string>
+    <string name="install_file_notification">Fare clic per installare il file</string>
+    <string name="pin">PIN</string>
+    <string name="confirm">Conferma</string>
+    <string name="intallresult">Risultato installazione</string>
+    <string name="ok">OK</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_AU">Download mediante Wi-Fi</string>
+    <string name="mobile_networks_AU">Download mediante rete mobile</string>
+    <string name="mobile_networks">Reti mobili(maggiore traffico dati)</string>
+    <string name="autoupdate_toinstall">Aggiornamento automatico:fare clic per installare</string>
+    <string name="autoupdate_todownload">Aggiornamento automatico:fare clic per aggiornare</string>
+    <string name="autoupdate_busy">Aggiornamento automatico:annullare aggiornamento perché occupato</string>
+    <string name="attention">Attenzione</string>
+    <string name="update_busy">"L'aggiornamento è occupato. Attendere…"</string>
+    <string name="memory_insufficient">Spazio di archiviazione insufficiente</string>
+    <string name="memory_insufficient_info">"Spazio di archiviazione insufficiente sul telefono per l'aggiornamento. Liberare spazio e riprovare."</string>
+    <string name="network_unavailable">Rete non disponibile</string>
+    <string name="network_unavailable_info">"La rete non è disponibile. Impossibile aggiornare l'applicazione."</string>
+    <string name="connect_timeout">Connessione scaduta</string>
+    <string name="uncaught_exception_title">Gestore UncaughtException</string>
+    <string name="uncaught_exception_info">Gestione dispositivo interrotta. Forse lo spazio sul telefono non è sufficiente per questo aggiornamento. Liberare spazio e riprovare.</string>
+    <string name="updata_ok">Riavvia</string>
+    <string name="updata_Defer">Rinvia</string>
+    <string name="updata_info">"Riavviare il telefono per iniziare l'installazione"</string>
+    <string name="updata_title">Aggiornamenti software</string>
+    <string name="dm_comlete_sec">Occorrono circa %1$d secondi per completare il processo. Attendere.</string>
+    <string name="dm_compele_min">Occorrono circa %1$d minuti per completare il processo. Attendere.</string>
+    <string name="dm_compele_hou">Occorrono circa %1$d ore per completare il processo. Attendere.</string>
+    <string name="dm_version">Versione software:</string>
+    <string name="dm_update_date">Stato:</string>
+    <string name="dm_fumo_Message">Stato:</string>
+    <string name="dm_fumo_START">Cerca aggiornamenti</string>
+    <string name="dm_fumo_INSTAll_DEFER">Installazione software posticipata</string>
+    <string name="dm_fumo_SETUP">Installa pacchetto di aggiornamento</string>
+    <string name="dm_never_SETUP">Versione originale</string>
+    <string name="dm_fumo_status_noupdate">Il software corrente è aggiornato</string>
+    <string name="dm_fumo_status_failed">Aggiornamento software non riuscito</string>
+    <string name="dm_fumo_status_sucess">Il software è stato aggiornato correttamente</string>
+    <string name="dm_check_updatetile">Controllo aggiornamenti in corso</string>
+    <string name="dm_check_update">Verifica degli ultimi aggiornamenti software</string>
+    <string name="dm_network_error">Errore di rete. Riprovare più tardi.</string>
+    <string name="dm_already_new">Il software attuale è aggiornato.</string>
+    <string name="dm_isroaming">Gli aggiornamenti software non sono consentiti durante il roaming dei dati.</string>
+    <string name="dm_isroaming_AU">"Roaming attivo. Controllare con Telstra se sono applicabili costi aggiuntivi. 
+
+Continuare?"</string>
+    <string name="dm_airplan">Gli aggiornamenti software non sono consentiti in modalità Aereo.</string>
+    <string name="dm_no_dataservice">Nessun servizio dati. Gli aggiornamenti software non sono consentiti.</string>
+    <string name="dm_no_dataservice_AU">"Gli aggiornamenti software non sono disponibili perché i dati non sono attivati. 
+
+Controllare il servizio con il provider nonché le impostazioni del dispositivo."</string>
+    <string name="dm_update_setting">Impostazioni aggiornamento</string>
+    <string name="auto_update_switch_title">Aggiornamento automatico</string>
+    <string name="auto_update_switch_key">Aggiornamento automatico</string>
+    <string name="auto_update_switch_summary_on">Apri aggiornamenti automatici</string>
+    <string name="auto_update_switch_summary_off">Chiudi aggiornamenti automatici</string>
+    <string name="auto_update_frequency_text">Aggiorna automaticamente alla %1$s ogni %2$s</string>
+    <string name="wifi_auto_update_switch_title">Aggiornamento automatico mediante Wi-Fi</string>
+    <string name="wifi_auto_update_switch_key">Aggiornamento automatico mediante Wi-Fi</string>
+    <string name="wifi_auto_update_switch_summary_on">Quando la rete Wi-Fi è connessa, controlla automaticamente gli aggiornamenti</string>
+    <string name="wifi_auto_update_switch_summary_off">Quando la rete Wi-Fi è connessa, controlla automaticamente gli aggiornamenti</string>
+    <string name="cmcc_wifi_auto_update_switch_title">Wi-Fi CMCC</string>
+    <string name="cmcc_wifi_auto_update_switch_key">Wi-Fi CMCC</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_on">Quando la rete Wi-Fi è connessa a CMCC, controlla automaticamente gli aggiornamenti</string>
+    <string name="cmcc_wifi_auto_update_switch_summary_off">Quando la rete Wi-Fi è connessa a CMCC, controlla automaticamente gli aggiornamenti</string>
+    <string name="dm_wifi_open">Attivare la rete Wi-Fi per iniziare il download del nuovo software</string>
+    <string name="dm_via_wifi">Download tramite Wi-Fi</string>
+    <string name="dm_wifi_set">Impostazioni Wi-Fi</string>
+    <string name="dm_yes">Sì</string>
+    <string name="dm_no">No</string>
+    <string name="dm_wifi_fail">"L'accesso Wi-Fi non è disponibile, il download verrà annullato."</string>
+    <string name="dm_KB">KB</string>
+    <string name="dm_MB">MB</string>
+    <string name="dm_BYTE">B</string>
+    <string name="dm_time_am">%1$s am</string>
+    <string name="dm_time_pm">%1$s pm</string>
+    <string name="dm_Delay_show">È possibile posticipare altre %1$s volte</string>
+    <string name="dm_Delay_last_time_show">Già posticipato 3 volte. Impossibile posticipare ancora.</string>
+    <string name="download_message_new">"È disponibile un nuovo aggiornamento software. Scaricarlo? 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_force">"È disponibile un nuovo aggiornamento software. 
+ %1$s %2$s %3$s"</string>
+    <string name="download_message_version">"
+ Versione:"</string>
+    <string name="download_message_size">"
+ Dimensione pacchetto di aggiornamento:"</string>
+    <string name="download_message_description">"
+ Descrizione:"</string>
+    <string name="download_message_auto_download">"
+
+ Download automatico tra %1$s secondi"</string>
+    <string name="install_message_new">"Per iniziare l'installazione è necessario riavviare il telefono. Accertarsi che il livello di carica della batteria sia almeno del 10%%. 
+ È possibile posticipare %1$s volte e il telefono deve essere riavviato dopo il terzo ritardo."</string>
+    <string name="install_message_new_later">"Per iniziare l'installazione è necessario riavviare il telefono. Accertarsi che il livello di carica della batteria sia almeno del 10%%. 
+ È possibile posticipare %1$s volte e il telefono deve essere riavviato dopo il terzo ritardo."</string>
+    <string name="install_message_new_last_time">"Per iniziare l'installazione è necessario riavviare il telefono. Accertarsi che il livello di carica della batteria sia almeno del 10%%. 
+ L'operazione è stata posticipata già 3 volte. Il telefono verrà riavviato tra %1$s minuti dopo aver fatto clic sul pulsante Ritardo."</string>
+    <string name="install_message_force">Forza aggiornamento entro %1$s minuti</string>
+    <string name="install_message_delaycompleted">"L'operazione è stata ritardata già 3 volte. Il telefono verrà riavviato"</string>
+    <string name="wifi_cost_notify">Notifica costo WLAN</string>
+    <string name="wifi_cost_notify_body">La connessione WLAN può comportare un costo per il traffico dati. Continuare?</string>
+    <string name="dm_continue">Continua</string>
+    <string name="download_message_new_AU">"Un aggiornamento software è disponibile per il dispositivo. L'aggiornamento è di %1$s"</string>
+    <string name="download_message_version_AU">e consente di aggiornare %1$s dalla versione %2$s al software %3$s.</string>
+    <string name="download_message_description_AU">Questo aggiornamento %1$s</string>
+    <string name="about_charge_AU">"
+
+ Download mediante Wi-Fi consigliato. Il download potrebbe comportare costi aggiuntivi (specialmente se viene eseguito tramite una rete mobile o in modalità roaming all'estero). Durante il download è possibile continuare a utilizzare il dispositivo. Per ulteriori informazioni e assistenza, visitare il sito Web telstra.com/mobile oppure contattare il servizio clienti al numero 13 2200."</string>
+    <string name="dm_later">In seguito</string>
+    <string name="dm_install">Installa</string>
+    <string name="install_message_AU">"L'aggiornamento è stato scaricato ed è pronto per l'installazione. Fare clic su \"In seguito\" se non si desidera installare l'aggiornamento ora. Durante l'installazione, tutte le funzioni del dispositivo non saranno disponibili e non sarà possibile effettuare chiamate di emergenza. Il riavvio del dispositivo è previsto al termine del processo di installazione. I dati non verranno modificati o eliminati. Prima di iniziare l'installazione, accertarsi che il livello di carica della batteria sia almeno del 30% e non scollegare la batteria durante il processo."</string>
+    <string name="auto_update_frequency_text_AU">Consente di controllare gli aggiornamenti automaticamente alle %1$s di %2$s ogni seconda settimana del mese.</string>
+    <string name="noti_result_success_title">Il dispositivo ora è aggiornato</string>
+    <string name="noti_result_success_content">"L'aggiornamento software è stato eseguito correttamente"</string>
+    <string name="noti_auto_Title">Aggiornamento software disponibile</string>
+    <string name="noti_auto_Text">È disponibile un nuovo aggiornamento software per il dispositivo.</string>
+    <string name="dl_pause">Pausa</string>
+    <string name="dl_continue">Riprendi</string>
+    <string name="dl_pause_message">Download interrotto.</string>
+    <string name="wifi_only_switch_key">Solo Wi-Fi</string>
+    <string name="wifi_only_switch_title">Solo Wi-Fi</string>
+    <string name="wifi_only_switch_summary_off">Consente di utilizzare solo la rete Wi-Fi per gli aggiornamenti</string>
+    <string name="wifi_only_switch_summary_on">Consente di utilizzare solo la rete Wi-Fi per gli aggiornamenti</string>
+    <string name="present_net_changedto_mobile">La connessione è passata alla rete mobile. Il download è stato interrotto. Una volta ristabilita la connessione Wi-Fi, il download verrà ripreso.</string>
+    <string name="present_net_changedto_mobile_noContinue">La connessione è passata alla rete mobile. Il download viene interrotto. Per scaricare tramite la rete mobile, deselezionare le opzioni \"Solo Wi-Fi\" e \"Riprendi download\". In alternativa, il download verrà ripreso automaticamente quando la rete Wi-Fi è DISPONIBILE.</string>
+    <string name="present_net_is_mobile">Gli aggiornamenti software non sono consentiti perché la rete Wi-Fi non è disponibile.</string>
+    <string name="resume_download">Riprendi download</string>
+    <string name="init_message">Inizializzazione in corso. Attendere…</string>
+    <string name="wifi_only_message">"L'opzione Solo Wi-Fi è impostata e la connessione attualmente attiva non è Wi-Fi. 
+ Per utilizzare le rete mobile, deselezionare \"Solo Wi-Fi\" e \"Controllo aggiornamenti\" o \"Riprendi download\". 
+
+Impostare?"</string>
+    <string name="resume_download_message">"L'ultimo download è stato interrotto. Continuare?"</string>
+    <string name="fota_main_activity_title">Aggiornamento software</string>
+    <string name="current_version_title">Versione corrente:</string>
+    <string name="current_version">Mifavor1.8</string>
+    <string name="stop_lable">Interrompi</string>
+    <string name="network_update">Controllo aggiornamenti in corso…</string>
+    <string name="fota_server_package_discovered">Nuova versione trovata:</string>
+    <string name="fota_update_button_label">Aggiorna ora</string>
+    <string name="menu_check_new_from_server">Controllo aggiornamenti sul server</string>
+    <string name="menu_check_new_from_server_subtitle">"L'aggiornamento mediante la rete richiede un servizio dati. Si consiglia di utilizzare un ambiente Wi-Fi."</string>
+    <string name="menu_status">Stato</string>
+    <string name="menu_update_settings">Impostazioni</string>
+    <string name="tcard_update">Controllo aggiornamenti scheda SD in corso…</string>
+    <string name="fota_tcard_package_discovered">Nuova versione trovata(scheda SD):</string>
+    <string name="dialog_title">Aggiorna ora</string>
+    <string name="dialog_warning">"Quando si esegue l'aggiornamento, i dati utente vengono cancellati. Eseguire il backup dei dati prima di aggiornare."</string>
+    <string name="dialog_backup">Backup</string>
+    <string name="dialog_cancel">Annulla</string>
+    <string name="fota_msg_tcard_no_update">Nessun aggiornamento sulla scheda SD</string>
+    <string name="fota_msg_network_no_update">Nessun aggiornamento sul server</string>
+    <string name="fota_status">Stato:</string>
+    <string name="fota_status_software_version">Versione software:</string>
+    <string name="fota_status_never_setup">Versione originale</string>
+    <string name="fota_status_no_update">Il software attuale è aggiornato.</string>
+    <string name="fota_status_failed">Aggiornamento software non riuscito</string>
+    <string name="fota_status_sucess">Software aggiornato correttamente</string>
+    <string name="fota_auto_update">Aggiornamento automatico</string>
+    <string name="fota_auto_update_switch_summary_on">Apri aggiornamenti automatici</string>
+    <string name="fota_auto_update_switch_summary_off">Chiudi aggiornamenti automatici</string>
+    <string name="fota_auto_update_frequency_text">Ricerca aggiornamenti</string>
+    <string name="fota_auto_update_frequency_everysunday">ogni domenica</string>
+    <string name="fota_auto_update_frequency_everymonday">ogni lunedì</string>
+    <string name="fota_auto_update_frequency_everytuesday">ogni martedì</string>
+    <string name="fota_auto_update_frequency_everywednesday">ogni mercoledì</string>
+    <string name="fota_auto_update_frequency_everythursday">ogni giovedì</string>
+    <string name="fota_auto_update_frequency_everyfriday">ogni venerdì</string>
+    <string name="fota_auto_update_frequency_everysaturday">ogni sabato</string>
+    <string name="userconfirm_title">Conferma</string>
+    <string name="userconfirm_button_yes">Sì</string>
+    <string name="userconfirm_button_no">No</string>
+</resources>

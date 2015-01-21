@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/cdma_setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/voice_mail" android:key="button_voicemail_key" android:summary="@string/sum_voice_mail" />
+    <PreferenceScreen android:persistent="false" android:title="@string/ip_prefix_setting" android:key="button_ip_prefix_key" android:summary="@string/ip_prefix_setting_sum" />
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCF" android:key="button_cf_expand_key" android:summary="@string/call_forwarding_settings" />
+    <PreferenceScreen android:persistent="false" android:title="@string/additional_gsm_call_settings" android:key="button_more_expand_key" android:summary="@string/call_additional_sum" />
+</PreferenceScreen>

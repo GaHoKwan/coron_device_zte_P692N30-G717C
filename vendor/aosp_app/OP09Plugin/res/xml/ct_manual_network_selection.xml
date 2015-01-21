@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/cdma_network_selection_title" android:key="cdma_network_selection" />
+    <com.mediatek.settings.plugin.CdmaNetworkSwitcherPreference android:key="cdma_network_selectioin_detail" />
+    <com.mediatek.settings.plugin.NormalPreferenceGroup android:title="@string/gsm_network_selection_title" android:key="gsm_sim1_network_selection" />
+    <PreferenceCategory android:title="@string/manual_network_gsm_available_network" android:key="gsm_sim2_network_selection" />
+    <Preference android:title="@string/manual_network_notes_title" android:key="key_notes" android:summary="@string/manual_network_notes_summary" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

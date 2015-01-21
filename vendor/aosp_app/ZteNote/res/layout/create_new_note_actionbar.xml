@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/ab_stacked_transparent_dark_holo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider" android:showDividers="middle" android:dividerPadding="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/action_cancel" android:text="@string/cancel" style="@style/CreateNoteActionButtonText" />
+    <TextView android:id="@id/action_save" android:text="@string/note_save" style="@style/CreateNoteActionButtonText" />
+</LinearLayout>

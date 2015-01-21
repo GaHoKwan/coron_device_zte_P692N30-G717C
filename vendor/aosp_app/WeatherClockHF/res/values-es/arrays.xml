@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_strings">
+        <item>Dom</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mie</item>
+        <item>Jue</item>
+        <item>Vie</item>
+        <item>Sab</item>
+    </string-array>
+    <string-array name="weather_widget_week">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="weather_info_description">
+        <item>Desconocido</item>
+        <item>Soleado</item>
+        <item>Cubierto</item>
+        <item>Nublado</item>
+        <item>Lluvia</item>
+        <item>Tormenta eléctrica</item>
+        <item>Tormenta eléctrica con granizo</item>
+        <item>Aguanieve</item>
+        <item>Llovizna</item>
+        <item>Lluvia moderada</item>
+        <item>Lluvia fuerte</item>
+        <item>Chaparrón</item>
+        <item>Tormenta fuerte</item>
+        <item>Tormenta de nieve intensa</item>
+        <item>Tormenta de nieve</item>
+        <item>Nieve ligera</item>
+        <item>Nevada Moderada</item>
+        <item>Nevada intensa</item>
+        <item>Tormenta de nieve</item>
+        <item>Niebla</item>
+        <item>Lluvia helada</item>
+        <item>Tempestad de arena</item>
+        <item>Llovizna-moderada</item>
+        <item>Lluvia moderada - Lluvia fuerte</item>
+        <item>Lluvia fuerte- Aguacero</item>
+        <item>Aguacero - Aguacero intenso</item>
+        <item>Aguacero fuerte - Aguacero-extra</item>
+        <item>Nevada liviana - Nevada moderada</item>
+        <item>Nevada moderada - Nevada intensa</item>
+        <item>Nevada intensa - Tormenta de nieve</item>
+        <item>Polvo</item>
+        <item>Arena</item>
+        <item>Tormenta de arena intensa</item>
+        <item>Aguacero</item>
+        <item>Torbellino</item>
+        <item>Ventisca de nieve</item>
+        <item>Niebla ligera</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>--</item>
+        <item>Brumoso</item>
+    </string-array>
+</resources>

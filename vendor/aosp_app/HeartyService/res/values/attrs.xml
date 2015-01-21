@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="txtColor1" format="color" />
+    <attr name="txtColor2" format="color" />
+    <attr name="txtSize1" format="integer" />
+    <attr name="txtSize2" format="integer" />
+    <attr name="pressedDrawable" format="reference" />
+    <attr name="text1" format="reference|string" />
+    <attr name="text2" format="reference|string" />
+    <attr name="drawableSrc" format="reference" />
+    <attr name="textOff" format="reference" />
+    <attr name="textOn" format="reference" />
+    <attr name="solidColor" format="reference|color" />
+    <attr name="flingable" format="boolean" />
+    <attr name="selectionDivider" format="reference" />
+    <attr name="selectionDividerHeight" format="dimension" />
+    <attr name="minHeight" format="dimension" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="minWidth" format="dimension" />
+    <attr name="maxWidth" format="dimension" />
+</resources>

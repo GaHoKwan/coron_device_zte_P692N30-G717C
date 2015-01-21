@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.InLineSettingSublist style="@style/SettingRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_toLeftOf="@id/content" android:layout_alignParentLeft="true" style="@style/SettingItemTitle" />
+    <FrameLayout android:id="@id/content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:id="@id/current_setting" style="@style/SettingItemText" />
+        <ImageView android:id="@id/image" android:layout_width="@dimen/setting_item_icon_width" android:layout_height="@dimen/setting_item_icon_width" android:scaleType="fitCenter" android:adjustViewBounds="true" style="@style/SettingItemText" />
+    </FrameLayout>
+</com.android.camera.ui.InLineSettingSublist>

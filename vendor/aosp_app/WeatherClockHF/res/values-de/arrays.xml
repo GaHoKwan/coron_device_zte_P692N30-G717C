@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_strings">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="weather_widget_week">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="weather_info_description">
+        <item>Unbekannt</item>
+        <item>Sonnig</item>
+        <item>Bedeckt</item>
+        <item>Bewölkt</item>
+        <item>Regenschauer</item>
+        <item>Gewitterregen</item>
+        <item>Gewitterregen mit Hagelschlag</item>
+        <item>Schneeregen</item>
+        <item>Nieselregen</item>
+        <item>Mäβiger Regen</item>
+        <item>Heftiger Regen</item>
+        <item>Platzregen</item>
+        <item>Heftiger Sturm</item>
+        <item>Heftiger Schneesturm</item>
+        <item>Schneeschauer</item>
+        <item>Leichter Schneefall</item>
+        <item>Mäβiger Schnee</item>
+        <item>Heftiger Schneefall</item>
+        <item>Schneesturm</item>
+        <item>Nebel</item>
+        <item>Eisregen</item>
+        <item>Sandsturm</item>
+        <item>Nieselregen-mäβiger Regen</item>
+        <item>Mäβiger Regen-heftiger Regen</item>
+        <item>Heftiger Regen-Platzregen</item>
+        <item>Platzregen-heftiger Platzregen</item>
+        <item>Schwerer Platzregen-extra Platzregen</item>
+        <item>Leichter Schneefall-mäβiger Schnee</item>
+        <item>Mäβiger Schnee-heftiger Schneefall</item>
+        <item>Heftiger Schnee-Schneesturm</item>
+        <item>Staub</item>
+        <item>Sand</item>
+        <item>Starker Sandsturm</item>
+        <item>Sturmböe</item>
+        <item>Wirbelwind</item>
+        <item>Schneetreiben</item>
+        <item>Leichter Nebel</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Dunstig</item>
+    </string-array>
+</resources>

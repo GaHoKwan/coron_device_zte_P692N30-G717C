@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="def_data_roaming_op09">true</bool>
+    <bool name="def_data_roaming_2_op09">true</bool>
+</resources>

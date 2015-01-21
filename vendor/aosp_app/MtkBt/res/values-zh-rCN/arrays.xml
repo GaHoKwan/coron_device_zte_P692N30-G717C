@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bt_bpp_orientations">
+        <item>直印</item>
+        <item>横印</item>
+        <item>反向直印</item>
+        <item>反向横印</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+    </string-array>
+    <string-array name="bt_bpp_sidesettings">
+        <item>单面</item>
+        <item>双面 长边翻页</item>
+        <item>双面 短边翻页</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+    </string-array>
+    <string-array name="bt_bpp_qualitys">
+        <item>正常</item>
+        <item>低质量</item>
+        <item>高质量</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+    </string-array>
+    <string-array name="bt_bpp_entry_error">
+        <item>no error</item>
+        <item>联系人名片格式错误</item>
+        <item>影像格式错误</item>
+    </string-array>
+    <string-array name="bluetooth_ftp_client_file_operations">
+        <item>下载</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="bluetooth_ftp_client_folder_operations">
+        <item>开启</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="bluetooth_ftp_server_permission_entries">
+        <item>只允许读取</item>
+        <item>可自由存取</item>
+    </string-array>
+    <string-array name="bt_prxm_link_loss_level_entries">
+        <item>无通知</item>
+        <item>短通知</item>
+        <item>长通知</item>
+    </string-array>
+    <string-array name="bt_prxm_path_loss_level_entries">
+        <item>无通知</item>
+        <item>短通知</item>
+        <item>长通知</item>
+    </string-array>
+    <string-array name="bluetooth_simap_server_sim_index_entries">
+        <item>SIM1</item>
+        <item>SIM2</item>
+        <item>SIM3</item>
+        <item>SIM4</item>
+    </string-array>
+    <string-array name="bluetooth_simap_server_sim_index_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

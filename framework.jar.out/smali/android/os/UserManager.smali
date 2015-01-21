@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e003a
+    const v2, #android:integer@config_multiuserMaximumUsers#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 

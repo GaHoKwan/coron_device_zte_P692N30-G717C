@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="17" android:versionName="1.0.0" package="cn.com.zte.yp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <application android:label="@string/app_location" android:icon="@drawable/ic_location_launcher" android:name=".YpApplication">
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="cn.com.zte.yp.NumberLocatorActivity" android:launchMode="singleTop" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/search_number_title" android:icon="@drawable/ic_launcher" android:name="cn.com.zte.yp.activityZD.ZDYellowSearchActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="cn.com.zte.yp.activityZD.YpLaunchView">
+            <intent-filter>
+                <action android:name="cn.com.zte.intent.action.ypLaunch" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/yellow_page_settings" android:icon="@drawable/ic_launcher" android:name="cn.com.zte.yp.activityZD.YellowPagesSettingActivity" />
+        <activity android:label="@string/yellow_page_about" android:icon="@drawable/ic_launcher" android:name="cn.com.zte.yp.activityZD.YellowPagesAboutActivity" />
+        <provider android:name="cn.com.zte.yp.provider.YpProvider" android:authorities="cn.com.zte.yp" />
+        <activity android:label="@string/app_location" android:icon="@drawable/ic_location_launcher" android:name="cn.com.zte.yp.NumberLocatorMainActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_location" android:icon="@drawable/ic_location_launcher" android:name="cn.com.zte.nlt.SettingsActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="cn.com.zte.intent.action.nltSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_location" android:icon="@drawable/ic_location_launcher" android:name="cn.com.zte.nlt.smartdailer.IPDialSettings" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.zte.cn.action.numberlocator_ip_settings" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Dialog" android:label="@string/dlg_ip_num" android:name="cn.com.zte.nlt.smartdailer.IPDialNumberInput" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <provider android:name="cn.com.zte.nlt.provider.NltContentProvider" android:exported="true" android:authorities="zte.com.cn.providers.numberlocatorprovider" />
+        <receiver android:name="cn.com.zte.nlt.receiver.OutgoingCallReceiver" android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.com.zte.nlt.receiver.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.com.zte.nlt.update.AutoUpdateReceiver" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="ZDTest" android:name="com.isw.third.app.DotWebActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.isw.third.app.DotWebShow" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider android:name="com.isw.android.corp.util.DotInfoProvider" android:exported="true" android:authorities="com.isw.android.corp.util.DotInfoProvider" />
+        <receiver android:name="com.isw.third.app.CallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE_2" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="appuid" android:value="636e2e636f6d2e7a74652e7970636f6c" />
+        <meta-data android:name="marketinfo" android:value="preload" />
+        <meta-data android:name="isZteApp" android:value="true" />
+        <meta-data android:name="appDescription" android:value="ZTE_appName|YpIswNumberLocator_country|GENERIC_operator|GENERIC_device|GENERIC" />
+    </application>
+</manifest>

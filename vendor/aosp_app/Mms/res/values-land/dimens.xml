@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="share_panel_common_lan_height">100.0dip</dimen>
+    <dimen name="share_panel_common_port_height">100.0dip</dimen>
+    <dimen name="chip_height">32.0dip</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="cling_button_bg" id="0x7f020002" />
+    <public type="drawable" name="dialog_fullscreen" id="0x7f020003" />
+    <public type="drawable" name="btn_cling_normal" id="0x7f020000" />
+    <public type="drawable" name="btn_cling_pressed" id="0x7f020001" />
+    <public type="layout" name="video_view" id="0x7f030000" />
+    <public type="color" name="ics_blue_foreground" id="0x7f040000" />
+    <public type="color" name="title_color" id="0x7f040001" />
+    <public type="color" name="transparent_background" id="0x7f040002" />
+    <public type="string" name="next" id="0x7f050000" />
+    <public type="string" name="scroll_left_bar_title" id="0x7f050001" />
+    <public type="string" name="zoome_title" id="0x7f050002" />
+    <public type="style" name="textShadowTitle" id="0x7f060000" />
+    <public type="style" name="bottom_button" id="0x7f060001" />
+    <public type="style" name="dialog_fullscreen" id="0x7f060002" />
+    <public type="id" name="surface_view" id="0x7f070000" />
+    <public type="id" name="guide_title" id="0x7f070001" />
+    <public type="id" name="right_btn" id="0x7f070002" />
+</resources>

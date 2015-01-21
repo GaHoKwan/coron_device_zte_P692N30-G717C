@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text_color" android:gravity="left" android:id="@id/received_from" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="4.0dip" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0sp" android:textColor="@color/primary_text_color" android:ellipsize="end" android:gravity="left" android:id="@id/mms_content" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:maxLines="2" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text_color" android:gravity="left" android:id="@id/received_time" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+</LinearLayout>

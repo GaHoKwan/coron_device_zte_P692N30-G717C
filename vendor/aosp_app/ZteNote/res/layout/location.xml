@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_info" android:layout_centerVertical="true" />
+        <TextView android:id="@id/location_address" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <com.baidu.mapapi.MapView android:enabled="true" android:id="@id/map_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

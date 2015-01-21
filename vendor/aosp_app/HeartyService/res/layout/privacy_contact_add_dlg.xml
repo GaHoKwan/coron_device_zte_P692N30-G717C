@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <RadioGroup android:gravity="center" android:id="@id/addContactGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/contacts_menu" android:text="@string/select_from_contacts" style="@style/privacy_radio_dlg" />
+        <RadioButton android:id="@id/sms_menu" android:text="@string/select_from_sms" style="@style/privacy_radio_dlg" />
+        <RadioButton android:id="@id/calllog_menu" android:text="@string/select_from_calllog" style="@style/privacy_radio_dlg" />
+        <RadioButton android:id="@id/new_contact_menu" android:text="@string/new_contact" style="@style/privacy_radio_dlg" />
+    </RadioGroup>
+</LinearLayout>

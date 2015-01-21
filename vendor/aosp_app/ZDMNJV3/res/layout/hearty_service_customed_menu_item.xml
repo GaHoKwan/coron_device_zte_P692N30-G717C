@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/hs_common_padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:paddingLeft="@dimen/hs_common_padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_check_new_from_server" style="@style/hs_style" />
+    <TextView android:paddingLeft="@dimen/hs_common_padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_check_new_from_server_subtitle" style="@style/hs_menu_subtitle_style" />
+</LinearLayout>

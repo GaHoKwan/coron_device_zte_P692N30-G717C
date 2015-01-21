@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.25">
+        <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:text="@string/statics_usedtime_title" android:layout_weight="0.2" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.55">
+            <include layout="@layout/time_amount_show_layout" />
+        </LinearLayout>
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/battery_type" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+            <RadioButton android:textColor="@color/check_btn_text_color" android:gravity="center" android:id="@id/apps" android:background="@drawable/btn_left_layer" android:layout_width="152.5dip" android:layout_height="45.0dip" android:button="@null" android:text="@string/apps" />
+            <RadioButton android:textColor="@color/check_btn_text_color" android:gravity="center" android:id="@id/hardware" android:background="@drawable/btn_right_layer" android:layout_width="152.5dip" android:layout_height="45.0dip" android:button="@null" android:text="@string/hardware" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="2.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/list_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:id="@id/abnormal_apps" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_consumption" android:drawableRight="@drawable/tip_selector" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.5dip" android:src="@color/divider_bold_color" />
+        <ListView android:id="@id/statics_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

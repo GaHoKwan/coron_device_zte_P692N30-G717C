@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/myListItem" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_1line_height" style="@style/listview_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/itemTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_centerVertical="true" style="@style/hearty_black_18dp" />
+        <TextView android:textSize="@dimen/white_11dp" android:ellipsize="marquee" android:id="@id/itemSummary" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb" android:focusable="false" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/checkbox_2_0" />
+</RelativeLayout>

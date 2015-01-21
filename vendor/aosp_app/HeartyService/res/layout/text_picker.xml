@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/increment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/text_picker_increment_button" style="@style/textPickerUpButton" />
+    <view android:id="@id/textPicker_input" android:layout_width="40.0dip" android:layout_height="wrap_content" style="@style/textPickerInputText" class="com.zte.heartyservice.common.datatype.ZTETextPicker$CustomEditText" />
+    <ImageButton android:id="@id/decrement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/text_picker_decrement_button" style="@style/textPickerDownButton" />
+</merge>

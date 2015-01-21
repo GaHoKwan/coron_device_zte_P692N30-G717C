@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/doodle_toolbar" android:background="@drawable/tools_bg" style="@style/scroll_footer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/doodle_eraser" android:src="@drawable/doodle_rubber" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.1">
+        <ImageView android:layout_gravity="center_vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/divider" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/doodle_pen_type" android:src="@drawable/doodle_pen" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/doodle_stroke" android:src="@drawable/doodle_line" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/doodle_color" android:src="@drawable/doodle_color" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/doodle_shape" android:src="@drawable/doodle_shape_circle" style="@style/footer_img_button" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.1">
+        <ImageView android:layout_gravity="center_vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/divider" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/doodle_write_done" android:src="@drawable/handwrite_done" style="@style/footer_img_button" />
+    </LinearLayout>
+</LinearLayout>

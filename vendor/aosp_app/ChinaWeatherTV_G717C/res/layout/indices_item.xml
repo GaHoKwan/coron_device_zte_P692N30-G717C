@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ind_sel_item_checkbox_selector" android:paddingLeft="0.0dip" android:paddingTop="5.0dip" android:paddingRight="0.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/indices_item_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/indices_item_height_width" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/indices_item_text_size" android:textColor="@drawable/ind_sel_item_text_selector" android:id="@id/indices_name_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="穿衣指数" android:singleLine="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/ind_textsize_brief" android:textColor="@drawable/city_search_list_city_text_selector" android:gravity="center" android:id="@id/indices_brief" android:paddingLeft="4.0dip" android:paddingRight="@dimen/ind_text_brief_paddingright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ind_text_brief_marginbottom" android:maxHeight="42.0dip" android:minWidth="85.0dip" android:minHeight="@dimen/ind_text_brief_width_height" android:layout_below="@id/indices_name_textview" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/indices_imageview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginBottom="1.0dip" android:layout_below="@id/indices_brief" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/indices_none_item_layout" android:visibility="visible" android:layout_width="@dimen/indices_item_height_width" android:layout_height="@dimen/indices_item_height_width" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hf_indices_add" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

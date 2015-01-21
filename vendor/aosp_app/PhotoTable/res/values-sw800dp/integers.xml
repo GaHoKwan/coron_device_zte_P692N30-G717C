@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="table_drop_period">90000</integer>
+    <integer name="fast_drop">10000</integer>
+    <integer name="image_ratio">500000</integer>
+</resources>

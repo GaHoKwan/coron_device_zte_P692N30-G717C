@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: Email.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.android.email
+  orig_package: com.android.email
+compressionType: false

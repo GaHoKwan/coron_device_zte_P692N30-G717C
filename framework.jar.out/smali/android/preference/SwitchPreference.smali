@@ -42,7 +42,7 @@
 
     .prologue
     .line 95
-    const v0, 0x101036d
+    const v0, #android:attr@switchPreferenceStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/preference/SwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

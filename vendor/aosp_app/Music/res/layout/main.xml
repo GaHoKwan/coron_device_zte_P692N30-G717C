@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@*android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/sd_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false">
+        <include layout="@layout/sd_error" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/normal_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false">
+        <TabWidget android:id="@*android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false">
+            <android.support.v4.view.ViewPager android:id="@id/viewpage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/nowplaying_parent" android:splitMotionEvents="false" />
+            <include layout="@layout/nowplaying" />
+        </RelativeLayout>
+        <FrameLayout android:id="@*android:id/tabcontent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</TabHost>

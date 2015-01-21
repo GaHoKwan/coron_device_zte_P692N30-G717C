@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:background="@drawable/ab_stacked_transparent_dark_holo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/home_actionbar" android:background="@drawable/ab_stacked_transparent_dark_holo" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/home_actionbar_button" android:background="@drawable/button_background" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:gravity="center_vertical" android:id="@id/header_back_icon" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_ab_back_holo_dark" />
+            <ImageView android:gravity="center_vertical" android:id="@id/header_app_icon" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/note_ic_directory" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/title_bottom_text_color" android:gravity="center_vertical" android:id="@id/header_app_name" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="2" />
+            <SearchView android:gravity="center_vertical" android:id="@id/search_view" android:paddingLeft="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/header_select_bar" android:background="@drawable/ab_stacked_transparent_dark_holo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/header_select_layout" android:background="@drawable/button_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/header_exit_select" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_ab_back_holo_dark" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/title_bottom_text_color" android:gravity="center_vertical" android:id="@id/header_select_number" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/header_select" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" style="@style/ActionBarButton">
+            <ImageView android:id="@id/header_select_all" style="@style/ActionButtonImage" />
+            <TextView android:id="@id/header_select_text" style="@style/ActionButtonText" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

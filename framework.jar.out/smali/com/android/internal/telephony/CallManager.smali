@@ -4208,7 +4208,7 @@
 
     move-result-object v5
 
-    const v6, 0x111004c
+    const v6, #android:bool@config_speed_up_audio_on_mt_calls#t
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getBoolean(I)Z
 

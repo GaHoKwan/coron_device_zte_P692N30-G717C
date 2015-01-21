@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/whole_widget_margin_lr_large" android:layout_marginTop="@dimen/whole_widget_margin_t_large" android:layout_marginRight="@dimen/whole_widget_margin_lr_large" android:layout_marginBottom="@dimen/whole_widget_margin_b_large" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/mem_widget" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:layout_width="@dimen/widget_width_large" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="18.0">
+                            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_bg_black_size_large" android:layout_height="@dimen/widget_bg_black_size_large" android:src="@drawable/bg_widget_black" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_icon_height_large" android:layout_height="@dimen/widget_icon_height_large" android:src="@drawable/mem_widget_icon_selector" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                            <TextView android:textSize="@dimen/text_size_16dp_num" android:textColor="@color/widget_text_color_selector" android:id="@id/mem_widget_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                            <ImageView android:id="@id/image_progress_widget" android:layout_width="@dimen/mem_widget_anim_radius_large" android:layout_height="@dimen/mem_widget_anim_radius_large" android:src="@drawable/accelerrate_circle" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                            <ProgressBar android:id="@id/progress_circle" android:layout_width="@dimen/mem_widget_anim_radius_large" android:layout_height="@dimen/mem_widget_anim_radius_large" android:indeterminate="false" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/widget_progressbar_drawable" android:indeterminateDuration="1000" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                        <TextView android:ellipsize="marquee" android:gravity="center" android:id="@id/mem_widget_txt" android:background="@drawable/bg_black" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/widget_title_1" android:singleLine="true" android:layout_weight="8.0" style="@style/widget_light_grey_10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/power_widget" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:layout_width="@dimen/widget_width_large" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="18.0">
+                            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_bg_black_size_large" android:layout_height="@dimen/widget_bg_black_size_large" android:src="@drawable/bg_widget_black" android:scaleType="fitCenter" />
+                            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_icon_height_large" android:layout_height="@dimen/widget_icon_height_large" android:src="@drawable/power_widget_icon_selector" android:scaleType="fitCenter" />
+                        </FrameLayout>
+                        <TextView android:ellipsize="marquee" android:gravity="center" android:id="@id/power_widget_txt" android:background="@drawable/bg_black" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/widget_text_default" android:singleLine="true" android:layout_weight="8.0" style="@style/widget_light_grey_10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="18.0">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/traffic_adjust" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" android:layout_weight="1.0">
+                        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_bg_black_size_large" android:layout_height="@dimen/widget_bg_black_size_large" android:src="@drawable/bg_widget_black" android:scaleType="fitCenter" />
+                            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/widget_icon_height_large" android:src="@drawable/traffic_widget_selector" android:scaleType="fitCenter" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/traffic_data" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_weight="1.0">
+                        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_bg_black_size_large" android:layout_height="@dimen/widget_bg_black_size_large" android:src="@drawable/bg_widget_black" android:scaleType="fitCenter" />
+                            <ImageView android:layout_gravity="bottom|center" android:layout_width="@dimen/widget_bg_black_size_large" android:layout_height="@dimen/widget_bg_black_size_large" android:src="@drawable/bg_black2" android:scaleType="fitEnd" />
+                            <ImageView android:layout_gravity="top|center" android:id="@id/data_switch" android:layout_width="wrap_content" android:layout_height="@dimen/widget_icon_height_2_large" android:layout_marginTop="6.0dip" android:src="@drawable/data_switch_selector" android:scaleType="fitCenter" />
+                            <TextView android:layout_gravity="bottom|center" android:id="@id/data_tip_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/warn_switch_on" style="@style/widget_light_grey_10sp" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <RelativeLayout android:id="@id/traffic_level" android:background="@drawable/bg_black" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+                    <ImageView android:id="@id/traffic_widget_img_level" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/battery_widget_clip" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                    <TextView android:ellipsize="marquee" android:gravity="center" android:id="@id/traffic_widget_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" style="@style/widget_light_grey_10sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/sensor_linear" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/accelerometer" style="@style/info_sensor" />
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:text="@string/x_is" style="@style/info_sensor" />
+                <TextView android:id="@id/g_sensor_x" style="@style/info_value" />
+            </LinearLayout>
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:text="@string/y_is" style="@style/info_sensor" />
+                <TextView android:id="@id/g_sensor_y" style="@style/info_value" />
+            </LinearLayout>
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:text="@string/z_is" style="@style/info_sensor" />
+                <TextView android:id="@id/g_sensor_z" style="@style/info_value" />
+            </LinearLayout>
+            <TextView android:visibility="gone" android:text="@string/gyroscope" style="@style/info_sensor" />
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:visibility="gone" android:text="@string/x_is" style="@style/info_sensor" />
+                <TextView android:id="@id/gyroscope_x" android:visibility="gone" style="@style/info_value" />
+            </LinearLayout>
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:visibility="gone" android:text="@string/y_is" style="@style/info_sensor" />
+                <TextView android:id="@id/gyroscope_y" android:visibility="gone" style="@style/info_value" />
+            </LinearLayout>
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:visibility="gone" android:text="@string/z_is" style="@style/info_sensor" />
+                <TextView android:id="@id/gyroscope_z" android:visibility="gone" style="@style/info_value" />
+            </LinearLayout>
+            <TextView android:text="@string/magnetic" style="@style/info_sensor" />
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:text="@string/x_is" style="@style/info_sensor" />
+                <TextView android:id="@id/magnetic_x" style="@style/info_value" />
+            </LinearLayout>
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:text="@string/y_is" style="@style/info_sensor" />
+                <TextView android:id="@id/magnetic_y" style="@style/info_value" />
+            </LinearLayout>
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:text="@string/z_is" style="@style/info_sensor" />
+                <TextView android:id="@id/magnetic_z" style="@style/info_value" />
+            </LinearLayout>
+            <TextView android:text="@string/light" style="@style/info_sensor" />
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:id="@id/light_lux" style="@style/info_sensor" />
+            </LinearLayout>
+            <TextView android:text="@string/proximity" style="@style/info_sensor" />
+            <LinearLayout style="@style/info_sensor_label">
+                <TextView android:id="@id/proximity" style="@style/info_sensor" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/sensor_linear" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:id="@id/sensor_pass" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/pass" />
+            <Button android:id="@id/sensor_false" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/falsed" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

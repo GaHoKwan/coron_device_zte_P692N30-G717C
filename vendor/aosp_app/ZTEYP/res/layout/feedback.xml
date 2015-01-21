@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/zte_feedback_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_title" android:layout_width="fill_parent" android:layout_height="62.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <Button android:textSize="18.0sp" android:textColor="#ffe5e5e5" android:layout_gravity="center" android:id="@id/zte_button_cancel" android:background="@drawable/zte_buuton_bg" android:layout_width="60.0dip" android:layout_height="36.0dip" android:layout_marginLeft="5.0dip" android:text="@string/zte_cancel" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/line" />
+        </LinearLayout>
+        <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zte_feedback_title" android:layout_centerInParent="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/line" />
+            <Button android:textSize="18.0sp" android:textColor="#ffe5e5e5" android:layout_gravity="center" android:id="@id/zte_button_send" android:background="@drawable/zte_buuton_bg" android:layout_width="60.0dip" android:layout_height="36.0dip" android:layout_marginRight="5.0dip" android:text="@string/zte_send" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_feedback" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+        <EditText android:textSize="18.0sp" android:textColor="#ff7e7e7e" android:gravity="top" android:id="@id/zte_feedback_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/hintFeed" android:maxLength="100" android:freezesText="true" android:layout_alignParentBottom="true" android:inputType="textMultiLine" />
+        <TextView android:textSize="12.0sp" android:id="@id/spare_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:text="@string/total" android:layout_alignRight="@id/zte_feedback_text" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/layout_email" android:background="@drawable/input_box_02_normal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <EditText android:textSize="18.0sp" android:textColor="#ff7e7e7e" android:id="@id/zte_feedback_user_email" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:hint="@string/zte_edittext_email_text" android:singleLine="true" android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/zte_loggo" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zte_logo" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

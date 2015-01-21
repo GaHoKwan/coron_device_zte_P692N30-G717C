@@ -944,9 +944,9 @@
     .parameter "visible"
 
     .prologue
-    const v12, 0x1040409
+    const v12, #android:string@network_available_sign_in_detailed#t
 
-    const v9, 0x1040408
+    const v9, #android:string@network_available_sign_in#t
 
     const/4 v11, 0x1
 
@@ -1025,7 +1025,7 @@
 
     .line 365
     .local v0, details:Ljava/lang/CharSequence;
-    const v1, 0x108054e
+    const v1, #android:drawable@stat_notify_rssi_in_range#t
 
     .line 369
     .local v1, icon:I
@@ -1063,7 +1063,7 @@
 
     .line 374
     .local v2, intent:Landroid/content/Intent;
-    const/high16 v7, 0x1040
+    const/high16 v7, #android:string@cancel#h0
 
     invoke-virtual {v2, v7}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
@@ -1104,7 +1104,7 @@
 
     .line 349
     :pswitch_0
-    const v7, 0x1040407
+    const v7, #android:string@wifi_available_sign_in#t
 
     new-array v8, v11, [Ljava/lang/Object;
 
@@ -1136,7 +1136,7 @@
 
     .line 352
     .restart local v0       #details:Ljava/lang/CharSequence;
-    const v1, 0x1080552
+    const v1, #android:drawable@stat_notify_wifi_in_range#t
 
     .line 353
     .restart local v1       #icon:I
@@ -1169,7 +1169,7 @@
 
     .line 359
     .restart local v0       #details:Ljava/lang/CharSequence;
-    const v1, 0x108054e
+    const v1, #android:drawable@stat_notify_rssi_in_range#t
 
     .line 360
     .restart local v1       #icon:I

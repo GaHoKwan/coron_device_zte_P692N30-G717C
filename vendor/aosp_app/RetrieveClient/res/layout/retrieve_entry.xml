@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="20.0dip" android:fillViewport="true" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_entry" android:background="@color/background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_entryImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pic01" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rl_sms" android:background="@drawable/order_control_button" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="clickController">
+                <CheckBox android:layout_gravity="center_horizontal" android:id="@id/cb_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:button="@drawable/checkbox_select" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/cb_sms">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/local_active" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black_hint" android:ellipsize="marquee" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/local_point" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <ImageView android:id="@id/iv_localPoint" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:onClick="clickController" />
+            </RelativeLayout>
+            <TextView android:id="@id/TV_divider" android:background="#ffc8c6c6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/rl_sms" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rl_network" android:background="@drawable/order_control_button" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="clickController">
+                <CheckBox android:layout_gravity="center_horizontal" android:id="@id/cb_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:button="@drawable/checkbox_select" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/cb_network">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/black_text" android:id="@id/tv_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_active" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black_hint" android:ellipsize="marquee" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/cloud_point" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <ImageView android:id="@id/iv_networkPoint" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:onClick="clickController" />
+            </RelativeLayout>
+            <Button android:textColor="@color/green_open" android:layout_gravity="center" android:id="@id/btn_open" android:background="@drawable/imagebutton_active" android:clickable="true" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:text="@string/Activate_Anti_theft_button" android:onClick="clickController" style="@style/ButtonStyle" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textColor="@color/green_button" android:id="@id/btn_remote" android:background="@drawable/button_new" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/Remote_control" android:layout_below="@id/btn_open" android:layout_alignParentBottom="true" android:onClick="clickController" style="@style/ButtonStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

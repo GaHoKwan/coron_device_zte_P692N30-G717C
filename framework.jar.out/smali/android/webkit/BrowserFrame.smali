@@ -1010,7 +1010,7 @@
 
     .line 994
     :pswitch_0
-    const v2, 0x1100004
+    const v2, #android:raw@nodomain#t
 
     .line 1026
     .local v2, resid:I
@@ -1071,7 +1071,7 @@
     .end local v2           #resid:I
     .end local v3           #value:Landroid/util/TypedValue;
     :pswitch_1
-    const v2, 0x1100003
+    const v2, #android:raw@loaderror#t
 
     .line 999
     .restart local v2       #resid:I
@@ -1080,7 +1080,7 @@
     .line 1003
     .end local v2           #resid:I
     :pswitch_2
-    const v2, 0x10800e2
+    const v2, #android:drawable@btn_check_off#t
 
     .line 1004
     .restart local v2       #resid:I
@@ -1093,7 +1093,7 @@
 
     move-result-object v4
 
-    const v5, 0x104048f
+    const v5, #android:string@upload_file#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1107,7 +1107,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040491
+    const v5, #android:string@reset#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1121,7 +1121,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040492
+    const v5, #android:string@submit#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1135,7 +1135,7 @@
 
     move-result-object v4
 
-    const v5, 0x1040490
+    const v5, #android:string@no_file_chosen#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2671,7 +2671,7 @@
 
     .line 880
     .local v3, res:Landroid/content/res/Resources;
-    const v6, 0x1100002
+    const v6, #android:raw@incognito_mode_start_page#t
 
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->openRawResource(I)Ljava/io/InputStream;
 

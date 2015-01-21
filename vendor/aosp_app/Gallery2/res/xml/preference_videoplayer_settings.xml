@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <ListPreference android:entries="@array/step_option_array" android:title="@string/setp_option_name" android:key="selected_step_option" android:summary="@string/step_option_desc" android:defaultValue="@string/step_option_default_value" android:dialogTitle="@string/setp_option_name" android:entryValues="@array/step_option_array_values" />
+</PreferenceScreen>

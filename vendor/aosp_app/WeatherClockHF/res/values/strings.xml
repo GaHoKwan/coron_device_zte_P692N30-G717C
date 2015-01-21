@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_clock_packages_name">zte.com.cn.alarmclock</string>
+    <string name="config_clock_activity_name">zte.com.cn.alarmclock.AlarmClock</string>
+    <string name="app_name">Weather_ZTE</string>
+    <string name="weather_default_location">My location</string>
+    <string name="weather_invalid">Unknown</string>
+    <string name="degree">°</string>
+    <string name="c_degree">°C</string>
+    <string name="f_degree">°F</string>
+    <string name="widget_loading">The widget is loading...</string>
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+    <string name="data_not_refreshed">Enable data access over Mobile network,and then try to update weather data.</string>
+    <string name="data_has_refreshed">weather data has refreshed.</string>
+    <string name="weather_add_city_text">Add city</string>
+    <string name="weather_CMO">View weather website</string>
+    <string name="widget_weather_location_fail">weather location failed</string>
+    <string name="widget_land_text">"This widget can't display in landscape"</string>
+    <string name="default_theme_package">com.zte.launcher.theme.defaulted</string>
+</resources>

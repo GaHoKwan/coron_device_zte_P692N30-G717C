@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.InLineSettingRestore style="@style/SettingRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" style="@style/SettingItemRestore" />
+</com.android.camera.ui.InLineSettingRestore>

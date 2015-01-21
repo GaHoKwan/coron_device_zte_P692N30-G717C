@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_days">
+        <item>Zondag</item>
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+    </string-array>
+</resources>

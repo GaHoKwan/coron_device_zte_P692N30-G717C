@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_size_13dp" android:textColor="@color/exam_item_title_color" android:id="@id/item_title" android:background="@drawable/list_item_title" android:paddingLeft="@dimen/exam_on_key_item_lr" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

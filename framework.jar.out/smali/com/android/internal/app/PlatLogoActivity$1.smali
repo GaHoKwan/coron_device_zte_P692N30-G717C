@@ -54,7 +54,7 @@
 
     iget-object v0, v0, Lcom/android/internal/app/PlatLogoActivity;->mContent:Landroid/widget/ImageView;
 
-    const v1, 0x1080472
+    const v1, #android:drawable@platlogo#t
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

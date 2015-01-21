@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/apn_settings" android:key="pref_ct_apn_key">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ApnSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/manual_network_selection_title" android:key="manual_network_selection">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.settings.plugin.ManualNetworkSelection" />
+    </PreferenceScreen>
+</PreferenceScreen>

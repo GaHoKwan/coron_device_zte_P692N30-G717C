@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/init_default_rootview" android:background="@color/city_search_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/init_search_layout" layout="@layout/search_layout" />
+    <ListView android:id="@id/init_city_search_listview" android:background="#00000000" android:paddingLeft="2.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/city_search_item_active_selector" android:cacheColorHint="@*android:color/transparent" android:divider="#ffbdbdbd" android:dividerHeight="1.0px" android:layout_below="@id/init_search_layout" android:layout_alignLeft="@id/init_search_layout" android:layout_alignRight="@id/init_search_layout" android:fastScrollEnabled="true" />
+</RelativeLayout>

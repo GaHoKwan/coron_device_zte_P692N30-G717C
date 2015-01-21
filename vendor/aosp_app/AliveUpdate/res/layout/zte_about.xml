@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/zte_pinstripe_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/zte_header_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zte_about_title" android:layout_centerInParent="true" />
+        <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffeeeeee" android:id="@id/zte_button_about_okay" android:background="@drawable/zte_header_button" android:paddingLeft="10.0dip" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="@string/zte_about_header_button_okay_text" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/zte_logo" android:maxHeight="10.0dip" />
+    <TextView android:textSize="10.0pt" android:textColor="#ff000000" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zte_about_message_1" />
+    <TextView android:textSize="10.0pt" android:textStyle="bold" android:textColor="#ff004444" android:autoLink="web" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zte_about_message_2" />
+    <TextView android:textSize="10.0pt" android:textStyle="bold" android:textColor="#ff004444" android:layout_gravity="left" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0pt" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

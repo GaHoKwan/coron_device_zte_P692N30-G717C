@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/search_engine_settings" android:key="search_engine" />
+    <PreferenceScreen android:title="@string/search_sources" android:key="search_corpora" />
+    <com.android.quicksearchbox.preferences.OkCancelPreference android:persistent="false" android:title="@string/clear_shortcuts" android:key="clear_shortcuts" android:dialogTitle="@string/clear_shortcuts" android:dialogMessage="@string/clear_shortcuts_prompt" android:positiveButtonText="@string/clear_shortcuts_agree" android:negativeButtonText="@string/clear_shortcuts_disagree" />
+</PreferenceScreen>

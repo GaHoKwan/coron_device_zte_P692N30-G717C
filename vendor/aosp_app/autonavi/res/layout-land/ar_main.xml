@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ar_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.plugin.installapk.ar.CameraView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/ar_top" android:layout_width="fill_parent" android:layout_height="@dimen/ar_top_height" layout="@layout/ar_top" />
+    <ImageButton android:id="@id/ar_topological" android:visibility="gone" android:layout_width="@dimen/ar_topological_landscape_normal_width" android:layout_height="@dimen/ar_topological_landscape_normal_height" android:layout_below="@id/ar_top" />
+    <ImageButton android:id="@id/ar_topological_pressed" android:visibility="gone" android:layout_width="@dimen/ar_topological_landscape_pressed_width" android:layout_height="@dimen/ar_topological_landscape_pressed_height" android:layout_below="@id/ar_top" />
+    <include android:id="@id/ar_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/ar_bottom_height" android:layout_alignParentBottom="true" layout="@layout/ar_bottom" />
+    <ImageButton android:id="@id/ar_mode_button" android:background="@drawable/ar_btn_ar_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_below="@id/ar_top" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/ar_dir" android:layout_width="@dimen/ar_dir_landscape_width" android:layout_height="@dimen/ar_dir_landscape_height" android:layout_above="@id/ar_bottom" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/ar_camera_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ar_limit_speed_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ar_camera_icon" android:layout_centerVertical="true" />
+    <com.plugin.installapk.ar.MyCompass android:id="@id/ar_compass" android:layout_width="@dimen/ar_compass_width" android:layout_height="@dimen/ar_compass_height" android:layout_above="@id/ar_bottom" />
+</RelativeLayout>

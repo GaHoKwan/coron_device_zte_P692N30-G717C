@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/notif_icon_bg_style3_0" />
+    <item android:drawable="@drawable/notif_2" android:left="9.0dip" android:right="10.0dip" />
+</layer-list>

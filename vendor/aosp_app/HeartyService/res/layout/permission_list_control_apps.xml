@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/main_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" android:childDivider="@drawable/list_divider" android:divider="@drawable/list_divider" android:fadeScrollbars="true" android:overScrollMode="never" />
+    <RelativeLayout android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/permission_empyt_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/perm_software_on_record" android:layout_centerInParent="true" style="@style/empty_text_style" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/none_bg" android:scaleType="fitCenter" android:layout_above="@id/permission_empyt_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

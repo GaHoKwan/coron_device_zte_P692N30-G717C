@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/setting_everyday" />
+    <header android:id="@id/at_night_do_not_disturb" android:title="@string/at_night_do_not_disturb_title" android:summary="@string/at_night_do_not_disturb_summary" />
+    <header android:id="@id/timing_save_electricity" android:title="@string/timing_save_electricity_title" android:summary="@string/timing_save_electricity_summary" />
+    <header android:title="@string/setting_everyweek" />
+    <header android:id="@id/auto_net_traffic_adjust" android:title="@string/auto_net_traffic_adjust_title" android:summary="@string/auto_net_traffic_adjust_summary" />
+    <header android:title="@string/setting_when" />
+    <header android:id="@id/power_saving" android:title="@string/power_saving_title" android:summary="@string/power_saving_summary" />
+    <header android:id="@id/memory_optimize" android:title="@string/memory_optimize_title" android:summary="@string/memory_optimize_summary" />
+    <header android:id="@id/clear_app" android:title="@string/clear_app_title" android:summary="@string/clear_app_summary" />
+</preference-headers>

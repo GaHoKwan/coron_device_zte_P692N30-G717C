@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/homeLayout" android:background="@drawable/menu_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/homeIcon" android:background="@drawable/icq_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/homeIcon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/searchLayout" android:background="@drawable/menu_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/homeLayout">
+        <ImageView android:id="@id/searchIcon" android:background="@drawable/icq_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/homeIcon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/searchIcon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/typeLayout" android:background="@drawable/menu_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/searchLayout">
+        <ImageView android:id="@id/typeIcon" android:background="@drawable/icq_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/homeIcon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/typeIcon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/storeLayout" android:background="@drawable/menu_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/typeLayout">
+        <ImageView android:id="@id/storeIcon" android:background="@drawable/icq_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/homeIcon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/storeIcon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/setLayout" android:background="@drawable/menu_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/storeLayout">
+        <ImageView android:id="@id/setIcon" android:background="@drawable/icq_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/storeIcon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/setIcon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

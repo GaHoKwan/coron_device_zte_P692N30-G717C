@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: OP09Plugin.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '5'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: android
+  orig_package: com.mediatek.op09.plugin
+compressionType: false

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mipop.cropimage.CropView android:layout_gravity="center" android:id="@id/clipPathView1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/bottom_btns" android:background="@drawable/paintpad_bottom_button_bg" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_cancel" android:background="@drawable/paintpad_btn_cancel1" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:layout_gravity="center" android:background="@drawable/paintpad_bottom_button_split" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_save" android:background="@drawable/paintpad_btn_save1" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:layout_gravity="center" android:background="@drawable/paintpad_bottom_button_split" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_paint" android:background="@drawable/paintpad_btn_paint1" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:layout_gravity="center" android:background="@drawable/paintpad_bottom_button_split" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_share" android:background="@drawable/paintpad_btn_share1" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:background="@drawable/paintpad_btn_null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom|right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/image_menu" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="60.0dip" android:src="@drawable/crop_menu" />
+        <LinearLayout android:orientation="vertical" android:id="@id/menu_content" android:background="@drawable/crop_menu_back" android:layout_width="50.0dip" android:layout_height="156.0dip">
+            <Button android:id="@id/btn_crop_oval" android:background="@drawable/crop_oval_use" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+            <Button android:id="@id/btn_crop_rect" android:background="@drawable/crop_rect_use" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="3.0dip" />
+            <Button android:id="@id/btn_crop_path" android:background="@drawable/crop_path_use" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="3.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

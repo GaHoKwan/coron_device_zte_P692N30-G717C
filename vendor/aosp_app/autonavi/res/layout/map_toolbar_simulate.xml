@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/map_toolbar_sim_op" android:layout_width="fill_parent" android:layout_height="@dimen/map_toolbar_simulate_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/map_toolbar_sim_start" android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/map_toolbar_sim_start_img" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sim_star" />
+            <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/map_toolbar_sim_start_text" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_sim_pause" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/map_toolbar_sim_stop" android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/map_toolbar_sim_stop_img" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sim_stop" />
+            <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_sim_stop" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <Button android:textSize="@dimen/map_toolbar_sim_speed_textsize" android:textColor="#ff1a85eb" android:id="@id/map_toolbar_sim_speed" android:background="@drawable/btn_speed_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="7.0dip" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/map_toolbar_sim_delete" android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/map_toolbar_sim_delete_img" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sim_del" />
+            <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_sim_delete" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/map_toolbar_sim_navi" android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/map_toolbar_sim_navi_img" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sim_nav" />
+            <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_sim_navi" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

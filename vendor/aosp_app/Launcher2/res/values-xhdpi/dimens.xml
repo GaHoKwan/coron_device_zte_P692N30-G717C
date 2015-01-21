@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hotseat_cell_width">75.0dip</dimen>
+    <dimen name="hotseat_cell_height">60.0dip</dimen>
+    <dimen name="workspace_cell_width_port">85.0dip</dimen>
+    <dimen name="workspace_cell_height_port">105.0dip</dimen>
+</resources>

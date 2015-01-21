@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/layout_body_partOne" android:background="@drawable/bgv3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="6.0">
+        <LinearLayout android:gravity="top|left|center" android:layout_gravity="top|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/title_v3" android:gravity="left|center" android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/feedback" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|left|center" android:layout_gravity="top|left|center" android:orientation="vertical" android:id="@id/layout3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <LinearLayout android:gravity="bottom|left|center" android:layout_gravity="bottom|left|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/contectOfficialNet" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contectOfficialNet_link" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|left|center" android:layout_gravity="bottom|left|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/contectBBS" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contectBBS_link" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|left|center" android:layout_gravity="bottom|left|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/contectEmail" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contectEmail_link" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|left|center" android:layout_gravity="bottom|left|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/contectWeibo" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contectWeibo_link" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="6.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/text_special_v3" android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginBottom="2.0dip" android:text="@string/feedback_content_title" android:layout_weight="3.0" />
+        <EditText android:textAppearance="?android:textAppearanceSmall" android:gravity="top" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/feedback_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/text_special_v3" android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginBottom="2.0dip" android:text="@string/contact" android:layout_weight="2.0" />
+        <EditText android:textAppearance="?android:textAppearanceSmall" android:gravity="top" android:id="@id/emailText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/email" android:layout_weight="1.0" android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|right|center" android:layout_gravity="bottom|right|center" android:orientation="horizontal" android:id="@id/layout4" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/cancel_button" android:background="@drawable/button_selector" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/cancel" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/text_special_v3" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/send_button" android:background="@drawable/button_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/send" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

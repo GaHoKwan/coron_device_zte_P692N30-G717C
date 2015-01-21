@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/running_app_page" style="@style/all_speeding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/mainscreen_drawer_handle" android:background="@drawable/checkup_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <TextView android:id="@id/close_number_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/close_number_txt" android:layout_toLeftOf="@id/key" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/hearty_black_15dp" />
+        <FrameLayout android:id="@id/key" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_margin="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/new_speedup_circle_2" />
+            <ImageView android:layout_gravity="center" android:id="@id/ic_speed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_speed" />
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/software_speedup_bg_selector" android:layout_height="@dimen/software_speedup_bg_selector" android:src="@drawable/main_bg_p3_click_selector" android:scaleType="fitCenter" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_right_now" style="@style/hearty_black_12dp" />
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout style="@style/speeding_body">
+        <ListView android:id="@id/running_app_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:overScrollMode="never" style="@style/listview_style" />
+    </LinearLayout>
+</LinearLayout>

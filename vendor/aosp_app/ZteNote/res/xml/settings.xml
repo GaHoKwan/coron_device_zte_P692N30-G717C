@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/account" android:key="account">
+        <Preference android:title="@string/login" android:key="login" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/backup" android:key="backup">
+        <Preference android:enabled="false" android:title="@string/upload" android:key="upload" />
+        <Preference android:enabled="false" android:title="@string/download" android:key="download" />
+    </PreferenceCategory>
+</PreferenceScreen>

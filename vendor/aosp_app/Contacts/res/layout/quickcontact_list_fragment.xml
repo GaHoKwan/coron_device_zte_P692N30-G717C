@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list" android:background="@color/quickcontact_list_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@null" android:divider="@drawable/quickcontact_list_item_divider" android:dividerHeight="1.0dip" android:layout_alignParentTop="true" />
+    <View android:layout_alignBottom="@id/list" style="@style/QuickContactListBottomStyle" />
+</RelativeLayout>

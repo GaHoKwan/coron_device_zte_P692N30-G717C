@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_days">
+        <item>svake nedelje</item>
+        <item>svakog ponedeljka</item>
+        <item>svakog utorka</item>
+        <item>svake srede</item>
+        <item>svakog četvrtka</item>
+        <item>svakog petka</item>
+        <item>svake subote</item>
+    </string-array>
+</resources>

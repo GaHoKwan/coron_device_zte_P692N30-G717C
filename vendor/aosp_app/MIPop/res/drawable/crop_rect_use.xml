@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <bitmap android:src="@drawable/crop_shape_back" />
+            </item>
+            <item>
+                <inset android:drawable="@drawable/crop_rect_pressed" android:insetLeft="10.0dip" android:insetRight="10.0dip" android:insetTop="10.0dip" android:insetBottom="10.0dip" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <color android:color="#00ffffff" />
+            </item>
+            <item>
+                <inset android:drawable="@drawable/crop_rect" android:insetLeft="10.0dip" android:insetRight="10.0dip" android:insetTop="10.0dip" android:insetBottom="10.0dip" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

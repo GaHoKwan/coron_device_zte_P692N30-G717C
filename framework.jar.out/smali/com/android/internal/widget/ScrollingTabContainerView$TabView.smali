@@ -44,7 +44,7 @@
     .line 365
     const/4 v0, 0x0
 
-    const v1, 0x10102f3
+    const v1, #android:attr@actionBarTabStyle#t
 
     invoke-direct {p0, p2, v0, v1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -408,7 +408,7 @@
 
     move-result-object v11
 
-    const v12, 0x10102f5
+    const v12, #android:attr@actionBarTabTextStyle#t
 
     invoke-direct {v8, v11, v13, v12}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

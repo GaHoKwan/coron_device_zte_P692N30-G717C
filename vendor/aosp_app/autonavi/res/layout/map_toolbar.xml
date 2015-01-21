@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/map_tool_bar_location" android:background="@drawable/btn_toobar_traceback" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/map_tool_bar_search" android:background="@drawable/btn_toolbar_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_toolbar_search" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/map_toolbar_text_size" android:textColor="@color/map_toolbar_textcolor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/map_toolbar_text_marginTop" android:text="@string/map_toolbar_search" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/map_tool_bar_route" android:background="@drawable/btn_toolbar_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_toolbar_route" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/map_toolbar_text_size" android:textColor="@color/map_toolbar_textcolor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/map_toolbar_text_marginTop" android:text="@string/map_toolbar_routesmanage" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/map_tool_bar_mynavi" android:background="@drawable/btn_toolbar_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_toolbar_mynav" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/map_toolbar_text_size" android:textColor="@color/map_toolbar_textcolor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/map_toolbar_text_marginTop" android:text="@string/map_toolbar_mynavi" android:singleLine="true" />
+    </LinearLayout>
+    <Button android:id="@id/map_tool_bar_more" android:background="@drawable/btn_toobar_more" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

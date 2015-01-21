@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_send_holo_light" android:id="@id/send" android:title="@string/message_list_send_pending_messages_action" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_menu_compose_normal_holo_light" android:id="@id/compose" android:title="@string/compose_action" android:alphabeticShortcut="c" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_search_holo_light" android:id="@id/search" android:title="@string/search_action" android:alphabeticShortcut="s" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_move_to_holo_light" android:id="@id/show_all_mailboxes" android:title="@string/mailbox_list_account_selector_show_all_folders" android:alphabeticShortcut="c" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_refresh_holo_light" android:id="@id/refresh" android:title="@string/refresh_action" android:alphabeticShortcut="r" android:showAsAction="ifRoom" />
+    <item android:icon="@*android:drawable/ic_menu_preferences" android:id="@id/mailbox_settings" android:title="@string/mailbox_settings_action" android:showAsAction="never" />
+    <item android:icon="@*android:drawable/ic_menu_preferences" android:id="@id/account_settings" android:title="@string/settings_action" android:showAsAction="never" />
+    <item android:icon="@*android:drawable/ic_menu_preferences" android:id="@id/generate_habitdata" android:title="@string/generatehabit_action" android:showAsAction="never" />
+</menu>

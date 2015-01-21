@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/info_layout">
+        <TextView android:textSize="16.0sp" android:id="@id/modem_switch_current_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/modem_switch_current_value" />
+        <View android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+        <TextView android:textSize="16.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/modem_switch_hint" />
+        <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@id/modem_switch_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+            <RadioButton android:id="@id/modem_switch_fdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/modem_switch_fdd" />
+            <RadioButton android:id="@id/modem_switch_tdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/modem_switch_tdd" />
+            <RadioButton android:id="@id/modem_switch_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/modem_switch_auto" />
+        </RadioGroup>
+        <Button android:id="@id/modem_switch_set" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/modem_switch_set" />
+    </LinearLayout>
+</ScrollView>

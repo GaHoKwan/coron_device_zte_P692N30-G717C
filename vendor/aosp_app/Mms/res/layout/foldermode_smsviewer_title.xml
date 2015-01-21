@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout Android:orientation="horizontal" Android:layout_width="fill_parent" Android:layout_height="fill_parent"
+  xmlns:Android="http://schemas.android.com/apk/res/android">
+    <TextView Android:textSize="20.0sp" Android:textColor="#ffffffff" Android:id="@id/sms_viewer_title" Android:paddingTop="1.0dip" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:text="@string/viewer_title_sms" Android:layout_alignParentLeft="true" Android:layout_centerVertical="true" />
+</RelativeLayout>

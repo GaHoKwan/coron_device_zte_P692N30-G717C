@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/auto_detective_layout" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.7">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_detective" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@id/detective_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detective_network_wifi" />
+        </LinearLayout>
+        <Switch android:id="@id/detective_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+    </LinearLayout>
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+    <com.zte.aliveupdate.common.view.AllowBussinessWLanItem android:id="@id/allowBussinessWLanItem" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" />
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/check_immediate" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/check_immediate" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_advice" />
+    </LinearLayout>
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/help" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help" />
+    </LinearLayout>
+    <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+</LinearLayout>

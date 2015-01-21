@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/wifi_preference_other_title" android:key="wifi_other" />
+    <com.android.wifidirect.test.WifiProgressCategory android:title="@string/wifi_preference_found_devices" android:orderingFromXml="false" android:key="wifi_device_list" />
+</PreferenceScreen>

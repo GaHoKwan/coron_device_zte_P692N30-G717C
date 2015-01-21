@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/type_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/fenlei_icq" android:layout_centerVertical="true" />
+    <TextView android:textStyle="bold" android:id="@id/typeContext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="15.0px" android:layout_toRightOf="@id/type_image" android:layout_centerVertical="true" />
+</RelativeLayout>

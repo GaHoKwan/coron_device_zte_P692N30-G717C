@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ask_setup_message">تلقى الإعدادات الجديدة، تثبيت؟</string>
+    <string name="omacp_setup">OTAP رسالة</string>
+    <string name="install_compelete">تثبيت نجحت!</string>
+    <string name="instatll_fail">تثبيت فشل!</string>
+    <string name="security_error">تثبيت فشل!</string>
+    <string name="xml_parse_error">تثبيت فشل!</string>
+    <string name="user_cancel">إلغاء</string>
+    <string name="input_pin">رمز PIN</string>
+    <string name="app_name">ប្រព័ន្ឋអាបដេត</string>
+    <string name="dm_update_service">ប្រព័ន្ឋអាបដេត</string>
+    <string name="system_update">ប្រព័ន្ឋអាបដេត</string>
+</resources>

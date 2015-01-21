@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/parentLayout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/top_layout" android:background="@drawable/bg_title" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/title_inner_layout" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <ImageView android:id="@id/title_app_icon" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/app_icon" android:minWidth="40.0dip" android:minHeight="40.0dip" />
+            <TextView android:textAppearance="@style/font_big2" android:textColor="@color/white" android:id="@id/title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/app_name" android:layout_toRightOf="@id/title_app_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.ctc.epush.AlwaysMarqueeTextView android:ellipsize="marquee" android:gravity="left" android:id="@id/push_prompt" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="2.0dip" android:text="@string/about_txt" android:lines="1" android:scrollHorizontally="true" android:marqueeRepeatLimit="marquee_forever" style="@style/font_middle_white" />
+    </LinearLayout>
+    <LinearLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_layout" android:layout_below="@id/top_layout">
+        <ListView android:id="@id/app_push_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:divider="@null" android:dividerHeight="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:background="@color/white" android:paddingLeft="0.30000007dip" android:paddingRight="0.30000007dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/list_bg3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="13.0sp" android:textColor="@color/gray" android:id="@id/user_allow_ttv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/prompt_free_down" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                        <CheckBox android:id="@id/make_sure_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textAppearance="@style/font_small2" android:textSize="13.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_wifi_download" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/footbg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textAppearance="@style/font_middle_gray" android:id="@id/isTrue_btn" android:background="@drawable/btn_next_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/app_download_now" android:layout_weight="1.0" />
+            <Button android:textAppearance="@style/font_middle_gray" android:id="@id/isfalse_btn" android:background="@drawable/btn_next_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/app_download_nexttime" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

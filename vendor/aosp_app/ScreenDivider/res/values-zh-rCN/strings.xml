@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能分屏</string>
+    <string name="screen_divider">智能分屏</string>
+    <string name="screen_divider_summary">启动后，你可以点击悬浮的智能分屏按钮，长按并拖动列表中的应用图标实现智能分屏。</string>
+    <string name="defualt_key_name">快捷启动方式</string>
+    <string name="defualt_key_info">长按Menu键</string>
+    <string name="help_info">帮助</string>
+    <string name="help1">1. 在任意界面，您可以通过长按菜单键或通过进入智能分屏应用，开启智能分屏功能。功能开启后，您可以在屏幕上看到悬浮的智能分屏快捷图标。</string>
+    <string name="help2">2. 点击智能分屏图标，会列出所有支持智能分屏的应用，你可以通过上下划屏的方式，选择您想要进行分屏显示的应用。</string>
+    <string name="help3">3. 选取您想要分屏的应用，长按该应用图标并将其拖动到屏幕上，松开后即可实现智能分屏功能。</string>
+    <string name="help4">4. 您也可以通过前面描述的方式，改变当前分屏中的应用。</string>
+    <string name="info0">温馨提示</string>
+    <string name="info00">"部分第三方应用不支持自适应分辨率，可能会出现应用界面显示问题，请与中兴官方网站或论坛联系，我们会积极推动第三方应用进行调整。
+"</string>
+    <string name="info1">Q： 哪些业务可以支持分屏，哪些业务不可以？</string>
+    <string name="info11">"A： 点击智能分屏的悬浮按钮，会弹出所有支持智能分屏业务的列表，列表中提供了目前您的手机中支持智能分屏的业务，这些业务包含手机常用的基础业务以及您个人安装的第三方业务。
+"</string>
+    <string name="info2">Q：为什么我看到的部分应用分屏后，会有显示重叠的情况？</string>
+    <string name="info22">"A：智能分屏后，由于部分第三方应用没有设计自适应分屏， 导致在特定的分屏界面下会出现图标重叠的情况，您可以通过调整分屏屏幕大小解决这一问题。
+"</string>
+    <string name="info3">Q：为什么某些应用在分屏后，会出现显示不全的情况？</string>
+    <string name="info33">"A：部分应用设计时，没有考虑到分屏的情况，因此它们只适配了整体屏幕的分辨率，导致分屏后部分界面显示不全。您可以通过滑动屏幕将显示不全的部分呈现出来，也可以通过点击自适应屏幕大小来调整其显示区域。
+"</string>
+    <string name="info4">Q：为什么不能同时打开两个拍照或者两个手电筒应用？</string>
+    <string name="info44">"A：智能分屏后，用户在打开某个应用后在另一窗口打开同样一个应用，对大部分应用可以多实列运行，但对一些和硬件资源相关的应用是不能多实例运行的，比如照（摄）相机、收音机、录音机、手电筒等硬件相关的应用如果在一个小窗口启动那么另外一个窗口的相同应用会被锁定。
+"</string>
+    <string name="info5">Q：为什么我的微信、微博等应用不能执行文件互传的操作？</string>
+    <string name="info55">"A：智能分屏后，由于文件互传操作需要应用本身支持，由于部分第三方业务没有设计文件互传的操作，所以目前只能支持部分中兴自研业务应用的文件互传。
+"</string>
+    <string name="info6">Q：为什么从分屏切换到悬浮屏状态后配对应用的图标消失了？</string>
+    <string name="info66">"A：悬浮屏模式下我们没有设计配对应用，所以在切换到悬浮屏模式后配对应用的图标会自动隐藏。
+"</string>
+    <string name="page1_info1">单击或拖拽一个组合</string>
+    <string name="page1_info2">打开组合中的两个程序</string>
+    <string name="page2_info1">长按</string>
+    <string name="page2_info2">分屏开启状态下，长按返回键可隐藏悬浮图标</string>
+    <string name="page3_info1">单击或者拖动一个程序到半屏</string>
+    <string name="page3_info2">启动程序，若该程序不支持半屏打开，则全屏打开</string>
+    <string name="page4_info1">单击分隔条</string>
+    <string name="page4_info2">交换上下屏位置</string>
+    <string name="page4_info3">对应半屏在适应宽度和适应高度之间切换</string>
+    <string name="page4_info4">关闭或开启半屏的媒体音量</string>
+    <string name="page4_info5">关闭对应半屏</string>
+    <string name="page4_info6">对应的半屏显示智能分屏主菜单</string>
+    <string name="page5_info1">长按并拖动分隔条</string>
+    <string name="page5_info2">改变双屏显示比例</string>
+    <string name="FAQ">FAQ</string>
+    <string name="page0_info1">拖动一个程序到另一个程序</string>
+    <string name="page0_info2">组成组合</string>
+    <string name="page6_info1">长按</string>
+    <string name="page6_info2">长按多窗口悬浮图标，当前程序收起成为悬浮窗口</string>
+</resources>

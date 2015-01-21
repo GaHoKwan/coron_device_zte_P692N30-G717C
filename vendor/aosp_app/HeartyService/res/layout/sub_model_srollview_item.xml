@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/item_press_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_1line_height" android:layout_marginRight="12.0dip">
+        <ImageView android:id="@id/app_image" android:layout_width="@dimen/shotcut_image_size" android:layout_height="@dimen/shotcut_image_size" android:layout_marginLeft="16.0dip" android:scaleType="fitCenter" />
+        <TextView android:gravity="center_vertical" android:id="@id/app_ref_comment" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_weight="1.0" style="@style/main_dark2_16sp_for_fhd" />
+        <RelativeLayout android:id="@id/notice_image1" android:background="@drawable/ic_reminder_message" android:visibility="gone" android:layout_width="@dimen/security_notice_icon_hw2" android:layout_height="@dimen/security_notice_icon_hw2" android:layout_marginLeft="2.0dip">
+            <TextView android:id="@id/security_count1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/white_10sp" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/notice_image2" android:background="@drawable/ic_reminder_call" android:visibility="gone" android:layout_width="@dimen/security_notice_icon_hw2" android:layout_height="@dimen/security_notice_icon_hw2" android:layout_marginLeft="2.0dip">
+            <TextView android:id="@id/security_count2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/white_10sp" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/update_count" android:background="@drawable/newevent_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

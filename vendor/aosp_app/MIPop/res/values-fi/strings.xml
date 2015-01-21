@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mipop_switch_summary">Mi-POP päällä，navigointipalkki korvattu</string>
+    <string name="mipop_fullscreen_title">Piilota navigointipalkki</string>
+    <string name="mipop_fullscreen_summary">Suurempi näyttöalue saatavilla</string>
+</resources>

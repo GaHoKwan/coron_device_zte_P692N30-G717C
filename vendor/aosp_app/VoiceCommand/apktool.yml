@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: VoiceCommand.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.mediatek.voicecommand
+  orig_package: com.mediatek.voicecommand
+compressionType: false

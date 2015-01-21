@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="compose_scrollview_width">700.0dip</dimen>
+    <dimen name="spinner_frame_width">232.0dip</dimen>
+    <dimen name="setup_padding_top">16.0dip</dimen>
+    <dimen name="setup_padding_left">128.0dip</dimen>
+    <dimen name="setup_padding_right">128.0dip</dimen>
+    <dimen name="mailbox_list_width">320.0dip</dimen>
+    <dimen name="message_list_width">426.0dip</dimen>
+</resources>

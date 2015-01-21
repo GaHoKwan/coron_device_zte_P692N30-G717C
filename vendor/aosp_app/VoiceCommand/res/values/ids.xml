@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="custom_preference">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="titleandbuttons">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="playpause">false</item>
+    <item type="id" name="imageView">false</item>
+    <item type="id" name="radiobutton">false</item>
+    <item type="id" name="command_preference_title">false</item>
+</resources>

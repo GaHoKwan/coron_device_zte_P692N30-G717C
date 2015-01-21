@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerVertical" android:minHeight="?android:listPreferredItemHeight" android:showDividers="middle" android:dividerPadding="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/power_mode_detail_info_layout" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/check_area" android:paddingRight="?android:scrollbarSize" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="55.0dip">
+        <ImageView android:id="@id/radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

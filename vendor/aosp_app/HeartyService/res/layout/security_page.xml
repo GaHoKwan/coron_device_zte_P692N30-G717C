@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/main_ic_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/software_main_margin" android:layout_marginTop="@dimen/software_main_margin" android:layout_marginRight="@dimen/software_main_margin" android:layout_marginBottom="@dimen/software_main_margin">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/sub_harass_intercept" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/left_img" android:background="@drawable/ic_saoraolanjie_selector" android:layout_width="@dimen/software_icon_hw" android:layout_height="@dimen/software_icon_hw" android:scaleType="fitCenter" />
+                    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/harass_intercept_label" style="@style/main_grey_15sp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/security_notice_margin_left" android:layout_marginTop="@dimen/security_notice_margin_top" android:layout_alignParentTop="true">
+                    <ImageView android:id="@id/security_notice_harass_call" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_call" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/security_notice_harass_sms" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_message" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@color/divider_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/privacy_zone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/left_img" android:background="@drawable/ic_yinsikongjian_selector" android:layout_width="@dimen/software_icon_hw" android:layout_height="@dimen/software_icon_hw" android:scaleType="fitCenter" />
+                    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="bottom" android:id="@id/privacy_protect_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_protect" style="@style/main_grey_15sp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/security_notice_margin_left" android:layout_marginTop="@dimen/security_notice_margin_top" android:layout_alignParentTop="true">
+                    <ImageView android:id="@id/security_notice_privacy_call" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_call" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/security_notice_privacy_sms" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_message" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/sub_ad_intercept" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/left_img" android:background="@drawable/ic_adds_selector" android:layout_width="@dimen/software_icon_hw" android:layout_height="@dimen/software_icon_hw" android:scaleType="fitCenter" />
+                    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_intercept_label" style="@style/main_grey_15sp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/security_notice_margin_left" android:layout_marginTop="@dimen/security_notice_margin_top" android:layout_alignParentTop="true">
+                    <ImageView android:id="@id/security_notice_ad" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_virus" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@color/divider_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/sub_model_eavesdrop" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/left_img" android:background="@drawable/ic_qieting_selector" android:layout_width="@dimen/software_icon_hw" android:layout_height="@dimen/software_icon_hw" android:scaleType="fitCenter" />
+                    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/anti_eavesdrop_title" style="@style/main_grey_15sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/sub_permission_scan" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/left_img" android:background="@drawable/ic_minganquanxian_selector" android:layout_width="@dimen/software_icon_hw" android:layout_height="@dimen/software_icon_hw" android:scaleType="fitCenter" />
+                    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensitive_permission_label" style="@style/main_grey_15sp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/security_notice_margin_left" android:layout_marginTop="@dimen/security_notice_margin_top" android:layout_alignParentTop="true">
+                    <ImageView android:id="@id/security_notice_permission" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_virus" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@color/divider_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/phone_find_back" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/left_img" android:background="@drawable/ic_fangdao_selector" android:layout_width="@dimen/software_icon_hw" android:layout_height="@dimen/software_icon_hw" android:scaleType="fitCenter" />
+                    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_find_back" style="@style/main_grey_15sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/sub_virus_check" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/left_img" android:background="@drawable/ic_chasha_selector" android:layout_width="@dimen/software_icon_hw" android:layout_height="@dimen/software_icon_hw" android:scaleType="fitCenter" />
+                    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/virus_check_label" style="@style/main_grey_15sp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/security_notice_margin_left" android:layout_marginTop="@dimen/security_notice_margin_top" android:layout_alignParentTop="true">
+                    <ImageView android:id="@id/security_notice_virus" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:src="@drawable/ic_reminder_virus" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@color/divider_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

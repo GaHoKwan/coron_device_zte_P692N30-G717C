@@ -670,7 +670,7 @@
 
     .prologue
     .line 313
-    const v0, 0x10f000d
+    const v0, #android:xml@sms_short_codes#t
 
     .line 314
     .local v0, id:I

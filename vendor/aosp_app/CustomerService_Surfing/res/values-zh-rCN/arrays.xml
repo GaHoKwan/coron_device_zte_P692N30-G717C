@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_selectmode">
+        <item>wap</item>
+        <item>短信</item>
+    </string-array>
+    <string-array name="items_selectSubscription">
+        <item>已订业务查询</item>
+        <item>已订业务退订</item>
+    </string-array>
+    <string-array name="items_zteHotline">
+        <item>热线说明</item>
+        <item>0755-26779999</item>
+        <item>400-880-9999</item>
+    </string-array>
+</resources>

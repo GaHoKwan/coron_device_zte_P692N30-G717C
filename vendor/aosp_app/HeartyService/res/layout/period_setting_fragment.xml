@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:id="@id/textseg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/period_setting_text1" style="@style/hearty_black_20dp" />
+        <EditText android:gravity="center_horizontal" android:id="@id/edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dip" android:maxLength="3" style="@style/hearty_black_20dp" />
+        <TextView android:id="@id/textseg2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/period_setting_text2" style="@style/hearty_black_20dp" />
+    </LinearLayout>
+    <TextView android:id="@id/textseg3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" style="@style/hearty_black_20dp" />
+</LinearLayout>

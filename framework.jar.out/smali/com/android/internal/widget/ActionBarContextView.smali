@@ -72,7 +72,7 @@
 
     .prologue
     .line 82
-    const v0, 0x1010394
+    const v0, #android:attr@actionModeStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Lcom/android/internal/widget/ActionBarContextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -200,7 +200,7 @@
 
     .line 187
     .local v2, inflater:Landroid/view/LayoutInflater;
-    const v3, 0x1090019
+    const v3, #android:layout@action_bar_title_item#t
 
     invoke-virtual {v2, v3, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -222,7 +222,7 @@
     .line 189
     iget-object v3, p0, Lcom/android/internal/widget/ActionBarContextView;->mTitleLayout:Landroid/widget/LinearLayout;
 
-    const v7, 0x1020250
+    const v7, #android:id@action_bar_title#t
 
     invoke-virtual {v3, v7}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -235,7 +235,7 @@
     .line 190
     iget-object v3, p0, Lcom/android/internal/widget/ActionBarContextView;->mTitleLayout:Landroid/widget/LinearLayout;
 
-    const v7, 0x1020251
+    const v7, #android:id@action_bar_subtitle#t
 
     invoke-virtual {v3, v7}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -879,7 +879,7 @@
 
     .line 231
     .local v1, inflater:Landroid/view/LayoutInflater;
-    const v4, 0x109001e
+    const v4, #android:layout@action_mode_close_item#t
 
     const/4 v5, 0x0
 
@@ -900,7 +900,7 @@
     :goto_0
     iget-object v4, p0, Lcom/android/internal/widget/ActionBarContextView;->mClose:Landroid/view/View;
 
-    const v5, 0x1020252
+    const v5, #android:id@action_mode_close_button#t
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

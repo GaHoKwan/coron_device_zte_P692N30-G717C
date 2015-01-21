@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
+    <TextView android:text="@string/selected_contact" style="@style/privacy_radio_dlg_txt" />
+    <TextView android:text="@string/relative_sms_callLog" style="@style/privacy_radio_dlg_txt" />
+    <View android:background="@drawable/line_h" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="0.5dip" android:layout_marginTop="2.0dip" android:layout_marginRight="0.5dip" />
+    <RadioGroup android:gravity="center" android:id="@id/smsCallLogGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/smsCallLog_to_local" android:checked="true" android:text="@string/record_to_local" style="@style/privacy_radio_dlg" />
+        <RadioButton android:id="@id/smsCallLog_to_retain" android:text="@string/record_to_retain" style="@style/privacy_radio_dlg" />
+        <RadioButton android:id="@id/smsCallLog_to_delete" android:text="@string/record_to_delete" style="@style/privacy_radio_dlg" />
+    </RadioGroup>
+</LinearLayout>

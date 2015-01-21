@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: SmsReg.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.mediatek.smsreg
+  orig_package: com.mediatek.smsreg
+compressionType: false

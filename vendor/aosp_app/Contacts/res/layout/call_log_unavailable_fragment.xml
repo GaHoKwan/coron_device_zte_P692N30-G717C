@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/panel_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:layout_gravity="center_horizontal" android:id="@id/secondary_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/no_accounts_message_margin" />
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip">
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

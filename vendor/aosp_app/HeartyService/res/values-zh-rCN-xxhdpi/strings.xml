@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zteswitch_textsize">29.0</string>
+    <string name="zteswitch_lm">16.0</string>
+    <string name="zteswitch_tm">8.0</string>
+</resources>

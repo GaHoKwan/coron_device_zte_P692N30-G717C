@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <ImageView android:gravity="bottom" android:layout_gravity="center_vertical" android:id="@id/title_icon" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_launcher_settings" />
+            <TextView android:textAppearance="@*android:style/TextAppearance.Holo.Medium" android:layout_gravity="left|center" android:id="@id/time_zone_tilte" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="-4.0dip" android:layout_marginTop="2.0dip" android:text="@string/time_zone_title" />
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <SearchView android:layout_gravity="end|center" android:id="@id/searchView" android:layout_width="wrap_content" android:layout_height="36.0dip" android:queryHint="@string/time_zone_hint" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <View android:layout_gravity="end|bottom|center" android:background="@*android:color/holo_blue_light" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <fragment android:name="com.mediatek.settings.plugin.ZonePicker" android:id="@id/timezone_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

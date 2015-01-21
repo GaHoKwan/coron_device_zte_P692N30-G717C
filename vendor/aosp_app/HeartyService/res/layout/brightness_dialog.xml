@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@*android:id/icon" android:paddingTop="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightnessdialog_image" />
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/brightness_dialog_automatic" android:layout_marginLeft="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="20.0dip" android:text="@string/brightnessdialog_checkbox" style="@style/checkbox_2_0" />
+        <TextView android:gravity="left" android:id="@id/progress_percent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" />
+        <SeekBar android:id="@id/brightness_seekbar" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="235" />
+    </LinearLayout>
+</ScrollView>

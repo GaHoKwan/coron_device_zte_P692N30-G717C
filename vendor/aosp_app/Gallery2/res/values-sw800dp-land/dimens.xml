@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setting_sub_container_width">755.0dip</dimen>
+    <dimen name="setting_grid_horizontalSpacing">135.0dip</dimen>
+    <dimen name="setting_grid_verticalSpacing">1.0dip</dimen>
+    <dimen name="setting_grid_paddingTop">11.0dip</dimen>
+    <dimen name="setting_grid_paddingBottom">8.0dip</dimen>
+    <dimen name="setting_grid_columnWidth">45.0dip</dimen>
+    <dimen name="setting_grid_paddingLeft">11.0dip</dimen>
+</resources>

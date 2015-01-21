@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_days">
+        <item>كل احد</item>
+        <item>كل اثنين</item>
+        <item>كل ثلاثاء</item>
+        <item>كل اربعاء</item>
+        <item>كل خميس</item>
+        <item>كل جمعه</item>
+        <item>كل سبت</item>
+    </string-array>
+</resources>

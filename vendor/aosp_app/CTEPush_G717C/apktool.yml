@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: CTEPush_G717C.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '4'
+packageInfo:
+  cur_package: com.ctc.epush
+  orig_package: com.ctc.epush
+compressionType: false

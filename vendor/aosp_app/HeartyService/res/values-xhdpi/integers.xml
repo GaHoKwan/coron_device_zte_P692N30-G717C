@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="widget_adjustment_3">75</integer>
+    <integer name="translate_aniamtion_diameter">180</integer>
+    <integer name="cpu_memory_width">227</integer>
+    <integer name="text_picker_height">90</integer>
+    <integer name="text_picker_content_height">180</integer>
+    <integer name="translate_aniamtion_StrokeWidth">7</integer>
+    <integer name="multi_list_txt_item_height">35</integer>
+    <integer name="sms_spanable_txt_size">30</integer>
+    <integer name="app_lock_locked_list_size">3</integer>
+    <integer name="edit_shortcut_line_limit">4</integer>
+</resources>

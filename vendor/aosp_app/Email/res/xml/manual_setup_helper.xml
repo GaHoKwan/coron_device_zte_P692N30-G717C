@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers>
+    <provider id="gmail" label="Gmail" domain="gmail.com">
+        <imapsupport servername="imap.gmail.com" />
+        <pop3support servername="pop.gmail.com" />
+        <eassupport servername="m.google.com" />
+    </provider>
+    <provider id="qq" label="QQMail" domain="qq.com">
+        <eassupport servername="ex.qq.com" />
+    </provider>
+    <provider id="sina" label="SinaMail" domain="sina.com">
+        <pop3support servername="pop3.sina.com" />
+    </provider>
+    <provider id="mtk" label="MediatekMail" domain="mediatek.com">
+        <eassupport servername="mail.mediatek.com" />
+    </provider>
+</providers>

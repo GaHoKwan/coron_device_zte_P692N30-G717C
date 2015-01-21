@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_header" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:baselineAligned="false">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/titleandbutton" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/setting" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/pop_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:id="@id/open" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/autoupdateSetting" android:layout_weight="4.0" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:id="@id/save" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/updateHistory" android:layout_weight="4.0" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:id="@id/feedbackinfo" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/feedback" android:layout_weight="4.0" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/titleandbutton" android:id="@id/help" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help" android:layout_weight="4.0" />
+    </LinearLayout>
+</LinearLayout>

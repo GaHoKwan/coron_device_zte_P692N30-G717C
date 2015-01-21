@@ -1209,7 +1209,7 @@
 
     move-result-object v0
 
-    const v1, 0x1040074
+    const v1, #android:string@ellipsis_two_dots#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1245,7 +1245,7 @@
 
     move-result-object v0
 
-    const v1, 0x1040073
+    const v1, #android:string@ellipsis#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3778,7 +3778,7 @@
 
     move-result-object v1
 
-    const v2, 0x1040509
+    const v2, #android:string@list_delimeter#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
