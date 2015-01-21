@@ -23,7 +23,7 @@
     .locals 3
 
     .prologue
-    .line 285
+    .line 281
     invoke-static {}, Lcom/mediatek/audioprofile/AudioProfileManager$Scenario;->values()[Lcom/mediatek/audioprofile/AudioProfileManager$Scenario;
 
     move-result-object v0

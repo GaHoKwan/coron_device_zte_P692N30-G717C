@@ -78711,6 +78711,8 @@
 
     invoke-static {v0, v1}, Lcom/android/server/am/ActivityManagerService$BaiduInjector;->broadcastConfigTheme(Lcom/android/server/am/ActivityManagerService;I)V
 
+    goto/16 :goto_0
+
     sget-object v2, Lcom/android/server/am/ActivityManagerService;->mSmartShowContext:Lcom/android/server/FullSmartShowContext;
 
     const/4 v3, 0x0
@@ -78720,8 +78722,6 @@
     iget-object v4, v0, Lcom/android/server/am/ActivityManagerService;->mConfiguration:Landroid/content/res/Configuration;
 
     invoke-virtual {v2, v3, v4}, Lcom/android/server/FullSmartShowContext;->updateConfiguration(ILandroid/content/res/Configuration;)V
-
-    goto/16 :goto_0
 
     .restart local v21       #ac:Lcom/android/server/AttributeCache;
     .restart local v22       #app:Lcom/android/server/am/ProcessRecord;

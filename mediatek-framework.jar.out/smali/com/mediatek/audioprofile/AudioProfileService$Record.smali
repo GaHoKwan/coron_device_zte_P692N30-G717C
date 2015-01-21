@@ -27,8 +27,8 @@
     .locals 0
 
     .prologue
-    .line 3302
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    .line 3274
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -38,7 +38,7 @@
     .parameter "x0"
 
     .prologue
-    .line 3302
+    .line 3274
     invoke-direct {p0}, Lcom/mediatek/audioprofile/AudioProfileService$Record;-><init>()V
 
     return-void

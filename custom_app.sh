@@ -13,6 +13,6 @@ if [ "$apkBaseName" = "Settings" ];then
 
 elif [ "$apkBaseName" = "Phone" ];then
         echo ">>> in custom_app for $apkBaseName to adjust the interface "DMAgent" with "DmAgentd""
-        find $tempSmaliDir/ -name "*.smali" | xargs sed -i 's#DmAgent#DMAgent#g'  
+        find $tempSmaliDir/ -name "*.smali" | xargs sed -i 's#DMAgent#DmAgent#g'  
 
 fi
