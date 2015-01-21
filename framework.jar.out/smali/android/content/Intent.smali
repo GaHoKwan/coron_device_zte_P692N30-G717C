@@ -258,6 +258,8 @@
 
 .field public static final ACTION_TETHERING_CHANGE:Ljava/lang/String; = "android.intent.action.TETHERING_CHANGED"
 
+.field public static final ACTION_THEME_CHANGED:Ljava/lang/String; = "android.intent.action.THEME_CHANGED"
+
 .field public static final ACTION_TIMEZONE_CHANGED:Ljava/lang/String; = "android.intent.action.TIMEZONE_CHANGED"
 
 .field public static final ACTION_TIME_CHANGED:Ljava/lang/String; = "android.intent.action.TIME_SET"
@@ -541,6 +543,8 @@
 .field public static final FILL_IN_SELECTOR:I = 0x40
 
 .field public static final FILL_IN_SOURCE_BOUNDS:I = 0x20
+
+.field public static final FLAG_ACCESS_CONTROLL_PASS:I = -0x80000000
 
 .field public static final FLAG_ACTIVITY_BROUGHT_TO_FRONT:I = 0x400000
 

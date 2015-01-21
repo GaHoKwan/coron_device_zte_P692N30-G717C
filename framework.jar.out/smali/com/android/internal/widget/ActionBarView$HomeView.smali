@@ -102,7 +102,8 @@
     .locals 2
 
     .prologue
-    .line 1420
+    invoke-static {p0}, Lcom/android/internal/widget/ActionBarView$BaiduInjector;->getOffset(Lcom/android/internal/widget/ActionBarView$HomeView;)V
+
     iget-object v0, p0, Lcom/android/internal/widget/ActionBarView$HomeView;->mUpView:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
@@ -128,8 +129,7 @@
     .locals 1
 
     .prologue
-    .line 1415
-    const v0, 0x1020249
+    const v0, #android:id@up#t
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/ActionBarView$HomeView;->findViewById(I)Landroid/view/View;
 
@@ -137,8 +137,7 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/ActionBarView$HomeView;->mUpView:Landroid/view/View;
 
-    .line 1416
-    const v0, 0x102002c
+    const v0, #android:id@home#t
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/ActionBarView$HomeView;->findViewById(I)Landroid/view/View;
 
@@ -800,4 +799,14 @@
     const/16 v0, 0x8
 
     goto :goto_0
+.end method
+
+.method setmUpWidth(I)V
+    .locals 0
+    .parameter "w"
+
+    .prologue
+    iput p1, p0, Lcom/android/internal/widget/ActionBarView$HomeView;->mUpWidth:I
+
+    return-void
 .end method

@@ -94,7 +94,7 @@
     iget-object v1, v1, Lcom/android/internal/telephony/gsm/SimSmsInterfaceManager$2;->this$0:Lcom/android/internal/telephony/gsm/SimSmsInterfaceManager;
 
     #getter for: Lcom/android/internal/telephony/gsm/SimSmsInterfaceManager;->mPhone:Lcom/android/internal/telephony/PhoneBase;
-    invoke-static {v1}, Lcom/android/internal/telephony/gsm/SimSmsInterfaceManager;->access$1800(Lcom/android/internal/telephony/gsm/SimSmsInterfaceManager;)Lcom/android/internal/telephony/PhoneBase;
+    invoke-static {v1}, Lcom/android/internal/telephony/gsm/SimSmsInterfaceManager;->access$1700(Lcom/android/internal/telephony/gsm/SimSmsInterfaceManager;)Lcom/android/internal/telephony/PhoneBase;
 
     move-result-object v1
 

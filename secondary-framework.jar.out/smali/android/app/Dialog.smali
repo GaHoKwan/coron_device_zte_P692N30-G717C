@@ -167,7 +167,7 @@
 
     move-result-object v2
 
-    const v3, 0x1010308
+    const v3, #android:attr@dialogTheme#t
 
     invoke-virtual {v2, v3, v0, v4}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
@@ -2352,50 +2352,40 @@
 
     if-nez v2, :cond_5
 
-    .line 281
     new-instance v1, Landroid/view/WindowManager$LayoutParams;
 
     invoke-direct {v1}, Landroid/view/WindowManager$LayoutParams;-><init>()V
 
-    .line 282
     .local v1, nl:Landroid/view/WindowManager$LayoutParams;
     invoke-virtual {v1, v0}, Landroid/view/WindowManager$LayoutParams;->copyFrom(Landroid/view/WindowManager$LayoutParams;)I
 
-    .line 283
     iget v2, v1, Landroid/view/WindowManager$LayoutParams;->softInputMode:I
 
     or-int/lit16 v2, v2, 0x100
 
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->softInputMode:I
 
-    .line 285
     move-object v0, v1
 
-    .line 288
     .end local v1           #nl:Landroid/view/WindowManager$LayoutParams;
     :cond_5
     iget-boolean v2, p0, Landroid/app/Dialog;->mPresentWindow:Z
 
     if-eqz v2, :cond_6
 
-    .line 289
     new-instance v1, Landroid/view/WindowManager$LayoutParams;
 
     invoke-direct {v1}, Landroid/view/WindowManager$LayoutParams;-><init>()V
 
-    .line 290
     .restart local v1       #nl:Landroid/view/WindowManager$LayoutParams;
     invoke-virtual {v1, v0}, Landroid/view/WindowManager$LayoutParams;->copyFrom(Landroid/view/WindowManager$LayoutParams;)I
 
-    .line 291
     const/16 v2, 0x834
 
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->type:I
 
-    .line 292
     move-object v0, v1
 
-    .line 296
     .end local v1           #nl:Landroid/view/WindowManager$LayoutParams;
     :cond_6
     :try_start_0
@@ -2500,4 +2490,58 @@
 
     .line 938
     return-void
+.end method
+
+.method private forbidActivityWithSystemAlert(Landroid/view/WindowManager$LayoutParams;)V
+    .locals 4
+    .parameter "p"
+
+    .prologue
+    iget v2, p1, Landroid/view/WindowManager$LayoutParams;->type:I
+
+    const/16 v3, 0x7d3
+
+    if-ne v2, v3, :cond_1
+
+    const/4 v1, 0x0
+
+    .local v1, isStartedFromActivity:Z
+    iget-object v0, p0, Landroid/app/Dialog;->mContext:Landroid/content/Context;
+
+    .local v0, context:Landroid/content/Context;
+    :goto_0
+    instance-of v2, v0, Landroid/view/ContextThemeWrapper;
+
+    if-eqz v2, :cond_0
+
+    instance-of v2, v0, Landroid/app/Activity;
+
+    if-eqz v2, :cond_2
+
+    const/4 v1, 0x1
+
+    :cond_0
+    if-eqz v1, :cond_1
+
+    const/4 v2, 0x2
+
+    iput v2, p1, Landroid/view/WindowManager$LayoutParams;->type:I
+
+    .end local v0           #context:Landroid/content/Context;
+    .end local v1           #isStartedFromActivity:Z
+    :cond_1
+    return-void
+
+    .restart local v0       #context:Landroid/content/Context;
+    .restart local v1       #isStartedFromActivity:Z
+    :cond_2
+    check-cast v0, Landroid/view/ContextThemeWrapper;
+
+    .end local v0           #context:Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/view/ContextThemeWrapper;->getBaseContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    .restart local v0       #context:Landroid/content/Context;
+    goto :goto_0
 .end method

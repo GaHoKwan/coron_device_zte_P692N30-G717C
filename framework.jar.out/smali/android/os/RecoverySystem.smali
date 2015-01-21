@@ -890,12 +890,10 @@
 
     const/16 v4, 0x9
 
-    .line 367
     invoke-virtual {p1}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 370
     .local v1, filename:Ljava/lang/String;
     const-string v2, "/cache/"
 
