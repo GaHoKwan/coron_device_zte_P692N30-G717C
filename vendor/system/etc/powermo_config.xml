@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--sample-->
+<powermo-setting>
+
+<global>
+    <product value="P692N30"/> <!-- case sensitive -->
+    <acls-package-name value="com.powermo.smartshow.hack" />
+    <defaultlist value="hack-mode"/>
+    <aclslist value="hack-mode" />
+    <split-bar-size value="16" />
+    <split-bar-overlap-size value="16" />
+</global>
+
+
+<smartbar-P692N60>
+    <config-with-shopm value="true" />
+    <style-shopm-bottom-bar-mode value="auto" /> <!-- auto/force-show/force-hide -->
+    <style-shopm-bottom-bar-auto-hide value="true" />
+
+    <style-entry-key value="back" /> <!-- back/menu -->
+
+    <style-mle-nosort value="true"/>
+    <style-cp-nohome value="false" />
+    <style-cp-nomove value="true" />
+    <style-cp-alignment value="edge" /> <!-- center/edge -->
+
+    <style-ml-dock-mode value="coner" /> <!-- coner/middle -->
+
+    <help-entry value="com.android.screen/.ScreenSet" />
+</smartbar-P692N60>
+
+<smartbar-P692N30>
+    <config-with-shopm value="true" />
+    <style-shopm-bottom-bar-mode value="auto" /> <!-- auto/force-show/force-hide -->
+    <style-shopm-bottom-bar-auto-hide value="true" />
+
+    <style-entry-key value="back" /> <!-- back/menu -->
+
+    <style-mle-nosort value="true"/>
+    <style-cp-nohome value="false" />
+    <style-cp-nomove value="true" />
+    <style-cp-alignment value="edge" /> <!-- center/edge -->
+
+    <style-ml-dock-mode value="coner" /> <!-- coner/middle -->
+
+    <help-entry value="com.android.screen/.ScreenSet" />
+</smartbar-P692N30>
+
+<app-control-list name="normal-mode" type="white-list">
+    <item value="com.android.calculator2"/>
+    <item value="com.android.gallery3d"/>
+    <exception value="com.android.gallery3d/com.android.camera.CameraLauncher"/>
+</app-control-list>
+
+<app-control-list name="hack-mode" type="black-list">
+    <item value="com.android.gallery3d/com.android.camera.CameraLauncher"/>
+    <item value="com.android.contacts"/>
+    <item value="zte.android.flashlight"/>
+</app-control-list>
+
+</powermo-setting>
+

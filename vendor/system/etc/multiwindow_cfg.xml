@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<setting>
+
+<split-bar-size value="32" />
+<start-real-home value="1" />
+<detect-double-home value="0" />
+<idle-activity display="0" screen="0" value="com.powermo.smartshow.activity/.MiniLauncherActivity" />
+<idle-activity display="0" screen="1" value="com.powermo.smartshow.activity/.MiniLauncherActivity" />
+<idle-activity display="1" screen="0" value="com.powermo.smartshow.idler_disable" />
+<multiwindow-ratios>
+     <ratio value="0.0" />
+     <ratio value="-1.0" />
+     <ratio value="0.5" />
+     <ratio value="-2.0" />
+     <ratio value="1.0" />
+</multiwindow-ratios>
+<split-bar-size value="16" />
+<split-bar-overlap-size value="16" />
+
+</setting>
+
