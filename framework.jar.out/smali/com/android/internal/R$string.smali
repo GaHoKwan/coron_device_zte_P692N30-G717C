@@ -413,6 +413,8 @@
 
 .field public static final deleteText:I = #android:string@deleteText#t
 
+.field public static final description_target_unlock:I = #android:string@description_target_unlock#t
+
 .field public static final description_target_unlock_tablet:I = #android:string@description_target_unlock_tablet#t
 
 .field public static final dial_number_using:I = #android:string@dial_number_using#t
@@ -530,6 +532,8 @@
 .field public static final global_action_bug_report:I = #android:string@global_action_bug_report#t
 
 .field public static final global_action_power_off:I = #android:string@global_action_power_off#t
+
+.field public static final global_action_reboot:I = #android:string@global_action_reboot#t
 
 .field public static final global_action_silent_mode_off_status:I = #android:string@global_action_silent_mode_off_status#t
 
@@ -1150,8 +1154,6 @@
 .field public static final reboot_safemode_confirm:I = #android:string@reboot_safemode_confirm#t
 
 .field public static final reboot_safemode_title:I = #android:string@reboot_safemode_title#t
-
-.field public static final reboot_title:I = #android:string@reboot_title#t
 
 .field public static final relationTypeAssistant:I = #android:string@relationTypeAssistant#t
 

@@ -47,14 +47,14 @@ vendor_remove_dirs := vendor/operator/app
 # The default value is nothing.
 # You can configure the file name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
-vendor_remove_files := system/checklist.md5
+# vendor_remove_files := 
 
 ##############################################################################
 # The value decides the vendor apk which you want to save in the vendor directory for the ota package.
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth FMRadio MtkBt Stk1 Idler MIPop ScreenDivider SmartBar
+vendor_saved_apps := Bluetooth FMRadio MtkBt utk Idler MIPop ScreenDivider SmartBar
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.

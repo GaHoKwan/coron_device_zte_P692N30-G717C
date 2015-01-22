@@ -131,6 +131,8 @@
 
 .field public static final cancel:I = #android:id@cancel#t
 
+.field public static final cancel_button:I = #android:id@cancel_button#t
+
 .field public static final candidatesArea:I = #android:id@candidatesArea#t
 
 .field public static final carrier:I = #android:id@carrier#t
