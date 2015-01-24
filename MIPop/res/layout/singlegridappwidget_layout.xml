@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/singlegridwidgetLayout" android:background="@drawable/bg_white" android:layout_width="62.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bg_btns" android:background="@drawable/bg_gray" android:layout_width="44.0dip" android:layout_height="69.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="6.0dip" />
+    <FrameLayout android:id="@id/singleWidgetOff" android:background="@drawable/btn_bg_off" android:layout_width="48.0dip" android:layout_height="42.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="37.0dip">
+        <ImageView android:id="@id/singleImageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/pop_off" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/singleWidgetOn" android:background="@drawable/btn_bg_on" android:layout_width="44.0dip" android:layout_height="42.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="7.0dip">
+        <ImageView android:id="@id/singleImageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/pop_on" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="76.0dip">
+        <TextView android:textSize="@dimen/textSize" android:textColor="@color/widgetTextColor" android:gravity="center" android:id="@id/singleText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/app_name" />
+    </RelativeLayout>
+</FrameLayout>

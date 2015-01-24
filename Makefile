@@ -54,7 +54,7 @@ vendor_remove_dirs := vendor/operator/app
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth FMRadio MtkBt utk Idler MIPop ScreenDivider SmartBar
+vendor_saved_apps := Bluetooth MtkBt Idler SchedulePowerOnOff
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -63,7 +63,7 @@ vendor_saved_apps := Bluetooth FMRadio MtkBt utk Idler MIPop ScreenDivider Smart
 # You need ro decode FMRadio.apk to the project directory(use apktool d FMRadio.apk) first,
 # and then you can make it by:   make FMRadio
 #-----------------------------------------------------------------------------
-#vendor_modify_apps := FMRadio
+vendor_modify_apps := AdvanceSettings MIPop SmartBar Utk Stk1
 
 ##############################################################################
 # The value decides which vendor jar you want to modify.
@@ -93,7 +93,7 @@ vendor_modify_jars := android.policy framework mediatek-framework mediatek-commo
 # The default value is nothing.
 # You can configure the baidu system apk name in the value.
 #-----------------------------------------------------------------------------
-#baidu_remove_apps := BaiduUserFeedback
+baidu_remove_apps := StkSelection
 
 ##############################################################################
 # The value decides which apk you want to modify, when the apk is based on the baidu system apk.
@@ -145,6 +145,10 @@ baidu_modify_jars := android.policy
 override_property += \
     ro.baidu.romer=luo2888
 
+#Fix mt6592 build version type
+override_property += \
+	ro.version.type=1
+
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
 # The default value is nothing.
@@ -152,7 +156,6 @@ override_property += \
 #-----------------------------------------------------------------------------
 # remove_property += \
 #     dev.defaultwallpaper
-
 
 ##############################################################################
 # The value decides whether add the assert function which verify the device in the update-script of the ota package.

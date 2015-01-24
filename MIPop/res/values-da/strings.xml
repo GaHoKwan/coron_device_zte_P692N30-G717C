@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mipop_switch_summary">Mi-POP aktiveret，navigationslinjen kan erstattes</string>
+    <string name="mipop_fullscreen_title">Skjul navigationslinjen</string>
+    <string name="mipop_fullscreen_summary">Større skærmområde tilgængeligt</string>
+</resources>

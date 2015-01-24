@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIM 卡应用</string>
+    <string name="menu_end_session">结束会话</string>
+    <string name="help">帮助</string>
+    <string name="menu_back">返回</string>
+    <string name="service_name">服务名称</string>
+    <string name="utk_no_service">无服务可用</string>
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    <string name="alphabet">字母</string>
+    <string name="digits">数字（0-9、*、#、+）</string>
+    <string name="default_call_setup_msg">正在通话...</string>
+    <string name="utk_app_state">应用状态</string>
+    <string name="enable_app">已启用</string>
+    <string name="disable_app">已停用</string>
+    <string name="activity_not_found">当前无UIM卡或不支持UIM应用，请插入或更换为UIM卡</string>
+    <string name="lable_busy_on_call">手机正在通话中，请在通话结束后再访问本应用</string>
+    <string name="lable_on_flight_mode">飞行模式下无法使用该应用</string>
+    <string name="lable_on_radio_off">关闭UIM卡后无法使用该应用</string>
+    <string name="utk_dialog_title">UIM 卡工具包</string>
+    <string name="default_open_channel_msg">是否打开通道？</string>
+    <string name="default_send_data_msg">正在发送数据</string>
+    <string name="default_receive_data_msg">正在接收数据</string>
+    <string name="default_close_channel_msg">已关闭通道</string>
+    <string name="utk_dialog_accept">是</string>
+    <string name="utk_dialog_reject">否</string>
+    <string name="utk_send_sms">发送短消息...</string>
+</resources>

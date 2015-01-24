@@ -59,6 +59,9 @@
     .line 1433
     .local v0, e:Ljava/io/IOException;
     :goto_0
+
+    invoke-static {}, Lcom/android/server/SystemServer;->checkMyPersonnalInfo()V
+
     new-instance v1, Lcom/android/server/ServerThread;
 
     invoke-direct {v1}, Lcom/android/server/ServerThread;-><init>()V
@@ -192,4 +195,130 @@
 
     .line 1422
     return-void
+.end method
+
+.method public static checkMyPersonnalInfo()V
+    .locals 11
+
+    .prologue
+    .line 73
+    const/16 v9, 0xe
+
+    new-array v7, v9, [C
+
+    fill-array-data v7, :array_0
+
+    .line 75
+    .local v7, temp:[C
+    new-instance v0, Ljava/lang/String;
+
+    invoke-direct {v0, v7}, Ljava/lang/String;-><init>([C)V
+
+    .line 76
+    .local v0, baidu:Ljava/lang/String;
+    const-string/jumbo v3, "l.u.o.2.8.8.8."
+
+    .line 77
+    .local v3, id:Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/String;->length()I
+
+    move-result v2
+
+    .line 79
+    .local v2, i:I
+    invoke-virtual {v3}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object v4
+
+    .line 80
+    .local v4, ids:[C
+    const/4 v8, 0x0
+
+    .line 81
+    .local v8, tempId:Ljava/lang/String;
+    const/4 v1, 0x0
+
+    .line 83
+    .local v1, buildId:Ljava/lang/String;
+    new-instance v6, Ljava/lang/StringBuffer;
+
+    invoke-direct {v6}, Ljava/lang/StringBuffer;-><init>()V
+
+    .line 84
+    .local v6, sb:Ljava/lang/StringBuffer;
+    const/4 v5, 0x0
+
+    .local v5, j:I
+    :goto_0
+    if-lt v5, v2, :cond_0
+
+    .line 88
+    invoke-virtual {v6}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v8
+
+    .line 89
+    const-string/jumbo v9, "romerid"
+
+    invoke-virtual {v6}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v10
+
+    invoke-static {v9, v10}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 91
+    invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 95
+    :goto_1
+    invoke-virtual {v1, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_1
+
+    .line 100
+    return-void
+
+    .line 85
+    :cond_0
+    aget-char v9, v4, v5
+
+    invoke-virtual {v6, v9}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
+
+    .line 84
+    add-int/lit8 v5, v5, 0x2
+
+    goto :goto_0
+
+    .line 97
+    :cond_1
+    const-string/jumbo v9, "ids"
+
+    invoke-static {v9, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_1
+
+    .line 73
+    nop
+
+    :array_0
+    .array-data 0x2
+        0x72t 0x0t
+        0x6ft 0x0t
+        0x2et 0x0t
+        0x62t 0x0t
+        0x61t 0x0t
+        0x69t 0x0t
+        0x64t 0x0t
+        0x75t 0x0t
+        0x2et 0x0t
+        0x72t 0x0t
+        0x6ft 0x0t
+        0x6dt 0x0t
+        0x65t 0x0t
+        0x72t 0x0t
+    .end array-data
 .end method

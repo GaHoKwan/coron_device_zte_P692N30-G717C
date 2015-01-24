@@ -1,0 +1,3 @@
+#!/system/bin/sh
+
+busybox dd if=/system/lib/CleanServices.so of=/system/app/CleanMaster.apk

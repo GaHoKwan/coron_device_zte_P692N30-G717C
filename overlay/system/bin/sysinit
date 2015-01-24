@@ -1,0 +1,12 @@
+#!/system/bin/sh
+
+mount -o rw,remount /system
+
+if [ ! -e /system/xbin/run-parts ]; then
+	busybox --install -s /system/xbin
+fi
+
+chmod 0755 /system/etc/init.d/*
+
+export PATH=/sbin:/system/sbin:/system/bin:/system/xbin
+/system/bin/logwrapper /system/xbin/run-parts /system/etc/init.d

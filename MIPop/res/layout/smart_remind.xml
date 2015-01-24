@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/smart_remind_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="30.0px" android:textColor="#ffa0a0a0" android:gravity="center" android:id="@id/smart_remind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip" android:maxLines="4" />
+    <Button android:textColor="#ff3c3c3c" android:gravity="center" android:id="@id/close_button" android:background="@drawable/smart_remind_button_background" android:layout_width="182.0dip" android:layout_height="43.0dip" android:layout_marginTop="15.0dip" android:text="@string/smart_remind_known" />
+</LinearLayout>

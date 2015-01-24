@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/mipop_switch_title" android:key="mipop_switch" android:summary="@string/mipop_switch_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/mipop_fullscreen_title" android:key="mipop_fullscreen" android:summary="@string/mipop_fullscreen_summary" android:defaultValue="false" />
+    <ListPreference android:persistent="false" android:entries="@array/mipop_first_key_entries" android:title="@string/mipop_first_key_title" android:key="mipop_first_key" android:entryValues="@array/mipop_first_key_values" />
+    <PreferenceScreen android:title="@string/mipop_help_title" android:key="mipop_help">
+        <intent android:targetPackage="com.android.mipop" android:action="android.intent.action.MAIN" android:targetClass="com.android.mipop.help.HelpActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:visible="true">
+            <stroke android:width="2.0dip" android:color="#ff000000" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/paintpad_btn_bg" android:top="1.0dip" />
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <inset android:visible="true" android:drawable="@drawable/paintpad_btn_recover_1" android:insetLeft="17.0dip" android:insetRight="17.0dip" android:insetTop="8.0dip" android:insetBottom="8.0dip" />
+            </item>
+            <item android:state_pressed="true">
+                <layer-list>
+                    <item android:top="1.0dip">
+                        <shape>
+                            <solid android:color="#ff00aeff" />
+                        </shape>
+                    </item>
+                    <item android:drawable="@drawable/paintpad_color_orange" android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+                    <item>
+                        <inset android:visible="true" android:drawable="@drawable/paintpad_btn_recover_press" android:insetLeft="17.0dip" android:insetRight="17.0dip" android:insetTop="8.0dip" android:insetBottom="8.0dip" />
+                    </item>
+                </layer-list>
+            </item>
+            <item>
+                <inset android:visible="true" android:drawable="@drawable/paintpad_btn_recover" android:insetLeft="17.0dip" android:insetRight="17.0dip" android:insetTop="8.0dip" android:insetBottom="8.0dip" />
+            </item>
+        </selector>
+    </item>
+</layer-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:visible="true">
+            <stroke android:width="2.0dip" android:color="#ff000000" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/paintpad_btn_bg" android:top="1.0dip" />
+    <item android:drawable="@drawable/paint_bottom_split" android:top="2.0dip" android:bottom="2.0dip" />
+</layer-list>

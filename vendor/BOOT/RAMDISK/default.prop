@@ -7,4 +7,5 @@ persist.mtk.aee.aed=on
 ro.debuggable=1
 persist.sys.usb.config=bicr,adb
 persist.service.acm.enable=0
+ro.build.baseband_version=MOLY.WR8.W1315.MD.WG.MP BY luo2888
 ro.mount.fs=EXT4

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mipop_first_key_entries">
+        <item>Κουμπί Επιστροφής</item>
+        <item>Κουμπί Αρχικής οθόνης</item>
+    </string-array>
+</resources>

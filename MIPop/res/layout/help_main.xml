@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:background="@drawable/help_bg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.5" />
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:background="@drawable/help_bg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="4.53">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="48.0px" android:textColor="@color/gray" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="@string/help" android:fadeScrollbars="true" />
+    </LinearLayout>
+    <ViewFlipper android:id="@id/viewFlipper1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="92.97" />
+</LinearLayout>
