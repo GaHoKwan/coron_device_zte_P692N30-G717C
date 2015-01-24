@@ -3265,7 +3265,7 @@
     .line 2964
     const-string v4, "upload_flag"
 
-    invoke-virtual {v2, v4, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+    #invoke-virtual {v2, v4, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 2965
     const-string v4, "android.permission.RECEIVE_SMS"
@@ -6947,7 +6947,7 @@
 
     move-object/from16 v0, v35
 
-    invoke-virtual {v0, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
+    #invoke-virtual {v0, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 1183
     const-string v4, "upload_flag"
@@ -6960,7 +6960,7 @@
 
     move-object/from16 v0, v35
 
-    invoke-virtual {v0, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    #invoke-virtual {v0, v4, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     .line 1184
     const/4 v4, -0x1
