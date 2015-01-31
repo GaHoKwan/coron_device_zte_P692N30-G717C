@@ -588,13 +588,6 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/media/AudioManager;->setStreamVolume(III)V
 
-    .line 327
-    iget-object v0, p0, Landroid/preference/VolumePreference$SeekBarVolumizer;->mContext:Landroid/content/Context;
-
-    iget v1, p0, Landroid/preference/VolumePreference$SeekBarVolumizer;->mStreamType:I
-
-    invoke-static {v0, v1}, Landroid/provider/Settings$System;->changeProfile(Landroid/content/Context;I)V
-
     .line 329
     return-void
 .end method

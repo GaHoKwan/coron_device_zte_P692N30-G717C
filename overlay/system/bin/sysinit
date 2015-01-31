@@ -2,8 +2,8 @@
 
 mount -o rw,remount /system
 
-if [ ! -e /system/xbin/run-parts ]; then
-	busybox --install -s /system/xbin
+if [ ! -e /system/app/AdvanceSettingsProvider.apk ]; then
+	reboot
 fi
 
 chmod 0755 /system/etc/init.d/*

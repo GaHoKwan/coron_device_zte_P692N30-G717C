@@ -1577,7 +1577,6 @@ service mdnsd /system/bin/mdnsd
 service sysinit /system/bin/sysinit
     user root
     oneshot
-    disabled
 
 #add for power-off alarm
 service poad /system/bin/poad
