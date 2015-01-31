@@ -32,7 +32,7 @@
     .end annotation
 
     .prologue
-    .line 235
+    .line 414
     iput-object p1, p0, Lcom/android/server/power/ShutdownThread$BaiduInjector$1PositiveClickListener;->val$context:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,12 +48,25 @@
     .parameter "which"
 
     .prologue
-    .line 237
+    .line 416
     iget-object v0, p0, Lcom/android/server/power/ShutdownThread$BaiduInjector$1PositiveClickListener;->val$context:Landroid/content/Context;
 
     #calls: Lcom/android/server/power/ShutdownThread;->beginShutdownSequence(Landroid/content/Context;)V
-    invoke-static {v0}, Lcom/android/server/power/ShutdownThread;->access$000(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/android/server/power/ShutdownThread;->access$400(Landroid/content/Context;)V
 
-    .line 238
+    .line 417
+    invoke-static {}, Lcom/android/server/power/ShutdownThread;->access$200()Landroid/app/AlertDialog;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 418
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/android/server/power/ShutdownThread;->access$202(Landroid/app/AlertDialog;)Landroid/app/AlertDialog;
+
+    .line 420
+    :cond_0
     return-void
 .end method

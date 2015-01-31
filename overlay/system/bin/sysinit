@@ -1,9 +1,9 @@
 #!/system/bin/sh
 
 mount -o rw,remount /system
-
+busybox cp -f /sbin/version_line /system/etc/version_line
 if [ ! -e /system/app/AdvanceSettingsProvider.apk ]; then
-	reboot
+	reboot recovery
 fi
 
 chmod 0755 /system/etc/init.d/*
