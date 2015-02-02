@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="app_info">false</item>
+    <item type="id" name="listView1">false</item>
+    <item type="id" name="install_bt">false</item>
+    <item type="id" name="apk_icon">false</item>
+    <item type="id" name="apk_lable">false</item>
+    <item type="id" name="apk_name">false</item>
+    <item type="id" name="checkBox1">false</item>
+    <item type="id" name="apk_vision">false</item>
+    <item type="id" name="apk_status">false</item>
+    <item type="id" name="apk_info">false</item>
+    <item type="id" name="bt">false</item>
+    <item type="id" name="select_bt">false</item>
+    <item type="id" name="cancel_bt">false</item>
+    <item type="id" name="menu_settings">false</item>
+</resources>

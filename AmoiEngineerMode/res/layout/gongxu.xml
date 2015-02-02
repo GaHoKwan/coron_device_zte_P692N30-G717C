@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/gsm_td_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gsm" />
+        <TextView android:id="@id/textgm" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/td" />
+        <TextView android:id="@id/texttd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bt_ft_tv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0dip" android:id="@id/bt_ft_tv1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bt_ft" />
+        <TextView android:id="@id/text_bt_ft" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="20.0dip" android:id="@id/bt_ft_tv2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bt_ft" />
+        <TextView android:id="@id/text_bt_ft2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/model_bt_linear" />
+</LinearLayout>

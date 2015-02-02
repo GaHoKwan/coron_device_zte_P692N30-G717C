@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SOUND_NOTIFY">Garsas</string>
+    <string name="OPEN_WITH_SHAKE">Pakratykite, norėdami įjungti/išjungti žibintuvėlį</string>
+    <string name="SHAKE_SENSITIVITY">Stiprumas</string>
+    <string name="main_screen_text">Galima atidaryti žibintuvėlį dar patogiau - tiesiog pakračius telefoną!</string>
+    <string name="setting_button">Nustatymai</string>
+    <string name="flashsetting_title">Žibintuvėlio nustatymai</string>
+    <string name="shake_sensitivity_weak">Silpnas</string>
+    <string name="shake_sensitivity_strong">Stiprus</string>
+    <string name="Cancel">Atšaukti</string>
+    <string name="text_off">IŠJ.</string>
+    <string name="text_on">ĮJ.</string>
+    <string name="battery_low_warning">Silpna baterija, nenaudokite žibintuvėlio!</string>
+    <string name="battery_low">Silpna baterija!</string>
+</resources>

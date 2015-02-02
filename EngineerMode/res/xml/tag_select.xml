@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_verbose" android:key="log_filter_tag_0" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_debug" android:key="log_filter_tag_1" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_info" android:key="log_filter_tag_2" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_warning" android:key="log_filter_tag_3" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_error" android:key="log_filter_tag_4" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_1" android:key="log_filter_tag_5" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_2" android:key="log_filter_tag_6" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_3" android:key="log_filter_tag_7" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_4" android:key="log_filter_tag_8" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_5" android:key="log_filter_tag_9" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_6" android:key="log_filter_tag_10" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_7" android:key="log_filter_tag_11" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_8" android:key="log_filter_tag_12" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_9" android:key="log_filter_tag_13" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/log_filter_group_10" android:key="log_filter_tag_14" />
+</PreferenceScreen>

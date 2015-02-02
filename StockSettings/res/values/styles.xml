@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@yi:style/Yi.Theme.Light.ActionbarTabTop">
+        <item name="android:actionBarStyle">@style/TabActionBarNoDisplayOptionsStyle</item>
+    </style>
+    <style name="TabActionBarNoDisplayOptionsStyle" parent="@yi:style/ActionbarTabTop">
+        <item name="android:displayOptions"></item>
+    </style>
+</resources>

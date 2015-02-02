@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_shouhuaqi_xianshi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/shouhuaqi_testing_xml" android:layout_alignParentTop="true" />
+    <Button android:gravity="center" android:id="@id/shouhuaqi_mianti_erji" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:layout_marginTop="100.0dip" android:text="@string/shouhuaqi_mianti" />
+    <Button android:gravity="center" android:id="@id/shouhuaqi_exit" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="200.0dip" android:text="@string/exit" android:layout_alignParentBottom="true" />
+</RelativeLayout>

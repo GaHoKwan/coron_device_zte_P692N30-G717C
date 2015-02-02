@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_yangshengqi_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:text="@string/start_test" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/playtime" />
+        <EditText android:id="@id/tf_yangshengqi_bofang_times" android:layout_width="100.0sp" android:layout_height="50.0sp" android:text="@string/number_three" android:numeric="integer" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/min" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/sperTime" />
+        <EditText android:id="@id/tf_yangshengqi_sper_times" android:layout_width="100.0sp" android:layout_height="50.0sp" android:text="@string/number_one" android:numeric="integer" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/min" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/playsongs" />
+        <TextView android:id="@id/tf_yangshengqi_music_name" android:layout_width="100.0sp" android:layout_height="50.0sp" android:numeric="integer" />
+        <Button android:id="@id/bt_yangshengqi_music_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selectsong" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/bt_yangshengqi_exit" android:layout_width="100.0sp" android:layout_height="wrap_content" android:layout_marginLeft="200.0dip" android:layout_marginTop="30.0dip" android:text="@string/exit" />
+    </LinearLayout>
+</LinearLayout>

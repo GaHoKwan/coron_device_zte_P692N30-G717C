@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:id="@id/apk_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_apk" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/select_bt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/all_select" android:layout_weight="1.0" />
+        <Button android:id="@id/cancel_bt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/all_cancel" android:layout_weight="1.0" />
+        <Button android:id="@id/install_bt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/on_install" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@id/listView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bt" android:layout_alignParentTop="true" />
+</RelativeLayout>

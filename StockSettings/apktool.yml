@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: StockSettings.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.baidu.stocksettings
+  orig_package: com.android.stocksettings
+compressionType: false

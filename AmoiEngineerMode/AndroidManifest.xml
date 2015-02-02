@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.phone" android:versionCode="1" android:versionName="1.0" package="com.amoi.AmoiEngineerMode"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FIND_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ADD_SYSTEM_SERVICE" />
+    <application android:theme="@*android:style/Theme.DeviceDefault.Light.DarkActionBar" android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:label="@string/app_name" android:name=".AmoiEngineerMode" android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.android.intent.launch_oem_test_app" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/phone_info" android:name=".AmoiSystemInfo" android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.android.intent.amoi_system_info" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/amoi_tools" android:name=".AmoiTools" android:process="com.android.phone" android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.android.intent.amoi_engineer_tools" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".auto.AutoTestMainActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.PhoneInfoAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.LCDAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.CompassSensorAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.ReceiverAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.VibratorAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.GravitySensorAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.SpeakerAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.ProximitySensorAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.SDCardAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.LightSensorAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.RecordAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.BacklightAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.ButtonLightAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.HeadsetAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.GPSAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.KeystrokeAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.CameraAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.SubCameraAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.BluetoothAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.WifiAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.CMMBAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.IndicatorAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.TPPanelAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.SDCard2AutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.ReceiverCurcuitAutoTet" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.TouchPanelEdgeAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.BatteryAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.FlashLightAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.RefMicAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.MainMicAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.SimCardAutoTest" android:screenOrientation="nosensor" />
+        <activity android:name=".auto.MagneticSensorAutoTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/hardware_test" android:name=".HardwareTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SensorsTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.AudioTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.BacklightTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/battary_info" android:name=".standalone.BatteryInfo" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.BluetoothTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.ButtonLightTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.CameraTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/cell_data" android:name=".standalone.CellData" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.OtherInfo" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.CMMBTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.FM" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.GPSTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/indicator" android:name=".standalone.IndicatorTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/keystroke" android:name=".standalone.KeystrokeTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/lcd" android:name=".standalone.LCDTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/phone_info" android:name=".standalone.PhoneInfo" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.ReceiverAgingTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SpeakerAgingTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.ProcessTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.ReceiverTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.RecordTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SDCardTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SensorResult" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SpeakerTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SubCameraTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.TouchPanelTest" android:screenOrientation="nosensor" />
+        <activity android:label="@string/vibrate" android:name=".standalone.VibratorTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.WifiTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.GpsSetting" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.HeadsetTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.TPPanelTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.TPMultitouch" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.MotorTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.MotorAgingTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.DoulSDCardTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SDCard2Test" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.ReceiverCircuitTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.FlashLightTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.RefMicTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.MainMicTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.lightTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.SimStatusTest" android:screenOrientation="nosensor" />
+        <activity android:name=".standalone.CompassTest" android:screenOrientation="nosensor" />
+        <receiver android:name=".DialnumberReceiver">
+            <intent-filter>
+                <action android:name="com.android.intent.launch_oem_test_app" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".base.ReceiverMusicService" android:enabled="true" />
+        <service android:name=".base.SpeakerMusicService" android:enabled="true" />
+        <service android:name=".base.ReceiverAgingService" android:enabled="true" />
+        <service android:name=".base.SpeakerAgingService" android:enabled="true" />
+        <service android:name=".base.ReceiverCircuitBase" android:enabled="true" />
+    </application>
+</manifest>

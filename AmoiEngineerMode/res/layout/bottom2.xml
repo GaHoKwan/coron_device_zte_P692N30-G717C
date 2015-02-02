@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lcd2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lv_list" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_show" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_below="@id/lv_list" />
+    <Button android:id="@id/btn_start" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="90.0dip" android:layout_marginTop="120.0dip" android:layout_below="@id/tv_show" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="15.0dip" android:id="@id/pre" android:paddingLeft="30.0dip" android:paddingRight="10.0dip" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/previous" />
+        <Button android:textSize="15.0dip" android:id="@id/next" android:paddingLeft="30.0dip" android:paddingRight="10.0dip" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/next" android:layout_toRightOf="@id/pre" />
+        <Button android:textSize="15.0dip" android:id="@id/exit" android:paddingLeft="30.0dip" android:paddingRight="10.0dip" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/exit" android:layout_toRightOf="@id/next" />
+    </RelativeLayout>
+</RelativeLayout>

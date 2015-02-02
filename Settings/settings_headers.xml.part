@@ -1,3 +1,3 @@
     <header android:icon="@drawable/ic_settings_auto" android:id="@+id/original_settings" android:title="@string/original_settings">
-        <intent android:targetPackage="cn.edu.ncwu.www" android:action="android.intent.action.MAIN" android:targetClass="cn.edu.ncwu.www.MPreferenceActivity" />
+        <intent android:targetPackage="com.baidu.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="com.baidu.stocksettings.MainActivity" />
     </header>

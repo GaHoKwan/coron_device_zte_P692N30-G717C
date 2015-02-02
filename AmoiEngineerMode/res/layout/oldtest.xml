@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_oldtest_show" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <Button android:gravity="center" android:id="@id/bt_oldtest_exit" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="200.0dip" android:text="@string/oldtest_exit" android:layout_alignParentBottom="true" />
+</RelativeLayout>

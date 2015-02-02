@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sensor_autotest" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:gravity="center" android:id="@id/tv_sensor_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ImageView android:gravity="center" android:id="@id/gsensor_auto" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_sensor_result" android:contentDescription="@string/gsensor" />
+    <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/tv_sensor_showmessage" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sensonr_message_show" android:layout_centerInParent="true" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="bottom|left|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="20.0dip" android:gravity="center" android:id="@id/pre" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/previous" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="20.0dip" android:gravity="center" android:id="@id/next" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/next" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|right|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="20.0dip" android:gravity="center" android:id="@id/exit" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/exit" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

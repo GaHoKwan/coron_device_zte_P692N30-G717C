@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_test_effective_snr" />
+        <EditText android:id="@id/effective_snr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="50.0dip" android:maxLength="2" android:inputType="numberDecimal">
+            <requestFocus />
+        </EditText>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_test_effective_satellites_count" />
+        <EditText android:id="@id/effective_satellites_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="50.0dip" android:maxLength="2" android:inputType="numberDecimal" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_test_search_time" />
+        <EditText android:id="@id/search_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="50.0dip" android:maxLength="3" android:inputType="numberDecimal" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/second" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="3">
+            <Button android:textAppearance="?android:textAppearanceMedium" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@*android:string/ok" android:onClick="save" />
+            <Button android:textAppearance="?android:textAppearanceMedium" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/exit" android:onClick="exit" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

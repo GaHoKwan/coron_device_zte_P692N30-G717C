@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="flashlight_main_layout">false</item>
+    <item type="id" name="flashlight_layout">false</item>
+    <item type="id" name="notify">false</item>
+    <item type="id" name="screen_img">false</item>
+    <item type="id" name="setting_btn">false</item>
+</resources>

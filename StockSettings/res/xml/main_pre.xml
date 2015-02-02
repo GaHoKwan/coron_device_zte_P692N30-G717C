@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="test"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_system" />
+    <CheckBoxPreference android:title="@string/quick_boot_title" android:key="quickboot" android:summary="@string/quick_boot_summary" />
+    <ListPreference android:entries="@array/main_storage_entries" android:title="@string/storage_title" android:key="storage" android:defaultValue="0" android:entryValues="@array/main_storage_values" />
+    <PreferenceCategory android:title="工程工具">
+        <Preference android:title="工程模式" android:summary="MTK工程模式">
+            <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.EngineerMode" />
+        </Preference>
+        <Preference android:title="测试模式" android:summary="MTK工程测试模式">
+            <intent android:targetPackage="com.amoi.AmoiEngineerMode" android:action="android.intent.action.MAIN" android:targetClass="com.amoi.AmoiEngineerMode.AmoiEngineerMode" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/stocks_app">
+        <Preference android:title="智能分屏" android:key="smartshow" android:summary="分屏应用以及单手模式">
+            <intent android:targetPackage="com.powermo.SmartBar" android:action="android.intent.action.MAIN" android:targetClass="com.powermo.SmartBar.MasterEntryActivity" />
+        </Preference>
+        <Preference android:title="中兴手电筒" android:summary="中兴官方的手电筒.代替默认手电筒" >
+            <intent android:targetPackage="zte.android.flashlight" android:action="android.intent.action.MAIN" android:targetClass="zte.android.flashlight.FlashLightActivity" />
+        </Preference>
+        <Preference android:title="@string/zte_mi_pop_title" android:key="mipop" android:summary="@string/zte_mi_pop_summary">
+            <intent android:targetPackage="com.android.mipop" android:action="android.intent.action.MAIN" android:targetClass="com.android.mipop.MIPopActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="电源">
+        <Preference android:title="定时开关机" android:key="schedulepoweronoff" android:summary="定时开机或者关机选项">
+            <intent android:targetPackage="com.mediatek.schpwronoff" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.schpwronoff.AlarmClock" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

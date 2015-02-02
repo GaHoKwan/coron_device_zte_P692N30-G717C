@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lcd" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="15.0dip" android:id="@id/pre" android:paddingLeft="30.0dip" android:paddingRight="10.0dip" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/previous" />
+        <Button android:textSize="15.0dip" android:id="@id/next" android:paddingLeft="30.0dip" android:paddingRight="10.0dip" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/next" android:layout_toRightOf="@id/pre" />
+        <Button android:textSize="15.0dip" android:id="@id/exit" android:paddingLeft="30.0dip" android:paddingRight="10.0dip" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/exit" android:layout_toRightOf="@id/next" />
+    </RelativeLayout>
+</RelativeLayout>

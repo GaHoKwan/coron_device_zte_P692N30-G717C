@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: AmoiEngineerMode.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.amoi.AmoiEngineerMode
+  orig_package: com.amoi.AmoiEngineerMode
+compressionType: false

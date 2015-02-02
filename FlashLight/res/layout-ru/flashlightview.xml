@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/flashlight_main_layout" android:background="@drawable/bg_flashlight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <zte.android.flashlight.MainLayout android:id="@id/flashlight_layout" android:background="@drawable/flashlight_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0dip" android:textColor="@*android:color/background_light" android:id="@id/notify" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/main_screen_text" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:inputType="textPersonName" />
+        <ImageView android:id="@id/screen_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="142.0dip" android:layout_marginTop="304.0dip" android:src="@drawable/btn_flash_light_selector" />
+        <ImageView android:id="@id/setting_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/btn_setting_selector" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </zte.android.flashlight.MainLayout>
+</RelativeLayout>

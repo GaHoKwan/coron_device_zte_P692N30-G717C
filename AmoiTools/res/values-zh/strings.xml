@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">夏新小工具</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="list_install">一键安装</string>
+    <string name="list_startmgr">开机启动管理</string>
+    <string name="no_sdcard">未检测到SD卡</string>
+    <string name="no_apk">未检测到可用程序</string>
+    <string name="all_select">全选</string>
+    <string name="all_cancel">全部取消</string>
+    <string name="on_install">安装</string>
+    <string name="loading">列表正在加载中</string>
+    <string name="apk_version">版本:</string>
+    <string name="installed">已安装</string>
+    <string name="installing">安装中</string>
+    <string name="install_failed">安装失败</string>
+    <string name="install_finish">完成安装</string>
+    <string name="install_apk">正在安装</string>
+    <string name="can_update">可更新</string>
+    <string name="power_manager">开机启动管理</string>
+    <string name="title_prompt">请勾选允许开机自动启动的应用程序</string>
+    <string name="app_info">无开机自启程序</string>
+    <string name="scan_sd">正在扫描SD上的应用程序</string>
+</resources>

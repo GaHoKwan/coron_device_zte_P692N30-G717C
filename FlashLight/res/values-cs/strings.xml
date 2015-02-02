@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Svítilna</string>
+    <string name="SOUND_NOTIFY">Zvuk</string>
+    <string name="OPEN_WITH_SHAKE">Svítilu zapněte/vypněte zatřesením</string>
+    <string name="SHAKE_SENSITIVITY">Nastavení citlivosti</string>
+    <string name="main_screen_text">Třesením zapnete svítilnu pohodlněji!</string>
+    <string name="setting_button">Nastavení</string>
+    <string name="flashsetting_title">Nastavení svítilny</string>
+    <string name="shake_sensitivity_weak">Slabě</string>
+    <string name="shake_sensitivity_strong">Silně</string>
+    <string name="Cancel">storno</string>
+    <string name="text_off">OFF</string>
+    <string name="text_on">ON</string>
+</resources>

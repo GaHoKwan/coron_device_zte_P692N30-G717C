@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/dfo_resolution_hint" />
+    <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@id/dfo_resolution_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <RadioButton android:id="@id/dfo_resolution_fhd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dfo_resolution_fhd" />
+        <RadioButton android:id="@id/dfo_resolution_hd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dfo_resolution_hd" />
+        <RadioButton android:id="@id/dfo_resolution_qhd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dfo_resolution_qhd" />
+        <RadioButton android:id="@id/dfo_resolution_fwvga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dfo_resolution_fwvga" />
+        <RadioButton android:id="@id/dfo_resolution_wvga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dfo_resolution_wvga" />
+    </RadioGroup>
+    <Button android:gravity="center" android:id="@id/dfo_resolution_set" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/dfo_resolution_set" />
+</LinearLayout>

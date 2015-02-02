@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lampa</string>
+    <string name="SOUND_NOTIFY">Zvuk</string>
+    <string name="OPEN_WITH_SHAKE">Protresite da biste uključili/isključili lampu</string>
+    <string name="SHAKE_SENSITIVITY">Postavke osetljivosti</string>
+    <string name="main_screen_text">Protresanjem lampa može zgodnije da se otvori!</string>
+    <string name="setting_button">Podešavanja</string>
+    <string name="flashsetting_title">Postavke lampe</string>
+    <string name="shake_sensitivity_weak">Slaba</string>
+    <string name="shake_sensitivity_strong">Snažno</string>
+    <string name="Cancel">DRM prava</string>
+    <string name="text_off">Isklj.</string>
+    <string name="text_on">Uklj.</string>
+</resources>

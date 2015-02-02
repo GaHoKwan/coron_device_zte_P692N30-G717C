@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AmoiTools</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="list_install">OneKey Install</string>
+    <string name="list_startmgr">Auto Start</string>
+    <string name="no_sdcard">No SD card detected</string>
+    <string name="no_apk">Available program not detected</string>
+    <string name="all_select">Select All</string>
+    <string name="all_cancel">Deselect All</string>
+    <string name="on_install">Install</string>
+    <string name="loading">Loading</string>
+    <string name="apk_version">Version:</string>
+    <string name="installed">Installed</string>
+    <string name="installing">Installing</string>
+    <string name="install_failed">Install failed</string>
+    <string name="install_finish">Complete the installation</string>
+    <string name="install_apk">Installing</string>
+    <string name="can_update">Update</string>
+    <string name="power_manager">App Power Manager</string>
+    <string name="title_prompt">Check Applications to auto run when phone power on</string>
+    <string name="app_info">No auto run Apps</string>
+    <string name="scan_sd">Is scanning applications on the SD</string>
+</resources>

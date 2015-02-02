@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/apk_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/ic_launcher" android:scaleType="centerInside" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.67">
+        <TextView android:textSize="22.0sp" android:ellipsize="marquee" android:id="@id/apk_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:singleLine="true" />
+        <TextView android:ellipsize="marquee" android:id="@id/apk_vision" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="3.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="clip_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2">
+        <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/apk_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+        <CheckBox android:gravity="center" android:layout_gravity="center" android:id="@id/checkBox1" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

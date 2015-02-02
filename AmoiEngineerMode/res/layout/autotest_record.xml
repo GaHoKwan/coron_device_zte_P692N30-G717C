@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_show" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/autest_recording" android:layout_alignParentTop="true" />
+    <Button android:id="@id/bt_pre" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/previous" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/bt_next" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/next" android:layout_toRightOf="@id/bt_pre" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/bt_stop" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/exit" android:layout_toRightOf="@id/bt_next" android:layout_alignParentBottom="true" />
+</RelativeLayout>

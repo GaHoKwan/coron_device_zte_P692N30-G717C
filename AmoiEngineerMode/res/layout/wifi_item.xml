@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:id="@id/wifi_ssid" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="0.5" />
+    <TextView android:textSize="22.0sp" android:gravity="center" android:id="@id/wifi_rssi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="0.13" />
+    <TextView android:textSize="14.0sp" android:id="@id/wifi_mac" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="0.37" />
+</LinearLayout>

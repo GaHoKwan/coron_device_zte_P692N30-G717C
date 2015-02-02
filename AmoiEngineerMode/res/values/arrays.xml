@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audioarray">
+        <item>受话器</item>
+        <item>扬声器</item>
+        <item>回路测试</item>
+        <item>扬声器老化测试</item>
+        <item>受话器老化测试</item>
+        <item>耳机</item>
+    </string-array>
+    <string-array name="doulmicarray">
+        <item>受话器</item>
+        <item>扬声器</item>
+        <item>回路测试</item>
+        <item>扬声器老化测试</item>
+        <item>受话器老化测试</item>
+        <item>耳机</item>
+        <item>主MIC</item>
+        <item>副MIC</item>
+    </string-array>
+    <string-array name="sensorname">
+        <item>接近传感器</item>
+        <item>重力传感器</item>
+        <item>光传感器</item>
+        <item>地磁传感器</item>
+    </string-array>
+    <string-array name="sensorresult">
+        <item>接近值：</item>
+        <item>重力值：</item>
+        <item>亮度值：</item>
+        <item>角度值：</item>
+    </string-array>
+    <string-array name="keyname">
+        <item>音量减键</item>
+        <item>音量增键</item>
+        <item>菜单键</item>
+        <item>Home键</item>
+        <item>返回键</item>
+        <item>搜索键</item>
+    </string-array>
+    <string-array name="nosearchname">
+        <item>音量减键</item>
+        <item>音量增键</item>
+        <item>菜单键</item>
+        <item>Home键</item>
+        <item>返回键</item>
+    </string-array>
+    <string-array name="engineermodearray">
+        <item>话机信息</item>
+        <item>硬件信息</item>
+        <item>蜂房资料</item>
+        <item>电池信息</item>
+        <item>其他信息</item>
+    </string-array>
+    <string-array name="motorarray">
+        <item>马达</item>
+        <item>马达老化测试</item>
+    </string-array>
+    <string-array name="sdarray">
+        <item>本机存储器</item>
+        <item>T卡</item>
+    </string-array>
+    <string-array name="lightarray">
+        <item>按键灯</item>
+        <item>背光灯</item>
+    </string-array>
+    <string-array name="pref_camera_picturesize_entryvalues">
+        <item>320x240</item>
+        <item>640x480</item>
+        <item>1024x768</item>
+        <item>1280x960</item>
+        <item>1600x1200</item>
+        <item>2048x1536</item>
+        <item>2560x1920</item>
+        <item>2592x1936</item>
+        <item>2592x1944</item>
+        <item>3264x2448</item>
+        <item>4096x3072</item>
+        <item>1280x720</item>
+        <item>2560x1440</item>
+        <item>3328x1872</item>
+        <item>1280x768</item>
+    </string-array>
+</resources>

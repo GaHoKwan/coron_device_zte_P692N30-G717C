@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_yinpinhuilu_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <Button android:gravity="center" android:id="@id/bt_yinpinhuilu_testing_start" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:text="@string/start_test" android:layout_below="@id/tv_yinpinhuilu_text" />
+    <Button android:id="@id/bt_pre" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/previous" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/bt_next" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/next" android:layout_toRightOf="@id/bt_pre" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/bt_exit" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/exit" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

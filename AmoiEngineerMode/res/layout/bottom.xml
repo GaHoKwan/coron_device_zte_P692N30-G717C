@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="14.0sp" android:gravity="center" android:id="@id/bt_pre" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/previous" />
+    <Button android:textSize="14.0sp" android:gravity="center" android:id="@id/bt_next" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/next" />
+    <Button android:textSize="14.0sp" android:gravity="center" android:id="@id/bt_exit_auto" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/exit" />
+</LinearLayout>

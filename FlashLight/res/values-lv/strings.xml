@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SOUND_NOTIFY">Skaņa</string>
+    <string name="OPEN_WITH_SHAKE">Pakratiet, lai ieslēgtu/izslēgtu gaismiņu</string>
+    <string name="SHAKE_SENSITIVITY">Stiprums</string>
+    <string name="main_screen_text">Kratīšana ļauj ieslēgt gaismiņu ērtāk!</string>
+    <string name="setting_button">Iestatījumi</string>
+    <string name="flashsetting_title">Gaismiņas iestatījumi</string>
+    <string name="shake_sensitivity_weak">Vāja</string>
+    <string name="shake_sensitivity_strong">Spēcīga</string>
+    <string name="Cancel">Atcelt</string>
+    <string name="text_off">IZSL.</string>
+    <string name="text_on">IESL.</string>
+    <string name="battery_low_warning">Zems akumulatora līmenis, lūdzu, neizmantojiet gaismiņu!</string>
+    <string name="battery_low">Zems akumulatora līmenis.</string>
+</resources>

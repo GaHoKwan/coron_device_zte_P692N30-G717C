@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Φακός</string>
+    <string name="SOUND_NOTIFY">Ήχος</string>
+    <string name="OPEN_WITH_SHAKE">Ανακίνηση για ενεργοποίηση/απενεργοποίηση φακού</string>
+    <string name="SHAKE_SENSITIVITY">Ρύθμιση ευαισθησίας</string>
+    <string name="main_screen_text">Με την ανακίνηση μπορείτε να ενεργοποιείτε το φακό πιο εύκολα!</string>
+    <string name="setting_button">Ρυθμίσεις</string>
+    <string name="flashsetting_title">Ρυθμίσεις φακού</string>
+    <string name="shake_sensitivity_weak">Μικρή</string>
+    <string name="shake_sensitivity_strong">Μεγάλη</string>
+    <string name="Cancel">ακύρωση</string>
+    <string name="text_off">Απεν</string>
+    <string name="text_on">Ενεργ</string>
+</resources>

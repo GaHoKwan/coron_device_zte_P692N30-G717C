@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/camera_title" />
+    <CheckBoxPreference android:title="@string/camera_sound_title" android:key="camera_sound" />
+    <CheckBoxPreference android:title="@string/camera_focus_title" android:key="camera_sound1" />
+    <CheckBoxPreference android:title="@string/camera_shutter_title" android:key="camera_sound2" />
+    <CheckBoxPreference android:title="@string/video_sound_title" android:key="camera_sound3" />
+    <CheckBoxPreference android:title="@string/t1" android:key="1" />
+    <CheckBoxPreference android:title="@string/t2" android:key="2" />
+    <Preference android:persistent="false" android:title="@string/dolby_sound_title" android:key="dolby" android:summary="@string/dolby_sound_summary" />
+</PreferenceScreen>

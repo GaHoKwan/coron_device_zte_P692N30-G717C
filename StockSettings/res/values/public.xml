@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="string" name="not_found_app" id="0x7f080038" />
+    <public type="string" name="sure_restart" id="0x7f080020" />
+    <public type="string" name="storage_title" id="0x7f080021" />
+    <public type="string" name="ex_sdcard" id="0x7f080022" />
+    <public type="string" name="in_sdcard" id="0x7f080023" />
+    <public type="string" name="auto" id="0x7f080024" />
+    <public type="string" name="reboot_confirm" id="0x7f080025" />
+    <public type="string" name="rec_confirm" id="0x7f080026" />
+    <public type="string" name="reboot_ok" id="0x7f080027" />
+    <public type="string" name="now" id="0x7f080028" />
+    <public type="string" name="reboot_cancel" id="0x7f080029" />
+</resources>
