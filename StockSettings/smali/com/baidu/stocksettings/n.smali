@@ -332,9 +332,9 @@
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v2, "com.huangzt.dolbyeffectloader"
+    const-string v2, "com.dolby.ds1appUI"
 
-    const-string v3, "com.huangzt.dolbyeffectloader.MainActivity"
+    const-string v3, "com.dolby.ds1appUI.MainActivity"
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

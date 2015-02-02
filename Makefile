@@ -63,7 +63,7 @@ vendor_saved_apps := Bluetooth MtkBt Idler SchedulePowerOnOff
 # You need ro decode FMRadio.apk to the project directory(use apktool d FMRadio.apk) first,
 # and then you can make it by:   make FMRadio
 #-----------------------------------------------------------------------------
-vendor_modify_apps := AmoiTools AmoiEngineerMode EngineerMode EngineerModeSim FlashLight MIPop SmartBar Utk Stk1 StockSettings YGPS
+vendor_modify_apps := AmoiTools AmoiEngineerMode DsUI EngineerMode EngineerModeSim FlashLight MIPop SmartBar Utk Stk1 StockSettings YGPS
 
 ##############################################################################
 # The value decides which vendor jar you want to modify.

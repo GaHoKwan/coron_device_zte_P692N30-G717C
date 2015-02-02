@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<autopilot>
+    <technology_info>ds1</technology_info>
+    <format_version>1</format_version>
+	<metadata>
+		<item id="1">
+			<timestamp>00:00:00:000</timestamp>
+			<master_control>off</master_control>
+			<profile_control>Music</profile_control>
+		</item>
+		<item id="2">
+			<timestamp>00:00:06:256</timestamp>
+			<master_control>on</master_control>
+		</item>
+		<item id="3">
+			<timestamp>00:00:18:184</timestamp>
+			<master_control>off</master_control>
+		</item>
+		<item id="4">
+			<timestamp>00:00:25:440</timestamp>
+			<master_control>on</master_control>
+		</item>
+	</metadata>
+</autopilot>

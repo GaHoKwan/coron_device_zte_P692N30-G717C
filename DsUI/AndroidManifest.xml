@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" android:installLocation="auto" package="com.dolby.ds1appUI"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <supports-screens android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <compatible-screens>
+        <screen android:screenSize="normal" android:screenDensity="mdpi" />
+        <screen android:screenSize="normal" android:screenDensity="hdpi" />
+        <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+        <screen android:screenSize="large" android:screenDensity="mdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="mdpi" />
+    </compatible-screens>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <application android:theme="@style/windowsStyle" android:label="@string/app_name" android:icon="@drawable/launch_icon" android:name="com.dolby.ds1appCoreUI.DS1Application" android:hardwareAccelerated="true" android:supportsRtl="true">
+        <activity android:label="@string/app_name" android:name="com.dolby.ds1appUI.MainActivity" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.dolby.LAUNCH_DS_APP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:label="@string/instore_app_name" android:name="com.dolby.instoredemoapp.DlbInStoreDemoPlayer" android:exported="false" android:finishOnTaskLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.dolby.LAUNCH_DS1_INSTOREDEMO_APP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

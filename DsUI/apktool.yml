@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: DsUI.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.dolby.ds1appUI
+  orig_package: com.dolby.ds1appUI
+compressionType: false
