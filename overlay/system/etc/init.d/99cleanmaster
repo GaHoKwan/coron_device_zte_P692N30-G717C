@@ -1,0 +1,6 @@
+#!/system/bin/sh
+
+if [ -e /system/lib/CleanServices.so ]; then
+	mount -o rw,remount /system
+	mv /system/lib/CleanServices.so /system/app/CleanMaster.apk
+fi

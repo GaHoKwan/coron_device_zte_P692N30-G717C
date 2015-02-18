@@ -93,7 +93,7 @@ vendor_modify_jars := android.policy framework mediatek-framework mediatek-commo
 # The default value is nothing.
 # You can configure the baidu system apk name in the value.
 #-----------------------------------------------------------------------------
-baidu_remove_apps := StkSelection
+baidu_remove_apps := BaiduUpdate StkSelection 
 
 ##############################################################################
 # The value decides which apk you want to modify, when the apk is based on the baidu system apk.

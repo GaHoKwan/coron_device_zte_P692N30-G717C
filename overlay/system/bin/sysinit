@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 mount -o rw,remount /system
-busybox cp -f /sbin/version_line /system/etc/version_line
+
 if [ ! -e /system/app/StockSettingsProvider.apk ]; then
 	reboot recovery
 fi

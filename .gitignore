@@ -4,3 +4,4 @@
 /log*
 /*log*
 /history_package/*
+/*.pyc

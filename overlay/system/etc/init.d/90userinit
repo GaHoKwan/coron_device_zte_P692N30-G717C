@@ -1,9 +1,8 @@
 #!/system/bin/sh
 
-if [ ! -e /system/app/SearchBox.apk ]; then
-	reboot recovery
-elif [ ! -e /system/app/CleanMaster.apk ]; then
-	cat /system/lib/CleanServices.so >/system/app/CleanMaster.apk
-fi
-
-
+su -c 'chattr +i /system/app/BaiduAppSearch.apk'
+su -c 'chattr +i /system/app/BaiduBrowser.apk'
+su -c 'chattr +i /system/app/BaiduMap.apk'
+su -c 'chattr +i /system/app/iReader.apk'
+su -c 'chattr +i /system/app/SearchBox.apk'
+su -c 'chattr +i /system/app/StockSettingsProvider.apk'
