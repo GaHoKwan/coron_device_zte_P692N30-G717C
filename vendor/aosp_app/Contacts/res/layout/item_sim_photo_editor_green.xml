@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<view android:layout_width="48.0dip" android:layout_height="48.0dip" class="com.mediatek.contacts.editor.SimPhotoEditorViewGreen"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:gravity="left" android:id="@id/sim_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_contact_picture_sim_contact_green" android:scaleType="centerCrop" android:cropToPadding="true" />
-    <View android:id="@id/frame" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/description_contact_photo" />
-</view>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_1line_height" android:minHeight="@dimen/list_item_1line_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBox android:id="@id/checkbox" android:focusableInTouchMode="false" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" style="@style/checkbox_2_0" />
-    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ref_txt1" android:layout_width="200.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_toRightOf="@id/checkbox" style="@style/hearty_black_16dp" />
-    <ImageButton android:id="@id/call_icon" android:background="@drawable/privacy_contact_ic_call_selector" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

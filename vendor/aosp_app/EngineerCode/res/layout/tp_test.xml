@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.zte.engineer.DrawCircleView android:id="@id/circleView" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.zte.engineer.DrawRectView android:id="@id/rectangleView" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

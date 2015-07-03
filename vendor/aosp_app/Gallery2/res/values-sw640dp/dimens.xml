@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="shutter_group_height">211.0dip</dimen>
-    <dimen name="shutter_group_width">107.0dip</dimen>
-    <dimen name="shutter_size">56.0dip</dimen>
-    <dimen name="recording_size_text_width">67.0dip</dimen>
-</resources>

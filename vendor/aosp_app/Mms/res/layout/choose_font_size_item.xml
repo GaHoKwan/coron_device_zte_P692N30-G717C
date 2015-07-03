@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheckedTextView android:textColor="?android:textColorAlertDialogListItem" android:ellipsize="none" android:gravity="center_vertical" android:id="@*android:id/text1" android:paddingLeft="12.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:minHeight="?android:listPreferredItemHeight" android:singleLine="true" android:requiresFadingEdge="horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

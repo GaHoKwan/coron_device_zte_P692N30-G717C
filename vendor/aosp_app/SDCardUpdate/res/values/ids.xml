@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="id" name="textviewr">false</item>
-    <item type="id" name="automatic_mode">false</item>
-    <item type="id" name="sdcard_update_tip">false</item>
-    <item type="id" name="ok_button">false</item>
-</resources>

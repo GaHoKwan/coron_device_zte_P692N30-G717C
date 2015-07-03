@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout ="vertical" ="16.0dip" ="fill_parent" ="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ScrollView ="@id/credits_scroll" ="fill_parent" ="wrap_content">
-        <TextView ="16.0sp" ="center_horizontal" ="@id/credits_text" ="fill_parent" ="wrap_content" ="false" />
-    </ScrollView>
-</LinearLayout>

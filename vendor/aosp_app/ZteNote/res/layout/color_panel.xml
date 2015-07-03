@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/doodle_tool_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="20.0dip" android:id="@id/toggle_color_plate_hint" android:layout_width="296.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/more_color" android:drawableLeft="@drawable/color_panel_stretch_button" android:drawablePadding="8.0dip" />
-    <include android:id="@id/color_plate_layout" layout="@layout/color_plate" />
-    <View android:id="@id/pad_view" android:layout_width="fill_parent" android:layout_height="8.0dip" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/suggest_color_group1" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/suggest_color_group2" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
-</LinearLayout>

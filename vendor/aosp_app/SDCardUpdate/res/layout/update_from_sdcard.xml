@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="18.0sp" android:id="@id/sdcard_update_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:text="@string/update_from_sdcard_tip" />
-    <Button android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" />
-</LinearLayout>

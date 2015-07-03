@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<preference-headers
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <header android:id="@id/smartmode_low_settings" android:fragment="com.zte.heartyservice.power.SmartModeLowFragment" />
-    <header android:id="@id/smartmode_time_settings" android:fragment="com.zte.heartyservice.power.SmartModeTimeFragment" />
-</preference-headers>

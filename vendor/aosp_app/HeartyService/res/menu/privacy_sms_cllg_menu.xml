@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:menuCategory="container" android:checkableBehavior="single">
-        <item android:icon="@drawable/call" android:id="@id/call_menu" android:title="@string/call" android:showAsAction="always" />
-        <item android:icon="@drawable/message" android:id="@id/sms_menu" android:title="@string/sms" android:showAsAction="always" />
-    </group>
-</menu>

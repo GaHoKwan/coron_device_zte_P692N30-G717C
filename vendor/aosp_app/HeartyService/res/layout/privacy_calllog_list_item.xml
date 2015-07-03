@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_3line_height" android:minHeight="@dimen/list_item_3line_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/call_from_to" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" />
-    <TextView android:id="@id/call_from_to_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/call_from_to" style="@style/hearty_black_16dp" />
-    <TextView android:ellipsize="end" android:id="@id/call_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" android:layout_below="@id/call_from_to" style="@style/grey_13sp" />
-    <TextView android:ellipsize="end" android:id="@id/call_length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="3.0dip" android:singleLine="true" android:layout_below="@id/call_time" style="@style/grey_13sp" />
-</RelativeLayout>

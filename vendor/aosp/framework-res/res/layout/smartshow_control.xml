@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#ffa5b4b4" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/keyview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:src="@drawable/ic_smartshow_key" android:scaleType="fitStart" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <ImageView android:id="@id/ctrlview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:src="@drawable/ic_smartshow_ctrl" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
-        <ImageView android:id="@id/selectbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selbtn_selector" />
-    </LinearLayout>
-</RelativeLayout>

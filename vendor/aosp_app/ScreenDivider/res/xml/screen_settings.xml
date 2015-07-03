@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/screen_divider"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <Preference android:title="@string/faq_title" android:key="faq">
-        <intent android:targetPackage="com.android.screen" android:targetClass="com.android.screen.FaqInfo" />
-    </Preference>
-</PreferenceScreen>

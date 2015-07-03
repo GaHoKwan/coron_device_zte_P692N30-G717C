@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/card2_ringtone_title"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="ringtone" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" />
-    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/notification_sound_title" android:key="notification_sound" android:dialogTitle="@string/notification_sound_dialog_title" android:ringtoneType="notification" />
-</PreferenceScreen>

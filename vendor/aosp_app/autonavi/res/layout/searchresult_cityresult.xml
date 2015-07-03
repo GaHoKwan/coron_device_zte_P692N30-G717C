@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/cityresult_listview" android:background="@color/general_list_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/listview_pressed_color" android:cacheColorHint="@color/general_list_back_color" android:divider="@color/list_driver_color" android:dividerHeight="0.5dip" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<map>
-<boolean name="DmapnHaveReaded" value="false" />
-<string name="APN">cmnet</string>
-<boolean name="GprsapnHaveReaded" value="false" />
-</map>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <SurfaceView android:layout_gravity="center_horizontal" android:id="@id/surfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageButton android:layout_gravity="bottom|center" android:id="@id/shotbtn" android:background="@drawable/shutter" android:layout_width="80.0dip" android:layout_height="80.0dip" />
-</FrameLayout>

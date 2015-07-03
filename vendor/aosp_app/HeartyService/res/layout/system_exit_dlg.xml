@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center_vertical" android:id="@id/exit_retainly" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:text="@string/close_retainly" style="@style/hearty_black_18dp" />
-    <View android:background="@drawable/btn_divider_dlg" android:layout_width="fill_parent" android:layout_height="0.5dip" />
-    <TextView android:gravity="center_vertical" android:id="@id/exit_completely" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:text="@string/close_completely" style="@style/hearty_black_18dp" />
-</LinearLayout>

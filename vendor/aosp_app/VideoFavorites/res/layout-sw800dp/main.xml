@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.mediatek.videofavorites.VideoFavoritesRootView android:id="@id/widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0px" android:layout_marginTop="10.0dip" android:layout_marginRight="0.0px" android:layout_marginBottom="0.0px"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:gravity="center" android:layout_gravity="center" android:id="@id/collection" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:horizontalSpacing="3.0dip" android:verticalSpacing="3.0dip" android:stretchMode="none" android:columnWidth="178.0dip" android:numColumns="2" android:layout_alignParentTop="true" />
-    <RelativeLayout android:id="@id/bottom_bar" android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/collection" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
-        <ImageView android:id="@id/btn_edit" android:paddingLeft="72.0dip" android:paddingTop="0.0px" android:paddingRight="10.0dip" android:paddingBottom="0.0px" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_edit" android:layout_alignParentRight="true" android:contentDescription="@string/img_edit_desc" />
-        <ImageView android:id="@id/btn_record" android:paddingLeft="10.0dip" android:paddingTop="0.0px" android:paddingRight="72.0dip" android:paddingBottom="0.0px" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_record" android:layout_alignBottom="@id/btn_edit" android:layout_alignParentLeft="true" android:contentDescription="@string/img_rec_desc" />
-    </RelativeLayout>
-</com.mediatek.videofavorites.VideoFavoritesRootView>

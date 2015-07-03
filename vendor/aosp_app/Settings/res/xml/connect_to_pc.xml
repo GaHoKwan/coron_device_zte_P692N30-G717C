@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/connect_to_pc_settings_title"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <PreferenceScreen android:title="@string/connect_to_pc_default_type" android:key="connect_to_pc_default_type" android:summary="@string/connect_to_pc_default_type_summary">
-        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.UsbSettings" />
-    </PreferenceScreen>
-    <CheckBoxPreference android:persistent="false" android:title="@string/connect_to_pc_ask_me" android:key="ask_me" android:summary="@string/connect_to_pc_ask_summary" />
-</PreferenceScreen>

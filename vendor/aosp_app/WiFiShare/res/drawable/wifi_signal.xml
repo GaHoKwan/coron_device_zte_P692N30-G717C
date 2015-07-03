@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:test="http://schemas.android.com/apk/res/com.android.wifidirect.test">
-    <item android:drawable="@drawable/wifi_signal_lock" test:state_encrypted="true" />
-    <item android:drawable="@drawable/wifi_signal_open" test:state_encrypted="false" />
-</selector>

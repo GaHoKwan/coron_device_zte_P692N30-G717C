@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_2line_height" style="@style/listview_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/up_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/light_grey_14sp" />
-    <TextView android:id="@id/buttom_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/hearty_black_15dp" />
-</LinearLayout>

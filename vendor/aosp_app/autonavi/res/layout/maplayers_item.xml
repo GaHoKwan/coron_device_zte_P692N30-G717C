@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/listview_singleitem_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/maplayers_itemicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listview_group_paddingleft" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/listview_default_text_color" android:id="@id/maplayers_itemtext" android:paddingLeft="@dimen/maplayersitem_text_paddingleft" android:paddingTop="@dimen/maplayersitem_text_paddingtop" android:paddingRight="@dimen/maplayersitem_text_paddingright" android:paddingBottom="@dimen/maplayersitem_text_paddingbottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/maplayersitem_text_paddingright" android:layout_toRightOf="@id/maplayers_itemicon" android:layout_centerVertical="true" />
-    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/listview_default_text_color" android:id="@id/maplayers_itemcheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/maplayersitem_check_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/ic_menu_audio" android:id="@id/action_change_audio_track" android:visible="false" android:title="@string/audioChange" android:showAsAction="ifRoom" />
-    <item android:icon="@drawable/ic_menu_subtitle" android:id="@id/action_change_subTitle_track" android:visible="false" android:title="@string/subTitleChange" android:showAsAction="ifRoom" />
-</menu>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/letv_album_detail_episode_text_item_selecter" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/detail_episode_item_txt" android:layout_width="wrap_content" android:layout_height="46.0dip" />
-</LinearLayout>

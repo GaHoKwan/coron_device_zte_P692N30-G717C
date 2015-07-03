@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/btn_load_all_message" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/ipmsg_emoticon_button_press" android:scaleType="centerCrop" />
-    <TextView android:textSize="18.0sp" android:textColor="#ff222222" android:layout_gravity="center" android:id="@id/text_load_all_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

@@ -546,11 +546,13 @@
 .end method
 
 .method public static getActualDefaultRingtoneUri(Landroid/content/Context;I)Landroid/net/Uri;
-    .locals 7
+    .locals 6
     .parameter "context"
     .parameter "type"
 
     .prologue
+    const/4 v2, 0x0
+
     .line 859
     invoke-static {p1}, Landroid/media/RingtoneManager;->getSettingForType(I)Ljava/lang/String;
 
@@ -558,171 +560,55 @@
 
     .line 860
     .local v0, setting:Ljava/lang/String;
-    if-nez v0, :cond_0
-
-    const/4 v4, 0x0
+    if-nez v0, :cond_1
 
     .line 886
+    :cond_0
     :goto_0
-    return-object v4
+    return-object v2
 
     .line 861
-    :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v4
-
-    invoke-static {v4, v0}, Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 862
-    .local v3, uriString:Ljava/lang/String;
-    const-string v4, "RingtoneManager"
-
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v6, "Get actual default ringtone uri= "
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-static {v4, v5}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 864
-    if-nez v3, :cond_4
-
-    .line 866
-    move v1, p1
-
-    .line 867
-    .local v1, streamType:I
-    and-int/lit8 v4, v1, 0x1
-
-    if-nez v4, :cond_1
-
-    and-int/lit16 v4, v1, 0x100
-
-    if-nez v4, :cond_1
-
-    and-int/lit8 v4, v1, 0x10
-
-    if-nez v4, :cond_1
-
-    and-int/lit8 v4, v1, 0x20
-
-    if-eqz v4, :cond_2
-
-    .line 872
     :cond_1
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
-    move-result-object v4
+    move-result-object v3
 
-    const-string/jumbo v5, "ringtone_original"
+    invoke-static {v3, v0}, Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-static {v4, v5}, Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v1
 
-    move-result-object v4
+    .line 862
+    .local v1, uriString:Ljava/lang/String;
+    const-string v3, "RingtoneManager"
 
-    invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    new-instance v4, Ljava/lang/StringBuilder;
 
-    move-result-object v4
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    goto :goto_0
+    const-string v5, "Get actual default ringtone uri= "
 
-    .line 873
-    :cond_2
-    and-int/lit8 v4, v1, 0x2
-
-    if-nez v4, :cond_3
-
-    and-int/lit16 v4, v1, 0x200
-
-    if-nez v4, :cond_3
-
-    and-int/lit8 v4, v1, 0x40
-
-    if-nez v4, :cond_3
-
-    and-int/lit16 v4, v1, 0x80
-
-    if-eqz v4, :cond_5
-
-    .line 878
-    :cond_3
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
-    const-string/jumbo v5, "notification_original"
-
-    invoke-static {v4, v5}, Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
-    invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v4
 
-    goto :goto_0
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 883
-    .end local v1           #streamType:I
-    :cond_4
-    invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    .line 886
+    if-eqz v1, :cond_0
 
-    move-result-object v4
-
-    invoke-static {p0, v4, p1}, Landroid/media/RingtoneManager;->getRealRingtoneUri(Landroid/content/Context;Landroid/net/Uri;I)Landroid/net/Uri;
+    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v2
 
-    .local v2, temp:Landroid/net/Uri;
-    move-object v4, v2
-
-    .line 884
     goto :goto_0
-
-    .line 886
-    .end local v2           #temp:Landroid/net/Uri;
-    .restart local v1       #streamType:I
-    :cond_5
-    if-eqz v3, :cond_6
-
-    invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object v4
-
-    goto :goto_0
-
-    :cond_6
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v4
-
-    const-string/jumbo v5, "ringtone_original"
-
-    invoke-static {v4, v5}, Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object v4
-
-    goto/16 :goto_0
 .end method
 
 .method public static getDefaultRingtoneUri(Landroid/content/Context;I)Landroid/net/Uri;

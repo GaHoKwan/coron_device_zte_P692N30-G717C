@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/scan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

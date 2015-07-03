@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_emoticon_click_zone" android:layout_width="fill_parent" android:layout_height="32.0dip">
-        <ImageView android:id="@id/iv_emoticon_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" />
-    </LinearLayout>
-</LinearLayout>

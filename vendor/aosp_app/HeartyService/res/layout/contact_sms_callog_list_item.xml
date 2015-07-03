@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="49.0dip" android:minHeight="?android:listPreferredItemHeight"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBox android:id="@id/checkbox" android:focusable="false" android:focusableInTouchMode="false" android:layout_marginLeft="10.0dip" android:scaleType="fitCenter" style="@style/checkbox_2_0" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/ref_txt1" android:paddingLeft="5.0dip" android:layout_width="130.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/checkbox" style="@style/hearty_black_16dp" />
-    <TextView android:id="@id/ref_txt2" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_toRightOf="@id/checkbox" android:layout_below="@id/ref_txt1" style="@style/grey_13sp" />
-    <ImageView android:gravity="center_vertical" android:id="@id/call_icon" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/ic_call" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

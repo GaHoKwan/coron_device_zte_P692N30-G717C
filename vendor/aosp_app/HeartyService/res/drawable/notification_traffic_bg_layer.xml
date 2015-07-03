@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/data_bg" />
-    <item>
-        <clip android:drawable="@drawable/data_green" android:clipOrientation="horizontal" />
-    </item>
-</layer-list>

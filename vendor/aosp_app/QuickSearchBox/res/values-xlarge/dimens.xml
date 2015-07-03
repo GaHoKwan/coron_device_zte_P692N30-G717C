@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="suggestion_text1_size">18.0sp</dimen>
-    <dimen name="suggestion_text2_size">14.0sp</dimen>
-    <dimen name="suggestion_text2_height">26.0dip</dimen>
-    <dimen name="suggestions_width">600.0dip</dimen>
-    <dimen name="shortcuts_width">390.0dip</dimen>
-</resources>

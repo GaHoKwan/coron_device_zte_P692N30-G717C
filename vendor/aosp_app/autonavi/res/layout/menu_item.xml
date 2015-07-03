@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/memu_item" android:background="@drawable/list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/listview_singleitem_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/item_icon_listactivity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listview_group_paddingleft" android:layout_marginTop="@dimen/menu_item_icon_margintoporbottom" android:layout_marginBottom="@dimen/menu_item_icon_margintoporbottom" />
-    <TextView android:textSize="@dimen/textSizeLarge" android:textColor="@color/menu_item_textcolor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/item_text_listactivity" android:paddingLeft="@dimen/menu_item_text_paddingleft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/item_extra_listactivity" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/menu_item_icon_margintoporbottom" android:layout_marginRight="@dimen/menu_item_icon_marginleft" android:layout_marginBottom="@dimen/menu_item_icon_margintoporbottom" />
-</LinearLayout>

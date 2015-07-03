@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout style="@style/ComposeFieldLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:textColorHint="@color/compose_label_text" android:id="@id/subject" android:hint="@string/message_compose_subject_hint" android:inputType="textEmailSubject|textCapSentences|textAutoCorrect|textMultiLine" style="@style/EmailComposeEditTextView" />
-</RelativeLayout>

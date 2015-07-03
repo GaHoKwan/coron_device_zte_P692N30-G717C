@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="@dimen/list_item_2line_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/contact_message_txt" android:background="@drawable/sms_from_selector" android:focusableInTouchMode="true" android:layout_width="280.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/local_message_txt" android:background="@drawable/sms_to_selector" android:focusableInTouchMode="true" android:layout_width="280.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
-</RelativeLayout>

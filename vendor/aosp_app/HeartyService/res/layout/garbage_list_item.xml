@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_height="@dimen/list_item_2line_height" android:minHeight="@dimen/list_item_2line_height" style="@style/listview_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip">
-        <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" style="@style/hearty_black_16dp" />
-        <TextView android:id="@id/subhead" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" style="@style/light_grey_12sp" />
-    </LinearLayout>
-    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/list_icon_continue_default" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

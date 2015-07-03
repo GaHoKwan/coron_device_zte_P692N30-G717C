@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<searchable android:label="@string/global_search_label" android:hint="@string/global_search_hint" android:searchSuggestAuthority="com.mediatek.email.provider.EmailSuggestionsProvider" android:imeOptions="actionSearch" android:includeInGlobalSearch="true" android:searchSettingsDescription="@string/global_search_description"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

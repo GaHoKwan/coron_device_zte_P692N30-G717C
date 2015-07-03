@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height" android:minHeight="@dimen/list_item_2line_height" style="@style/listview_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/itemImage" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" />
-    <TextView android:gravity="center_vertical" android:id="@id/itemTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/itemImage" style="@style/hearty_black_18dp" />
-    <TextView android:id="@id/itemRef" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/itemImage" android:layout_below="@id/itemTitle" style="@style/grey_13sp" />
-</RelativeLayout>

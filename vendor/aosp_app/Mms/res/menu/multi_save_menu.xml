@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/ic_menu_select_all" android:id="@id/select_all" android:title="@string/select_all" android:showAsAction="always" />
-    <item android:icon="@drawable/ic_menu_clear_select" android:id="@id/cancel_select" android:title="@string/unselect_all" android:showAsAction="always" />
-    <item android:icon="@drawable/ic_menu_save" android:id="@id/save" android:title="@string/copy_to_sdcard" android:showAsAction="always" />
-</menu>

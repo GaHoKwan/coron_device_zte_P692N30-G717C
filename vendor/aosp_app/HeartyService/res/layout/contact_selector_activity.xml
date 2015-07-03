@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/data_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    <RelativeLayout android:id="@id/norecord_contact" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:id="@id/emptyTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/black_white_no_record" android:layout_centerInParent="true" style="@style/empty_text_style" />
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/none_bg" android:scaleType="fitCenter" android:layout_above="@id/emptyTxt" android:layout_centerHorizontal="true" />
-    </RelativeLayout>
-</RelativeLayout>

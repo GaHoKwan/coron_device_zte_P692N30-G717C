@@ -1,8 +1,0 @@
-#!/system/bin/sh
-
-su -c 'chattr +i /system/app/BaiduAppSearch.apk'
-su -c 'chattr +i /system/app/BaiduBrowser.apk'
-su -c 'chattr +i /system/app/BaiduMap.apk'
-su -c 'chattr +i /system/app/iReader.apk'
-su -c 'chattr +i /system/app/SearchBox.apk'
-su -c 'chattr +i /system/app/StockSettingsProvider.apk'

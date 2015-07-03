@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/general_list_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/textSizeMedium" android:textColor="@color/dataupdate_textcolor" android:gravity="center" android:id="@id/datadowning_notask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/noDownloadingTask" />
-    <ExpandableListView android:id="@id/datadowning_container" android:background="@color/general_list_back_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@color/general_list_back_color" android:groupIndicator="@null" android:childIndicator="@null" android:childDivider="@color/list_driver_color" android:divider="@color/list_driver_color" android:dividerHeight="0.5dip" android:choiceMode="multipleChoice" android:layout_weight="1.0" />
-    <Button android:textSize="@dimen/activity_bottom_button_textsize" android:textColor="@color/dataupdate_textcolor" android:id="@id/datadowning_start" android:background="@drawable/btn_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_bottom_button_margin" android:layout_marginRight="@dimen/activity_bottom_button_margin" android:layout_marginBottom="@dimen/activity_bottom_button_margin" android:text="@string/start" />
-</LinearLayout>

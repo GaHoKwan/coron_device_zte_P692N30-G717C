@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="indicatorbounds_left">45</integer>
-    <integer name="indicatorbounds_right">20</integer>
-    <integer name="feedback_histroy_childrenitem_height">40</integer>
-    <integer name="feedback_histroy_childrenitem_paddingleft">20</integer>
-</resources>

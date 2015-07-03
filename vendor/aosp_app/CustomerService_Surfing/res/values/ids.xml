@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="id" name="LinearLayout01">false</item>
-    <item type="id" name="MyListView">false</item>
-    <item type="id" name="RelativeLayout01">false</item>
-    <item type="id" name="ItemImage">false</item>
-    <item type="id" name="ItemTitle">false</item>
-</resources>

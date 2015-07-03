@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="ics_blue_foreground">#ff33b5e5</color>
-    <item type="color" name="title_color">@*android:color/holo_blue_light</item>
-    <color name="transparent_background">#00000000</color>
-</resources>

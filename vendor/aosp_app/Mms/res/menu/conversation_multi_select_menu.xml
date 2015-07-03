@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/ic_menu_trash_holo_dark" android:id="@id/delete" android:title="@string/delete" android:showAsAction="always" />
-    <item android:icon="@drawable/ipmsg_export" android:id="@id/export" android:title="@string/export" android:showAsAction="always" />
-    <item android:icon="@drawable/ipmsg_mark_as_spam" android:id="@id/mark_as_spam" android:title="@string/mark_as_spam" android:showAsAction="always" />
-    <item android:icon="@drawable/ipmsg_add_shortcut" android:id="@id/add_shortcut" android:title="@string/add_shortcut" android:showAsAction="always" />
-    <item android:icon="@drawable/ipmsg_mark_as_non_spam" android:id="@id/mark_as_nonspam" android:visible="false" android:title="@string/remove_frome_spam" android:showAsAction="always" />
-</menu>

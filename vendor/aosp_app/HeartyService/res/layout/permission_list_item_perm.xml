@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_height="@dimen/list_item_2line_height" android:minHeight="@dimen/list_item_2line_height" style="@style/listview_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="bottom" android:id="@id/permission_name" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" style="@style/main_dark_17sp" />
-    <TextView android:gravity="top" android:id="@id/permission_des" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_below="@id/permission_name" style="@style/light_grey_12sp" />
-    <ImageView android:id="@id/expand_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/list_arrow_down" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

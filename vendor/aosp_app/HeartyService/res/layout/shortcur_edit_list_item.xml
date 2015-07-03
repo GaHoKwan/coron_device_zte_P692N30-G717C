@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:background="@drawable/list_btn" android:layout_width="fill_parent" android:layout_height="72.0px" android:minHeight="72.0px"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/handle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:src="@drawable/handle" />
-    <ImageView android:id="@id/app_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/handle" />
-    <TextView android:gravity="center_vertical" android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/app_image" />
-    <Button android:id="@id/delete_btn" android:background="@drawable/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

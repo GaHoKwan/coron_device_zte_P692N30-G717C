@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TabHost android:id="@*android:id/tabhost" android:background="@color/mid_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="9.0">
-        <FrameLayout android:id="@*android:id/tabcontent" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="7.0" />
-        <TabWidget android:id="@*android:id/tabs" style="@style/tab_widget_style" />
-    </LinearLayout>
-</TabHost>

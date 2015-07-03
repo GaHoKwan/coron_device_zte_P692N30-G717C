@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/emodeconf_info_title"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceScreen android:title="@string/metaconf_title0" android:key="meta_info0" android:summary="@string/metaconf_summary_default" />
-    <PreferenceScreen android:title="@string/metaconf_title1" android:key="meta_info1" android:summary="@string/metaconf_summary_default" />
-</PreferenceScreen>

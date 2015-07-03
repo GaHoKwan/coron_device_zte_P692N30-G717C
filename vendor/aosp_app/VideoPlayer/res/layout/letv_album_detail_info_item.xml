@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/info_key" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/letv_14_666666" />
-    <TextView android:ellipsize="end" android:id="@id/info_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/info_key" style="@style/letv_14_a9a9a9" />
-</RelativeLayout>

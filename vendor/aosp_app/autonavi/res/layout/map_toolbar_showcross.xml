@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/map_toolbar_simulate_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:id="@id/map_showcross_pre" android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/show_cross_prior" android:layout_weight="3.0" />
-    <Button android:id="@id/map_showcross_avoid" android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/show_cross_avoid" android:layout_weight="3.0" />
-    <Button android:id="@id/map_showcross_next" android:background="@drawable/navititle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/show_cross_next" android:layout_weight="3.0" />
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/app_name"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:title="@string/status" android:key="status" />
-    <Preference android:title="@string/check_new" android:key="update" />
-    <Preference android:title="@string/update_setting" android:key="settings" />
-    <Preference android:title="@string/feedback" android:key="feedback" />
-</PreferenceScreen>

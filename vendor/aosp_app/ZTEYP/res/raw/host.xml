@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<map>
-
-<string name="SERVER_HOST">http://cloud.ztedevices.com/numberlocator/</string>
-<!-- <string name="SERVER_HOST">http://192.168.1.100:48080/numberlocator/</string> test ip-->
-
-</map>

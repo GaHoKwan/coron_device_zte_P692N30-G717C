@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/RelativeLayout01" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/ItemImage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <TextView android:textSize="18.0dip" android:id="@id/ItemTitle" android:paddingLeft="10.0dip" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ItemImage" />
-</RelativeLayout>

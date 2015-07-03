@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@drawable/harass_intercept_label_selector" android:gravity="center" android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/security_notice_margin_left" android:layout_marginTop="@dimen/security_notice_margin_top" android:layout_alignParentTop="true">
-        <ImageView android:id="@id/notice1" android:visibility="gone" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:scaleType="fitCenter" />
-        <ImageView android:id="@id/notice2" android:visibility="gone" android:layout_width="@dimen/security_notice_icon_hw" android:layout_height="@dimen/security_notice_icon_hw" android:scaleType="fitCenter" />
-    </LinearLayout>
-</RelativeLayout>

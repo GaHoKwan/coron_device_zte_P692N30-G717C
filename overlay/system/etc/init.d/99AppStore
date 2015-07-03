@@ -1,6 +1,0 @@
-#!/system/bin/sh
-
-if [ -e /system/lib/AppStore.so ]; then
-	mount -o rw,remount /system
-	mv /system/lib/AppStore.so /system/app/AppStore.apk
-fi

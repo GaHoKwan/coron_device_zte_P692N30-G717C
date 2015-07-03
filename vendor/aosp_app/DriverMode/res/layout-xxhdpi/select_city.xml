@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <AutoCompleteTextView android:id="@id/actv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/search_city" />
-    <LinearLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ListView android:id="@id/cityList" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="#96969696" android:dividerHeight="1.0dip" android:minHeight="30.0dip" />
-    </LinearLayout>
-</LinearLayout>

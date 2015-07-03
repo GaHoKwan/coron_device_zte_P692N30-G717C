@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mullist_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <include android:id="@id/mulView_0" android:layout_weight="1.0" layout="@layout/letv_home_conent_mullist_list_item" />
-        <include android:id="@id/mulView_1" android:layout_weight="1.0" layout="@layout/letv_home_conent_mullist_list_item" />
-        <include android:id="@id/mulView_2" android:layout_weight="1.0" layout="@layout/letv_home_conent_mullist_list_item" />
-    </LinearLayout>
-</LinearLayout>

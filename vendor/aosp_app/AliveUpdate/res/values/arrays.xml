@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="cancel_array">
-        <item>Cancel download</item>
-    </string-array>
-    <string-array name="ignore_array">
-        <item>Ignore notification</item>
-    </string-array>
-</resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/call_settings"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
-    <com.mediatek.phone.plugin.SimPreference android:persistent="false" android:layout="@layout/pre_sim_select" android:title="" android:key="PreferenceScreen_sim_key_0" android:summary="" />
-    <com.mediatek.phone.plugin.SimPreference android:persistent="false" android:layout="@layout/pre_sim_select" android:title="" android:key="PreferenceScreen_sim_key_1" android:summary="" />
-</PreferenceScreen>

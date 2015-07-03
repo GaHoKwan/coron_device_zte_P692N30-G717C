@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.actionbarsherlock.internal.view.menu.ListMenuItemView ="fill_parent" ="?listPreferredItemHeightSmall"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout ="center_vertical" ="true" ="0.0dip" ="wrap_content" ="?listPreferredItemPaddingLeft" ="?listPreferredItemPaddingRight" ="1.0">
-        <TextView ="?textAppearanceListItemSmall" ="marquee" ="@id/abs__title" ="horizontal" ="true" ="fill_parent" ="wrap_content" ="true" ="true" ="true" />
-        <TextView ="?textAppearanceSmall" ="@id/abs__shortcut" ="true" ="wrap_content" ="wrap_content" ="true" ="@id/abs__title" ="true" />
-    </RelativeLayout>
-</com.actionbarsherlock.internal.view.menu.ListMenuItemView>

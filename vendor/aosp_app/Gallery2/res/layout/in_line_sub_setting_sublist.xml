@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.camera.ui.InLineSubSettingSublist style="@style/SettingGridRow"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:gravity="center" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <com.android.camera.ui.RotateImageView android:id="@id/image" android:layout_width="@dimen/setting_item_effect_icon_width" android:layout_height="@dimen/setting_item_effect_icon_hegiht" android:scaleType="fitCenter" android:adjustViewBounds="true" style="@style/SettingItemImage" />
-    </FrameLayout>
-</com.android.camera.ui.InLineSubSettingSublist>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/main_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/image_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qrcode_for_weixi" android:scaleType="fitCenter" android:layout_centerInParent="true" />
-    <TextView android:gravity="center" android:id="@id/lecture_hall_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lecture_hall_info" android:layout_below="@id/image_qrcode" />
-</RelativeLayout>

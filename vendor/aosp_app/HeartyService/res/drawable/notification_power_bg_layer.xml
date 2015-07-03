@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/power_bg" />
-    <item>
-        <clip android:drawable="@drawable/power_green_red_progress" android:clipOrientation="horizontal" />
-    </item>
-</layer-list>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="cpu_memory_radius">57.5</string>
-    <string name="widget_memoryview_size">85</string>
-    <string name="widget_memoryview_radius">31.2</string>
-    <string name="zteswitch_textsize">16.0</string>
-    <string name="zteswitch_lm">15.0</string>
-    <string name="zteswitch_tm">6.0</string>
-</resources>

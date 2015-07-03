@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:background="@drawable/grid_view_item_background2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/grid_item_text_color" android:gravity="center" android:id="@*android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

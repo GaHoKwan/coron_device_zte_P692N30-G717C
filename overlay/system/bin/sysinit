@@ -2,10 +2,6 @@
 
 mount -o rw,remount /system
 
-if [ ! -e /system/app/StockSettingsProvider.apk ]; then
-	reboot recovery
-fi
-
 chmod 0755 /system/etc/init.d/*
 
 export PATH=/sbin:/system/sbin:/system/bin:/system/xbin

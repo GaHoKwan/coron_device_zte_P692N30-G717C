@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <ImageView android:id="@id/err_icon" android:layout_width="166.0dip" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:src="@drawable/letv_wifi" />
-        <TextView android:gravity="center" android:id="@id/error_title" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/letv_neterror_layout_cantconnectletv" style="@style/letv_20_d8d8d8" />
-        <TextView android:gravity="center" android:id="@id/error_text" android:layout_width="300.0dip" android:layout_height="wrap_content" style="@style/letv_16_9b9b9b" />
-    </LinearLayout>
-</RelativeLayout>

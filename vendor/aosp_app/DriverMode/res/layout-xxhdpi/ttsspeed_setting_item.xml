@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="21.0dip" android:textColor="#ff3c3c3c" android:gravity="center_vertical" android:id="@id/tts_speed_setting_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="27.0dip" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <ImageView android:layout_gravity="center" android:id="@id/tts_speed_setting_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="21.0dip" android:src="@drawable/btn_radio_off_disabled_holo_dark" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</LinearLayout>

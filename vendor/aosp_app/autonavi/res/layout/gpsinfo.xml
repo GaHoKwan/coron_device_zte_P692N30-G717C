@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/general_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.autonavi.xmgd.view.GDTitle android:id="@id/title_gps" android:layout_width="wrap_content" android:layout_height="@dimen/gdtitle_height" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_gps">
-        <com.autonavi.xmgd.view.GPSInfoView android:id="@id/GpsInfoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <com.autonavi.xmgd.view.CompassView android:layout_gravity="center" android:id="@id/compassView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/compass_marginLeft" android:layout_marginTop="@dimen/compass_marginTop" />
-    </FrameLayout>
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:background="@drawable/dialog_full_holo_dark" android:layout_width="300.0dip" android:layout_height="80.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
-        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_network_note" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textIsSelectable="true" />
-        </RelativeLayout>
-    </LinearLayout>
-</RelativeLayout>

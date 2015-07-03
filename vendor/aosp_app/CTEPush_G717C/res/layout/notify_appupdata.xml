@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/app_icon" android:scaleType="fitXY" android:adjustViewBounds="true" android:maxWidth="46.0dip" android:maxHeight="46.0dip" android:minWidth="45.0dip" android:minHeight="45.0dip" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:background="#00000000" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="翼推送提示：" />
-        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/textView1" android:background="#00000000" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
-    </LinearLayout>
-</LinearLayout>

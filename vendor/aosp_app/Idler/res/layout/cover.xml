@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/content_view" android:paddingLeft="0.0px" android:paddingTop="0.0px" android:paddingRight="0.0px" android:paddingBottom="0.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/cover_hint" />
-    <LinearLayout android:background="#80000000" android:paddingBottom="0.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cover_hint" android:layout_centerInParent="true" />
-    <ImageView android:id="@id/unlock" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/unlock" android:layout_below="@id/hint" android:layout_centerHorizontal="true" android:contentDescription="@string/cover_hint" />
-</RelativeLayout>

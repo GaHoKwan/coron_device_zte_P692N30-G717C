@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider android:minWidth="280.0dip" android:minHeight="280.0dip" android:updatePeriodMillis="5000" android:initialLayout="@layout/main" android:previewImage="@drawable/vf_preview" android:resizeMode="none" mtk:hasUsedCustomerView="true"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:mtk="http://schemas.android.com/apk/res/com.mediatek" />

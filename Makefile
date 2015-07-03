@@ -146,8 +146,8 @@ override_property += \
     ro.baidu.romer=luo2888
 
 #Fix mt6592 build version type
-override_property += \
-	ro.version.type=2
+#override_property += \
+#	ro.version.type=2
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.

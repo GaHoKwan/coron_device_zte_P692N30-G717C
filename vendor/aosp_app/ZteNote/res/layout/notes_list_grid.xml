@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<zte.com.cn.cloudnotepad.ui.widget.MyGridView android:gravity="fill" android:id="@id/grid" android:padding="4.0dip" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:horizontalSpacing="20.0dip" android:verticalSpacing="20.0dip" android:numColumns="2"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

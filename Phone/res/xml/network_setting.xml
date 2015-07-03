@@ -8,7 +8,7 @@
     <PreferenceScreen android:persistent="false" android:title="@string/throttle_data_usage" android:key="button_data_usage_key">
         <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.DataUsage" />
     </PreferenceScreen>
-    <PreferenceScreen android:persistent="false" android:title="@string/preferred_network_mode_title" android:summary="默认3G设置" android:key="button_network_mode_ex_key" />
+    <PreferenceScreen android:persistent="false" android:title="@string/preferred_network_mode_title" android:summary="当电信卡插入时3G服务将无法关闭" android:key="button_network_mode_ex_key" />
     <ListPreference android:entries="@array/preferred_network_mode_choices" android:title="@string/preferred_network_mode_title" android:key="preferred_network_mode_key" android:summary="@string/preferred_network_mode_summary" android:dialogTitle="@string/preferred_network_mode_dialogtitle" android:entryValues="@array/preferred_network_mode_values" />
     <PreferenceScreen android:persistent="false" android:title="@string/apn_settings" android:key="apn_settings">
         <intent android:targetPackage="com.baidu.dualcardsetting" android:action="android.intent.action.MAIN" android:targetClass="com.baidu.dualcardsetting.ApnSettings" />

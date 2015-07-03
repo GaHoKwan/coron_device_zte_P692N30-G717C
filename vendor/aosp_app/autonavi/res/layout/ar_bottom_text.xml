@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="#fffbb400" android:gravity="bottom|left|center" android:id="@id/ar_speed" android:paddingLeft="@dimen/ar_speed_padding_left" android:layout_width="@dimen/ar_speed_width" android:layout_height="fill_parent" />
-    <TextView android:textColor="#fffbb400" android:gravity="center_horizontal" android:id="@id/ar_next_road_distance" android:paddingTop="@dimen/ar_next_road_distance_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
-    <TextView android:textColor="#fffbb400" android:gravity="bottom|right|center" android:id="@id/ar_camera_distance" android:paddingRight="@dimen/ar_camera_distance_padding_right" android:layout_width="@dimen/ar_camera_width" android:layout_height="fill_parent" />
-</LinearLayout>

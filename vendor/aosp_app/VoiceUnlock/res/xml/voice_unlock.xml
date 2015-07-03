@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/unlock_set_unlock_mode_voice_weak"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.mediatek.voiceunlock.VoiceUnlockPreference android:title="@string/voice_unlock_command" android:key="voice_unlock" />
-    <com.mediatek.voiceunlock.VoiceUnlockPreference android:title="@string/voice_command1" android:key="voice_command1" />
-    <com.mediatek.voiceunlock.VoiceUnlockPreference android:title="@string/voice_command2" android:key="voice_command2" />
-    <com.mediatek.voiceunlock.VoiceUnlockPreference android:title="@string/voice_command3" android:key="voice_command3" />
-</PreferenceScreen>

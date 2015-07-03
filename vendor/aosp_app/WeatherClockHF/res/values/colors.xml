@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="weather_am_text_color">#ff000000</color>
-    <color name="weather_accu_text_color">#ff505050</color>
-    <color name="weather_city_name_text_color">#ffb4b4b4</color>
-    <color name="weather_description_text_color">#ffb4b4b4</color>
-    <color name="weather_current_temperature_text_color">#ffb4b4b4</color>
-</resources>

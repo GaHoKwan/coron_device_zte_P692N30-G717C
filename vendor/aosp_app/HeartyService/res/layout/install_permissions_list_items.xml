@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_height="@dimen/list_item_2line_height" android:minHeight="@dimen/list_item_2line_height" style="@style/listview_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:zteheart="http://schemas.android.com/apk/res/com.zte.heartyservice">
-    <TextView android:ellipsize="end" android:id="@id/ItemTitle" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/itemImage" android:layout_centerVertical="true" style="@style/hearty_black_18dp" />
-    <TextView android:id="@id/ItemText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_below="@id/ItemTitle" />
-</RelativeLayout>

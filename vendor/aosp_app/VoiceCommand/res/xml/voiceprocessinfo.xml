@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<VoiceProcessInfos>
-    <VoiceProcessInfo FeatureName="android" ProcessName="android" ID="0" CommandID="0" PermissionID="1,4,6" Enable="TRUE" />
-    <VoiceProcessInfo FeatureName="com.android.gallery3d" ProcessName="com.android.gallery3d" ID="2" CommandID="3,4" PermissionID="1,2,6" Enable="FALSE" />
-    <VoiceProcessInfo FeatureName="com.mediatek.voiceunlock" ProcessName="com.mediatek.voiceunlock" ID="0" CommandID="0" PermissionID="3" Enable="TRUE" />
-</VoiceProcessInfos>

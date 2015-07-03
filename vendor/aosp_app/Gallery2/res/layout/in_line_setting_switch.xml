@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.camera.ui.InLineSettingSwitch style="@style/SettingRow"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/title" android:layout_toLeftOf="@id/setting_switch" android:layout_alignParentLeft="true" style="@style/SettingItemTitle" />
-    <Switch android:textColor="@color/setting_item_text_color_normal_text" android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/setting_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/setting_item_list_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@com.mediatek:style/ImageSwitch" />
-</com.android.camera.ui.InLineSettingSwitch>

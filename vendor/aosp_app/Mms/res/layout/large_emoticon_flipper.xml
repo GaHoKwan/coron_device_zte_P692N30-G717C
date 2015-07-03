@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/ll_share_flipper" android:paddingLeft="18.0dip" android:paddingTop="6.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:gravity="center" android:id="@id/gv_large_emoticon_gridview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="6.0dip" android:verticalSpacing="10.0dip" android:stretchMode="columnWidth" android:hapticFeedbackEnabled="true" />
-</LinearLayout>

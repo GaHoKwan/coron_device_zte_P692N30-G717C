@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="23.0dip" android:textColor="@*android:color/white" android:gravity="center" android:orientation="vertical" android:id="@id/modify_item_textview" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:shadowColor="#51000000" android:shadowDx="0.0" android:shadowDy="3.0" android:shadowRadius="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

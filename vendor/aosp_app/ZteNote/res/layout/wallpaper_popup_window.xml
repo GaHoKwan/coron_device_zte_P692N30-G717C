@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/wallpaper_layout" android:drawingCacheQuality="auto" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:gravity="fill" android:id="@id/wallpaper_grid" android:padding="10.0dip" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:horizontalSpacing="2.0dip" android:verticalSpacing="10.0dip" android:numColumns="4" />
-</LinearLayout>

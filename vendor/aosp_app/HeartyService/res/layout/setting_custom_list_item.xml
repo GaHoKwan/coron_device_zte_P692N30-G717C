@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_2line_height" android:minHeight="@dimen/list_item_2line_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <TextView android:id="@id/title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/main_dark_17sp" />
-        <TextView android:id="@id/summary_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/light_grey_12sp" />
-    </LinearLayout>
-    <CheckBox android:id="@id/custom_choose" android:focusable="false" android:focusableInTouchMode="false" android:layout_marginLeft="6.0dip" android:scaleType="fitCenter" style="@style/checkbox_2_0" />
-</LinearLayout>

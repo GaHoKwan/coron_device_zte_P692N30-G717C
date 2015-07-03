@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/dialog_icon" android:paddingLeft="6.0dip" android:paddingRight="-6.0dip" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="fill_parent" android:scaleType="center" />
-    <TextView android:gravity="left|center" android:id="@id/dialog_title" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip" style="@style/dialog_title_style" />
-</LinearLayout>
